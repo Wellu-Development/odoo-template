@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="nena_example_action" model="ir.actions.act_window">
+        <field name="name">Nena Example</field>
+        <field name="res_model">nena.example</field>
+        <field name="view_mode">list,form</field>
+    </record>
+
+    <menuitem id="root_menu" name="Nena Example" action="nena_example_action" groups="nena_example.group_nena_example"/>
+
+</odoo>
