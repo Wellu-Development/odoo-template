@@ -6,3 +6,5 @@ class NenaExample(models.Model):
     _description = "Nena Example"
 
     example = fields.Char(string="Example Field")
+
+    iva_amount = fields.Float(string="IVA Amount")
