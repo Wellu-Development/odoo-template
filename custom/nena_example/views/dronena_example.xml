@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
 
+    <record id="view_nena_example_form" model="ir.ui.view">
+        <field name="name">nena.example.form</field>
+        <field name="model">nena.example</field>
+        <field name="arch" type="xml">
+            <form string="Nena Example">
+                <sheet>
+                    <group>
+                        <field name="example"/>
+                        <field name="iva_amount"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+
     <record id="nena_example_action" model="ir.actions.act_window">
         <field name="name">Nena Example</field>
         <field name="res_model">nena.example</field>
