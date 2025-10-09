@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <menuitem id="root_menu" name="Expendientes" sequence="10">
+        <menuitem id="expedients_menu" name="Expendientes" action="postulation_type_action" sequence="10"/>
+    </menuitem>
+
+</odoo>
