@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
 
-    <menuitem id="root_menu" name="Expendientes" sequence="10">
-        <menuitem id="expedients_menu" name="Expendientes" action="postulation_type_action" sequence="10"/>
+    <menuitem id="root_menu" name="Expendientes" sequence="10" web_icon="nena_partner_config_record,static/description/icon.png">
+        <menuitem id="record_config_menu" name="Configuración" sequence="10">
+            <menuitem id="partner_config_record_menu" name="Modelo de configuración" action="partner_config_record_action" sequence="10"/>
+            <menuitem id="postulation_type_menu" name="Postulaciones" action="postulation_type_action" sequence="10"/>
+            <menuitem id="customer_type_menu" name="Tipo de cliente" action="customer_type_action" sequence="10"/>
+            <menuitem id="supplier_type_menu" name="Tipo de proveedor" action="supplier_type_action" sequence="10"/>
+            <menuitem id="product_type_menu" name="Tipo de producto" action="product_type_action" sequence="10"/>
+            <menuitem id="document_type_menu" name="Tipo de documentos y permisos" action="document_type_action" sequence="10"/>
+        </menuitem>
     </menuitem>
 
 </odoo>

@@ -8,25 +8,15 @@ class PostulationType(models.Model):
         (
             "nena_partner_config_record_postulation_type_name_unique",
             "UNIQUE(name)",
-            "El nombre del tipo de postulacion debe de ser unico",
+            "El nombre del tipo de postulacion debe de ser único",
+        ),
+        (
+            "nena_partner_config_record_postulation_type_code_unique",
+            "UNIQUE(code)",
+            "El código del tipo de postulacion debe de ser único",
         )
     ]
 
     name = fields.Char(required=True)
-
     code = fields.Char()
-
     active = fields.Boolean(default=True)
-
-    @api.constrains("code")
-    def _check_unique_code(self):
-        for postulation in self:
-            if not postulation.code:
-                continue
-
-            is_exists_postulation = postulation.search(
-                [("code", "=", postulation.code)]
-            )
-
-            if len(is_exists_postulation) > 1:
-                raise ValidationError("El codigo de la postulacion debe de ser unico")
