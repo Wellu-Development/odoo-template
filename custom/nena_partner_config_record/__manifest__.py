@@ -17,6 +17,7 @@
         "views/product_type.xml",
         "views/document_type.xml",
         "views/partner_config_record.xml",
+        "views/gen_status.xml",
         "views/menuitem.xml",
     ],
 }

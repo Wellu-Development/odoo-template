@@ -6,3 +6,4 @@ access_partner_config_record,access_partner_config_record,model_partner_config_r
 access_product_type,access_product_type,model_product_type,base.group_user,1,1,1,0
 access_supplier_type,access_supplier_type,model_supplier_type,base.group_user,1,1,1,0
 access_regulatory_entity,access_regulatory_entity,model_regulatory_entity,base.group_user,1,1,1,0
+access_nena_gen_status,access_nena_gen_status,model_nena_gen_status,base.group_user,1,1,1,1
