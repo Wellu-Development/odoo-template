@@ -20,6 +20,7 @@
         "views/partner_config_record.xml",
         "views/gen_status.xml",
         "views/condition.xml",
+        "views/cause_status.xml",
         "views/menuitem.xml",
     ],
 }
