@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <menuitem id="root_menu" name="Estructura Comercial" sequence="10">
+        <menuitem id="record_config_menu" name="Configuración" sequence="10">
+            <menuitem id="region_menu" name="Región" action="region_action" sequence="10"/>
+        </menuitem>
+    </menuitem>
+
+</odoo>
