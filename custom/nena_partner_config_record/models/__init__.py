@@ -6,3 +6,4 @@ from . import regulatory_entity
 from . import document_type
 from . import partner_config_record
 from . import nena_gen_status 
+from . import nena_condition
