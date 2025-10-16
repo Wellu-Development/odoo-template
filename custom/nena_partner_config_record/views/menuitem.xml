@@ -12,6 +12,7 @@
             <menuitem id="nena_gen_status_menu" name="Estatus" action="nena_gen_status" sequence="10"/>
             <menuitem id="nena_condition_menu" name="Condiciones" action="nena_condition_action" sequence="10"/>
             <menuitem id="nena_cause_status_menu" name="Causa Estatus" action="nena_cause_status" sequence="10"/>
+            <menuitem id="clasification_menu" name="Clasificacion" action="client_clasification_action" sequence="10"/>
         </menuitem>
     </menuitem>
 

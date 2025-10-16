@@ -8,3 +8,4 @@ from . import partner_config_record
 from . import nena_gen_status 
 from . import nena_condition
 from . import nena_cause_status
+from . import client_clasification

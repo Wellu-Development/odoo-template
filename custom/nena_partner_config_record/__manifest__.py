@@ -12,6 +12,7 @@
     "data": [
         "security/ir.model.access.csv",
         "data/nena_condition_data.xml",
+        "data/client_clasification_data.xml",
         "views/postulation_type.xml",
         "views/customer_type.xml",
         "views/supplier_type.xml",
@@ -21,6 +22,7 @@
         "views/gen_status.xml",
         "views/condition.xml",
         "views/cause_status.xml",
+        "views/client_clasification.xml",
         "views/menuitem.xml",
     ],
 }
