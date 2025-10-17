@@ -21,6 +21,7 @@
         "views/gen_status.xml",
         "views/condition.xml",
         "views/cause_status.xml",
+        'views/nena_group.xml',
         "views/menuitem.xml",
     ],
 }
