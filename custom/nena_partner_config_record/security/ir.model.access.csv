@@ -12,3 +12,5 @@ access_nena_cause_status,access_nena_cause_status,model_nena_cause_status,base.g
 access_client_clasification,access_client_clasification,model_client_clasification,base.group_user,1,1,1,1
 access_nena_group_user,Access Nena Group User,model_nena_group,base.group_user,1,0,0,0
 access_nena_group_manager,Access Nena Group Manager,model_nena_group,base.group_system,1,1,1,1
+access_nena_availability,access_nena_availability,model_nena_availability,base.group_user,1,1,1,0
+access_nena_chain,access_nena_chain,model_nena_chain,base.group_user,1,1,1,0

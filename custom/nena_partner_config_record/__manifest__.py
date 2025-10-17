@@ -24,6 +24,8 @@
         "views/cause_status.xml",
         "views/client_clasification.xml",
         'views/nena_group.xml',
+        "views/chain.xml",
+        "views/availability.xml",
         "views/menuitem.xml",
     ],
 }

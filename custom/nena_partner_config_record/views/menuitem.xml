@@ -13,8 +13,10 @@
             <menuitem id="nena_condition_menu" name="Condiciones" action="nena_condition_action" sequence="10"/>
             <menuitem id="nena_cause_status_menu" name="Causa Estatus" action="nena_cause_status" sequence="10"/>
             <menuitem id="clasification_menu" name="Clasificacion" action="client_clasification_action" sequence="10"/>
-            <menuitem id="record_chain_menu" name="Expedientes" sequence="20">
-            <menuitem id="nena_chain_group_menu" name="Grupos de Cadenas" action="nena_group_action" sequence="10"/>
+            <menuitem id="record_chain_menu" name="Grupos y Cadenas" sequence="20">
+                <menuitem id="nena_chain_group_menu" name="Grupos de Cadenas" action="nena_group_action"/>
+                <menuitem id="menu_nena_chain" name="Cadenas" action="action_nena_chain"/>
+                <menuitem id="menu_nena_availability" name="Disponibilidades" action="action_nena_availability"/>
             </menuitem> 
         </menuitem>
     </menuitem>
