@@ -23,6 +23,7 @@
         "views/condition.xml",
         "views/cause_status.xml",
         "views/client_clasification.xml",
+        'views/nena_group.xml',
         "views/menuitem.xml",
     ],
 }

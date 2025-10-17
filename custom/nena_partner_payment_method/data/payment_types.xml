@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="payment_type_1" model="payment.type">
+            <field name="description">C.O.D.</field>
+            <field name="active">True</field>
+        </record>
+        <record id="payment_type_2" model="payment.type">
+            <field name="description">CONTADO</field>
+            <field name="active">True</field>
+        </record>
+        <record id="payment_type_3" model="payment.type">
+            <field name="description">CRÉDITO</field>
+            <field name="active">True</field>
+        </record>
+        <record id="payment_type_4" model="payment.type">
+            <field name="description">CRÉDITO LIMITADO 1X1</field>
+            <field name="active">True</field>
+        </record>
+            <record id="payment_type_5" model="payment.type">
+            <field name="description">PREPAGO</field>
+            <field name="active">True</field>
+        </record>
+    </data>
+</odoo>
