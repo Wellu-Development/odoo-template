@@ -11,5 +11,5 @@ class NenaGroup(models.Model):
     code_group = fields.Char(string='Código de Grupo', required=True)
     name = fields.Char(string='Nombre de Grupo', required=True)
     description = fields.Text(string='Descripción')
-    #chain_ids = fields.Many2many('nena.chain', string='Cadenas de Valor') # Falta el modelo de cadenas
+    chain_ids = fields.One2many('nena.chain', 'group_id', string='Cadenas de Valor') # Falta el modelo de cadenas
     #Falta agregar relacion con cadenas de clientes
