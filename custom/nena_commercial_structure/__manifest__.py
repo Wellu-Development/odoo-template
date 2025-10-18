@@ -11,7 +11,7 @@
     'depends': ['base', "contacts"],
     'data': [
         'security/ir.model.access.csv',
-        'views/region.xml',
+        'views/commercial_structure_views.xml',
         'views/menuitem.xml'
     ],
     'application': True

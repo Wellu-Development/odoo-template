@@ -1,10 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
+    <menuitem id="commercial_structure_root_menu"
+              name="Estructura Comercial"
+              sequence="100" />
+              
+    <menuitem id="commercial_structure_configuration_menu"
+              name="Configuración"
+              parent="commercial_structure_root_menu"
+              sequence="10"/>
 
-    <menuitem id="root_menu" name="Estructura Comercial" sequence="10">
-        <menuitem id="record_config_menu" name="Configuración" sequence="10">
-            <menuitem id="region_menu" name="Región" action="region_action" sequence="10"/>
-        </menuitem>
-    </menuitem>
+    <menuitem id="commercial_structure_region_menu"
+              name="Regiones"
+              parent="commercial_structure_configuration_menu"
+              action="region_action"
+              sequence="10" />
 
+    <menuitem id="commercial_structure_district_menu"
+              name="Distritos (Todos)"
+              parent="commercial_structure_configuration_menu"
+              action="district_action"
+              sequence="20" />
+
+    <menuitem id="commercial_structure_zone_menu"
+              name="Zonas (Todas)"
+              parent="commercial_structure_configuration_menu"
+              action="zone_action"
+              sequence="30" />
 </odoo>
