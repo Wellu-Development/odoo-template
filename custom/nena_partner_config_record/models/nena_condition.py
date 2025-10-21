@@ -5,11 +5,6 @@ class NenaCondition(models.Model):
     _description = "Condition"
 
     description = fields.Char(string="Description", required=True)
-    category = fields.Selection(selection=[
-        ("cadena","Cadena"),
-        ("ventas","Ventas"),
-        ("regencia","Regencia"),
-        ("cobranza","Cobranza"),
-        ("despacho","Despacho"),
-        ], string="Category", required=True)
     ref = fields.Integer(string="Reference", required=True)
+
+    category_id = fields.Many2one('nena.condition.category', string="Category")
