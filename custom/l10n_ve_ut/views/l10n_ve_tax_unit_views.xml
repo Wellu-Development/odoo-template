@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <!-- Vista tipo formulario -->
+    <record id="view_form_tax_unit" model="ir.ui.view">
+        <field name="name">l10n.ve.tax.unit.form</field>
+        <field name="model">l10n_ve.tax.unit</field>
+        <field name="arch" type="xml">
+            <form string="Tax Unit">
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                        <field name="value"/>
+                        <field name="effective_date"/>
+                        <field name="is_current" readonly="1"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- Vista tipo lista -->
+    <record id="view_list_tax_unit" model="ir.ui.view">
+        <field name="name">l10n.ve.tax.unit.list</field>
+        <field name="model">l10n_ve.tax.unit</field>
+        <field name="arch" type="xml">
+            <list string="Tax Units">
+                <field name="name"/>
+                <field name="value"/>
+                <field name="effective_date"/>
+                <field name="is_current"/>
+            </list>
+        </field>
+    </record>
+
+    <!-- Acción de ventana -->
+    <record id="action_tax_unit" model="ir.actions.act_window">
+        <field name="name">Tax Units</field>
+        <field name="res_model">l10n_ve.tax.unit</field>
+        <field name="view_mode">list,form</field>
+        <field name="help" type="html">
+            <p>Registra y consulta los valores históricos de la Unidad Tributaria (UT) según el SENIAT.</p>
+        </field>
+    </record>
+
+    <!-- Menú raíz personalizado -->
+    <menuitem id="l10n_ve_menu_root" name="Venezuelan Localization"/>
+    <menuitem id="menu_tax_unit_root" name="Fiscal Settings" parent="l10n_ve_menu_root" sequence="10"/>
+    <menuitem id="menu_tax_unit" name="Tax Units" parent="menu_tax_unit_root" action="action_tax_unit" sequence="20"/>
+
+</odoo>

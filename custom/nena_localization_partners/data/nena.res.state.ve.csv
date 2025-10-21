@@ -1,0 +1,26 @@
+id,name,code,ref,country_id:id
+nena_state_ve_1,Amazonas,1,18,base.ve
+nena_state_ve_2,Anzoátegui,2,19,base.ve
+nena_state_ve_3,Apure,3,7,base.ve
+nena_state_ve_4,Aragua,4,12,base.ve
+nena_state_ve_5,Barinas,5,14,base.ve
+nena_state_ve_6,Bolívar,6,24,base.ve
+nena_state_ve_7,Carabobo,7,13,base.ve
+nena_state_ve_8,Cojedes,8,5,base.ve
+nena_state_ve_9,Delta Amacuro,9,20,base.ve
+nena_state_ve_10,Falcón,10,10,base.ve
+nena_state_ve_11,Guárico,11,8,base.ve
+nena_state_ve_12,La Guaira,12,17,base.ve
+nena_state_ve_13,Lara,13,11,base.ve
+nena_state_ve_14,Mérida,14,16,base.ve
+nena_state_ve_15,Miranda,15,4,base.ve
+nena_state_ve_16,Monagas,16,21,base.ve
+nena_state_ve_17,Nueva Esparta,17,23,base.ve
+nena_state_ve_18,Portuguesa,18,1,base.ve
+nena_state_ve_19,Sucre,19,22,base.ve
+nena_state_ve_20,Táchira,20,9,base.ve
+nena_state_ve_21,Trujillo,21,15,base.ve
+nena_state_ve_22,Yaracuy,22,6,base.ve
+nena_state_ve_23,Zulia,23,2,base.ve
+nena_state_ve_24,Distrito Capital,24,3,base.ve
+nena_state_ve_25,Dependencias Federales,25,0,base.ve
