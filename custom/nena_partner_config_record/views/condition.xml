@@ -7,7 +7,7 @@
         <field name="arch" type="xml">
             <list string="Condiciones">
                 <field name="description"/>
-                <field name="category"/>
+                <field name="category_id"/>
             </list>
         </field>
     </record>
@@ -23,7 +23,7 @@
                             <field name="description" />
                         </h1>
                         <field name="ref" />
-                        <field name="category" />
+                        <field name="category_id" />
                     </group>
                 </sheet>
             </form>
