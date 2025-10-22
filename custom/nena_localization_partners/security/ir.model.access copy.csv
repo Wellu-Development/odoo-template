@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_nena_res_state_ve_user,access.nena.res.state.ve.user,model_nena_res_state_ve,base.group_user,1,1,1,1
+access_nena_res_state_municipality_ve_user,access.nena.res.state.municipality.ve.user,model_nena_res_state_municipality_ve,base.group_user,1,1,1,1
+access_nena_res_state_municipality_city_ve_user,access.nena.res.state.municipality.city.ve.user,model_nena_res_state_municipality_city_ve,base.group_user,1,1,1,1

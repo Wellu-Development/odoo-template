@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <!-- Vista tipo formulario -->
+    <record id="view_form_nena_res_state_ve" model="ir.ui.view">
+        <field name="name">nena.res.state.ve.form</field>
+        <field name="model">nena.res.state.ve</field>
+        <field name="arch" type="xml">
+            <form string="Localized State">
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                        <field name="code"/>
+                        <field name="ref"/>
+                        <field name="country_id"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- Vista tipo lista -->
+    <record id="view_list_nena_res_state_ve" model="ir.ui.view">
+        <field name="name">nena.res.state.ve.list</field>
+        <field name="model">nena.res.state.ve</field>
+        <field name="arch" type="xml">
+            <list string="Localized States">
+                <field name="name"/>
+                <field name="code"/>
+                <field name="ref"/>
+                <field name="country_id"/>
+            </list>
+        </field>
+    </record>
+
+    <!-- Acción de ventana -->
+    <record id="action_nena_res_state_ve" model="ir.actions.act_window">
+        <field name="name">Localized States</field>
+        <field name="res_model">nena.res.state.ve</field>
+        <field name="view_mode">list,form</field>
+    </record>
+
+    <!-- Menú -->
+    <menuitem id="menu_nena_localization_root" name="Localization" sequence="10"/>
+    <menuitem id="menu_nena_res_state_ve" name="States" parent="menu_nena_localization_root" action="action_nena_res_state_ve" sequence="20"/>
+</odoo>

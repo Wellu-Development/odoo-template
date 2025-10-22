@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <!-- Vista tipo formulario extendida -->
+    <record id="view_partner_form_nena_localization" model="ir.ui.view">
+        <field name="name">res.partner.form.nena.localization</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//sheet" position="inside">
+                <group string="Fiscal Address">
+                    <field name="fiscal_state_id"/>
+                    <field name="fiscal_municipality_id"/>
+                    <field name="fiscal_city_id"/>
+                </group>
+
+                <group string="Municipal Address" attrs="{'invisible': [('customer_rank', '=', 0)]}">
+                    <field name="municipal_state_id"/>
+                    <field name="municipal_municipality_id"/>
+                    <field name="municipal_city_id"/>
+                </group>
+            </xpath>
+        </field>
+    </record>
+
+    <!-- Vista tipo lista (opcional) -->
+    <!--
+    <record id="view_partner_tree_nena_localization" model="ir.ui.view">
+        <field name="name">res.partner.tree.nena.localization</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_tree"/>
+        <field name="arch" type="xml">
+            <xpath expr="//tree" position="inside">
+                <field name="fiscal_state_id"/>
+                <field name="municipal_state_id" attrs="{'invisible': [('customer_rank', '=', 0)]}"/>
+            </xpath>
+        </field>
+    </record>
+
+    <!-- Acción (opcional si quieres acceso directo) -->
+    <record id="action_res_partner_nena_localization" model="ir.actions.act_window">
+        <field name="name">Partners with Localization</field>
+        <field name="res_model">res.partner</field>
+        <field name="view_mode">tree,form</field>
+        <field name="domain">[]</field>
+    </record>
+
+    <!-- Menú (opcional si quieres acceso directo) -->
+    <menuitem id="menu_nena_localization_root" name="Localization" sequence="10"/>
+    <menuitem id="menu_nena_localization_partner" name="Partners" parent="menu_nena_localization_root" action="action_res_partner_nena_localization" sequence="20"/>
+    -->
+</odoo>
