@@ -1,0 +1,16 @@
+id,name,is_website_available
+customer_pharmacy,Farmacia,1
+customer_exp,Expendio,1
+customer_dist,Distribuidor,1
+customer_cli,Clinica u Hospitales,1
+customer_gov,Ente Gubernamental,1
+customer_com,Comercializadora,1
+customer_cc,Caja Chica,1
+customer_dro,Droguerías,1
+customer_bot,Boticas,1
+customer_mer,Automercados y Supermercados,1
+customer_bod,Bodegas y Abastos,1
+customer_pan,Panaderías ,1
+customer_inv,Inversiones,1
+customer_ce,Centros de estéticas,1
+customer_sc,Sin Categoría,1

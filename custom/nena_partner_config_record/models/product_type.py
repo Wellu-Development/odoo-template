@@ -20,6 +20,6 @@ class ProductType(models.Model):
     name = fields.Char(required=True)
     code = fields.Char()
     is_website_available = fields.Boolean(default=False)
-    customer_type_id = fields.Many2one('customer.type')
-    supplier_type_id = fields.Many2one('supplier.type')
+    customer_type_ids = fields.Many2many('customer.type')
+    supplier_type_ids = fields.Many2many('supplier.type')
     active = fields.Boolean(default=True)

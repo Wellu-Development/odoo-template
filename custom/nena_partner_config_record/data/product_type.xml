@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="product_ali" model="product.type">
+            <field name="name">Alimentos</field>
+            <field name="is_website_available">1</field>
+            <field name="supplier_type_ids" eval="[(6, 0, [ref('nena_partner_config_record.supplier_esp'),
+            ref('nena_partner_config_record.supplier_merc')])]"/>
+            <field name="customer_type_ids" eval="[(6, 0, [ref('nena_partner_config_record.customer_pharmacy'),
+            ref('nena_partner_config_record.customer_exp'), ref('nena_partner_config_record.customer_dist'),
+            ref('nena_partner_config_record.customer_com'), ref('nena_partner_config_record.customer_dro'),
+            ref('nena_partner_config_record.customer_mer'), ref('nena_partner_config_record.customer_bod'),
+            ref('nena_partner_config_record.customer_pan')])]"/>
+        </record>
+
+        <record id="product_cos" model="product.type">
+            <field name="name">Cosméticos</field>
+            <field name="is_website_available">1</field>
+            <field name="supplier_type_ids" eval="[(6, 0, [ref('nena_partner_config_record.supplier_esp'),
+            ref('nena_partner_config_record.supplier_merc'), ref('nena_partner_config_record.supplier_ext')])]"/>
+            <field name="customer_type_ids" eval="[(6, 0, [ref('nena_partner_config_record.customer_pharmacy'),
+            ref('nena_partner_config_record.customer_exp'), ref('nena_partner_config_record.customer_dist'),
+            ref('nena_partner_config_record.customer_com'), ref('nena_partner_config_record.customer_dro'),
+            ref('nena_partner_config_record.customer_mer'), ref('nena_partner_config_record.customer_ce')])]"/>
+        </record>
+        
+        <record id="product_esp_far" model="product.type">
+            <field name="name">Especialidad Farmaceutica</field>
+            <field name="is_website_available">1</field>
+            <field name="supplier_type_ids" eval="[(6, 0, [ref('nena_partner_config_record.supplier_esp'),
+            ref('nena_partner_config_record.supplier_merc'), ref('nena_partner_config_record.supplier_esp_don'),
+            ref('nena_partner_config_record.supplier_don')])]"/>
+            <field name="customer_type_ids" eval="[(6, 0, [ref('nena_partner_config_record.customer_pharmacy'),
+            ref('nena_partner_config_record.customer_exp'), ref('nena_partner_config_record.customer_dist'),
+            ref('nena_partner_config_record.customer_com'), ref('nena_partner_config_record.customer_dro'),
+            ref('nena_partner_config_record.customer_mer'), ref('nena_partner_config_record.customer_bod'),
+            ref('nena_partner_config_record.customer_pan'), ref('nena_partner_config_record.customer_cli'),
+            ref('nena_partner_config_record.customer_gov')])]"/>
+        </record>
+
+        <record id="product_nat" model="product.type">
+            <field name="name">Naturales</field>
+            <field name="is_website_available">1</field>
+            <field name="supplier_type_ids" eval="[(6, 0, [ref('nena_partner_config_record.supplier_esp'),
+            ref('nena_partner_config_record.supplier_merc'), ref('nena_partner_config_record.supplier_esp_don'),
+            ref('nena_partner_config_record.supplier_don')])]"/>
+            <field name="customer_type_ids" eval="[(6, 0, [ref('nena_partner_config_record.customer_pharmacy'),
+            ref('nena_partner_config_record.customer_exp'), ref('nena_partner_config_record.customer_dist'),
+            ref('nena_partner_config_record.customer_com'), ref('nena_partner_config_record.customer_dro'),
+            ref('nena_partner_config_record.customer_mer'), ref('nena_partner_config_record.customer_bod'),
+            ref('nena_partner_config_record.customer_pan')])]"/>
+        </record>
+
+        <record id="product_psi" model="product.type">
+            <field name="name">Psicotrópicos</field>
+            <field name="is_website_available">1</field>
+            <field name="supplier_type_ids" eval="[(6, 0, [ref('nena_partner_config_record.supplier_esp'),
+            ref('nena_partner_config_record.supplier_merc'), ref('nena_partner_config_record.supplier_esp_don'),
+            ref('nena_partner_config_record.supplier_don')])]"/>
+            <field name="customer_type_ids" eval="[(6, 0, [ref('nena_partner_config_record.customer_pharmacy'),
+            ref('nena_partner_config_record.customer_exp'), ref('nena_partner_config_record.customer_dist'),
+            ref('nena_partner_config_record.customer_com'), ref('nena_partner_config_record.customer_dro'),
+            ref('nena_partner_config_record.customer_mer'), ref('nena_partner_config_record.customer_bod'),
+            ref('nena_partner_config_record.customer_pan'), ref('nena_partner_config_record.customer_cli'),
+            ref('nena_partner_config_record.customer_gov')])]"/>
+        </record>
+    </data>
+</odoo>

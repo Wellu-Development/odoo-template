@@ -33,7 +33,7 @@
   </record>
 
   <record id="postulation_type_action" model="ir.actions.act_window">
-    <field name="name">Postulaciones</field>
+    <field name="name">Tipo de Postulación</field>
     <field name="res_model">postulation.type</field>
     <field name="view_mode">list,form,pivot</field>
   </record>

@@ -4,13 +4,18 @@
     "description": """
     * Configuración base para gestion de permisos y documentos que se solicitan a los postulantes
     """,
-    "author": "Jose Acosta",
+    "author": "Droguería Nena, C.A.",
     "category": "Uncategorized",
-    "version": "18.0.0.0.2",
+    "version": "18.0.0.0.3",
     "application": True,
     "depends": ["base","contacts"],
     "data": [
         "security/ir.model.access.csv",
+        "data/postulation.type.csv",
+        "data/customer.type.csv",
+        "data/supplier.type.csv",
+        "data/product_type.xml",
+        "data/regulatory.entity.csv",
         "views/postulation_type.xml",
         "views/customer_type.xml",
         "views/supplier_type.xml",
