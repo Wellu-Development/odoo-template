@@ -1,17 +1,31 @@
 {
     "name": "Nena Partner Config Record",
-    "summary": "Short (1 phrase/line) summary of the module's purpose",
+    "summary": "Módulo custom que contiene las configuraciones necesarias para gestionar postulaciones",
     "description": """
-Long description of module's purpose
+    * Configuración base para gestion de permisos y documentos que se solicitan a los postulantes
     """,
     "author": "Jose Acosta",
     "category": "Uncategorized",
-    "version": "18.0.0.0.1",
+    "version": "18.0.0.0.2",
     "application": True,
-    "depends": ["contacts"],
+    "depends": ["base","contacts"],
     "data": [
         "security/ir.model.access.csv",
+        "data/nena_condition_data.xml",
+        "data/client_clasification_data.xml",
         "views/postulation_type.xml",
+        "views/customer_type.xml",
+        "views/supplier_type.xml",
+        "views/product_type.xml",
+        "views/document_type.xml",
+        "views/partner_config_record.xml",
+        "views/gen_status.xml",
+        "views/condition.xml",
+        "views/cause_status.xml",
+        "views/client_clasification.xml",
+        'views/nena_group.xml',
+        "views/chain.xml",
+        "views/availability.xml",
         "views/menuitem.xml",
     ],
 }

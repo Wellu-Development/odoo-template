@@ -1,0 +1,132 @@
+# Translation of nena_localization_territorial_partners to Spanish
+# Copyright (C) 2025 Dronena
+# This file is distributed under the same license as the module.
+# FIRST AUTHOR Dronena, 2025.
+
+msgid ""
+msgstr ""
+"Project-Id-Version: nena_localization_territorial_partners\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-16 08:51+0000\n"
+"PO-Revision-Date: 2025-10-16 08:51+0000\n"
+"Last-Translator: José Contreras\n"
+"Language-Team: Spanish\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. module: nena_localization_territorial_partners
+#: model:ir.model,name:nena_localization_territorial_partners.model_nena_res_state_ve
+msgid "Localized state for partner address"
+msgstr "Estado localizado para dirección de contacto"
+
+#. module: nena_localization_territorial_partners
+#: model:ir.model,name:nena_localization_territorial_partners.model_nena_res_state_municipality_ve
+msgid "Localized municipality for partner address"
+msgstr "Municipio localizado para dirección de contacto"
+
+#. module: nena_localization_territorial_partners
+#: model:ir.model,name:nena_localization_territorial_partners.model_nena_res_state_municipality_city_ve
+msgid "Localized city for partner address"
+msgstr "Ciudad localizada para dirección de contacto"
+
+#. module: nena_localization_territorial_partners
+#: model:ir.ui.menu,name:menu_nena_localization_root
+msgid "Localization"
+msgstr "Localización"
+
+#. module: nena_localization_territorial_partners
+#: model:ir.ui.menu,name:menu_nena_res_state_ve
+msgid "States"
+msgstr "Estados"
+
+#. module: nena_localization_territorial_partners
+#: model:ir.ui.menu,name:menu_nena_res_state_municipality_ve
+msgid "Municipalities"
+msgstr "Municipios"
+
+#. module: nena_localization_territorial_partners
+#: model:ir.ui.menu,name:menu_nena_res_state_municipality_city_ve
+msgid "Cities"
+msgstr "Ciudades"
+
+#. module: nena_localization_territorial_partners
+#: model:ir.actions.act_window,name:action_nena_res_state_ve
+msgid "Localized States"
+msgstr "Estados Localizados"
+
+#. module: nena_localization_territorial_partners
+#: model:ir.actions.act_window,name:action_nena_res_state_municipality_ve
+msgid "Localized Municipalities"
+msgstr "Municipios Localizados"
+
+#. module: nena_localization_territorial_partners
+#: model:ir.actions.act_window,name:action_nena_res_state_municipality_city_ve
+msgid "Localized Cities"
+msgstr "Ciudades Localizadas"
+
+#. module: nena_localization_territorial_partners
+#: field:nena.res.state.ve,name
+msgid "State"
+msgstr "Estado"
+
+#. module: nena_localization_territorial_partners
+#: field:nena.res.state.ve,code
+msgid "Code"
+msgstr "Código"
+
+#. module: nena_localization_territorial_partners
+#: field:nena.res.state.ve,ref
+msgid "Reference"
+msgstr "Referencia"
+
+#. module: nena_localization_territorial_partners
+#: field:nena.res.state.ve,municipality_ids
+msgid "Municipalities"
+msgstr "Municipios"
+
+#. module: nena_localization_territorial_partners
+#: field:nena.res.state.municipality.ve,name
+msgid "Municipality"
+msgstr "Municipio"
+
+#. module: nena_localization_territorial_partners
+#: field:nena.res.state.municipality.ve,code
+msgid "Code"
+msgstr "Código"
+
+#. module: nena_localization_territorial_partners
+#: field:nena.res.state.municipality.ve,ref
+msgid "Reference"
+msgstr "Referencia"
+
+#. module: nena_localization_territorial_partners
+#: field:nena.res.state.municipality.ve,state_id
+msgid "State"
+msgstr "Estado"
+
+#. module: nena_localization_territorial_partners
+#: field:nena.res.state.municipality.ve,city_ids
+msgid "Cities"
+msgstr "Ciudades"
+
+#. module: nena_localization_territorial_partners
+#: field:nena.res.state.municipality.city.ve,name
+msgid "City"
+msgstr "Ciudad"
+
+#. module: nena_localization_territorial_partners
+#: field:nena.res.state.municipality.city.ve,code
+msgid "Code"
+msgstr "Código"
+
+#. module: nena_localization_territorial_partners
+#: field:nena.res.state.municipality.city.ve,ref
+msgid "Reference"
+msgstr "Referencia"
+
+#. module: nena_localization_territorial_partners
+#: field:nena.res.state.municipality.city.ve,municipality_id
+msgid "Municipality"
+msgstr "Municipio"
