@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- Clientes -->
+        <record id="CLI_AMARILLO" model="client.clasification">
+            <field name="code">1</field>
+            <field name="description">AMARILLO</field>
+            <field name="amount_from">1.00</field>
+            <field name="amount_until">1500.00</field>
+            <field name="type">cli</field>
+            <field name="ref">0</field>
+            <field name="active" eval="True"/>
+        </record>
+
+        <record id="CLI_VERDE" model="client.clasification">
+            <field name="code">2</field>
+            <field name="description">VERDE</field>
+            <field name="amount_from">1501.00</field>
+            <field name="amount_until">3000.00</field>
+            <field name="type">cli</field>
+            <field name="ref">1</field>
+            <field name="active" eval="True"/>
+        </record>
+
+        <record id="CLI_AZUL" model="client.clasification">
+            <field name="code">3</field>
+            <field name="description">AZUL</field>
+            <field name="amount_from">3001.00</field>
+            <field name="amount_until">5000.00</field>
+            <field name="type">cli</field>
+            <field name="ref">2</field>
+            <field name="active" eval="True"/>
+        </record>
+
+        <record id="CLI_VINOTINTO" model="client.clasification">
+            <field name="code">4</field>
+            <field name="description">VINOTINTO</field>
+            <field name="amount_from">5001.00</field>
+            <field name="amount_until">10000.00</field>
+            <field name="type">cli</field>
+            <field name="ref">3</field>
+            <field name="active" eval="True"/>
+        </record>
+
+        <record id="CLI_PLATINUM" model="client.clasification">
+            <field name="code">5</field>
+            <field name="description">PLATINUM</field>
+            <field name="amount_from">10001.00</field>
+            <field name="amount_until">10000000000.00</field>
+            <field name="type">cli</field>
+            <field name="ref">4</field>
+            <field name="active" eval="True"/>
+        </record>
+
+        <record id="CLI_Aliados" model="client.clasification">
+            <field name="code">6</field>
+            <field name="description">Aliados</field>
+            <field name="amount_from">99999999999.00</field>
+            <field name="amount_until">99999999999.00</field>
+            <field name="type">cli</field>
+            <field name="ref">5</field>
+            <field name="active" eval="True"/>
+        </record>
+
+        <!-- Cadenas-->
+        <record id="CAD_AMARILLO" model="client.clasification">
+            <field name="code">7</field>
+            <field name="description">AMARILLO</field>
+            <field name="amount_from">1.00</field>
+            <field name="amount_until">99999.00</field>
+            <field name="type">cad</field>
+            <field name="ref">6</field>
+            <field name="active" eval="True"/>
+        </record>
+
+        <record id="CAD_VERDE" model="client.clasification">
+            <field name="code">8</field>
+            <field name="description">VERDE</field>
+            <field name="amount_from">100000.00</field>
+            <field name="amount_until">199999.00</field>
+            <field name="type">cad</field>
+            <field name="ref">7</field>
+            <field name="active" eval="True"/>
+        </record>
+
+        <record id="CAD_AZUL" model="client.clasification">
+            <field name="code">9</field>
+            <field name="description">AZUL</field>
+            <field name="amount_from">200000.00</field>
+            <field name="amount_until">399999.00</field>
+            <field name="type">cad</field>
+            <field name="ref">8</field>
+            <field name="active" eval="True"/>
+        </record>
+
+        <record id="CAD_VINOTINTO" model="client.clasification">
+            <field name="code">10</field>
+            <field name="description">VINOTINTO</field>
+            <field name="amount_from">400000.00</field>
+            <field name="amount_until">599999.00</field>
+            <field name="type">cad</field>
+            <field name="ref">9</field>
+            <field name="active" eval="True"/>
+        </record>
+
+        <record id="CAD_PLATINUM" model="client.clasification">
+            <field name="code">11</field>
+            <field name="description">PLATINUM</field>
+            <field name="amount_from">600000.00</field>
+            <field name="amount_until">99999999999.00</field>
+            <field name="type">cad</field>
+            <field name="ref">10</field>
+            <field name="active" eval="True"/>
+        </record>
+    </data>
+</odoo>

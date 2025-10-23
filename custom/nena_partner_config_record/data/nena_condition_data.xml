@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="nena_category_a" model="nena.condition.category">
+            <field name="category">Cadena</field>
+        </record>
+        <record id="nena_category_b" model="nena.condition.category">
+            <field name="category">Ventas</field>
+        </record>
+        <record id="nena_category_c" model="nena.condition.category">
+            <field name="category">Regencia</field>
+        </record>
+        <record id="nena_category_d" model="nena.condition.category">
+            <field name="category">Cobranza</field>
+        </record>
+        <record id="nena_category_e" model="nena.condition.category">
+            <field name="category">Despacho</field>
+        </record>
+
+        <record id="nena_condition_01" model="nena.condition">
+            <field name="description">Aplicar Condiciones a Cadena Centralizada</field>
+            <field name="ref">1</field>
+            <field name="category_id" ref="nena_category_a"/>
+        </record>
+        <record id="nena_condition_02" model="nena.condition">
+            <field name="description">Inactivar por Limite de Crédito</field>
+            <field name="ref">2</field>
+            <field name="category_id" ref="nena_category_a"/>
+        </record>
+        <record id="nena_condition_03" model="nena.condition">
+            <field name="description">Inactivar por Recibos Vencidos</field>
+            <field name="ref">3</field>
+            <field name="category_id" ref="nena_category_a"/>
+        </record>
+        <record id="nena_condition_04" model="nena.condition">
+            <field name="description">Inactivar por Giros Vencidos</field>
+            <field name="ref">4</field>
+            <field name="category_id" ref="nena_category_a"/>
+        </record>
+        <record id="nena_condition_05" model="nena.condition">
+            <field name="description">Inactivar por Cheques Devueltos</field>
+            <field name="ref">5</field>
+            <field name="category_id" ref="nena_category_a"/>
+        </record>
+        <record id="nena_condition_06" model="nena.condition">
+            <field name="description">Agrupar para Promoción</field>
+            <field name="ref">6</field>
+            <field name="category_id" ref="nena_category_a"/>
+        </record>
+        <record id="nena_condition_07" model="nena.condition">
+            <field name="description">Aplicar porcentaje al límite de crédito</field>
+            <field name="ref">7</field>
+            <field name="category_id" ref="nena_category_a"/>
+        </record>
+        <record id="nena_condition_08" model="nena.condition">
+            <field name="description">Cierre de documento ideal</field>
+            <field name="ref">8</field>
+            <field name="category_id" ref="nena_category_a"/>
+        </record>
+        <record id="nena_condition_09" model="nena.condition">
+            <field name="description">Cobro Automatico por Pago por Adelantado</field>
+            <field name="ref">9</field>
+            <field name="category_id" ref="nena_category_a"/>
+        </record>
+        <record id="nena_condition_10" model="nena.condition">
+            <field name="description">Penalizar Perdida de Pronto Pago</field>
+            <field name="ref">10</field>
+            <field name="category_id" ref="nena_category_a"/>
+        </record>
+        <record id="nena_condition_11" model="nena.condition">
+            <field name="description">Inactivar por Condicion 1x1</field>
+            <field name="ref">11</field>
+            <field name="category_id" ref="nena_category_a"/>
+        </record>
+        <record id="nena_condition_12" model="nena.condition">
+            <field name="description">Ajuste Automatico Notas de Credito</field>
+            <field name="ref">12</field>
+            <field name="category_id" ref="nena_category_a"/>
+        </record>
+        <record id="nena_condition_13" model="nena.condition">
+            <field name="description">Inactivación por Grupo</field>
+            <field name="ref">13</field>
+            <field name="category_id" ref="nena_category_a"/>
+        </record>
+        <record id="nena_condition_14" model="nena.condition">
+            <field name="description">Oferta Especial</field>
+            <field name="ref">1</field>
+            <field name="category_id" ref="nena_category_b"/>
+        </record>
+        <record id="nena_condition_15" model="nena.condition">
+            <field name="description">Etiquetas (Productos sin PVP)</field>
+            <field name="ref">2</field>
+            <field name="category_id" ref="nena_category_b"/>
+        </record>
+        <record id="nena_condition_16" model="nena.condition">
+            <field name="description">Promocion Pre-Empaque</field>
+            <field name="ref">3</field>
+            <field name="category_id" ref="nena_category_b"/>
+        </record>
+        <record id="nena_condition_17" model="nena.condition">
+            <field name="description">Descuento Volumen</field>
+            <field name="ref">4</field>
+            <field name="category_id" ref="nena_category_b"/>
+        </record>
+        <record id="nena_condition_18" model="nena.condition">
+            <field name="description">Descuento UFI</field>
+            <field name="ref">5</field>
+            <field name="category_id" ref="nena_category_b"/>
+        </record>
+        <record id="nena_condition_20" model="nena.condition">
+            <field name="description">Productos en Factura segun orden Alfabetico</field>
+            <field name="ref">7</field>
+            <field name="category_id" ref="nena_category_b"/>
+        </record>
+        <record id="nena_condition_21" model="nena.condition">
+            <field name="description">Sorteo (Promocion de Cupones)</field>
+            <field name="ref">8</field>
+            <field name="category_id" ref="nena_category_b"/>
+        </record>
+        <record id="nena_condition_22" model="nena.condition">
+            <field name="description">Premios Instantáneos</field>
+            <field name="ref">9</field>
+            <field name="category_id" ref="nena_category_b"/>
+        </record>
+        <record id="nena_condition_23" model="nena.condition">
+            <field name="description">Descuento Paquete</field>
+            <field name="ref">10</field>
+            <field name="category_id" ref="nena_category_b"/>
+        </record>
+        <record id="nena_condition_26" model="nena.condition">
+            <field name="description">Facturar Productos Regulados</field>
+            <field name="ref">13</field>
+            <field name="category_id" ref="nena_category_b"/>
+        </record>
+        <record id="nena_condition_27" model="nena.condition">
+            <field name="description">Cliente por Nota de Entrega</field>
+            <field name="ref">14</field>
+            <field name="category_id" ref="nena_category_b"/>
+        </record>
+        <record id="nena_condition_30" model="nena.condition">
+            <field name="description">Lomito automático</field>
+            <field name="ref">17</field>
+            <field name="category_id" ref="nena_category_b"/>
+        </record>
+        <record id="nena_condition_37" model="nena.condition">
+            <field name="description">Prod. Adm. Esp.</field>
+            <field name="ref">24</field>
+            <field name="category_id" ref="nena_category_b"/>
+        </record>
+        <record id="nena_condition_38" model="nena.condition">
+            <field name="description">Forma pago Cliente 0-Electronico, 1-Manual</field>
+            <field name="ref">25</field>
+            <field name="category_id" ref="nena_category_b"/>
+        </record>
+        <record id="nena_condition_32" model="nena.condition">
+            <field name="description">Psicotropicos Automaticos</field>
+            <field name="ref">19</field>
+            <field name="category_id" ref="nena_category_c"/>
+        </record>
+        <record id="nena_condition_35" model="nena.condition">
+            <field name="description">Acta Funcionamiento Esc.</field>
+            <field name="ref">22</field>
+            <field name="category_id" ref="nena_category_c"/>
+        </record>
+        <record id="nena_condition_36" model="nena.condition">
+            <field name="description">Activo SADA</field>
+            <field name="ref">23</field>
+            <field name="category_id" ref="nena_category_c"/>
+        </record>
+        <record id="nena_condition_39" model="nena.condition">
+            <field name="description">Cliente Farmapatria</field>
+            <field name="ref">26</field>
+            <field name="category_id" ref="nena_category_c"/>
+        </record>
+        <record id="nena_condition_40" model="nena.condition">
+            <field name="description">Cliente Insai</field>
+            <field name="ref">27</field>
+            <field name="category_id" ref="nena_category_c"/>
+        </record>
+        <record id="nena_condition_19" model="nena.condition">
+            <field name="description">Penalizar Pronto Pago</field>
+            <field name="ref">6</field>
+            <field name="category_id" ref="nena_category_d"/>
+        </record>
+        <record id="nena_condition_25" model="nena.condition">
+            <field name="description">Promocion Cheques</field>
+            <field name="ref">12</field>
+            <field name="category_id" ref="nena_category_d"/>
+        </record>
+        <record id="nena_condition_33" model="nena.condition">
+            <field name="description">Cobro Automatico (Adelanto Pronto Pago)</field>
+            <field name="ref">20</field>
+            <field name="category_id" ref="nena_category_d"/>
+        </record>
+        <record id="nena_condition_34" model="nena.condition">
+            <field name="description">Documento Ideal</field>
+            <field name="ref">21</field>
+            <field name="category_id" ref="nena_category_d"/>
+        </record>
+        <record id="nena_condition_41" model="nena.condition">
+            <field name="description">Inactivar por Recibos Vencidos</field>
+            <field name="ref">28</field>
+            <field name="category_id" ref="nena_category_d"/>
+        </record>
+        <record id="nena_condition_42" model="nena.condition">
+            <field name="description">Inactivar por Giros Vencidos</field>
+            <field name="ref">29</field>
+            <field name="category_id" ref="nena_category_d"/>
+        </record>
+        <record id="nena_condition_43" model="nena.condition">
+            <field name="description">Inactivar por Cheques Devueltos</field>
+            <field name="ref">30</field>
+            <field name="category_id" ref="nena_category_d"/>
+        </record>
+        <record id="nena_condition_44" model="nena.condition">
+            <field name="description">Agrupar para Promoción</field>
+            <field name="ref">31</field>
+            <field name="category_id" ref="nena_category_d"/>
+        </record>
+        <record id="nena_condition_45" model="nena.condition">
+            <field name="description">Aplicar porcentaje al límite de crédito</field>
+            <field name="ref">32</field>
+            <field name="category_id" ref="nena_category_d"/>
+        </record>
+        <record id="nena_condition_46" model="nena.condition">
+            <field name="description">Cierre de documento ideal</field>
+            <field name="ref">33</field>
+            <field name="category_id" ref="nena_category_d"/>
+        </record>
+        <record id="nena_condition_47" model="nena.condition">
+            <field name="description">Cobro Automatico por Pago por Adelantado</field>
+            <field name="ref">34</field>
+            <field name="category_id" ref="nena_category_d"/>
+        </record>
+        <record id="nena_condition_48" model="nena.condition">
+            <field name="description">Penalizar Perdida de Pronto Pago</field>
+            <field name="ref">35</field>
+            <field name="category_id" ref="nena_category_d"/>
+        </record>
+        <record id="nena_condition_49" model="nena.condition">
+            <field name="description">Inactivar por Condicion 1x1</field>
+            <field name="ref">36</field>
+            <field name="category_id" ref="nena_category_d"/>
+        </record>
+        <record id="nena_condition_50" model="nena.condition">
+            <field name="description">Ajuste Automatico Notas de Credito</field>
+            <field name="ref">37</field>
+            <field name="category_id" ref="nena_category_d"/>
+        </record>
+        <record id="nena_condition_51" model="nena.condition">
+            <field name="description">Inactivación por Grupo</field>
+            <field name="ref">38</field>
+            <field name="category_id" ref="nena_category_d"/>
+        </record>
+        <record id="nena_condition_24" model="nena.condition">
+            <field name="description">Chequeo de Facturas</field>
+            <field name="ref">11</field>
+            <field name="category_id" ref="nena_category_e"/>
+        </record>
+        <record id="nena_condition_28" model="nena.condition">
+            <field name="description">Consolidar Pedidos</field>
+            <field name="ref">15</field>
+            <field name="category_id" ref="nena_category_e"/>
+        </record>
+        <record id="nena_condition_29" model="nena.condition">
+            <field name="description">Una Factura por Bulto</field>
+            <field name="ref">16</field>
+            <field name="category_id" ref="nena_category_e"/>
+        </record>
+        <record id="nena_condition_31" model="nena.condition">
+            <field name="description">Control de Volumen</field>
+            <field name="ref">18</field>
+            <field name="category_id" ref="nena_category_e"/>
+        </record>
+    </data>
+</odoo>

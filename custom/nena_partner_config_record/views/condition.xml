@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_nena_condition_list" model="ir.ui.view">
+        <field name="name">nena.condition.view.list</field>
+        <field name="model">nena.condition</field>
+        <field name="type">list</field>
+        <field name="arch" type="xml">
+            <list string="Condiciones">
+                <field name="description"/>
+                <field name="category_id"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_nena_condition_form" model="ir.ui.view">
+        <field name="name">nena.condition.view.form</field>
+        <field name="model">nena.condition</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <h1>
+                            <field name="description" />
+                        </h1>
+                        <field name="ref" />
+                        <field name="category_id" />
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="nena_condition_action" model="ir.actions.act_window">
+        <field name="name">Condiciones</field>
+        <field name="res_model">nena.condition</field>
+        <field name="view_mode">list,form</field>
+    </record>
+</odoo>
