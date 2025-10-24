@@ -17,6 +17,7 @@
                 <menuitem id="nena_chain_group_menu" name="Grupos de Cadenas" action="nena_group_action"/>
                 <menuitem id="menu_nena_chain" name="Cadenas" action="action_nena_chain"/>
                 <menuitem id="menu_nena_availability" name="Disponibilidades" action="action_nena_availability"/>
+                <menuitem id="menu_nena_credit_conditions" name="Condiciones Crediticias" action="action_nena_credit_conditions" sequence="10"/>
             </menuitem> 
         </menuitem>
     </menuitem>

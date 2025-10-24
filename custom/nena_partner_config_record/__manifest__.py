@@ -30,6 +30,7 @@
         "views/client_clasification.xml",
         'views/nena_group.xml',
         "views/chain.xml",
+        'views/nena_credit_conditions.xml',
         "views/availability.xml",
         "views/menuitem.xml",
     ],
