@@ -13,3 +13,4 @@ from . import client_clasification
 from . import nena_chain
 from . import nena_availability
 from . import nena_group
+from . import nena_credit_conditions
