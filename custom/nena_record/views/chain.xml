@@ -1,0 +1,63 @@
+<odoo>
+    <record id="view_nena_chain_form" model="ir.ui.view">
+        <field name="name">nena.chain.form</field>
+        <field name="model">nena.chain</field>
+        <field name="arch" type="xml">
+            <form string="Cadena">
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                        <field name="codchain"/>
+                        <field name="status_id"/>
+                        <field name="cause_status_id" domain="[('nena_gen_status_id', '=', status_id)]"/>
+                    </group>
+                    <group>
+                        <field name="commercialduct"/>
+                        <field name="promptpaymentdiscount"/>
+                    </group>
+                    <notebook>
+                        <page string="Disponibilidad">
+                            <group>
+                                <field name="availibity_ids">
+                                    <list editable="bottom">
+                                        <field name="balance"/>
+                                        <field name="creditlimit"/>
+                                        <field name="permitamount"/>
+                                        <field name="transitamount"/>
+                                        <field name="prepaidamount"/>
+                                        <field name="availabilityamount"/>
+                                    </list>
+                                </field>
+                            </group>
+                        </page>
+                        <page string="Condiciones">
+                            <group>
+                                <field name="condition_ids" widget="many2many_checkboxes" domain="[('category_id.category', '=', 'Cadena')]"/>
+                            </group>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_nena_chain_list" model="ir.ui.view">
+        <field name="name">nena.chain.list</field>
+        <field name="model">nena.chain</field>
+        <field name="arch" type="xml">
+            <list string="Cadenas">
+                <field name="name"/>
+                <field name="codchain"/>
+                <field name="status_id"/>
+                <field name="commercialduct"/>
+                <field name="promptpaymentdiscount"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="action_nena_chain" model="ir.actions.act_window">
+        <field name="name">Cadenas</field>
+        <field name="res_model">nena.chain</field>
+        <field name="view_mode">list,form</field>
+    </record>
+</odoo>

@@ -3,16 +3,19 @@ from odoo.exceptions import ValidationError
 import re
 
 class NenaGenStatus (models.Model):
-
     _name = "nena.gen.status"
     _description = "General Status"
     _rec_name = "description"
-    
+    _sql_constraints = [
+        (
+            "description_postulation_type_unique",
+            "UNIQUE(description, postulation_type_id)",
+            "La combinación de descripción y tipo postulacion debe ser única.",
+        )
+    ]
+
     description = fields.Text(required=True)
-
     postulation_type_id = fields.Many2one('postulation.type')
-
-    
 
     @api.constrains('description')
     def _check_description_constraints(self):

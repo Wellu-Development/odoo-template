@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <record id="view_nena_condition_list" model="ir.ui.view">
-        <field name="name">nena.condition.view.list</field>
+        <field name="name">nena.condition.view.tree</field>
         <field name="model">nena.condition</field>
         <field name="type">list</field>
         <field name="arch" type="xml">
@@ -19,9 +19,7 @@
             <form>
                 <sheet>
                     <group>
-                        <h1>
-                            <field name="description" />
-                        </h1>
+                        <field name="description" />
                         <field name="ref" />
                         <field name="category_id" />
                     </group>

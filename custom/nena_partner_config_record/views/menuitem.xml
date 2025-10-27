@@ -1,27 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-
-    <menuitem id="root_menu" name="Expendientes" sequence="10" web_icon="nena_partner_config_record,static/description/icon.png">
+    <menuitem id="root_menu" name="Modelo de Configuración" sequence="10" web_icon="nena_partner_config_record,static/description/icon.png">
         <menuitem id="record_config_menu" name="Configuración" sequence="10">
-            <menuitem id="partner_config_record_menu" name="Modelo de configuración" action="partner_config_record_action" sequence="10"/>
+            <menuitem id="partner_config_record_menu" name="Modelo de Configuración" action="partner_config_record_action" sequence="10"/>
             <menuitem id="postulation_type_menu" name="Postulaciones" action="postulation_type_action" sequence="10"/>
             <menuitem id="customer_type_menu" name="Tipo de cliente" action="customer_type_action" sequence="10"/>
             <menuitem id="supplier_type_menu" name="Tipo de proveedor" action="supplier_type_action" sequence="10"/>
             <menuitem id="product_type_menu" name="Tipo de producto" action="product_type_action" sequence="10"/>
             <menuitem id="document_type_menu" name="Tipo de documentos y permisos" action="document_type_action" sequence="10"/>
-            <menuitem id="nena_gen_status_menu" name="Estatus" action="nena_gen_status" sequence="10"/>
-            <menuitem id="nena_cause_status_menu" name="Causa Estatus" action="nena_cause_status" sequence="10"/>
-            <menuitem id="nena_condition_menu" name="Condiciones" action="nena_condition_action" sequence="10"/>
-            <menuitem id="clasification_menu" name="Clasificacion" action="client_clasification_action" sequence="10"/>
-            <menuitem id="record_chain_menu" name="Grupos y Cadenas" sequence="20">
-                <menuitem id="nena_chain_group_menu" name="Grupos de Cadenas" action="nena_group_action"/>
-                <menuitem id="menu_nena_chain" name="Cadenas" action="action_nena_chain"/>
-                <menuitem id="menu_nena_availability" name="Disponibilidades" action="action_nena_availability"/>
-                <menuitem id="menu_nena_credit_conditions_parent" name="Condiciones Crediticias" sequence="10">
-                    <menuitem id="menu_nena_chain_credit_conditions" name="Cadenas" action="action_nena_chain_credit_conditions" sequence="10"/>
-                    <menuitem id="menu_nena_client_credit_conditions" name="Clientes" action="action_nena_client_credit_conditions" sequence="10"/>
-                </menuitem>
-            </menuitem> 
+
+            <menuitem id="record_client_menu" name="Clientes" sequence="20">
+                <menuitem id="nena_clasification_menu" name="Clasificacion" action="client_clasification_action" sequence="10"/>
+                <menuitem id="menu_nena_credit_conditions" name="Condiciones Crediticias" action="action_nena_credit_conditions" sequence="10"/>
+            </menuitem>
+
+            <menuitem id="record_parameters_menu" name="Parametros del Sistemas" sequence="30">
+                <menuitem id="nena_gen_status_menu" name="Estatus" action="nena_gen_status" sequence="10"/>
+                <menuitem id="nena_cause_status_menu" name="Causa Estatus" action="nena_cause_status" sequence="10"/>
+                <menuitem id="nena_condition_menu" name="Condiciones" action="nena_condition_action" sequence="10"/>
+            </menuitem>
+
+            <menuitem id="menu_nena_credit_conditions_parent" name="Condiciones Crediticias" sequence="10">
+                <menuitem id="menu_nena_chain_credit_conditions" name="Cadenas" action="action_nena_chain_credit_conditions" sequence="10"/>
+                <menuitem id="menu_nena_client_credit_conditions" name="Clientes" action="action_nena_client_credit_conditions" sequence="10"/>
+            </menuitem>
         </menuitem>
     </menuitem>
 </odoo>

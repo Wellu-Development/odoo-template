@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_nena_record_list" model="ir.ui.view">
+        <field name="name">nena.record.list</field>
+        <field name="model">nena.record</field>
+        <field name="arch" type="xml">
+            <list>
+                <field name="code" />
+                <field name="name" />
+                <field name="postulation_type_id" />
+            </list>
+        </field>
+    </record>
+
+    <record id="view_nena_record_form_cli" model="ir.ui.view">
+        <field name="name">nena.record.form.cli</field>
+        <field name="model">nena.record</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group colspan="2">
+                        <group>
+                            <field name="name"/>
+                            <field name="postulation_type_id" context="{'default_postulation_type': 15}" />
+                            <field name="status_id" domain="[('postulation_type_id', '=', postulation_type_id)]"/>
+                            <field name="cause_status_id" domain="[('nena_gen_status_id', '=', status_id), ('postulation_type_id', '=', postulation_type_id)]"/>
+                        </group>
+                        <group>
+                            <field name="code"/>
+                            <field name="zone_id"/>
+                            <field name="ref"/>
+                        </group>
+                    </group>
+                    <notebook>
+                        <page string="Datos Generales">
+                            <group>
+                                <field name="clasification_id"/>
+                            </group>
+                        </page>
+                        <page string="Ventas">
+                            <group>
+                                <field name="condition_ids" widget="many2many_checkboxes" domain="[('category_id.category', '=', 'Ventas')]"/>
+                            </group>
+                        </page>
+                        <page string="Cobranza">
+                            <group>
+                                <field name="chain_id" />
+                                <field name="payment_type_id" />
+                                <field name="condition_ids" widget="many2many_checkboxes" domain="[('category_id.category', '=', 'Cobranza')]"/>
+                            </group>
+                        </page>
+                        <page string="Regencia">
+                            <group>
+                                <field name="condition_ids" widget="many2many_checkboxes" domain="[('category_id.category', '=', 'Regencia')]"/>
+                            </group>
+                        </page>
+                        <page string="Despacho">
+                            <group>
+                                <field name="condition_ids" widget="many2many_checkboxes" domain="[('category_id.category', '=', 'Despacho')]"/>
+                            </group>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="nena_record_action" model="ir.actions.act_window">
+        <field name="name">Expedientes</field>
+        <field name="res_model">nena.record</field>
+        <field name="view_mode">list,form</field>
+    </record>
+</odoo>

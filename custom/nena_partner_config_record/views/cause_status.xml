@@ -7,9 +7,7 @@
             <form string="Causa Estatus">
                 <sheet>
                     <group>
-                         <h1>
                         <field name="description"/>
-                         </h1>
                         <field name="postulation_type_id" />
                         <field name="nena_gen_status_id" domain="[('postulation_type_id', '=', postulation_type_id)]"/>
                     </group>

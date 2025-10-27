@@ -9,10 +9,7 @@ from . import nena_gen_status
 from . import nena_cause_status
 from . import nena_condition
 from . import nena_condition_category
-from . import client_clasification
-from . import nena_chain
-from . import nena_availability
-from . import nena_group
+from . import nena_client_clasification
 from . import nena_credit_conditions
 from . import nena_chain_credit_conditions
 from . import nena_client_credit_conditions
