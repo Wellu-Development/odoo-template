@@ -4,7 +4,7 @@
     "description": "Customer payment Type: cash, credit, prepaid",
     "author": "Yenny Colmenarez",
     "category": "Uncategorized",
-    "version": "18.0.0.0.4",
+    "version": "18.0.0.0.1",
     "application": True,
     "depends": ["base"],
     "data": [

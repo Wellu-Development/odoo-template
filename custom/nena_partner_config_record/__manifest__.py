@@ -17,7 +17,6 @@
         "data/nena.condition.category.csv",
         "data/nena.condition.csv",
         "data/nena.client.clasification.csv",
-        "data/payment_types_data.xml",
         "views/postulation_type.xml",
         "views/customer_type.xml",
         "views/supplier_type.xml",
