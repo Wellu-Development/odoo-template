@@ -1,6 +1,6 @@
 from odoo import models, fields, api
 
-class nena_credit_conditions(models.Model):
+class NenaCrediConditions(models.Model):
     _name = 'nena.credit.conditions'
     _description = 'Condiciones de Crédito para Clientes'
 

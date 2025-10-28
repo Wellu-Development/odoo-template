@@ -26,6 +26,8 @@
         'views/nena_group.xml',
         "views/chain.xml",
         'views/nena_credit_conditions.xml',
+        'views/nena_chain_credit_conditions.xml',
+        'views/nena_client_credit_conditions.xml',
         "views/availability.xml",
         "views/menuitem.xml",
     ],
