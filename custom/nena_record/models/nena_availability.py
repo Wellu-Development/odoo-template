@@ -17,7 +17,6 @@ class NenaAvailability(models.Model):
     permitamount = fields.Float(string='Monto Permiso')
     transitamount = fields.Float(string='Monto en Tránsito')
     prepaidamount = fields.Float(string='Monto Prepago')
-
     availabilityamount = fields.Float(string='Monto Disponible')
 
     chain_ids = fields.Many2one('nena.chain', string='Cadena')

@@ -1,4 +1,4 @@
-id,description,ref,category_id:id
+id,description,ref,condition_category_id:id
 condition_1,Aplicar Condiciones a Cadena Centralizada,1,nena_category_1
 condition_2,Inactivar por Limite de Crédito,2,nena_category_1
 condition_3,Inactivar por Recibos Vencidos,3,nena_category_1

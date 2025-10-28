@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <menuitem id="root_menu" name="Expendientes" sequence="10" web_icon="nena_partner_config_record,static/description/icon.png">
-        <menuitem id="nena_record_menu" name="Expedientes" action="nena_record_action" sequence="10"/>
-        <menuitem id="nena_group_chain_menu" name="Grupos y Cadenas" sequence="15">
-            <menuitem id="nena_group_menu" name="Grupos" action="nena_group_action"/>
-            <menuitem id="nena_chain_menu" name="Cadenas" action="action_nena_chain"/>
-            <menuitem id="nena_availability_menu" name="Disponibilidad" action="action_nena_availability"/>
-        </menuitem> 
-        <menuitem id="commercial_structure_root_menu" name="Estructura Comercial" sequence="20">       
-            <menuitem id="commercial_structure_region_menu" name="Regiones" action="region_action" sequence="10"/>
-            <menuitem id="commercial_structure_district_menu" name="Distritos" action="district_action" sequence="20"/>
-            <menuitem id="commercial_structure_zone_menu" name="Zonas" action="zone_action" sequence="30"/>
+    <menuitem id="root_menu" name="Expedientes" sequence="10" web_icon="nena_record,static/description/icon.png">
+        <menuitem id="nena_record_menu_cli" name="Clientes" action="nena_record_action_cli" sequence="10"/>
+        <menuitem id="nena_record_menu_prv" name="Proveedor" action="nena_record_action_prv" sequence="10"/>
+        <menuitem id="nena_record_config_menu" name="Configuración" sequence="20">
+            <menuitem id="nena_group_chain_menu" name="Grupos y Cadenas" sequence="15">
+                <menuitem id="nena_group_menu" name="Grupos" action="nena_group_action"/>
+                <menuitem id="nena_chain_menu" name="Cadenas" action="action_nena_chain"/>
+            </menuitem> 
+            <menuitem id="commercial_structure_root_menu" name="Estructura Comercial" sequence="20">       
+                <menuitem id="commercial_structure_region_menu" name="Regiones" action="region_action" sequence="10"/>
+                <menuitem id="commercial_structure_district_menu" name="Distritos" action="district_action" sequence="20"/>
+                <menuitem id="commercial_structure_zone_menu" name="Zonas" action="zone_action" sequence="30"/>
+            </menuitem>
         </menuitem>
     </menuitem>
 </odoo>

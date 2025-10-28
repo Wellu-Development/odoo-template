@@ -14,12 +14,12 @@ class NenaChain(models.Model):
     ]
 
     name = fields.Char(string='Cadena', required=True)
-    codchain = fields.Char(string='Código')
+    codchain = fields.Char(string='Código', required=True)
     commercialduct = fields.Float(string='Descuento Comercial')
     promptpaymentdiscount = fields.Float(string='Descuento Pronto Pago')
     
-    status_id = fields.Many2one('nena.gen.status', string="Estatus")
-    cause_status_id = fields.Many2one('nena.cause.status', string="Causa del Estatus")
+    status_id = fields.Many2one('nena.gen.status', string="Estatus", required=True)
+    cause_status_id = fields.Many2one('nena.cause.status', string="Causa del Estatus", required=True)
     group_id = fields.Many2one('nena.group', string='Grupos de Cadenas')
 
     # Relacion de UNO A UNO

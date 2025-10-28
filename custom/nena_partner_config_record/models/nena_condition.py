@@ -7,7 +7,7 @@ class NenaCondition(models.Model):
     _sql_constraints = [
         (
             "description_category_unique",
-            "UNIQUE(description, category_id)",
+            "UNIQUE(description, condition_category_id)",
             "La combinación de descripción y categoría debe ser única.",
         )
     ]
@@ -15,4 +15,4 @@ class NenaCondition(models.Model):
     description = fields.Char(string="Descripcion", required=True)
     ref = fields.Integer(string="Referencia", required=True)
 
-    category_id = fields.Many2one('nena.condition.category', string="Categoria")
+    condition_category_id = fields.Many2one('nena.condition.category', string="Categoria")

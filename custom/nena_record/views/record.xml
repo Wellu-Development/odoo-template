@@ -7,7 +7,7 @@
             <list>
                 <field name="code" />
                 <field name="name" />
-                <field name="postulation_type_id" />
+                <field name="status_id" />
             </list>
         </field>
     </record>
@@ -16,47 +16,82 @@
         <field name="name">nena.record.form.cli</field>
         <field name="model">nena.record</field>
         <field name="arch" type="xml">
-            <form>
+            <form string="Clientes">
                 <sheet>
+                    <group>
+                        <h1><field name="name" /></h1>
+                    </group>
                     <group colspan="2">
                         <group>
-                            <field name="name"/>
-                            <field name="postulation_type_id" context="{'default_postulation_type': 15}" />
-                            <field name="status_id" domain="[('postulation_type_id', '=', postulation_type_id)]"/>
-                            <field name="cause_status_id" domain="[('nena_gen_status_id', '=', status_id), ('postulation_type_id', '=', postulation_type_id)]"/>
+                            <field name="code" />
+                            <field name="ref" />
+                            <label for="rif_prefix" string="RIF" />
+                            <div class="o_address_format">
+                                <field name="rif_prefix" class="o_address_zip" />
+                                <field name="rif_number" class="o_address_city" placeholder="Numero de RIF" />
+                            </div>
+                            <label for="status_id" />
+                            <div class="o_address_format">
+                                <field name="status_id" class="o_address_zip" domain="[('postulation_type_id', '=', postulation_type_id)]" />
+                                <field name="cause_status_id" class="o_address_city" domain="[('nena_gen_status_id', '=', status_id), ('postulation_type_id', '=', postulation_type_id)]" />
+                            </div>
                         </group>
                         <group>
-                            <field name="code"/>
-                            <field name="zone_id"/>
-                            <field name="ref"/>
+                            <field name="region_id" />
+                            <field name="district_id" domain="[('region_id', '=', region_id)]" />
+                            <field name="zone_id" domain="[('district_id', '=', district_id)]" />
                         </group>
                     </group>
                     <notebook>
                         <page string="Datos Generales">
-                            <group>
-                                <field name="clasification_id"/>
+                            <group colspan="2">
+                                <group>
+                                    <field name="address" />
+                                    <field name="state_id" />
+                                    <field name="municipality_id" domain="[('state_id', '=', state_id)]" />
+                                    <field name="city_id" domain="[('municipality_id', '=', municipality_id)]" />
+                                    <field name="clasification_id" />
+                                </group>
+                                <group>
+                                    <field name="address_fiscal" />
+                                    <field name="state_fiscal_id" />
+                                    <field name="municipality_fiscal_id" domain="[('state_id', '=', state_fiscal_id)]" />
+                                    <field name="city_fiscal_id" domain="[('municipality_id', '=', municipality_fiscal_id)]" />
+                                </group>
                             </group>
                         </page>
                         <page string="Ventas">
                             <group>
-                                <field name="condition_ids" widget="many2many_checkboxes" domain="[('category_id.category', '=', 'Ventas')]"/>
+                                <group colspan="2">
+                                    <group>
+                                        <field name="customer_category_id" />
+                                    </group>
+                                    <group>
+                                        <field name="condition_ids" widget="many2many_checkboxes" domain="[('condition_category_id.category', '=', 'Ventas')]" />
+                                    </group>
+                                </group>
                             </group>
                         </page>
                         <page string="Cobranza">
                             <group>
-                                <field name="chain_id" />
-                                <field name="payment_type_id" />
-                                <field name="condition_ids" widget="many2many_checkboxes" domain="[('category_id.category', '=', 'Cobranza')]"/>
+                                <group colspan="2">
+                                    <group>
+                                        <field name="chain_id" />
+                                    </group>
+                                    <group>
+                                        <field name="condition_ids" widget="many2many_checkboxes" domain="[('condition_category_id.category', '=', 'Cobranza')]" />
+                                    </group>
+                                </group>
                             </group>
                         </page>
                         <page string="Regencia">
                             <group>
-                                <field name="condition_ids" widget="many2many_checkboxes" domain="[('category_id.category', '=', 'Regencia')]"/>
+                                <field name="condition_ids" widget="many2many_checkboxes" domain="[('condition_category_id.category', '=', 'Regencia')]" />
                             </group>
                         </page>
                         <page string="Despacho">
                             <group>
-                                <field name="condition_ids" widget="many2many_checkboxes" domain="[('category_id.category', '=', 'Despacho')]"/>
+                                <field name="condition_ids" widget="many2many_checkboxes" domain="[('condition_category_id.category', '=', 'Despacho')]" />
                             </group>
                         </page>
                     </notebook>
@@ -65,9 +100,57 @@
         </field>
     </record>
 
-    <record id="nena_record_action" model="ir.actions.act_window">
-        <field name="name">Expedientes</field>
+    <record id="view_nena_record_form_prv" model="ir.ui.view">
+        <field name="name">nena.record.form.prv</field>
+        <field name="model">nena.record</field>
+        <field name="arch" type="xml">
+            <form string="Proveedor">
+                <sheet>
+                    <group>
+                        <h1><field name="name" nolabel="1" /></h1>
+                        <field name="code" />
+                        <field name="ref" />
+                        <label for="rif_prefix" string="RIF" />
+                        <div class="o_row">
+                            <field name="rif_prefix" class="oe_inline" style="width: 50px;" />
+                            <field name="rif_number" class="oe_inline" nolabel="1" placeholder="Escribe el Número" />
+                        </div>
+                    </group>
+                    <notebook>
+                        <page string="Datos Generales">
+                            <group>
+                                <field name="state_id" />
+                                <field name="municipality_id" domain="[('state_id', '=', state_id)]" />
+                                <field name="city_id" domain="[('municipality_id', '=', municipality_id)]" />
+                            </group>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="nena_record_action_cli" model="ir.actions.act_window">
+        <field name="name">Clientes</field>
         <field name="res_model">nena.record</field>
+        <field name="domain">[('postulation_type_id.code', '=', 'CLI')]</field>
         <field name="view_mode">list,form</field>
+        <field name="context">{'default_postulation_code': 'CLI' , 'default_status_description': 'NUEVO' , 'default_cause_status_description': 'Cliente Nuevo'}</field>
+        <field name="view_ids" eval="[(5, 0, 0),
+        (0, 0, {'view_mode': 'list', 'view_id': ref('view_nena_record_list')}),
+        (0, 0, {'view_mode': 'form', 'view_id': ref('view_nena_record_form_cli')})
+        ]"/>
+    </record>
+
+    <record id="nena_record_action_prv" model="ir.actions.act_window">
+        <field name="name">Proveedor</field>
+        <field name="res_model">nena.record</field>
+        <field name="domain">[('postulation_type_id.code', '=', 'PRV')]</field>
+        <field name="view_mode">list,form</field>
+        <field name="context">{'default_postulation_code': 'PRV'}</field>
+        <field name="view_ids" eval="[(5, 0, 0),
+        (0, 0, {'view_mode': 'list', 'view_id': ref('view_nena_record_list')}),
+        (0, 0, {'view_mode': 'form', 'view_id': ref('view_nena_record_form_prv')})
+        ]"/>
     </record>
 </odoo>
