@@ -9,6 +9,7 @@
             <list>
                 <field name="description"/>
                  <field name="active"/>
+                 <field name="ref"/>
             </list>
         </field>
     </record>
@@ -23,6 +24,7 @@
                     <group>
                         <field name="description" placeholder="Descripcion.."/>
                         <field name="active"/>
+                        <field name="ref" placeholder="Referencia.."/>
                     </group>
                 </sheet>
             </form>
