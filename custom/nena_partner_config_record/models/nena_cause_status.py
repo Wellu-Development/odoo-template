@@ -4,6 +4,7 @@ class NenaCauseStatus(models.Model):
     _name = "nena.cause.status"
     _description = "General Status Cause"
     _rec_name = "description"
+    
     _sql_constraints = [
         (
             "description_gen_status_unique",

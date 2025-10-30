@@ -3,6 +3,7 @@ from odoo import models, fields
 class NenaGroup(models.Model):
     _name = 'nena.group'
     _description = 'Grupos de Clientes de Nena'
+    
     _sql_constraints = [
         ('code_group_uniq', 'unique(code_group)', 'El código del grupo debe ser único.'),
     ]

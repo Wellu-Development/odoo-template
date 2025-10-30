@@ -73,11 +73,12 @@
                         <page string="Cobranza">
                             <group colspan="2">
                                 <group>
+                                    <field name="payment_type_id" />
+                                    <field name="chain_id" />
                                     <button name="action_open_credit_conditions" 
                                             type="object" 
                                             string="Condición Crediticia" 
                                             class="oe_highlight" />
-                                    <field name="chain_id" />
                                 </group>
                                 <group>
                                     <field name="condition_ids" widget="many2many_checkboxes" domain="[('condition_category_id.category', '=', 'Cobranza')]" />

@@ -38,12 +38,7 @@ class NenaRecord(models.Model):
     status_id = fields.Many2one('nena.gen.status', string="Estatus")
     cause_status_id = fields.Many2one('nena.cause.status')
 
-    # Clientes
-    clasification_id = fields.Many2one('nena.client.clasification', string="Clasificación")
-    customer_category_id = fields.Many2one('nena.customer.category', string="Categoria")
-    chain_id = fields.Many2one('nena.chain', string="Cadena")
-
-    # Localizacion
+    # Datos Generales
     address = fields.Char(string="Dirección Entrega")
     state_id = fields.Many2one('nena.res.state.ve', string="Estado")
     municipality_id = fields.Many2one('nena.res.state.municipality.ve', string="Municipio")
@@ -53,8 +48,14 @@ class NenaRecord(models.Model):
     state_fiscal_id = fields.Many2one('nena.res.state.ve', string="Estado Fiscal")
     municipality_fiscal_id = fields.Many2one('nena.res.state.municipality.ve', string="Municipio Fiscal")
     city_fiscal_id = fields.Many2one('nena.res.state.municipality.city.ve', string="Ciudad Fiscal")
+    clasification_id = fields.Many2one('nena.client.clasification', string="Clasificación")
 
-    # Condicion Crediticia
+    # Ventas
+    customer_category_id = fields.Many2one('nena.customer.category', string="Categoria")
+    payment_type_id = fields.Many2one('nena.payment.type', string="Tipo Pago")
+
+    # Cobranzas
+    chain_id = fields.Many2one('nena.chain', string="Cadena")
     client_credit_id = fields.Many2one('nena.client.credit.conditions', string='Condición Crediticia')
 
     # Datos Anexos (Condiciones)

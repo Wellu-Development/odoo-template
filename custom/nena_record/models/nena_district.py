@@ -4,6 +4,7 @@ class NenaDistrict(models.Model):
     _name = "nena.district"
     _description = 'Distrito'
     _rec_name = "name"
+    
     _sql_constraints = [
         (
             "coddistrict_unique",

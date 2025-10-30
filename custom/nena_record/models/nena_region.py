@@ -4,6 +4,7 @@ class NenaRegion(models.Model):
     _name = "nena.region"
     _description = 'Region'
     _rec_name = "name"
+    
     _sql_constraints = [
         (
             "codregion_unique",

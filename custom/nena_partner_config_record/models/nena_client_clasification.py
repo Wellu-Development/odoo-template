@@ -5,6 +5,7 @@ class NenaClientClasification(models.Model):
     _name = "nena.client.clasification"
     _description = "Client Clasification"
     _rec_name = "description"
+    
     _sql_constraints = [
         (
             "code_description_unique",

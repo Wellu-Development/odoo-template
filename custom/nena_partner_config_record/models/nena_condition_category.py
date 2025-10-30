@@ -4,6 +4,7 @@ class NenaConditionCategory(models.Model):
     _name = "nena.condition.category"
     _description = "Condition Category"
     _rec_name = "category"
+    
     _sql_constraints = [
         (
             "category_unique",

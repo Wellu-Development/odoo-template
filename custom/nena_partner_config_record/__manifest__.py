@@ -18,6 +18,7 @@
         "data/nena.condition.csv",
         "data/nena.client.clasification.csv",
         "data/nena.customer.category.csv",
+        "data/nena.payment.type.csv",
         "views/postulation_type.xml",
         "views/customer_type.xml",
         "views/supplier_type.xml",
@@ -29,6 +30,7 @@
         "views/cause_status.xml",
         "views/client_clasification.xml",
         "views/customer_category.xml",
+        "views/payment_type.xml",
         "views/menuitem.xml",
     ],
 }

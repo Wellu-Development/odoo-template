@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<odoo>
-
-    <menuitem id="root_menu" name="Forma de pago" sequence="10">
-        <menuitem id="payment_menu" name="Forma de pago" action="payment_type_action" sequence="10"/>
-    </menuitem>
-
-</odoo>

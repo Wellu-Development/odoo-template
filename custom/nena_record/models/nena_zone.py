@@ -4,6 +4,7 @@ class NenaZone(models.Model):
     _name = "nena.zone"
     _description = 'Zona'
     _rec_name = "code"
+    
     _sql_constraints = [
         (
             "codzone_unique",

@@ -8,6 +8,7 @@
     "depends": [
         "base",
         "contacts",
+        "nena_partner_config_record",
         "nena_localization_partners",
         "l10n_ve_ut"
     ],
@@ -21,9 +22,9 @@
         "views/group.xml",
         "views/chain.xml",
         "views/commercial_structure.xml",
-        'views/nena_chain_credit_conditions.xml',
-        'views/nena_client_credit_conditions.xml',
-        'views/nena_credit_conditions.xml',
+        'views/chain_credit_conditions.xml',
+        'views/client_credit_conditions.xml',
+        'views/credit_conditions.xml',
         "views/menuitem.xml",
     ],
 }

@@ -6,6 +6,7 @@ class NenaGenStatus (models.Model):
     _name = "nena.gen.status"
     _description = "General Status"
     _rec_name = "description"
+    
     _sql_constraints = [
         (
             "description_postulation_type_unique",
