@@ -4,6 +4,18 @@ import re
 class NenaRecord(models.Model):
     _name = "nena.record"
     _description = 'Expediente de Cliente y Proveedor'
+    
+    _sql_constraints = [
+        (
+            'code_unique', 
+            'unique(code)', 
+            'El Codigo del Expediente debe ser único.'),
+        (
+            "ref_unique",
+            "UNIQUE(ref)",
+            "La Referencia del Expediente debe ser única.",
+        )
+    ]
 
     code = fields.Char(string="Código", required=True, size=6)
     name = fields.Char(string="Nombre", required=True)
@@ -29,6 +41,7 @@ class NenaRecord(models.Model):
     # Clientes
     clasification_id = fields.Many2one('nena.client.clasification', string="Clasificación")
     customer_category_id = fields.Many2one('nena.customer.category', string="Categoria")
+    chain_id = fields.Many2one('nena.chain', string="Cadena")
 
     # Localizacion
     address = fields.Char(string="Dirección Entrega")
@@ -41,12 +54,13 @@ class NenaRecord(models.Model):
     municipality_fiscal_id = fields.Many2one('nena.res.state.municipality.ve', string="Municipio Fiscal")
     city_fiscal_id = fields.Many2one('nena.res.state.municipality.city.ve', string="Ciudad Fiscal")
 
-    # Cobranzas
-    chain_id = fields.Many2one('nena.chain', string="Cadena")
+    # Condicion Crediticia
+    client_credit_id = fields.Many2one('nena.client.credit.conditions', string='Condición Crediticia')
 
+    # Datos Anexos (Condiciones)
     condition_ids = fields.Many2many(
         'nena.condition',
-        'record_condition_rel',
+        'nena_record_condition_rel',
         'partner_id',
         'condition_id',
         string="Derechos"
@@ -74,6 +88,29 @@ class NenaRecord(models.Model):
             res['cause_status_id'] = new_cause_status.id
         
         return res
+
+    def action_open_credit_conditions(self):
+        self.ensure_one()
+
+        credit_record = self.client_credit_id
+        if not credit_record:
+            credit_record = self.env['nena.client.credit.conditions'].create({
+                'code': self.code or 'CC-001',
+                'name': self.name or 'Nueva Condición' 
+            })
+            self.client_credit_id = credit_record
+            
+        return {
+            'name': "Condiciones Crediticias", 
+            'type': 'ir.actions.act_window',
+            'res_model': 'nena.client.credit.conditions', 
+            'view_mode': 'form',
+            'res_id': credit_record.id, 
+            'target': 'new', 
+            'context': {
+                'default_record_id': self.id
+            }
+        }
 
     @api.onchange('name')
     def _onchange_name_uppercase(self):

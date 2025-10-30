@@ -1,8 +1,10 @@
 from . import nena_record
 from . import nena_availability
-
-# Cadenas
-from . import nena_group, nena_chain
-
-# Estructura Comercial
-from . import nena_region, nena_district, nena_zone
+from . import nena_group
+from . import nena_chain
+from . import nena_region
+from . import nena_district
+from . import nena_zone
+from . import nena_credit_conditions
+from . import nena_chain_credit_conditions
+from . import nena_client_credit_conditions

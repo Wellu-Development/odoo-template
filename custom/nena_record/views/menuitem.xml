@@ -1,18 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <menuitem id="root_menu" name="Expedientes" sequence="10" web_icon="nena_record,static/description/icon.png">
-        <menuitem id="nena_record_menu_cli" name="Clientes" action="nena_record_action_cli" sequence="10"/>
-        <menuitem id="nena_record_menu_prv" name="Proveedor" action="nena_record_action_prv" sequence="10"/>
+        <menuitem id="nena_record_cli_menu" name="Clientes" sequence="10">
+            <menuitem id="nena_record_menu_cli" name="Expedientes" action="nena_record_action_cli" sequence="5" />
+            
+            <menuitem id="record_chain_menu" name="Grupos y Cadenas" sequence="10">
+                <menuitem id="nena_chain_menu" name="Ficha Cadenas" action="action_nena_chain" />
+                <menuitem id="nena_group_menu" name="Ficha Grupos" action="nena_group_action" />
+            </menuitem>
+
+            <menuitem id="menu_nena_credit_conditions_parent" name="Condiciones Crediticias" sequence="15">
+                <menuitem id="menu_nena_client_credit_conditions" name="Clientes" action="action_nena_client_credit_conditions" />
+                <menuitem id="menu_nena_chain_credit_conditions" name="Cadenas" action="action_nena_chain_credit_conditions" sequence="20"/>
+            </menuitem>
+        </menuitem> 
+
+        <menuitem id="nena_record_menu_prv" name="Proveedor" action="nena_record_action_prv" sequence="12"/>
+
         <menuitem id="nena_record_config_menu" name="Configuración" sequence="20">
-            <menuitem id="nena_group_chain_menu" name="Grupos y Cadenas" sequence="15">
-                <menuitem id="nena_group_menu" name="Grupos" action="nena_group_action"/>
-                <menuitem id="nena_chain_menu" name="Cadenas" action="action_nena_chain"/>
-            </menuitem> 
-            <menuitem id="commercial_structure_root_menu" name="Estructura Comercial" sequence="20">       
+            <menuitem id="commercial_structure_root_menu" name="Estructura Comercial" sequence="30">       
                 <menuitem id="commercial_structure_region_menu" name="Regiones" action="region_action" sequence="10"/>
                 <menuitem id="commercial_structure_district_menu" name="Distritos" action="district_action" sequence="20"/>
                 <menuitem id="commercial_structure_zone_menu" name="Zonas" action="zone_action" sequence="30"/>
             </menuitem>
+
+            <menuitem id="nena_localization_root_menu" name="Localización" sequence="20"> 
+                <menuitem id="localization_state_menu" name="Estados" action="nena_localization_partners.action_nena_res_state_ve" sequence="10"/>
+                <menuitem id="localization_municipality_menu" name="Municipios" action="nena_localization_partners.action_nena_res_state_municipality_ve" sequence="20"/>
+                <menuitem id="localization_city_menu" name="Ciudades" action="nena_localization_partners.action_nena_res_state_municipality_city_ve" sequence="30"/>
+            </menuitem>
+
+            <menuitem id="nena_fiscal_root_menu" name="Fiscal" sequence="10"> 
+                <menuitem id="localization_tax_unit_menu" name="Unidades Tributarias" action="l10n_ve_ut.action_tax_unit" sequence="30"/>
+            </menuitem>
         </menuitem>
     </menuitem>
 </odoo>
+

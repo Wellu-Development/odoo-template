@@ -16,23 +16,17 @@
                         <field name="promptpaymentdiscount"/>
                     </group>
                     <notebook>
-                        <page string="Disponibilidad">
-                            <group>
-                                <field name="availibity_ids">
-                                    <list editable="bottom">
-                                        <field name="balance"/>
-                                        <field name="creditlimit"/>
-                                        <field name="permitamount"/>
-                                        <field name="transitamount"/>
-                                        <field name="prepaidamount"/>
-                                        <field name="availabilityamount"/>
-                                    </list>
-                                </field>
-                            </group>
-                        </page>
                         <page string="Condiciones">
                             <group>
                                 <field name="condition_ids" widget="many2many_checkboxes" domain="[('condition_category_id.category', '=', 'Cadena')]"/>
+                                <button name="action_open_credit_conditions" 
+                                        type="object" 
+                                        string="Condición Crediticia" 
+                                        class="oe_highlight" />
+                            </group>
+                        </page>
+                        <page string="Clientes">
+                            <group>
                             </group>
                         </page>
                     </notebook>
