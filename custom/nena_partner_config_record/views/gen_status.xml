@@ -7,9 +7,7 @@
             <form string="Estatus">
                 <sheet>
                     <group>
-                         <h1>
                         <field name="description"/>
-                         </h1>
                         <field name="postulation_type_id" />
                     </group>
                 </sheet>

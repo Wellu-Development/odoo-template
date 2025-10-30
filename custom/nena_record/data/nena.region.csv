@@ -1,0 +1,11 @@
+id,name,code,codgerente,ref,is_website_available,active,district_ids:id
+reg_1,CARACAS,00001,HZ04,00001,False,True,
+reg_2,ESTE,00002,FM01,00002,False,True,
+reg_3,CENTRO ESTE,00003,BM04,00003,False,True,
+reg_4,CENTRO OESTE,00004,LE05,00004,False,True,
+reg_5,ANDES,00005,TM37,00005,False,True,
+reg_6,MARACAIBO,00006,MA61,00006,False,True,
+reg_7,CORPORATIVO,00007,,00007,False,True,
+reg_8,CENTRO LLANOS,00008,,00008,False,True,
+reg_9,CUENTAS CLAVES,00009,,00009,False,True,
+reg_10,NO ASOCIADA,99999,GR004,99999,False,True,

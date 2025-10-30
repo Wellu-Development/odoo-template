@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<odoo>
-
-    <menuitem id="root_menu" name="Clasificación de clientes" sequence="10">
-        <menuitem id="clasification_menu" name="clasificacion" action="client_clasification_action" sequence="10"/>
-    </menuitem>
-
-</odoo>
