@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <data>
-        <record id="payment_type_1" model="account.payment.term">
-            <field name="name">C.O.D.</field>
+        <record id="payment_type_1" model="payment.type">
+            <field name="description">C.o.d.</field>
              <field name="active" eval="1"/> 
-            <field name="sequence">10</field>
+            <field name="ref">C.o.d.</field>
         </record>
-        <record id="payment_type_2" model="account.payment.term">
-            <field name="name">CONTADO</field>
+        <record id="payment_type_2" model="payment.type">
+            <field name="description">Contado</field>
              <field name="active" eval="1"/> 
-            <field name="sequence">20</field>
+            <field name="ref">Contado</field>
         </record>
-        <record id="payment_type_3" model="account.payment.term">
-            <field name="name">CRÉDITO</field>
+        <record id="payment_type_3" model="payment.type">
+            <field name="description">Crédito</field>
             <field name="active" eval="1"/> 
-            <field name="sequence">30</field>
+            <field name="ref">Credito</field>
         </record>
-        <record id="payment_type_4" model="account.payment.term">
-            <field name="name">CRÉDITO LIMITADO 1X1</field>
+        <record id="payment_type_4" model="payment.type">
+            <field name="description">Crédito limitado 1x1</field>
              <field name="active" eval="1"/> 
-            <field name="sequence">40</field>
+            <field name="ref">Credito limitado 1x1</field>
         </record>
-            <record id="payment_type_5" model="account.payment.term">
-            <field name="name">PREPAGO</field>
+            <record id="payment_type_5" model="payment.type">
+            <field name="description">Prepago</field>
              <field name="active" eval="1"/> 
-            <field name="sequence">50</field>
+            <field name="ref">Prepago</field>
         </record> 
     </data>
 </odoo>
