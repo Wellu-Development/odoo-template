@@ -1,0 +1,6 @@
+id,name,definition,active
+document_type_v,V,VENEZOLANO,1
+document_type_j,J,JURIDIDO,1
+document_type_g,G,GUBERNAMENTAL,1
+document_type_p,P,EXTRANJERO NO DOMICILIADO,1
+document_type_e,E,EXTRANJERO DOMICILIADO,1
