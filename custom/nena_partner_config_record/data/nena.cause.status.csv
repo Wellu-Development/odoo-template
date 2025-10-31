@@ -1,0 +1,37 @@
+id,description,postulation_type_id:id,nena_gen_status_id:id
+cause_status_1,Cliente Nuevo,postulation_type_2,gen_status_1
+cause_status_2,Cliente al Día,postulation_type_2,gen_status_1
+cause_status_3,Cliente al Día (Grupo),,gen_status_1
+cause_status_4,Excedio Lim. Credito,postulation_type_2,gen_status_2
+cause_status_5,Excedio Lim. Credito (Grupo),,gen_status_2
+cause_status_6,Doc. Vencidos,postulation_type_2,gen_status_2
+cause_status_7,Doc. Vencidos (Grupo),,gen_status_2
+cause_status_8,Saldo IVA,postulation_type_2,gen_status_2
+cause_status_9,Saldo IVA (Grupo),,gen_status_2
+cause_status_10,Cliente Nuevo,postulation_type_2,gen_status_3
+cause_status_11,Cliente al Día,postulation_type_2,gen_status_4
+cause_status_12,Cliente al Día (Grupo),,gen_status_4
+cause_status_13,Excedio Lim. Credito,postulation_type_2,gen_status_4
+cause_status_14,Excedio Lim. Credito (Grupo),,gen_status_4
+cause_status_15,Doc. Vencidos,postulation_type_2,gen_status_4
+cause_status_16,Doc. Vencidos (Grupo),,gen_status_4
+cause_status_17,Saldo IVA,postulation_type_2,gen_status_4
+cause_status_18,Saldo IVA (Grupo),,gen_status_4
+cause_status_19,Cliente al Día,postulation_type_2,gen_status_5
+cause_status_20,Cliente al Día (Grupo),,gen_status_5
+cause_status_21,Excedio Lim. Credito,postulation_type_2,gen_status_5
+cause_status_22,Excedio Lim. Credito (Grupo),,gen_status_5
+cause_status_23,Doc. Vencidos,postulation_type_2,gen_status_5
+cause_status_24,Doc. Vencidos (Grupo),,gen_status_5
+cause_status_25,Saldo IVA,postulation_type_2,gen_status_5
+cause_status_26,Saldo IVA (Grupo),,gen_status_5
+cause_status_27,Ficha Desactivada,postulation_type_2,gen_status_6
+cause_status_28,Dpto. Legal,postulation_type_2,gen_status_7
+cause_status_29,COMPRAS,postulation_type_1,gen_status_14
+cause_status_30,COMPRAS,postulation_type_1,gen_status_15
+cause_status_31,REGENCIA,postulation_type_1,gen_status_14
+cause_status_32,REGENCIA,postulation_type_1,gen_status_15
+cause_status_33,LEGAL,postulation_type_1,gen_status_14
+cause_status_34,LEGAL,postulation_type_1,gen_status_15
+cause_status_35,PAGOS,postulation_type_1,gen_status_14
+cause_status_36,PAGOS,postulation_type_1,gen_status_15

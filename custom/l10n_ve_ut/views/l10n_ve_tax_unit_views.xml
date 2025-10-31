@@ -42,10 +42,4 @@
             <p>Registra y consulta los valores históricos de la Unidad Tributaria (UT) según el SENIAT.</p>
         </field>
     </record>
-
-    <!-- Menú raíz personalizado -->
-    <menuitem id="l10n_ve_menu_root" name="Venezuelan Localization"/>
-    <menuitem id="menu_tax_unit_root" name="Fiscal Settings" parent="l10n_ve_menu_root" sequence="10"/>
-    <menuitem id="menu_tax_unit" name="Tax Units" parent="menu_tax_unit_root" action="action_tax_unit" sequence="20"/>
-
 </odoo>
