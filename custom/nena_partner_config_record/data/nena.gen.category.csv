@@ -1,0 +1,8 @@
+id,code,category,active,use_condition,use_status
+nena_gen_category_1,PRV,Proveedor,True,False,True
+nena_gen_category_2,CLI,Cliente,True,False,True
+nena_gen_category_3,CAD,Cadena,True,True,False
+nena_gen_category_4,VTA,Ventas,True,True,False
+nena_gen_category_5,REG,Regencia,True,True,False
+nena_gen_category_6,COB,Cobranza,True,True,False
+nena_gen_category_7,WMS,Despacho,True,True,False

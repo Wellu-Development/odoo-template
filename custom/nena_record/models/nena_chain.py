@@ -15,8 +15,8 @@ class NenaChain(models.Model):
 
     name = fields.Char(string='Cadena', required=True)
     codchain = fields.Char(string='Código', required=True)
-    commercialduct = fields.Float(string='Descuento Comercial')
-    promptpaymentdiscount = fields.Float(string='Descuento Pronto Pago')
+    commercialduct = fields.Float(string='Dcto. Comercial')
+    promptpaymentdiscount = fields.Float(string='Dcto. Pronto Pago')
     
     status_id = fields.Many2one('nena.gen.status', string="Estatus", required=True)
     cause_status_id = fields.Many2one('nena.cause.status', string="Causa del Estatus", required=True)

@@ -3,23 +3,23 @@ import re
 
 class NenaRecord(models.Model):
     _name = "nena.record"
-    _description = 'Expediente de Cliente y Proveedor'
+    _description = 'Expediente de Cliente y Proveedor (Heredado de res.partner)'
     
     _sql_constraints = [
         (
-            'code_unique', 
-            'unique(code)', 
-            'El Codigo del Expediente debe ser único.'),
-        (
-            "ref_unique",
-            "UNIQUE(ref)",
+            "nena_ref_unique",
+            "UNIQUE(nena_ref)",
             "La Referencia del Expediente debe ser única.",
         )
     ]
 
-    code = fields.Char(string="Código", required=True, size=6)
+    # Relacion con res.partner
+    res_partner_id = fields.Many2one('res.partner', string='Contacto')
+
+    # Campos del Expediente
+    code = fields.Integer(string="Código")
     name = fields.Char(string="Nombre", required=True)
-    ref = fields.Char(string="Referencia", required=True, size=6)
+    nena_ref = fields.Char(string="Referencia", required=True, size=6)
     postulation_type_id = fields.Many2one('postulation.type')
     product_category_id = fields.Many2one('product.category')
 
@@ -67,6 +67,9 @@ class NenaRecord(models.Model):
     # Ventas
     customer_category_id = fields.Many2one('nena.customer.category', string="Categoria")
     payment_type_id = fields.Many2one('nena.payment.type', string="Tipo Pago")
+    sales_commercial_discount = fields.Float(string="Dcto Comercial", required=True)
+    additional_days = fields.Integer(string="Dias Miscelaneos")
+    ufi_club = fields.Boolean(string="Club UFI", default=False)
 
     # Cobranzas
     chain_id = fields.Many2one('nena.chain', string="Cadena")
@@ -104,6 +107,29 @@ class NenaRecord(models.Model):
             res['cause_status_id'] = new_cause_status.id
         
         return res
+
+    def action_open_res_partner(self):
+        self.ensure_one()
+
+        partner_record = self.res_partner_id
+        if not partner_record:
+            partner_record = self.env['res.partner'].create({
+                #'code': self.code or 'EXP-00',
+                'name': self.name or 'Nuevo' 
+            })
+            self.res_partner_id = partner_record
+            
+        return {
+            'name': "Contactos", 
+            'type': 'ir.actions.act_window',
+            'res_model': 'res.partner', 
+            'view_mode': 'form',
+            'res_id': partner_record.id, 
+            'target': 'new', 
+            'context': {
+                'default_record_id': self.id
+            }
+        }
 
     def action_open_credit_conditions(self):
         self.ensure_one()

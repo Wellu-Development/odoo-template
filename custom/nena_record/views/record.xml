@@ -23,8 +23,8 @@
                     </group>
                     <group colspan="2">
                         <group>
-                            <field name="code" />
-                            <field name="ref" />
+                            <field name="code" readonly="1" />
+                            <field name="nena_ref" />
                             <label for="rif_prefix" string="RIF" />
                             <div class="o_address_format">
                                 <field name="rif_prefix" class="o_address_zip" />
@@ -32,14 +32,23 @@
                             </div>
                             <label for="status_id" />
                             <div class="o_address_format">
-                                <field name="status_id" class="o_address_zip" domain="[('postulation_type_id', '=', postulation_type_id)]" />
-                                <field name="cause_status_id" class="o_address_city" domain="[('nena_gen_status_id', '=', status_id), ('postulation_type_id', '=', postulation_type_id)]" />
+                                <field name="status_id" class="o_address_zip" 
+                                        options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}" />
+                                <field name="cause_status_id" class="o_address_city" 
+                                        domain="[('gen_status_id', '=', status_id)]"
+                                        options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}" />
                             </div>
                         </group>
                         <group>
-                            <field name="region_id" />
-                            <field name="district_id" domain="[('region_id', '=', region_id)]" />
-                            <field name="zone_id" domain="[('district_id', '=', district_id)]" />
+                            <field name="region_id" 
+                                    options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}" />
+                            <field name="district_id" 
+                                    domain="[('region_id', '=', region_id)]"
+                                    options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}" />
+                            <field name="zone_id" 
+                                    domain="[('district_id', '=', district_id)]"
+                                    options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}" />
+                            <button name="action_open_res_partner" type="object" string="Contacto" class="oe_highlight" />
                         </group>
                     </group>
                     <notebook>
@@ -59,31 +68,43 @@
                                 <group>
                                     <separator string="■ DATOS FISCALES" colspan="2"/>
                                     <field name="address_fiscal" />
-                                    <field name="state_fiscal_id" />
-                                    <field name="municipality_fiscal_id" domain="[('state_id', '=', state_fiscal_id)]" />
-                                    <field name="city_fiscal_id" domain="[('municipality_id', '=', municipality_fiscal_id)]" />
+                                    <field name="state_fiscal_id" 
+                                            options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}" />
+                                    <field name="municipality_fiscal_id" domain="[('state_id', '=', state_fiscal_id)]" 
+                                            options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}" />
+                                    <field name="city_fiscal_id" domain="[('municipality_id', '=', municipality_fiscal_id)]" 
+                                            options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}" />
                                     <separator string="■ DATOS DE ENTREGA" colspan="2"/>
                                     <field name="address" />
-                                    <field name="state_id" />
-                                    <field name="municipality_id" domain="[('state_id', '=', state_id)]" />
-                                    <field name="city_id" domain="[('municipality_id', '=', municipality_id)]" />
+                                    <field name="state_id" 
+                                            options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}" />
+                                    <field name="municipality_id" domain="[('state_id', '=', state_id)]" 
+                                            options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}" />
+                                    <field name="city_id" domain="[('municipality_id', '=', municipality_id)]"
+                                            options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}" />
                                 </group>
                             </group>
                         </page>
                         <page string="Ventas">
                             <group colspan="2">
                                 <group>
-                                    <field name="customer_category_id" />
+                                    <field name="customer_category_id" 
+                                            options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}" />
+                                    <field name="sales_commercial_discount"/>
+                                    <field name="additional_days"/>
+                                    <field name="ufi_club" widget="boolean_toggle"/>
                                 </group>
                                 <group>
-                                    <field name="condition_ids" widget="many2many_checkboxes" domain="[('condition_category_id.category', '=', 'Ventas')]" />
+                                    <field name="condition_ids" widget="many2many_checkboxes" 
+                                            domain="[('gen_category_id.category', '=', 'Ventas')]" />
                                 </group>
                             </group>
                         </page>
                         <page string="Cobranza">
                             <group colspan="2">
                                 <group>
-                                    <field name="payment_type_id" />
+                                    <field name="payment_type_id"
+                                            options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}" />
                                     <field name="chain_id" />
                                     <field name="days_inactive" />  
                                     <button name="action_open_credit_conditions" 
@@ -92,7 +113,8 @@
                                             class="oe_highlight" />
                                 </group>
                                 <group>
-                                    <field name="condition_ids" widget="many2many_checkboxes" domain="[('condition_category_id.category', '=', 'Cobranza')]" />
+                                    <field name="condition_ids" widget="many2many_checkboxes" 
+                                            domain="[('gen_category_id.category', '=', 'Cobranza')]" />
                                 </group>
                             </group>
                         </page>
@@ -101,13 +123,15 @@
                                 <group string="Regente" name="regent" priority="1">
                                 </group>
                                 <group string="Condiciones" name="condition" priority="2">
-                                    <field name="condition_ids" widget="many2many_checkboxes" domain="[('condition_category_id.category', '=', 'Regencia')]" />
+                                    <field name="condition_ids" widget="many2many_checkboxes" 
+                                            domain="[('gen_category_id.category', '=', 'Regencia')]" />
                                 </group>
                             </group>
                         </page>
                         <page string="Despacho">
                             <group>
-                                <field name="condition_ids" widget="many2many_checkboxes" domain="[('condition_category_id.category', '=', 'Despacho')]" />
+                                <field name="condition_ids" widget="many2many_checkboxes" 
+                                        domain="[('gen_category_id.category', '=', 'Despacho')]" />
                             </group>
                         </page>
                         <page string="Expediente Digital">
@@ -127,13 +151,8 @@
                     <group>
                         <h1><field name="name" nolabel="1" /></h1>
                         <field name="code" />
-                        <field name="ref" />
-                        <label for="rif_prefix" string="RIF" />
-                            <div class="o_address_format">
-                                <field name="rif_prefix" class="o_address_zip" />
-                                <field name="rif_number" class="o_address_city" placeholder="Numero de RIF" />
-                            </div>
-                        <label for="rif_prefix" string="RIF" />
+                        <field name="nena_ref" />
+                        
                     </group>
                     <notebook>
                         <page string="Datos Generales">

@@ -1,52 +1,55 @@
-id,description,ref,condition_category_id:id
-condition_1,Aplicar Condiciones a Cadena Centralizada,1,nena_category_1
-condition_2,Inactivar por Limite de Crédito,2,nena_category_1
-condition_3,Inactivar por Recibos Vencidos,3,nena_category_1
-condition_4,Inactivar por Giros Vencidos,4,nena_category_1
-condition_5,Inactivar por Cheques Devueltos,5,nena_category_1
-condition_6,Agrupar para Promoción,6,nena_category_1
-condition_7,Aplicar porcentaje al límite de crédito,7,nena_category_1
-condition_8,Cierre de documento ideal,8,nena_category_1
-condition_9,Cobro Automatico por Pago por Adelantado,9,nena_category_1
-condition_10,Penalizar Perdida de Pronto Pago,10,nena_category_1
-condition_11,Inactivar por Condicion 1x1,11,nena_category_1
-condition_12,Ajuste Automatico Notas de Credito,12,nena_category_1
-condition_13,Inactivación por Grupo,13,nena_category_1
-condition_14,Penalizar Pronto Pago,6,nena_category_4
-condition_15,Promocion Cheques,12,nena_category_4
-condition_16,Cobro Automatico (Adelanto Pronto Pago),20,nena_category_4
-condition_17,Documento Ideal,21,nena_category_4
-condition_18,Inactivar por Recibos Vencidos,28,nena_category_4
-condition_19,Inactivar por Giros Vencidos,29,nena_category_4
-condition_20,Inactivar por Cheques Devueltos,30,nena_category_4
-condition_21,Agrupar para Promoción,31,nena_category_4
-condition_22,Aplicar porcentaje al límite de crédito,32,nena_category_4
-condition_23,Cierre de documento ideal,33,nena_category_4
-condition_24,Cobro Automatico por Pago por Adelantado,34,nena_category_4
-condition_25,Penalizar Perdida de Pronto Pago,35,nena_category_4
-condition_26,Inactivar por Condicion 1x1,36,nena_category_4
-condition_27,Ajuste Automatico Notas de Credito,37,nena_category_4
-condition_28,Inactivación por Grupo,38,nena_category_4
-condition_29,Control de Volumen,18,nena_category_5
-condition_30,Chequeo de Facturas,11,nena_category_5
-condition_31,Consolidar Pedidos,15,nena_category_5
-condition_32,Una Factura por Bulto,16,nena_category_5
-condition_33,Acta Funcionamiento Esc.,22,nena_category_3
-condition_34,Activo SADA,23,nena_category_3
-condition_35,Psicotropicos Automaticos,19,nena_category_3
-condition_36,Cliente Farmapatria,26,nena_category_3
-condition_37,Cliente Insai,27,nena_category_3
-condition_38,Prod. Adm. Esp.,24,nena_category_2
-condition_39,Forma pago Cliente 0-Electronico; 1-Manual,25,nena_category_2
-condition_40,Lomito automático,17,nena_category_2
-condition_41,Facturar Productos Regulados,13,nena_category_2
-condition_42,Cliente por Nota de Entrega,14,nena_category_2
-condition_43,Productos en Factura segun orden Alfabetico,7,nena_category_2
-condition_44,Sorteo (Promocion de Cupones),8,nena_category_2
-condition_45,Premios Instantáneos,9,nena_category_2
-condition_46,Descuento Paquete,10,nena_category_2
-condition_47,Oferta Especial,1,nena_category_2
-condition_48,Etiquetas (Productos sin PVP),2,nena_category_2
-condition_49,Promocion Pre-Empaque,3,nena_category_2
-condition_50,Descuento Volumen,4,nena_category_2
-condition_51,Descuento UFI,5,nena_category_2
+id,description,ref,gen_category_id:id
+condition_1,Aplicar Condiciones a Cadena Centralizada,1,nena_gen_category_3
+condition_13,Inactivación por Grupo,13,nena_gen_category_3
+condition_2,Inactivar por Limite de Crédito,2,nena_gen_category_3
+condition_3,Inactivar por Recibos Vencidos,3,nena_gen_category_3
+condition_4,Inactivar por Giros Vencidos,4,nena_gen_category_3
+condition_5,Inactivar por Cheques Devueltos,5,nena_gen_category_3
+condition_6,Agrupar para Promoción,6,nena_gen_category_3
+condition_7,Aplicar porcentaje al límite de crédito,7,nena_gen_category_3
+condition_8,Cierre de documento ideal,8,nena_gen_category_3
+condition_9,Cobro Automatico por Pago por Adelantado,9,nena_gen_category_3
+condition_10,Penalizar Perdida de Pronto Pago,10,nena_gen_category_3
+condition_11,Inactivar por Condicion 1x1,11,nena_gen_category_3
+condition_12,Ajuste Automatico Notas de Credito,12,nena_gen_category_3
+condition_14,Penalizar Pronto Pago,6,nena_gen_category_6
+condition_15,Promocion Cheques,12,nena_gen_category_6
+condition_16,Cobro Automatico (Adelanto Pronto Pago),20,nena_gen_category_6
+condition_17,Documento Ideal,21,nena_gen_category_6
+condition_18,Inactivar por Recibos Vencidos,28,nena_gen_category_6
+condition_19,Inactivar por Giros Vencidos,29,nena_gen_category_6
+condition_20,Inactivar por Cheques Devueltos,30,nena_gen_category_6
+condition_21,Agrupar para Promoción,31,nena_gen_category_6
+condition_22,Aplicar porcentaje al límite de crédito,32,nena_gen_category_6
+condition_23,Cierre de documento ideal,33,nena_gen_category_6
+condition_24,Cobro Automatico por Pago por Adelantado,34,nena_gen_category_6
+condition_25,Penalizar Perdida de Pronto Pago,35,nena_gen_category_6
+condition_26,Inactivar por Condicion 1x1,36,nena_gen_category_6
+condition_27,Ajuste Automatico Notas de Credito,37,nena_gen_category_6
+condition_28,Inactivación por Grupo,38,nena_gen_category_6
+condition_30,Chequeo de Facturas,11,nena_gen_category_7
+condition_31,Consolidar Pedidos,15,nena_gen_category_7
+condition_32,Una Factura por Bulto,16,nena_gen_category_7
+condition_29,Control de Volumen,18,nena_gen_category_7
+condition_33,Acta Funcionamiento Esc.,22,nena_gen_category_5
+condition_34,Activo SADA,23,nena_gen_category_5
+condition_36,Cliente Farmapatria,26,nena_gen_category_5
+condition_37,Cliente Insai,27,nena_gen_category_5
+condition_52,Psicotropicos,39,nena_gen_category_5
+condition_53,Permite Facturar Medicina,40,nena_gen_category_5
+condition_35,Psicotropicos Automaticos,19,nena_gen_category_5
+condition_47,Oferta Especial,1,nena_gen_category_4
+condition_48,Etiquetas (Productos sin PVP),2,nena_gen_category_4
+condition_49,Promocion Pre-Empaque,3,nena_gen_category_4
+condition_50,Descuento Volumen,4,nena_gen_category_4
+condition_51,Descuento UFI,5,nena_gen_category_4
+condition_43,Productos en Factura segun orden Alfabetico,7,nena_gen_category_4
+condition_44,Sorteo (Promocion de Cupones),8,nena_gen_category_4
+condition_45,Premios Instantáneos,9,nena_gen_category_4
+condition_46,Descuento Paquete,10,nena_gen_category_4
+condition_41,Facturar Productos Regulados,13,nena_gen_category_4
+condition_42,Cliente por Nota de Entrega,14,nena_gen_category_4
+condition_40,Lomito Automático,17,nena_gen_category_4
+condition_38,Prod. Adm. Esp.,24,nena_gen_category_4
+condition_39,Forma pago Cliente 0-Electronico; 1-Manual,25,nena_gen_category_4
+condition_54,Facturar Ruta Chica,41,nena_gen_category_4

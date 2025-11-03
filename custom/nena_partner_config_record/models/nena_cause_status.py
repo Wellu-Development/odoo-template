@@ -8,11 +8,12 @@ class NenaCauseStatus(models.Model):
     _sql_constraints = [
         (
             "description_gen_status_unique",
-            "UNIQUE(description, nena_gen_status_id)",
+            "UNIQUE(description, gen_status_id)",
             "La combinación de descripción y estatus debe ser única.",
         )
     ]
 
     description = fields.Text(required=True)
-    postulation_type_id = fields.Many2one('postulation.type')
-    nena_gen_status_id = fields.Many2one('nena.gen.status')
+    # postulation_type_id = fields.Many2one('postulation.type')
+    gen_category_id = fields.Many2one('nena.gen.category', string="Categoria")
+    gen_status_id = fields.Many2one('nena.gen.status', string="Estatus")

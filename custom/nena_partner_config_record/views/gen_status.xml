@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-<record id="view_nena_gen_status_form" model="ir.ui.view">
+    <record id="view_nena_gen_status_form" model="ir.ui.view">
         <field name="name">nena.gen.status.form</field>
         <field name="model">nena.gen.status</field>
         <field name="arch" type="xml">
@@ -8,7 +8,7 @@
                 <sheet>
                     <group>
                         <field name="description"/>
-                        <field name="postulation_type_id" />
+                        <field name="gen_category_id" domain="[('use_status', '=', True)]" />
                     </group>
                 </sheet>
             </form>
@@ -20,8 +20,8 @@
             <field name="model">nena.gen.status</field>
             <field name="arch" type="xml">
                 <list string="">
-                     <field name="description"/>
-                    <field name="postulation_type_id" />
+                    <field name="description"/>
+                    <field name="gen_category_id" />
                 </list>
             </field>
         </record>

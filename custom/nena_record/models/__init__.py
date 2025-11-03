@@ -8,3 +8,4 @@ from . import nena_zone
 from . import nena_credit_conditions
 from . import nena_chain_credit_conditions
 from . import nena_client_credit_conditions
+from . import res_partner
