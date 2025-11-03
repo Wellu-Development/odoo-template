@@ -147,3 +147,5 @@ Python: snake_case para variables y métodos, PascalCase para clases
 JavaScript: camelCase para variables y funciones, PascalCase para componentes
 
 Archivos: snake_case para todos los archivos.
+
+para mayor nivel de detalle consultar https://www.odoo.com/documentation/19.0/es_419/contributing/development/coding_guidelines.html
