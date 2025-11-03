@@ -45,18 +45,28 @@
                     <notebook>
                         <page string="Datos Generales">
                             <group colspan="2">
+                                 <!-- Sección : Información Fiscal -->
                                 <group>
-                                    <field name="address" />
-                                    <field name="state_id" />
-                                    <field name="municipality_id" domain="[('state_id', '=', state_id)]" />
-                                    <field name="city_id" domain="[('municipality_id', '=', municipality_id)]" />
+                                    <field name="company_name" />
                                     <field name="clasification_id" />
+                                    <field name="headquarters" />
+                                    <separator string="■ DATOS DE CONTACTO" colspan="2"/>
+                                    <field name="email_main" widget="email" placeholder="correo@dominio.com"/>
+                                    <field name="email_secondary" widget="email" placeholder="correo@dominio.com"/>
+                                    <field name="main_phone" widget="phone" placeholder="Ingrese número de teléfono (XXXXXXXXXXX)"/>
+                                    <field name="main_mobile_phone" widget="phone" placeholder="Ingrese número de teléfono móvil(XXXXXXXXXXX)"/>
                                 </group>
                                 <group>
+                                    <separator string="■ DATOS FISCALES" colspan="2"/>
                                     <field name="address_fiscal" />
                                     <field name="state_fiscal_id" />
                                     <field name="municipality_fiscal_id" domain="[('state_id', '=', state_fiscal_id)]" />
                                     <field name="city_fiscal_id" domain="[('municipality_id', '=', municipality_fiscal_id)]" />
+                                    <separator string="■ DATOS DE ENTREGA" colspan="2"/>
+                                    <field name="address" />
+                                    <field name="state_id" />
+                                    <field name="municipality_id" domain="[('state_id', '=', state_id)]" />
+                                    <field name="city_id" domain="[('municipality_id', '=', municipality_id)]" />
                                 </group>
                             </group>
                         </page>
@@ -75,6 +85,7 @@
                                 <group>
                                     <field name="payment_type_id" />
                                     <field name="chain_id" />
+                                    <field name="days_inactive" />  
                                     <button name="action_open_credit_conditions" 
                                             type="object" 
                                             string="Condición Crediticia" 

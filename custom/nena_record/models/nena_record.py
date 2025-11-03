@@ -45,10 +45,23 @@ class NenaRecord(models.Model):
     city_id = fields.Many2one('nena.res.state.municipality.city.ve', string="Ciudad")
 
     address_fiscal = fields.Char(string="Dirección Fiscal")
-    state_fiscal_id = fields.Many2one('nena.res.state.ve', string="Estado Fiscal")
-    municipality_fiscal_id = fields.Many2one('nena.res.state.municipality.ve', string="Municipio Fiscal")
-    city_fiscal_id = fields.Many2one('nena.res.state.municipality.city.ve', string="Ciudad Fiscal")
+    state_fiscal_id = fields.Many2one('nena.res.state.ve', string="Estado")
+    municipality_fiscal_id = fields.Many2one('nena.res.state.municipality.ve', string="Municipio")
+    city_fiscal_id = fields.Many2one('nena.res.state.municipality.city.ve', string="Ciudad")
     clasification_id = fields.Many2one('nena.client.clasification', string="Clasificación")
+
+    email_main = fields.Char(string="Email Principal",required=True)
+    email_secondary = fields.Char(string="Email Secundario")
+    main_phone = fields.Char(string="Teléfono Principal")
+    main_mobile_phone = fields.Char(string="Teléfono Móvil")
+    company_name = fields.Char(string="Razón Social (RIF)", required=True)
+    headquarters = fields.Selection([
+                                    ('DUAL', 'DUAL'), 
+                                    ('DN', 'BARQUISIMETO'), 
+                                    ('DC', 'GUARENA')
+                                ], string="Sede", default='DN')
+
+
 
     # Ventas
     customer_category_id = fields.Many2one('nena.customer.category', string="Categoria")
@@ -57,6 +70,7 @@ class NenaRecord(models.Model):
     # Cobranzas
     chain_id = fields.Many2one('nena.chain', string="Cadena")
     client_credit_id = fields.Many2one('nena.client.credit.conditions', string='Condición Crediticia')
+    days_inactive = fields.Integer(string="Días Inactivar", default=0)
 
     # Datos Anexos (Condiciones)
     condition_ids = fields.Many2many(
@@ -117,6 +131,11 @@ class NenaRecord(models.Model):
     def _onchange_name_uppercase(self):
         if self.name:
             self.name = self.name.upper()
+    
+    @api.onchange('company_name')
+    def _onchange_company_name_uppercase(self):
+        if self.company_name:
+            self.company_name = self.company_name.upper()
 
     @api.depends('rif_prefix', 'rif_number')
     def _compute_rif(self):
@@ -176,3 +195,23 @@ class NenaRecord(models.Model):
     def _onchange_municipality_fiscal_id(self):
         if self.municipality_fiscal_id:
             self.city_fiscal_id = False
+
+    @api.constrains('email_main','email_secondary')
+    def _check_emails(self):
+        email_regex = r"[^@]+@[^@]+\.[^@]+"
+        for record in self:
+            for field_name in ['email', 'email_secondary']:
+                email_value = getattr(record, field_name)
+                if email_value and not re.match(email_regex, email_value):
+                    field_string = self._fields[field_name].string
+                    raise models.ValidationError(f"El campo '{field_string}' tiene un formato de correo inválido.")
+                
+    @api.constrains('main_phone', 'main_mobile_phone')
+    def _check_phone_format(self):
+         phone_regex = r'^\d{11}$' # Acepta números con 11 dígitos -- Ejemplo válido: 04141234567
+         for record in self:
+             for field_name in ['main_phone', 'main_mobile_phone']:
+                 value = getattr(record, field_name)
+                 if value and not re.match(phone_regex, value):
+                     field_string = self._fields[field_name].string
+                     raise models.ValidationError(f"El campo '{field_string}' tiene un formato de teléfono inválido.")
