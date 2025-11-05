@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="product_category_form_view_inherit" model="ir.ui.view">
+            <field name="name">product.category.form.view.inherit</field>
+            <field name="model">product.category</field>
+            <field name="inherit_id" ref="stock.product_category_form_view_inherit"/>
+            <field name="arch" type="xml">
+                <xpath expr="//group[@name='logistics']" position="after">
+                    <label for="reference"/>
+                    <field name="reference"/>
+                    <label for="color"/>
+                    <field name="color"/>
+                    <label for="controlled"/>
+                    <field name="controlled"/>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>
