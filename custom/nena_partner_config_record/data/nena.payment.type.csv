@@ -1,0 +1,6 @@
+id,description,active,ref
+nena_payment_type_1,C.o.d.,1,C.o.d
+nena_payment_type_2,Contado,1,Contado
+nena_payment_type_3,Crédito,1,Credito
+nena_payment_type_4,Crédito limitado 1x1,1,Credito limitado 1x1
+nena_payment_type_5,Prepago,1,Prepago

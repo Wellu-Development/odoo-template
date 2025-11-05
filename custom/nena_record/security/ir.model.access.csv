@@ -1,0 +1,11 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_nena_record,access_nena_record,model_nena_record,base.group_user,1,1,1,0
+access_nena_availability,access_nena_availability,model_nena_availability,base.group_user,1,1,1,0
+access_nena_group_user,Access Nena Group User,model_nena_group,base.group_user,1,0,0,0
+access_nena_group_manager,Access Nena Group Manager,model_nena_group,base.group_system,1,1,1,1
+access_nena_chain,access_nena_chain,model_nena_chain,base.group_user,1,1,1,0
+access_nena_region,access_nena_region,model_nena_region,base.group_user,1,1,1,0
+access_nena_district,access_nena_district,model_nena_district,base.group_user,1,1,1,0
+access_nena_zone,access_nena_zone,model_nena_zone,base.group_user,1,1,1,0
+access_nena_chain_credit_conditions,nena_chain_credit_conditions,model_nena_chain_credit_conditions,,1,1,1,1
+access_nena_client_credit_conditions,nena_client_credit_conditions,model_nena_client_credit_conditions,,1,1,1,1
