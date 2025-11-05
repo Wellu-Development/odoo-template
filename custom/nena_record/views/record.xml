@@ -142,6 +142,9 @@
                                 <field name="municipality_id" domain="[('state_id', '=', state_id)]" />
                                 <field name="city_id" domain="[('municipality_id', '=', municipality_id)]" />
                             </group>
+                            <group name="product_category">
+                                <field name="product_category_id" />
+                            </group>
                         </page>
                     </notebook>
                 </sheet>

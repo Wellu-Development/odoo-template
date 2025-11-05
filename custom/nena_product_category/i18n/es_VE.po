@@ -1,0 +1,315 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* nena_postulation
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0+e-20251008\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-18 03:16+0000\n"
+"PO-Revision-Date: 2025-10-18 03:16+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: nena_postulation
+#. odoo-javascript
+#: code:addons/nena_postulation/static/src/components/PostulationForm/PostulationForm.xml:0
+msgid "Address"
+msgstr "Dirección"
+
+#. module: nena_postulation
+#. odoo-javascript
+#: code:addons/nena_postulation/static/src/components/PostulationForm/PostulationForm.xml:0
+msgid "Address is required."
+msgstr "La dirección es requerida"
+
+#. module: nena_postulation
+#. odoo-javascript
+#: code:addons/nena_postulation/static/src/components/PostulationForm/PostulationForm.xml:0
+msgid "Articles of incorporation"
+msgstr "Acta Constitutiva"
+
+#. module: nena_postulation
+#. odoo-javascript
+#: code:addons/nena_postulation/static/src/components/PostulationForm/PostulationForm.xml:0
+msgid "C.I."
+msgstr ""
+
+#. module: nena_postulation
+#. odoo-javascript
+#: code:addons/nena_postulation/static/src/components/PostulationForm/PostulationForm.xml:0
+msgid "City"
+msgstr "Ciudad"
+
+#. module: nena_postulation
+#. odoo-javascript
+#: code:addons/nena_postulation/static/src/components/PostulationForm/PostulationForm.xml:0
+msgid "Clear"
+msgstr "Limpiar"
+
+#. module: nena_postulation
+#. odoo-javascript
+#: code:addons/nena_postulation/static/src/components/PostulationForm/PostulationForm.xml:0
+msgid "Company Data"
+msgstr "Datos de la empresa"
+
+#. module: nena_postulation
+#. odoo-javascript
+#: code:addons/nena_postulation/static/src/components/PostulationForm/PostulationForm.xml:0
+msgid "Company name is required."
+msgstr "El nombre de la empresa es requerido"
+
+#. module: nena_postulation
+#: model:ir.model,name:nena_postulation.model_res_partner
+msgid "Contact"
+msgstr "Contacto"
+
+#. module: nena_postulation
+#. odoo-javascript
+#: code:addons/nena_postulation/static/src/components/PostulationForm/PostulationForm.xml:0
+msgid "Country"
+msgstr "País"
+
+#. module: nena_postulation
+#. odoo-javascript
+#: code:addons/nena_postulation/static/src/components/PostulationForm/PostulationForm.xml:0
+msgid "Email"
+msgstr "Correo Electronico"
+
+#. module: nena_postulation
+#. odoo-javascript
+#: code:addons/nena_postulation/static/src/components/PostulationForm/PostulationForm.xml:0
+msgid "Enter RIF number"
+msgstr "Ingrese su numero de RIF"
+
+#. module: nena_postulation
+#. odoo-javascript
+#: code:addons/nena_postulation/static/src/components/PostulationForm/PostulationForm.xml:0
+msgid "Enter company name"
+msgstr "Ingrese el nombre de la empresa"
+
+#. module: nena_postulation
+#. odoo-javascript
+#: code:addons/nena_postulation/static/src/components/PostulationForm/PostulationForm.xml:0
+msgid "Enter email address"
+msgstr "Ingrese la direccion de correo eletronico"
+
+#. module: nena_postulation
+#. odoo-javascript
+#: code:addons/nena_postulation/static/src/components/PostulationForm/PostulationForm.xml:0
+msgid "Enter full name"
+msgstr "Ingrese el nombre completo"
+
+#. module: nena_postulation
+#. odoo-javascript
+#: code:addons/nena_postulation/static/src/components/PostulationForm/PostulationForm.xml:0
+msgid "Enter job title"
+msgstr "Ingreso su puesto de trabajo dentro de la empresa"
+
+#. module: nena_postulation
+#. odoo-javascript
+#: code:addons/nena_postulation/static/src/components/PostulationForm/PostulationForm.xml:0
+msgid "Enter phone number"
+msgstr "Ingrese el numoero de telefono"
+
+#. module: nena_postulation
+#. odoo-javascript
+#: code:addons/nena_postulation/static/src/components/PostulationForm/PostulationForm.xml:0
+msgid "Enter street address"
+msgstr "Ingrese la dirección"
+
+#. module: nena_postulation
+#. odoo-javascript
+#: code:addons/nena_postulation/static/src/components/PostulationForm/PostulationForm.js:0
+msgid "Error"
+msgstr ""
+
+#. module: nena_postulation
+#. odoo-javascript
+#: code:addons/nena_postulation/static/src/components/PostulationForm/PostulationForm.js:0
+msgid "Error loading form data"
+msgstr "Error Cargando los datos de la pagina"
+
+#. module: nena_postulation
+#. odoo-javascript
+#: code:addons/nena_postulation/static/src/components/PostulationForm/PostulationForm.js:0
+msgid "Failed to load data"
+msgstr "Fallo al cargar la información"
+
+#. module: nena_postulation
+#. odoo-javascript
+#: code:addons/nena_postulation/static/src/components/PostulationForm/PostulationForm.js:0
+msgid "Invalid data received"
+msgstr "La información recibida no es valida"
+
+#. module: nena_postulation
+#. odoo-javascript
+#: code:addons/nena_postulation/static/src/components/PostulationForm/PostulationForm.xml:0
+msgid "Job"
+msgstr "Puesto de trabajo"
+
+#. module: nena_postulation
+#. odoo-javascript
+#: code:addons/nena_postulation/static/src/components/PostulationForm/PostulationForm.xml:0
+msgid "Job title is required."
+msgstr "El puesto de trabajo es requerido"
+
+#. module: nena_postulation
+#. odoo-javascript
+#: code:addons/nena_postulation/static/src/components/PostulationForm/PostulationForm.xml:0
+msgid "Name"
+msgstr "Nombre"
+
+#. module: nena_postulation
+#. odoo-javascript
+#: code:addons/nena_postulation/static/src/components/PostulationForm/PostulationForm.xml:0
+msgid "Name is required."
+msgstr "El nombre es requerido"
+
+#. module: nena_postulation
+#. odoo-javascript
+#: code:addons/nena_postulation/static/src/components/PostulationForm/PostulationForm.xml:0
+msgid "Operating permit"
+msgstr "Permiso de funcionamiento"
+
+#. module: nena_postulation
+#. odoo-javascript
+#: code:addons/nena_postulation/static/src/components/PostulationForm/PostulationForm.xml:0
+msgid "Person Data"
+msgstr "Información del contacto"
+
+#. module: nena_postulation
+#. odoo-javascript
+#: code:addons/nena_postulation/static/src/components/PostulationForm/PostulationForm.xml:0
+msgid "Phone"
+msgstr "Telefono"
+
+#. module: nena_postulation
+#. odoo-javascript
+#: code:addons/nena_postulation/static/src/components/PostulationForm/PostulationForm.xml:0
+msgid "Phone number is required."
+msgstr "El numero de telefono es requerido"
+
+#. module: nena_postulation
+#. odoo-javascript
+#: code:addons/nena_postulation/static/src/components/PostulationForm/PostulationForm.xml:0
+msgid "Please fill in all required fields to submit your postulation"
+msgstr "Por favor, rellene todos los campos requeridos antes de enviar el formulario"
+
+#. module: nena_postulation
+#. odoo-javascript
+#: code:addons/nena_postulation/static/src/components/PostulationForm/PostulationForm.xml:0
+msgid "Please select a city."
+msgstr "Por favor, Seleccione una ciudad..."
+
+#. module: nena_postulation
+#. odoo-javascript
+#: code:addons/nena_postulation/static/src/components/PostulationForm/PostulationForm.xml:0
+msgid "Please select a country."
+msgstr "Por favor, Seleccione un pais..."
+
+#. module: nena_postulation
+#. odoo-javascript
+#: code:addons/nena_postulation/static/src/components/PostulationForm/PostulationForm.xml:0
+msgid "Please select a state."
+msgstr "Por favor, seleccione un estado..."
+
+#. module: nena_postulation
+#. odoo-javascript
+#: code:addons/nena_postulation/static/src/components/PostulationForm/PostulationForm.xml:0
+msgid "Postulation Client"
+msgstr "Postulación de Cliente"
+
+#. module: nena_postulation
+#: model:ir.actions.act_url,name:nena_postulation.action_postulation_client_website
+#: model:website.menu,name:nena_postulation.menu_postulation_client
+msgid "Postulation client"
+msgstr "Postulación de cliente"
+
+#. module: nena_postulation
+#. odoo-javascript
+#: code:addons/nena_postulation/static/src/components/PostulationForm/PostulationForm.xml:0
+msgid "RIF is required."
+msgstr "El RIF es requerido"
+
+#. module: nena_postulation
+#. odoo-javascript
+#: code:addons/nena_postulation/static/src/components/PostulationForm/PostulationForm.xml:0
+msgid "Required Files"
+msgstr "Campos Requeridos"
+
+#. module: nena_postulation
+#. odoo-javascript
+#: code:addons/nena_postulation/static/src/components/PostulationForm/PostulationForm.xml:0
+msgid "Rif"
+msgstr "RIF"
+
+#. module: nena_postulation
+#. odoo-javascript
+#: code:addons/nena_postulation/static/src/components/PostulationForm/PostulationForm.xml:0
+msgid "Send"
+msgstr "Enviar"
+
+#. module: nena_postulation
+#. odoo-javascript
+#: code:addons/nena_postulation/static/src/components/PostulationForm/PostulationForm.xml:0
+msgid "State"
+msgstr "Estado"
+
+#. module: nena_postulation
+#. odoo-javascript
+#: code:addons/nena_postulation/static/src/components/PostulationForm/PostulationForm.js:0
+msgid "Success"
+msgstr "Exito"
+
+#. module: nena_postulation
+#. odoo-javascript
+#: code:addons/nena_postulation/static/src/components/PostulationForm/PostulationForm.js:0
+msgid "Success Create New Client"
+msgstr "Cliente Creado Exitosamente"
+
+#. module: nena_postulation
+#. odoo-javascript
+#: code:addons/nena_postulation/static/src/components/PostulationForm/PostulationForm.js:0
+msgid "Unknow Error"
+msgstr "Error Desconocido"
+
+#. module: nena_postulation
+#. odoo-javascript
+#: code:addons/nena_postulation/static/src/components/PostulationForm/PostulationForm.xml:0
+msgid "Valid email is required."
+msgstr "Ingrese un correo electronico valido"
+
+#. module: nena_postulation
+#. odoo-javascript
+#: code:addons/nena_postulation/static/src/components/PostulationForm/PostulationForm.xml:0
+msgid "Website"
+msgstr "Sitio Web"
+
+#. module: nena_postulation
+#. odoo-javascript
+#: code:addons/nena_postulation/static/src/components/PostulationForm/PostulationForm.xml:0
+msgid "Zip"
+msgstr "Codigo Postal"
+
+#. module: nena_postulation
+#. odoo-javascript
+#: code:addons/nena_postulation/static/src/components/PostulationForm/PostulationForm.xml:0
+msgid "Zip code"
+msgstr "Codigo Postal"
+
+#. module: nena_postulation
+#. odoo-javascript
+#: code:addons/nena_postulation/static/src/components/PostulationForm/PostulationForm.xml:0
+msgid "Zip code is required."
+msgstr "EL codigo postal es requerido"
+
+#. module: nena_postulation
+#. odoo-javascript
+#: code:addons/nena_postulation/static/src/components/PostulationForm/PostulationForm.xml:0
+msgid "https://example.com"
+msgstr "https://ejemplo.com"

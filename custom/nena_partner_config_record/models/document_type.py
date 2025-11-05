@@ -18,3 +18,5 @@ class DocumentType(models.Model):
     regulatory_entity_id = fields.Many2one('regulatory.entity')
     product_type_id = fields.Many2one('product.type')
     active = fields.Boolean(default=True)
+    is_due_date = fields.Boolean()
+    is_multiple_file = fields.Boolean()

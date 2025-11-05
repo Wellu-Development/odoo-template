@@ -1,0 +1,13 @@
+id,name,is_due_date,is_multiple_file
+rif,Registro de Información Fiscal (RIF),1,0
+cedula,Cédula de Identidad del Representante Legal,0,0
+registro_mer,Registro Mercantil,1,1
+registro_fot,Registro Fotográfico del Establecimiento (Fotografía de la fachada del establecimiento y del interior del mismo),0,1
+gps,Validar Coordenadas GPS,0,0
+condicion_cre,Condiciones Crediticias,0,0
+formato_aper,Formato Solicitud de Apertura de Clientes,0,0
+sada,Código SICA (SADA),0,0
+permiso_sani,Permiso de Conformidad Sanitaria de Ocupación,0,0
+permiso_fun,Permiso de Funcionamiento de Establecimiento Farmacéutico,1,1
+titulo_rege,Título del Regente,0,0
+cedula_rege,Cédula de Identidad del Regente,0,0

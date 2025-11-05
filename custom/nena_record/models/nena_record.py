@@ -21,6 +21,7 @@ class NenaRecord(models.Model):
     name = fields.Char(string="Nombre", required=True)
     ref = fields.Char(string="Referencia", required=True, size=6)
     postulation_type_id = fields.Many2one('postulation.type')
+    product_category_id = fields.Many2one('product.category')
 
     rif_prefix = fields.Selection([
         ('V', 'V'),  # Venezolano
