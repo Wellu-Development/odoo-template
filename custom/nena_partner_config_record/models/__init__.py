@@ -13,3 +13,5 @@ from . import nena_client_clasification
 from . import nena_customer_category
 from . import nena_payment_type
 from . import nena_document_type
+from . import hr_job
+from . import document_approver

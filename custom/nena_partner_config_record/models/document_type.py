@@ -17,6 +17,7 @@ class DocumentType(models.Model):
     supplier_type_id = fields.Many2one('supplier.type')
     regulatory_entity_id = fields.Many2one('regulatory.entity')
     product_type_id = fields.Many2one('product.type')
+    approver_ids = fields.One2many('document.approver','document_type_id', string="Aprobadores")
     active = fields.Boolean(default=True)
     is_due_date = fields.Boolean()
     is_multiple_file = fields.Boolean()
