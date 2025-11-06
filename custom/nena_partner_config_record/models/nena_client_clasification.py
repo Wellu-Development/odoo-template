@@ -18,11 +18,6 @@ class NenaClientClasification(models.Model):
     description = fields.Char(string="Descripcion", required=True)
     amount_from = fields.Float(string="Monto desde", required=True)
     amount_until = fields.Float(string="Monto hasta", required=True)
-
-    type = fields.Selection([
-                ('cli', 'CLI'),
-                ('cad', 'CAD')
-            ], string='Tipo', default='cli')
-            
+    gen_category_id = fields.Many2one('nena.gen.category', string="Tipo", required=True)
     ref = fields.Integer(string="Referencia", required=True, help="Código de clasificación asociado a nena")            
     active = fields.Boolean(string="Activo", default=True)    

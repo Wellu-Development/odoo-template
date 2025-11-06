@@ -15,5 +15,5 @@ class NenaCauseStatus(models.Model):
 
     description = fields.Text(required=True)
     # postulation_type_id = fields.Many2one('postulation.type')
-    gen_category_id = fields.Many2one('nena.gen.category', string="Categoria")
+    gen_category_id = fields.Many2one('nena.gen.category', string="Tipo")
     gen_status_id = fields.Many2one('nena.gen.status', string="Estatus")

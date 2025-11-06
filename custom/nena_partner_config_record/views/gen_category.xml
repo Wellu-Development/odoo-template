@@ -6,11 +6,11 @@
         <field name="type">list</field>
         <field name="arch" type="xml">
             <list string="Categorias" editable="bottom">
-                <field name="category"/>
                 <field name="code"/>
-                <field name="use_condition"/>
-                <field name="use_status"/>
+                <field name="category"/>
                 <field name="active"/>
+                <field name="entity"/>
+                <field name="operational"/>
             </list>
         </field>
     </record>

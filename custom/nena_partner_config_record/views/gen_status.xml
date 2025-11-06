@@ -8,7 +8,7 @@
                 <sheet>
                     <group>
                         <field name="description"/>
-                        <field name="gen_category_id" domain="[('use_status', '=', True)]" />
+                        <field name="gen_category_id" domain="[('entity', '=', True)]" />
                     </group>
                 </sheet>
             </form>

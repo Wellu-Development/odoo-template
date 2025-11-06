@@ -1,37 +1,34 @@
 id,description,gen_category_id:id,gen_status_id:id
-cause_status_1,Cliente Nuevo,nena_gen_category_2,gen_status_1
-cause_status_2,Cliente al Día,nena_gen_category_2,gen_status_1
-cause_status_3,Cliente al Día (Grupo),nena_gen_category_3,gen_status_1
-cause_status_4,Excedio Lim. Credito,nena_gen_category_2,gen_status_2
-cause_status_5,Excedio Lim. Credito (Grupo),nena_gen_category_3,gen_status_2
-cause_status_6,Doc. Vencidos,nena_gen_category_2,gen_status_2
-cause_status_7,Doc. Vencidos (Grupo),nena_gen_category_3,gen_status_2
-cause_status_8,Saldo IVA,nena_gen_category_2,gen_status_2
-cause_status_9,Saldo IVA (Grupo),nena_gen_category_3,gen_status_2
-cause_status_10,Cliente Nuevo,nena_gen_category_2,gen_status_3
-cause_status_11,Cliente al Día,nena_gen_category_2,gen_status_4
-cause_status_12,Cliente al Día (Grupo),nena_gen_category_3,gen_status_4
-cause_status_13,Excedio Lim. Credito,nena_gen_category_2,gen_status_4
-cause_status_14,Excedio Lim. Credito (Grupo),nena_gen_category_3,gen_status_4
-cause_status_15,Doc. Vencidos,nena_gen_category_2,gen_status_4
-cause_status_16,Doc. Vencidos (Grupo),nena_gen_category_3,gen_status_4
-cause_status_17,Saldo IVA,nena_gen_category_2,gen_status_4
-cause_status_18,Saldo IVA (Grupo),nena_gen_category_3,gen_status_4
-cause_status_19,Cliente al Día,nena_gen_category_2,gen_status_5
-cause_status_20,Cliente al Día (Grupo),nena_gen_category_3,gen_status_5
-cause_status_21,Excedio Lim. Credito,nena_gen_category_2,gen_status_5
-cause_status_22,Excedio Lim. Credito (Grupo),nena_gen_category_3,gen_status_5
-cause_status_23,Doc. Vencidos,nena_gen_category_2,gen_status_5
-cause_status_24,Doc. Vencidos (Grupo),nena_gen_category_3,gen_status_5
-cause_status_25,Saldo IVA,nena_gen_category_2,gen_status_5
-cause_status_26,Saldo IVA (Grupo),nena_gen_category_3,gen_status_5
-cause_status_27,Ficha Desactivada,nena_gen_category_2,gen_status_6
-cause_status_28,Dpto. Legal,nena_gen_category_2,gen_status_7
-cause_status_29,COMPRAS,nena_gen_category_1,gen_status_14
-cause_status_30,COMPRAS,nena_gen_category_1,gen_status_15
-cause_status_31,REGENCIA,nena_gen_category_1,gen_status_14
-cause_status_32,REGENCIA,nena_gen_category_1,gen_status_15
-cause_status_33,LEGAL,nena_gen_category_1,gen_status_14
-cause_status_34,LEGAL,nena_gen_category_1,gen_status_15
-cause_status_35,PAGOS,nena_gen_category_1,gen_status_14
-cause_status_36,PAGOS,nena_gen_category_1,gen_status_15
+cause_status_1,Creada,gen_category_1,status_1
+cause_status_2,Revisada Compras,gen_category_1,status_1
+cause_status_3,Anulada,gen_category_1,status_1
+cause_status_4,Comite,gen_category_1,status_1
+cause_status_5,Guardado Prov,gen_category_1,status_1
+cause_status_6,Completado Prov,gen_category_1,status_1
+cause_status_7,Cliente Nuevo,gen_category_3,status_8
+cause_status_8,Cliente al Día,gen_category_3,status_9
+cause_status_9,Excedio Lim. Credito,gen_category_3,status_10
+cause_status_10,Doc. Vencidos,gen_category_3,status_10
+cause_status_11,Saldo IVA,gen_category_3,status_10
+cause_status_12,Cliente al Día,gen_category_3,status_11
+cause_status_13,Excedio Lim. Credito,gen_category_3,status_11
+cause_status_14,Doc. Vencidos,gen_category_3,status_11
+cause_status_15,Saldo IVA,gen_category_3,status_11
+cause_status_16,Cliente al Día,gen_category_3,status_12
+cause_status_17,Excedio Lim. Credito,gen_category_3,status_12
+cause_status_18,Doc. Vencidos,gen_category_3,status_12
+cause_status_19,Saldo IVA,gen_category_3,status_12
+cause_status_20,Ficha Desactivada,gen_category_3,status_13
+cause_status_21,Dpto. Legal,gen_category_3,status_14
+cause_status_22,Cliente al Día (Grupo),gen_category_4,status_9
+cause_status_23,Excedio Lim. Credito (Grupo),gen_category_4,status_10
+cause_status_24,Doc. Vencidos (Grupo),gen_category_4,status_10
+cause_status_25,Saldo IVA (Grupo),gen_category_4,status_10
+cause_status_26,Cliente al Día (Grupo),gen_category_4,status_11
+cause_status_27,Excedio Lim. Credito (Grupo),gen_category_4,status_11
+cause_status_28,Doc. Vencidos (Grupo),gen_category_4,status_11
+cause_status_29,Saldo IVA (Grupo),gen_category_4,status_11
+cause_status_30,Cliente al Día (Grupo),gen_category_4,status_12
+cause_status_31,Excedio Lim. Credito (Grupo),gen_category_4,status_12
+cause_status_32,Doc. Vencidos (Grupo),gen_category_4,status_12
+cause_status_33,Saldo IVA (Grupo),gen_category_4,status_12

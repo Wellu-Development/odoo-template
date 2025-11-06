@@ -1,8 +1,9 @@
-id,code,category,active,use_condition,use_status
-nena_gen_category_1,PRV,Proveedor,True,False,True
-nena_gen_category_2,CLI,Cliente,True,False,True
-nena_gen_category_3,CAD,Cadena,True,True,False
-nena_gen_category_4,VTA,Ventas,True,True,False
-nena_gen_category_5,REG,Regencia,True,True,False
-nena_gen_category_6,COB,Cobranza,True,True,False
-nena_gen_category_7,WMS,Despacho,True,True,False
+id,code,category,active,operational,entity
+gen_category_1,EXP,Expediente,True,False,True
+gen_category_2,PRV,Proveedor,True,False,True
+gen_category_3,CLI,Cliente,True,False,True
+gen_category_4,CAD,Cadena,True,True,True
+gen_category_5,VTA,Ventas,True,True,False
+gen_category_6,REG,Regencia,True,True,False
+gen_category_7,COB,Cobranza,True,True,False
+gen_category_8,WMS,Despacho,True,True,False

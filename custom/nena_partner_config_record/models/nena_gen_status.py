@@ -17,7 +17,7 @@ class NenaGenStatus (models.Model):
 
     description = fields.Text(required=True)
     # postulation_type_id = fields.Many2one('postulation.type')
-    gen_category_id = fields.Many2one('nena.gen.category', string="Categoria", required=True)
+    gen_category_id = fields.Many2one('nena.gen.category', string="Tipo", required=True)
 
     @api.constrains('description')
     def _check_description_constraints(self):

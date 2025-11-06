@@ -19,7 +19,7 @@ class NenaChain(models.Model):
     promptpaymentdiscount = fields.Float(string='Dcto. Pronto Pago')
     
     status_id = fields.Many2one('nena.gen.status', string="Estatus", required=True)
-    cause_status_id = fields.Many2one('nena.cause.status', string="Causa del Estatus", required=True)
+    cause_status_id = fields.Many2one('nena.cause.status', string="Causa", required=True)
     group_id = fields.Many2one('nena.group', string='Grupos de Cadenas')
     chain_credit_id = fields.Many2one('nena.chain.credit.conditions', string='Condición Crediticia')
 

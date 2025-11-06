@@ -19,9 +19,9 @@
         </menuitem>
 
         <menuitem id="record_parameters_menu" name="General" sequence="30">
-            <menuitem id="nena_gen_category_menu" name="Categorías" action="nena_gen_category_action" sequence="5"/>
             <menuitem id="nena_gen_status_menu" name="Estatus" action="nena_gen_status" sequence="10"/>
             <menuitem id="nena_cause_status_menu" name="Causa Estatus" action="nena_cause_status" sequence="10"/>
+            <menuitem id="nena_gen_category_menu" name="Parámetros de Gestión" action="nena_gen_category_action" sequence="10"/>
         </menuitem>
     </menuitem>
 </odoo>

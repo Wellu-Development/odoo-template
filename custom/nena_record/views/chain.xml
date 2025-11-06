@@ -13,11 +13,12 @@
                     </group>
                     <group colspan="2">
                         <group>
-                            <field name="status_id" domain="[('gen_category_id.code', '=', 'CLI')]" />
-                            <field name="commercialduct"/>
+                            <field name="status_id" domain="[('gen_category_id.code', '=', 'CAD')]" 
+                                    options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}" />
+                            <field name="cause_status_id" domain="[('gen_category_id.code', '=', 'CAD')]" />
                         </group>
                         <group>
-                            <field name="cause_status_id" domain="[('gen_category_id.code', '=', 'CAD')]" readonly="1" />
+                            <field name="commercialduct"/>
                             <field name="promptpaymentdiscount"/>
                         </group>
                     </group>
@@ -26,7 +27,7 @@
                             <group>
                                 <field name="condition_ids" 
                                         widget="many2many_checkboxes" 
-                                        domain="[('gen_category_id.category', '=', 'Cadena')]" />
+                                        domain="[('gen_category_id.code', '=', 'CAD')]" />
                                 <button name="action_open_credit_conditions" 
                                         type="object" 
                                         string="Condición Crediticia" 

@@ -15,4 +15,4 @@ class NenaCondition(models.Model):
 
     description = fields.Char(string="Descripcion", required=True)
     ref = fields.Integer(string="Referencia")
-    gen_category_id = fields.Many2one('nena.gen.category', string="Categoria", required=True)
+    gen_category_id = fields.Many2one('nena.gen.category', string="Tipo", required=True)

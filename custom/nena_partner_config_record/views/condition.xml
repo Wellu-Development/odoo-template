@@ -7,7 +7,7 @@
         <field name="arch" type="xml">
             <list string="Condiciones" editable="bottom">
                 <field name="description"/>
-                <field name="gen_category_id" domain="[('use_condition', '=', True)]"/>
+                <field name="gen_category_id" domain="[('operational', '=', True)]"/>
                 <field name="ref" />
             </list>
         </field>
