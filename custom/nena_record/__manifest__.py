@@ -3,7 +3,7 @@
     "summary": "Módulo custom que contiene la información del Expediente",
     "author": "Anais Chavez",
     "category": "Uncategorized",
-    "version": "18.0.0.0.1",
+    "version": "18.0.0.0.2",
     "application": True,
     "depends": [
         "base",

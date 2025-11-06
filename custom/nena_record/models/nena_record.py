@@ -73,6 +73,15 @@ class NenaRecord(models.Model):
     client_credit_id = fields.Many2one('nena.client.credit.conditions', string='Condición Crediticia')
     days_inactive = fields.Integer(string="Días Inactivar", default=0)
 
+    # Expediente Digital
+    def _customer_type_domain(self):
+        return self.env.ref('nena_partner_config_record.postulation_type_2').id
+
+    documents_client_line_ids = fields.One2many('nena.attachment.line', 'nena_record_id', 
+        string="Documentos",
+        domain=[('postulation_type_id','=',_customer_type_domain)]
+    )
+
     # Datos Anexos (Condiciones)
     condition_ids = fields.Many2many(
         'nena.condition',

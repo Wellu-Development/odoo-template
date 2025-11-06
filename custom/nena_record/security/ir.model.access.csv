@@ -9,3 +9,5 @@ access_nena_district,access_nena_district,model_nena_district,base.group_user,1,
 access_nena_zone,access_nena_zone,model_nena_zone,base.group_user,1,1,1,0
 access_nena_chain_credit_conditions,nena_chain_credit_conditions,model_nena_chain_credit_conditions,,1,1,1,1
 access_nena_client_credit_conditions,nena_client_credit_conditions,model_nena_client_credit_conditions,,1,1,1,1
+access_nena_attachment_line,access_nena_attachment_line,model_nena_attachment_line,,1,1,1,1
+access_document_approver_line,access_document_approver_line,model_document_approver_line,,1,1,1,1

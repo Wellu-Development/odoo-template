@@ -26,6 +26,7 @@
             <!-- <field name="customer_type_id" />
             <field name="supplier_type_id" />
             <field name="product_type_id" /> -->
+            <field name="postulation_type_id" />
             <field name="regulatory_entity_id" />
             <field name="active" widget="boolean_toggle" />
           </group>
