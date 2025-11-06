@@ -1,16 +1,20 @@
-id,description,postulation_type_id:id
-gen_status_1,ACTIVO,postulation_type_2
-gen_status_2,INACTIVO,postulation_type_2
-gen_status_3,NUEVO,postulation_type_2
-gen_status_4,PERMISO,postulation_type_2
-gen_status_5,SUSPENDIDO,postulation_type_2
-gen_status_6,BLOQUEADO,postulation_type_2
-gen_status_7,DPTO. LEGAL,postulation_type_2
-gen_status_8,SOLICITUD CREADA,postulation_type_1
-gen_status_9,SOLICITUD REVISADA COMPRAS,postulation_type_1
-gen_status_10,SOLICITUD ANULADA,postulation_type_1
-gen_status_11,SOLICITUD COMITE,postulation_type_1
-gen_status_12,SOLICITUD GUARDADA PROV,postulation_type_1
-gen_status_13,SOLICITUD COMPLETADA PROV,postulation_type_1
-gen_status_14,SOLICITUD APROBADA,postulation_type_1
-gen_status_15,SOLICITUD RECHAZADA,postulation_type_1
+id,description,gen_category_id:id
+status_1,SOLICITUD,gen_category_1
+status_2,APROBADO,gen_category_1
+status_3,RECHAZADO,gen_category_1
+status_4,PUBLICADO,gen_category_1
+status_5,NUEVO,gen_category_2
+status_6,ACTIVO,gen_category_2
+status_7,INACTIVO,gen_category_2
+status_8,NUEVO,gen_category_3
+status_9,ACTIVO,gen_category_3
+status_10,INACTIVO,gen_category_3
+status_11,PERMISO,gen_category_3
+status_12,SUSPENDIDO,gen_category_3
+status_13,BLOQUEADO,gen_category_3
+status_14,DPTO. LEGAL,gen_category_3
+status_15,ACTIVO,gen_category_4
+status_16,INACTIVO,gen_category_4
+status_17,PERMISO,gen_category_4
+status_18,SUSPENDIDO,gen_category_4
+status_19,BLOQUEADO,gen_category_4

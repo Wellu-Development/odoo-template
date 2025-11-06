@@ -8,7 +8,7 @@ access_supplier_type,access_supplier_type,model_supplier_type,base.group_user,1,
 access_regulatory_entity,access_regulatory_entity,model_regulatory_entity,base.group_user,1,1,1,0
 access_nena_gen_status,access_nena_gen_status,model_nena_gen_status,base.group_user,1,1,1,1
 access_nena_cause_status,access_nena_cause_status,model_nena_cause_status,base.group_user,1,1,1,1
-access_nena_condition_category,access_nena_condition_category,model_nena_condition_category,base.group_user,1,1,1,1
+access_nena_gen_category,access_nena_gen_category,model_nena_gen_category,base.group_user,1,1,1,1
 access_nena_condition,access_nena_condition,model_nena_condition,base.group_user,1,1,1,1
 access_nena_client_clasification,access_nena_client_clasification,model_nena_client_clasification,base.group_user,1,1,1,1
 access_nena_customer_category,access_nena_customer_category,model_nena_customer_category,base.group_user,1,1,1,1
