@@ -12,9 +12,9 @@
     "data": [
         "security/ir.model.access.csv",
         "data/postulation.type.csv",
+        "data/nena.gen.category.csv",
         "data/nena.gen.status.csv",
         "data/nena.cause.status.csv",
-        "data/nena.condition.category.csv",
         "data/nena.condition.csv",
         "data/nena.client.clasification.csv",
         "data/nena.customer.category.csv",
@@ -26,6 +26,7 @@
         "views/product_type.xml",
         "views/document_type.xml",
         "views/partner_config_record.xml",
+        "views/gen_category.xml",
         "views/gen_status.xml",
         "views/condition.xml",
         "views/cause_status.xml",

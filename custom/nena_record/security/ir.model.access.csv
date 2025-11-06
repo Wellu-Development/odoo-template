@@ -1,6 +1,5 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
 access_nena_record,access_nena_record,model_nena_record,base.group_user,1,1,1,0
-access_nena_availability,access_nena_availability,model_nena_availability,base.group_user,1,1,1,0
 access_nena_group_user,Access Nena Group User,model_nena_group,base.group_user,1,0,0,0
 access_nena_group_manager,Access Nena Group Manager,model_nena_group,base.group_system,1,1,1,1
 access_nena_chain,access_nena_chain,model_nena_chain,base.group_user,1,1,1,0

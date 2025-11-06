@@ -6,19 +6,28 @@
             <form string="Cadena">
                 <sheet>
                     <group>
-                        <field name="name"/>
-                        <field name="codchain"/>
-                        <field name="status_id"/>
-                        <field name="cause_status_id" domain="[('nena_gen_status_id', '=', status_id)]"/>
+                        <h1><field name="name" /></h1>
                     </group>
                     <group>
-                        <field name="commercialduct"/>
-                        <field name="promptpaymentdiscount"/>
+                        <field name="codchain"/>
+                    </group>
+                    <group colspan="2">
+                        <group>
+                            <field name="status_id" domain="[('gen_category_id.code', '=', 'CAD')]" 
+                                    options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}" />
+                            <field name="cause_status_id" domain="[('gen_category_id.code', '=', 'CAD')]" />
+                        </group>
+                        <group>
+                            <field name="commercialduct"/>
+                            <field name="promptpaymentdiscount"/>
+                        </group>
                     </group>
                     <notebook>
                         <page string="Condiciones">
                             <group>
-                                <field name="condition_ids" widget="many2many_checkboxes" domain="[('condition_category_id.category', '=', 'Cadena')]"/>
+                                <field name="condition_ids" 
+                                        widget="many2many_checkboxes" 
+                                        domain="[('gen_category_id.code', '=', 'CAD')]" />
                                 <button name="action_open_credit_conditions" 
                                         type="object" 
                                         string="Condición Crediticia" 

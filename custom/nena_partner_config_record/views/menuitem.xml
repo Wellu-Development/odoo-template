@@ -13,7 +13,7 @@
 
         <menuitem id="record_client_menu" name="Clientes" sequence="20">
             <menuitem id="nena_clasification_cliente_menu" name="Clasificación" action="client_clasification_action" sequence="10"/>
-            <menuitem id="nena_categoria_cliente_menu" name="Categorías" action="action_categoria_cliente" sequence="10"/>
+            <menuitem id="nena_category_cli_menu" name="Categorías" action="action_categoria_cliente" sequence="10"/>
             <menuitem id="nena_condition_menu" name="Condiciones" action="nena_condition_action" sequence="20"/>
             <menuitem id="payment_menu" name="Tipo de Pago" action="payment_type_action" sequence="50"/>
         </menuitem>
@@ -21,6 +21,7 @@
         <menuitem id="record_parameters_menu" name="General" sequence="30">
             <menuitem id="nena_gen_status_menu" name="Estatus" action="nena_gen_status" sequence="10"/>
             <menuitem id="nena_cause_status_menu" name="Causa Estatus" action="nena_cause_status" sequence="10"/>
+            <menuitem id="nena_gen_category_menu" name="Parámetros de Gestión" action="nena_gen_category_action" sequence="10"/>
         </menuitem>
     </menuitem>
 </odoo>

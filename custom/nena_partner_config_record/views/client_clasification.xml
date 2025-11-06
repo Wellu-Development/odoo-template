@@ -10,7 +10,7 @@
         <field name="description" />
         <field name="amount_from" />
         <field name="amount_until" />
-        <field name="type" />
+        <field name="gen_category_id" />
         <field name="ref" />
         <field name="active" widget="boolean_toggle" />
       </list>
@@ -28,7 +28,7 @@
             <field name="description" />
             <field name="amount_from" />
             <field name="amount_until" />
-            <field name="type" />
+            <field name="gen_category_id" domain="['|', ('code', '=', 'CLI'), ('code', '=', 'CAD')]"/>
             <field name="ref" />
             <field name="active" widget="boolean_toggle" />
           </group>
