@@ -26,7 +26,7 @@
                     <group colspan="2">
                         <group>
                             <field name="partner_code" readonly="1" />
-                            <field name="nena_ref" readonly="nena_ref != False" />
+                            <field name="nena_ref" />
                             <label for="rif_type_id" string="RIF" />
                             <div class="o_address_format">
                                 <field name="rif_type_id" class="o_address_zip" placeholder="Prefijo" readonly="partner_code != False"

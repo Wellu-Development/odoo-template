@@ -61,7 +61,7 @@ class NenaRecord(models.Model):
     # Ventas
     customer_category_id = fields.Many2one('nena.customer.category', string="Categoria")
     additional_days = fields.Integer(string="Dias Miscelaneos")
-    sales_commercial_discount = fields.Float(string="Dcto Comercial", required=True)
+    sales_commercial_discount = fields.Float(string="Dcto Comercial")
     ufi_club = fields.Boolean(string="Club UFI", default=False)
 
     # Cobranzas
