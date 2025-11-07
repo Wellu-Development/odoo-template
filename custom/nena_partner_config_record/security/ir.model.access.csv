@@ -14,3 +14,5 @@ access_nena_client_clasification,access_nena_client_clasification,model_nena_cli
 access_nena_customer_category,access_nena_customer_category,model_nena_customer_category,base.group_user,1,1,1,1
 access_nena_payment_type,access_nena_payment_type,model_nena_payment_type,base.group_user,1,1,1,1
 access_nena_document_type,access_nena_document_type,model_nena_document_type,base.group_user,1,1,1,1
+access_document_approver_user,access_document_approver_user,model_document_approver,base.group_user,1,1,1,0
+access_document_approver_admin,access_document_approver_admin,model_document_approver,base.group_system,1,1,1,1

@@ -8,7 +8,7 @@
     "category": "Uncategorized",
     "version": "18.0.0.0.3",
     "application": True,
-    "depends": ["base","contacts","tipo_productos"],
+    "depends": ["base","contacts","tipo_productos","hr"],
     "data": [
         "security/ir.model.access.csv",
         "data/postulation.type.csv",
@@ -18,6 +18,7 @@
         "data/nena.condition.csv",
         "data/nena.client.clasification.csv",
         "data/nena.customer.category.csv",
+        "data/regulatory.entity.csv",
         "data/nena.payment.type.csv",
         "data/nena.document.type.csv",
         "views/postulation_type.xml",
@@ -35,5 +36,6 @@
         "views/payment_type.xml",
         "views/nena_document_type.xml",
         "views/menuitem.xml",
+        "views/hr_job.xml",
     ],
 }
