@@ -76,7 +76,7 @@ class NenaRecord(models.Model):
 
     documents_client_line_ids = fields.One2many('nena.attachment.line', 'nena_record_id', 
         string="Documentos",
-        domain=[('postulation_type_id','=',_customer_type_domain)]
+        domain=[('postulation_type_id','=',2)]
     )
 
     # Datos Anexos (Condiciones)
@@ -87,6 +87,29 @@ class NenaRecord(models.Model):
         'condition_id',
         string="Derechos"
     )
+
+    #Regente Datos
+    regent_id = fields.Many2one(
+    'nena.regent',
+    string='Regent',
+    required=True,
+    ondelete='restrict'
+    )
+    regent_id_number = fields.Char(related='regent_id.id_number',readonly=False)
+    regent_phone = fields.Char(related='regent_id.phone',readonly=False)
+    regent_address = fields.Text(related='regent_id.address',readonly=False)
+    regent_matric_msds = fields.Char(related='regent_id.matric_msds',readonly=False)
+    regent_colfar = fields.Char(related='regent_id.colfar',readonly=False)
+    regent_oper_min_start_date = fields.Date(related='regent_id.oper_min_start_date',readonly=False)
+    regent_oper_min_end_date = fields.Date(related='regent_id.oper_min_end_date',readonly=False)
+    regent_inprefa_code = fields.Char(related='regent_id.inprefa_code',readonly=False)
+    regent_sicm_code = fields.Char(related='regent_id.sicm_code',readonly=False)
+    regent_sicm_status = fields.Char(related='regent_id.sicm_status',readonly=False)
+    regent_sada_code = fields.Char(related='regent_id.sada_code',readonly=False)
+    regent_sada_status = fields.Char(related='regent_id.sada_status',readonly=False)
+    _sql_constraints = [
+    ('unique_regent_per_client', 'UNIQUE(regent_id)', 'Este regente ya está asignado a otro Expediente.')
+    ]
 
 # Valores por Defectos
     def default_get(self, fields_list):

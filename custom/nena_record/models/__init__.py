@@ -1,3 +1,4 @@
+from . import nena_regent
 from . import nena_record
 from . import nena_group
 from . import nena_chain
