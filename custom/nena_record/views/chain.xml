@@ -23,20 +23,32 @@
                         </group>
                     </group>
                     <notebook>
-                        <page string="Condiciones">
-                            <group>
-                                <field name="condition_ids" 
-                                        widget="many2many_checkboxes" 
-                                        domain="[('gen_category_id.code', '=', 'CAD')]" />
-                                <button name="action_open_credit_conditions" 
-                                        type="object" 
-                                        string="Condición Crediticia" 
-                                        class="oe_highlight" />
+                        <page string="Datos Generales">
+                            <group colspan="2">
+                                <group>
+                                    <field name="credit_limit" />  
+                                    <field name="balance" /> 
+                                    <field name="transit_amount" /> 
+                                    <field name="prepaid_amount" /> 
+                                    <field name="availability_amount" /> 
+                                </group>
+                                <group>
+                                    <field name="condition_ids" 
+                                            widget="many2many_checkboxes" 
+                                            domain="[('gen_category_id.code', '=', 'CAD')]" />
+                                </group>
                             </group>
                         </page>
-                        <page string="Clientes">
-                            <group>
-                            </group>
+                        <page string="Listado de Clientes">
+                            <field name="client_ids">
+                                <list delete="0" create="0">
+                                    <field name="partner_code" />
+                                    <field name="name" />
+                                    <field name="status_id" />
+                                    <field name="prepaid_amount" /> 
+                                    <field name="credit_limit" /> 
+                                </list>
+                            </field>
                         </page>
                     </notebook>
                 </sheet>

@@ -22,7 +22,6 @@
         "data/nena.payment.type.csv",
         "data/nena.document.type.csv",
         "views/postulation_type.xml",
-        "views/customer_type.xml",
         "views/supplier_type.xml",
         "views/product_type.xml",
         "views/document_type.xml",
