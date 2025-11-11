@@ -4,11 +4,14 @@
     "description": """
     * Configuración base para gestion de permisos y documentos que se solicitan a los postulantes""",
     "author": "Droguería Nena, C.A.",
-    "category": "Uncategorized",
+    "category": "Dronena",
     "version": "18.0.0.0.3",
     "application": True,
-    "depends": ["base","contacts","tipo_producto"],
-    "depends": ["base","contacts","tipo_productos","hr"],
+    "depends": [
+        "base",
+        "contacts",
+        "tipo_producto",
+        "hr"],
     "data": [
         "security/ir.model.access.csv",
         "data/postulation.type.csv",
