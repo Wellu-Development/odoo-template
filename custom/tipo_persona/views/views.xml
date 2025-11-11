@@ -1,0 +1,34 @@
+<odoo>
+    <record id="view_tipo_persona_form" model="ir.ui.view">
+        <field name="name">tipo.persona.form</field>
+        <field name="model">tipo.persona</field>
+        <field name="arch" type="xml">
+            <form string="Tipo de Persona">
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_tipo_persona_list" model="ir.ui.view">
+        <field name="name">tipo.persona.list</field>
+        <field name="model">tipo.persona</field>
+        <field name="arch" type="xml">
+            <list string="Tipos de Persona">
+                <field name="name"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="action_tipo_persona" model="ir.actions.act_window">
+        <field name="name">Tipos de Persona</field>
+        <field name="res_model">tipo.persona</field>
+        <field name="view_mode">list,form</field>
+    </record>
+
+    <menuitem id="menu_tipo_persona_root" name="Tipos de Persona" sequence="10"/>
+    <menuitem id="menu_tipo_persona" name="Gestión de Tipo de Persona" parent="menu_tipo_persona_root" action="action_tipo_persona"/>
+</odoo>
