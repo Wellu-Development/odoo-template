@@ -5,26 +5,11 @@
         <field name="model">nena.condition</field>
         <field name="type">list</field>
         <field name="arch" type="xml">
-            <list string="Condiciones">
+            <list string="Condiciones" editable="bottom">
                 <field name="description"/>
-                <field name="condition_category_id"/>
+                <field name="gen_category_id" domain="[('operational', '=', True)]"/>
+                <field name="ref" />
             </list>
-        </field>
-    </record>
-
-    <record id="view_nena_condition_form" model="ir.ui.view">
-        <field name="name">nena.condition.view.form</field>
-        <field name="model">nena.condition</field>
-        <field name="arch" type="xml">
-            <form>
-                <sheet>
-                    <group>
-                        <field name="description" />
-                        <field name="ref" />
-                        <field name="condition_category_id" />
-                    </group>
-                </sheet>
-            </form>
         </field>
     </record>
 

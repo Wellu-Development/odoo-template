@@ -1,5 +1,5 @@
+from . import nena_regent
 from . import nena_record
-from . import nena_availability
 from . import nena_group
 from . import nena_chain
 from . import nena_region
@@ -8,3 +8,6 @@ from . import nena_zone
 from . import nena_credit_conditions
 from . import nena_chain_credit_conditions
 from . import nena_client_credit_conditions
+from . import nena_attachment_line
+from . import document_approver_line
+from . import res_partner

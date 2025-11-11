@@ -23,12 +23,26 @@
               <field name="name" />
             </h1>
 
-            <field name="customer_type_id" />
+            <!-- <field name="customer_type_id" />
             <field name="supplier_type_id" />
-            <field name="product_type_id" />
+            <field name="product_type_id" /> -->
+            <field name="postulation_type_id" />
             <field name="regulatory_entity_id" />
             <field name="active" widget="boolean_toggle" />
           </group>
+          <notebook>
+              <page name="approvers" string="Aprobadores">
+                  <field name="approver_ids">
+                      <list editable="bottom">
+                          <field name="department_id" options="{'no_open': True, 'no_create': True}"/>
+                          <field name="employee_ids" domain="[('department_id', '=', department_id),('job_id.is_approver', '=', True),('user_id', '!=', False)]" widget="many2many_tags" options="{'no_open': True, 'no_create': True}"/>
+                          <field name="activity_type_id" string="Type activity" force_save="1" options="{'no_open': True, 'no_create': True}"/>
+                          <field name="required"/>
+                          <field name="sequence"/>
+                      </list>
+                  </field>
+              </page>
+          </notebook>
         </sheet>
       </form>
     </field>

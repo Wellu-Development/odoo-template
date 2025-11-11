@@ -5,9 +5,8 @@
         <field name="model">nena.record</field>
         <field name="arch" type="xml">
             <list>
-                <field name="code" />
                 <field name="name" />
-                <field name="status_id" />
+                <field name="status_record_id" />
             </list>
         </field>
     </record>
@@ -17,89 +16,203 @@
         <field name="model">nena.record</field>
         <field name="arch" type="xml">
             <form string="Clientes">
+                <header>
+                    <field name="status_record_id" widget="statusbar" domain="[('gen_category_id.code', '=', 'EXP')]" />
+                </header>
                 <sheet>
                     <group>
-                        <h1><field name="name" /></h1>
+                        <h1><field name="name" readonly="partner_code != False" /></h1>
                     </group>
                     <group colspan="2">
                         <group>
-                            <field name="code" />
-                            <field name="ref" />
-                            <label for="rif_prefix" string="RIF" />
+                            <field name="partner_code" readonly="1" />
+                            <field name="nena_ref" />
+                            <label for="rif_type_id" string="RIF" />
                             <div class="o_address_format">
-                                <field name="rif_prefix" class="o_address_zip" />
-                                <field name="rif_number" class="o_address_city" placeholder="Numero de RIF" />
+                                <field name="rif_type_id" class="o_address_zip" placeholder="Prefijo" readonly="partner_code != False"
+                                       options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}" />
+                                <field name="rif_number" class="o_address_city" placeholder="Numero" readonly="partner_code != False" />
                             </div>
+                            
                             <label for="status_id" />
                             <div class="o_address_format">
-                                <field name="status_id" class="o_address_zip" domain="[('postulation_type_id', '=', postulation_type_id)]" />
-                                <field name="cause_status_id" class="o_address_city" domain="[('nena_gen_status_id', '=', status_id), ('postulation_type_id', '=', postulation_type_id)]" />
+                                <field name="status_id" class="o_address_zip" readonly="partner_code == False"
+                                        options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}" />
+                                <field name="cause_status_id" class="o_address_city" readonly="partner_code == False"
+                                        domain="[('gen_status_id', '=', status_id)]"
+                                        options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}" />
                             </div>
                         </group>
                         <group>
-                            <field name="region_id" />
-                            <field name="district_id" domain="[('region_id', '=', region_id)]" />
-                            <field name="zone_id" domain="[('district_id', '=', district_id)]" />
+                            <field name="zone_id" 
+                                    options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}" />
+                            <field name="region_id" readonly="1" force_save="1" />
+                            <field name="district_id" readonly="1" force_save="1" />
+                            <field name="postulation_type_id" invisible="1" />
+                            <field name="status_record_id" domain="[('gen_category_id.code', '=', 'EXP')]" />
                         </group>
                     </group>
                     <notebook>
                         <page string="Datos Generales">
+                            <group>
+                                <field name="company_name" readonly="partner_code != False" />
+                                <field name="clasification_id" domain="[('gen_category_id', '=', 'CLI')]"
+                                        options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}" />
+                                <field name="headquarters" />
+                            </group>
                             <group colspan="2">
                                 <group>
-                                    <field name="address" />
-                                    <field name="state_id" />
-                                    <field name="municipality_id" domain="[('state_id', '=', state_id)]" />
-                                    <field name="city_id" domain="[('municipality_id', '=', municipality_id)]" />
-                                    <field name="clasification_id" />
+                                    <separator string="■ DATOS DE CONTACTO" colspan="2"/>
+                                    <field name="email_main" widget="email" placeholder="correo@dominio.com" readonly="partner_code != False" />
+                                    <field name="email_secondary" widget="email" placeholder="correo@dominio.com"/>
+                                    <field name="main_phone" widget="phone" placeholder="Ingrese número de teléfono (XXXXXXXXXXX)" readonly="partner_code != False" />
+                                    <field name="main_mobile_phone" widget="phone" placeholder="Ingrese número de teléfono móvil(XXXXXXXXXXX)" readonly="partner_code != False" />
                                 </group>
                                 <group>
-                                    <field name="address_fiscal" />
-                                    <field name="state_fiscal_id" />
-                                    <field name="municipality_fiscal_id" domain="[('state_id', '=', state_fiscal_id)]" />
-                                    <field name="city_fiscal_id" domain="[('municipality_id', '=', municipality_fiscal_id)]" />
+                                    <separator string="■ DATOS FISCALES" colspan="2"/>
+                                    <field name="address_fiscal" readonly="partner_code != False" />
+                                    <field name="state_fiscal_id" readonly="partner_code != False" 
+                                            options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}" />
+                                    <field name="municipality_fiscal_id" domain="[('state_id', '=', state_fiscal_id)]" readonly="partner_code != False" 
+                                            options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}" />
+                                    <field name="city_fiscal_id" domain="[('municipality_id', '=', municipality_fiscal_id)]" readonly="partner_code != False" 
+                                            options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}" />
+                                    <separator string="■ DATOS DE ENTREGA" colspan="2"/>
+                                    <field name="address" readonly="partner_code != False" />
+                                    <field name="state_id" readonly="partner_code != False" 
+                                            options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}" />
+                                    <field name="municipality_id" domain="[('state_id', '=', state_id)]" readonly="partner_code != False" 
+                                            options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}" />
+                                    <field name="city_id" domain="[('municipality_id', '=', municipality_id)]" readonly="partner_code != False" 
+                                            options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}" />
                                 </group>
                             </group>
                         </page>
                         <page string="Ventas">
                             <group colspan="2">
                                 <group>
-                                    <field name="customer_category_id" />
+                                    <field name="customer_category_id" 
+                                            options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}" />
+                                    <field name="additional_days"/>
+                                    <field name="sales_commercial_discount"/>
+                                    <field name="ufi_club" widget="boolean_toggle"/>
                                 </group>
                                 <group>
-                                    <field name="condition_ids" widget="many2many_checkboxes" domain="[('condition_category_id.category', '=', 'Ventas')]" />
+                                    <field name="condition_ids" widget="many2many_checkboxes" 
+                                            domain="[('gen_category_id.code', '=', 'VTA')]" />
                                 </group>
                             </group>
                         </page>
                         <page string="Cobranza">
                             <group colspan="2">
                                 <group>
-                                    <field name="payment_type_id" />
-                                    <field name="chain_id" />
-                                    <button name="action_open_credit_conditions" 
-                                            type="object" 
-                                            string="Condición Crediticia" 
-                                            class="oe_highlight" />
+                                    <field name="payment_type_id"
+                                            options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}" />
+                                    <field name="days_inactive" />  
+                                    <field name="chain_id" 
+                                            options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}" />                                               
+                                    <button name="action_open_credit_conditions" type="object" string="Condición Crediticia" class="oe_highlight" />
                                 </group>
                                 <group>
-                                    <field name="condition_ids" widget="many2many_checkboxes" domain="[('condition_category_id.category', '=', 'Cobranza')]" />
+                                    <field name="condition_ids" widget="many2many_checkboxes" 
+                                            domain="[('gen_category_id.code', '=', 'COB')]" />
                                 </group>
                             </group>
                         </page>
                         <page string="Regencia">
                             <group name="container_row_2">
                                 <group string="Regente" name="regent" priority="1">
+                                    <field name="regent_id"/>
+                                    <field name="regent_id_number"/>
+                                    <field name="regent_phone"/>
+                                    <field name="regent_address"/>
+                                    <field name="regent_matric_msds"/>
+                                    <field name="regent_colfar"/>
+                                    <field name="regent_oper_min_start_date"/>
+                                    <field name="regent_oper_min_end_date"/>
+                                    <field name="regent_inprefa_code"/>
+                                    <field name="regent_sicm_code"/>
+                                    <field name="regent_sicm_status"/>
+                                    <field name="regent_sada_code"/>
+                                    <field name="regent_sada_status"/>
                                 </group>
                                 <group string="Condiciones" name="condition" priority="2">
-                                    <field name="condition_ids" widget="many2many_checkboxes" domain="[('condition_category_id.category', '=', 'Regencia')]" />
+                                    <field name="condition_ids" widget="many2many_checkboxes" 
+                                            domain="[('gen_category_id.code', '=', 'REG')]" />
                                 </group>
                             </group>
                         </page>
                         <page string="Despacho">
                             <group>
-                                <field name="condition_ids" widget="many2many_checkboxes" domain="[('condition_category_id.category', '=', 'Despacho')]" />
+                                <field name="condition_ids" widget="many2many_checkboxes" 
+                                        domain="[('gen_category_id.code', '=', 'WMS')]" />
                             </group>
                         </page>
-                        <page string="Expediente Digital">
+                        <page string="Expediente Digital" name="digital_docs">
+                            <field name="documents_client_line_ids">
+                                <list delete="1" create="1" decoration-danger="state == 'expired'">
+                                    <field name="document_id"/>
+                                    <field name="state" widget="badge" decoration-success="state in ('verified', 'valid')" decoration-danger="state == 'rejected'" decoration-info="state == 'to_verified'"/>
+                                </list>
+                                <form delete="1" duplicate="0" edite="1" create="1">
+                                    <header>
+                                        <!-- <button name="action_create_attachment" type="object" string="Attachement" icon="fa-paperclip" invisible="state not in ('draft', 'waiting','to_verified', 'expired', 'rejected')" class="oe_stat_button" groups="base.group_user"/> -->
+                                        
+                                        <field name="state" widget="statusbar" statusbar_visible="draft,waiting,to_verified,verified"/>
+                                    </header>
+                                    <sheet>
+                                        <!-- <field name="is_active" invisible="1"/>
+                                        <div class="alert alert-danger" role="alert" invisible="is_active">
+                                            <strong>Warning:</strong> This document has expired.
+                                        </div> -->
+                                        <label for="document_id" string="Documento"/>
+                                        <h1>
+                                            <field name="document_id" readonly="0"/>
+                                        </h1>
+                                        <group>
+                                            <group>
+                                                <field name="regulatory_entity_id"/>
+                                            </group>
+                                            <group>
+                                                <label for="end_date" invisible="not is_validity"/>
+                                                <div class="o_row" invisible="not is_validity">
+                                                    <field name="start_date"/> - <field name="end_date"/>
+                                                </div>
+                                                <field name="is_validity" invisible="1"/>
+                                            </group>
+                                            <field name="is_multiple_file" invisible="1"/>
+                                            <!-- <div class="d-flex" invisible="is_multiple_file">
+                                                <field name="attachment_filename" invisible="1"/>
+                                                <label for="attachment_id" string="Attachment"/>
+                                                <field name="attachment_id" readonly="1" force_save="1" filename="attachment_filename"/>
+                                            </div> -->
+                                            <!-- <div class="d-flex" invisible="not is_multiple_file">
+                                                <label for="attachment_ids" string="Attachments"/>
+                                                <field name="attachment_ids" readonly="1" widget="many2many_binary"/>
+                                            </div> -->
+                                        </group>
+                                        <notebook>
+                                            <page name="approvers" string="Aprobadores">
+                                                <!-- <field name="approver_line_ids"/> -->
+                                                <field name="approver_line_ids" readonly="0" force_save="1">
+                                                    <list editable="bottom">
+                                                        <field name="department_id" options="{'no_open': True, 'no_create': True}"/>
+                                                        <field name="employee_ids" domain="[('department_id', '=', department_id),('job_id.is_approver', '=', True),('user_id', '!=', False)]" widget="many2many_tags" options="{'no_open': True, 'no_create': True}"/>
+                                                        <field name="activity_type_id" string="Type activity" force_save="1" options="{'no_open': True, 'no_create': True}"/>
+                                                        <field name="required"/>
+                                                        <field name="sequence"/>
+                                                    </list>
+                                                </field>
+                                            </page>
+                                        </notebook>
+                                    </sheet>
+                                    <footer>
+                                        <button name="action_verified" type="object" string="Verify" class="btn btn-primary" groups="base.group_user"/>
+                                        <button name="action_refuse" type="object" string="Refuse" class="btn btn-secondary" groups="base.group_user"/>
+                                        <button string="Cancel" class="btn-secondary" special="cancel"/>
+                                    </footer>
+                                </form>
+                            </field>
                         </page>
                     </notebook>
                 </sheet>
@@ -115,14 +228,9 @@
                 <sheet>
                     <group>
                         <h1><field name="name" nolabel="1" /></h1>
-                        <field name="code" />
-                        <field name="ref" />
-                        <label for="rif_prefix" string="RIF" />
-                            <div class="o_address_format">
-                                <field name="rif_prefix" class="o_address_zip" />
-                                <field name="rif_number" class="o_address_city" placeholder="Numero de RIF" />
-                            </div>
-                        <label for="rif_prefix" string="RIF" />
+                        <field name="partner_code" />
+                        <field name="nena_ref" />
+                        
                     </group>
                     <notebook>
                         <page string="Datos Generales">
@@ -130,6 +238,9 @@
                                 <field name="state_id" />
                                 <field name="municipality_id" domain="[('state_id', '=', state_id)]" />
                                 <field name="city_id" domain="[('municipality_id', '=', municipality_id)]" />
+                            </group>
+                            <group name="product_category">
+                                <field name="product_category_id" />
                             </group>
                         </page>
                     </notebook>
