@@ -16,7 +16,7 @@ class NenaRecord(models.Model):
         )
     ]
 
-# Campos
+    # Campos
     res_partner_id = fields.Many2one('res.partner', string='Contacto', copy=False)
     status_record_id = fields.Many2one('nena.gen.status', string="Estatus Expediente")
     postulation_type_id = fields.Many2one('postulation.type')
@@ -58,6 +58,15 @@ class NenaRecord(models.Model):
     main_phone = fields.Char(string="Teléfono Principal")
     main_mobile_phone = fields.Char(string="Teléfono Móvil")
 
+    # Datos Anexos (Condiciones)
+    condition_ids = fields.Many2many(
+        'nena.condition',
+        'nena_record_condition_rel',
+        'partner_id',
+        'condition_id',
+        string="Derechos"
+    )
+
     # Ventas
     customer_category_id = fields.Many2one('nena.customer.category', string="Categoria")
     additional_days = fields.Integer(string="Dias Miscelaneos")
@@ -68,33 +77,13 @@ class NenaRecord(models.Model):
     payment_type_id = fields.Many2one('nena.payment.type', string="Tipo Pago")
     days_inactive = fields.Integer(string="Días Inactivar", default=0)
     chain_id = fields.Many2one('nena.chain', string="Cadena")
-    client_credit_id = fields.Many2one('nena.client.credit.conditions', string='Condición Crediticia')
+    client_credit_id = fields.Many2one('nena.client.credit.conditions')
+    credit_limit = fields.Float(string="Límite de Crédito", related="client_credit_id.credit_limit", readonly=False)
+    balance = fields.Float(string="Saldo", related="client_credit_id.balance")
+    prepaid_amount = fields.Float(string="Monto Prepagado", related="client_credit_id.prepaid_amount")
 
-    # Expediente Digital
-    def _customer_type_domain(self):
-        return self.env.ref('nena_partner_config_record.postulation_type_2').id
-
-    documents_client_line_ids = fields.One2many('nena.attachment.line', 'nena_record_id', 
-        string="Documentos",
-        domain=[('postulation_type_id','=',2)]
-    )
-
-    # Datos Anexos (Condiciones)
-    condition_ids = fields.Many2many(
-        'nena.condition',
-        'nena_record_condition_rel',
-        'partner_id',
-        'condition_id',
-        string="Derechos"
-    )
-
-    #Regente Datos
-    regent_id = fields.Many2one(
-    'nena.regent',
-    string='Regent',
-    required=True,
-    ondelete='restrict'
-    )
+    # Regencia
+    regent_id = fields.Many2one('nena.regent',string='Regent',required=True,ondelete='restrict')
     regent_id_number = fields.Char(related='regent_id.id_number',readonly=False)
     regent_phone = fields.Char(related='regent_id.phone',readonly=False)
     regent_address = fields.Text(related='regent_id.address',readonly=False)
@@ -107,11 +96,21 @@ class NenaRecord(models.Model):
     regent_sicm_status = fields.Char(related='regent_id.sicm_status',readonly=False)
     regent_sada_code = fields.Char(related='regent_id.sada_code',readonly=False)
     regent_sada_status = fields.Char(related='regent_id.sada_status',readonly=False)
+    
     _sql_constraints = [
-    ('unique_regent_per_client', 'UNIQUE(regent_id)', 'Este regente ya está asignado a otro Expediente.')
+        ('unique_regent_per_client', 'UNIQUE(regent_id)', 'Este regente ya está asignado a otro Expediente.')
     ]
 
-# Valores por Defectos
+    # Expediente Digital
+    def _customer_type_domain(self):
+        return self.env.ref('nena_partner_config_record.postulation_type_2').id
+
+    documents_client_line_ids = fields.One2many('nena.attachment.line', 'nena_record_id', 
+        string="Documentos",
+        domain=[('postulation_type_id','=', 2)] #_customer_type_domain)]
+    )
+
+    # Valores por Defectos
     def default_get(self, fields_list):
         res = super(NenaRecord, self).default_get(fields_list)
         default_code = self.env.context.get('default_postulation_code')
@@ -144,7 +143,7 @@ class NenaRecord(models.Model):
         
         return res
 
- # Acciones
+    # Acciones
     def write(self, vals):
         partner_exists = {rec.id: bool(rec.partner_code) for rec in self}
         old_status = {rec.id: rec.status_record_id.description for rec in self}
@@ -162,6 +161,7 @@ class NenaRecord(models.Model):
                         'ref': record.nena_ref,
                         'vat': record.rif,
                         'street': record.address_fiscal,
+                        'city': record.city_fiscal_id.name,
                         'email': record.email_main,
                         'phone': record.main_phone,
                         'mobile': record.main_mobile_phone,
@@ -178,7 +178,7 @@ class NenaRecord(models.Model):
                         'type': 'delivery',
                         'name': f"Entrega {record.name}",
                         'street': record.address, 
-                        #'city': record.city,
+                        'city': record.city_id.name,
                     }
                 
                     delivery_partner = self.env['res.partner'].create(delivery_vals)
@@ -191,30 +191,7 @@ class NenaRecord(models.Model):
                     _logger.exception(f'FALLO EN LA CREACIÓN DEL PARTNER: {e}')
         return res
 
-    def action_open_credit_conditions(self):
-        self.ensure_one()
-
-        credit_record = self.client_credit_id
-        if not credit_record:
-            credit_record = self.env['nena.client.credit.conditions'].create({
-                'code': self.nena_ref or 'CC-001',
-                'name': self.name or 'Nueva Condición' 
-            })
-            self.client_credit_id = credit_record
-            
-        return {
-            'name': "Condiciones Crediticias", 
-            'type': 'ir.actions.act_window',
-            'res_model': 'nena.client.credit.conditions', 
-            'view_mode': 'form',
-            'res_id': credit_record.id, 
-            'target': 'new', 
-            'context': {
-                'default_record_id': self.id
-            }
-        }
-
-# Funciones
+    # Funciones
     @api.onchange('name')
     def _onchange_name_uppercase(self):
         if self.name:

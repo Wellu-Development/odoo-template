@@ -62,14 +62,14 @@
                             </group>
                             <group colspan="2">
                                 <group>
-                                    <separator string="■ DATOS DE CONTACTO" colspan="2"/>
+                                    <separator string="DATOS DE CONTACTO" colspan="2"/>
                                     <field name="email_main" widget="email" placeholder="correo@dominio.com" readonly="partner_code != False" />
                                     <field name="email_secondary" widget="email" placeholder="correo@dominio.com"/>
                                     <field name="main_phone" widget="phone" placeholder="Ingrese número de teléfono (XXXXXXXXXXX)" readonly="partner_code != False" />
                                     <field name="main_mobile_phone" widget="phone" placeholder="Ingrese número de teléfono móvil(XXXXXXXXXXX)" readonly="partner_code != False" />
                                 </group>
                                 <group>
-                                    <separator string="■ DATOS FISCALES" colspan="2"/>
+                                    <separator string="DATOS FISCALES" colspan="2"/>
                                     <field name="address_fiscal" readonly="partner_code != False" />
                                     <field name="state_fiscal_id" readonly="partner_code != False" 
                                             options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}" />
@@ -77,7 +77,7 @@
                                             options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}" />
                                     <field name="city_fiscal_id" domain="[('municipality_id', '=', municipality_fiscal_id)]" readonly="partner_code != False" 
                                             options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}" />
-                                    <separator string="■ DATOS DE ENTREGA" colspan="2"/>
+                                    <separator string="DATOS DE ENTREGA" colspan="2"/>
                                     <field name="address" readonly="partner_code != False" />
                                     <field name="state_id" readonly="partner_code != False" 
                                             options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}" />
@@ -111,7 +111,8 @@
                                     <field name="days_inactive" />  
                                     <field name="chain_id" 
                                             options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}" />                                               
-                                    <button name="action_open_credit_conditions" type="object" string="Condición Crediticia" class="oe_highlight" />
+                                    <field name="credit_limit" />  
+                                    <field name="balance" />  
                                 </group>
                                 <group>
                                     <field name="condition_ids" widget="many2many_checkboxes" 

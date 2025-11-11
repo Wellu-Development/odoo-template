@@ -8,9 +8,9 @@
             <list string="Categorias" editable="bottom">
                 <field name="code"/>
                 <field name="category"/>
-                <field name="active"/>
-                <field name="entity"/>
-                <field name="operational"/>
+                <field name="active" widget="boolean_toggle"/>
+                <field name="entity" widget="boolean_toggle"/>
+                <field name="operational" widget="boolean_toggle"/>
             </list>
         </field>
     </record>

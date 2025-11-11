@@ -1,0 +1,12 @@
+{
+    "name": "Nena Product",
+    "summary": "Módulo custom que contiene la configuración de Producto",
+    "author": "Droguería Nena, C.A.",
+    "category": "Dronena",
+    "version": "18.0.0.0.1",
+    "application": False,
+    "depends": ["base","stock"],
+    "data": [
+        "security/ir.model.access.csv",
+    ],
+}

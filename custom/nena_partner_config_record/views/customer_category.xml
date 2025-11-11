@@ -8,10 +8,10 @@
                     <group>
                         <field name="code"/>
                         <field name="name"/>
-                        <field name="nomedicine"/>
+                        <field name="nomedicine" widget="boolean_toggle"/>
                         <field name="product_type_id" />
-                        <field name="websiteavaible" />
-                        <field name="active" />
+                        <field name="websiteavaible" widget="boolean_toggle"/>
+                        <field name="active" widget="boolean_toggle"/>
                     </group>
                 </sheet>
             </form>
@@ -25,10 +25,10 @@
             <list string="Categorías de Cliente">
                 <field name="code"/>
                 <field name="name"/>
-                <field name="nomedicine"/>
+                <field name="nomedicine" widget="boolean_toggle"/>
                 <field name="product_type_id" />
-                <field name="websiteavaible" />
-                <field name="active" />
+                <field name="websiteavaible" widget="boolean_toggle"/>
+                <field name="active" widget="boolean_toggle"/>
             </list>
         </field>
     </record>

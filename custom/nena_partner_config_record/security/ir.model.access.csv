@@ -1,6 +1,5 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
 access_postulation_type,access_postulation_type,model_postulation_type,base.group_user,1,1,1,0
-access_customer_type,access_customer_type,model_customer_type,base.group_user,1,1,1,0
 access_document_type,access_document_type,model_document_type,base.group_user,1,1,1,0
 access_partner_config_record,access_partner_config_record,model_partner_config_record,base.group_user,1,1,1,1
 access_product_type,access_product_type,model_product_type,base.group_user,1,1,1,0
