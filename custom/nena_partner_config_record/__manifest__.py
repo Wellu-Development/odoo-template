@@ -8,7 +8,7 @@
     "category": "Uncategorized",
     "version": "18.0.0.0.2",
     "application": True,
-    "depends": ["base","contacts","tipo_productos"],
+    "depends": ["base","contacts","tipo_producto"],
     "data": [
         "security/ir.model.access.csv",
         "data/postulation.type.csv",
