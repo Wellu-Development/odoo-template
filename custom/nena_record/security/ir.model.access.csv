@@ -10,3 +10,4 @@ access_nena_chain_credit_conditions,nena_chain_credit_conditions,model_nena_chai
 access_nena_client_credit_conditions,nena_client_credit_conditions,model_nena_client_credit_conditions,,1,1,1,1
 access_nena_attachment_line,access_nena_attachment_line,model_nena_attachment_line,,1,1,1,1
 access_document_approver_line,access_document_approver_line,model_document_approver_line,,1,1,1,1
+access_nena_regent,access_nena_regent,model_nena_regent,,1,1,1,1

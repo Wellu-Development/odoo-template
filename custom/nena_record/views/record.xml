@@ -122,6 +122,19 @@
                         <page string="Regencia">
                             <group name="container_row_2">
                                 <group string="Regente" name="regent" priority="1">
+                                    <field name="regent_id"/>
+                                    <field name="regent_id_number"/>
+                                    <field name="regent_phone"/>
+                                    <field name="regent_address"/>
+                                    <field name="regent_matric_msds"/>
+                                    <field name="regent_colfar"/>
+                                    <field name="regent_oper_min_start_date"/>
+                                    <field name="regent_oper_min_end_date"/>
+                                    <field name="regent_inprefa_code"/>
+                                    <field name="regent_sicm_code"/>
+                                    <field name="regent_sicm_status"/>
+                                    <field name="regent_sada_code"/>
+                                    <field name="regent_sada_status"/>
                                 </group>
                                 <group string="Condiciones" name="condition" priority="2">
                                     <field name="condition_ids" widget="many2many_checkboxes" 
