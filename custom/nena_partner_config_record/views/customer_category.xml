@@ -8,8 +8,8 @@
                     <group>
                         <field name="code"/>
                         <field name="name"/>
+                        <field name="product_category_id" />
                         <field name="nomedicine" widget="boolean_toggle"/>
-                        <field name="product_type_id" />
                         <field name="websiteavaible" widget="boolean_toggle"/>
                         <field name="active" widget="boolean_toggle"/>
                     </group>
@@ -26,7 +26,6 @@
                 <field name="code"/>
                 <field name="name"/>
                 <field name="nomedicine" widget="boolean_toggle"/>
-                <field name="product_type_id" />
                 <field name="websiteavaible" widget="boolean_toggle"/>
                 <field name="active" widget="boolean_toggle"/>
             </list>
