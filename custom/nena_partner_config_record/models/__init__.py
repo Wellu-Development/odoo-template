@@ -1,5 +1,4 @@
 from . import postulation_type
-from . import customer_type
 from . import product_type
 from . import supplier_type
 from . import regulatory_entity

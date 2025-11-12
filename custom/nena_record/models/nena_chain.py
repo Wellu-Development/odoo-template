@@ -17,12 +17,20 @@ class NenaChain(models.Model):
     codchain = fields.Char(string='Código', required=True)
     commercialduct = fields.Float(string='Dcto. Comercial')
     promptpaymentdiscount = fields.Float(string='Dcto. Pronto Pago')
-    
     status_id = fields.Many2one('nena.gen.status', string="Estatus", required=True)
     cause_status_id = fields.Many2one('nena.cause.status', string="Causa", required=True)
     group_id = fields.Many2one('nena.group', string='Grupos de Cadenas')
-    chain_credit_id = fields.Many2one('nena.chain.credit.conditions', string='Condición Crediticia')
+    client_ids = fields.One2many('nena.record', 'chain_id', string="Clientes")
+    
+    # Condición Crediticia
+    chain_credit_id = fields.Many2one('nena.chain.credit.conditions')
+    credit_limit = fields.Float(string="Límite de Crédito", related="chain_credit_id.credit_limit", readonly=False)
+    balance = fields.Float(string="Saldo", related="chain_credit_id.balance")
+    transit_amount = fields.Float(string='Monto en Tránsito', related="chain_credit_id.transit_amount")
+    prepaid_amount = fields.Float(string="Monto Prepagado", related="chain_credit_id.prepaid_amount")
+    availability_amount = fields.Float(string='Disponibilidad', related="chain_credit_id.availability_amount")
 
+    # Parametros de Cadena (Condiciones)
     condition_ids = fields.Many2many(
         'nena.condition',
         'nena_chain_condition_rel',
@@ -30,26 +38,3 @@ class NenaChain(models.Model):
         'condition_id',
         string="Derechos"
     )
-
-    def action_open_credit_conditions(self):
-        self.ensure_one()
-
-        credit_chain = self.chain_credit_id
-        if not credit_chain:
-            credit_chain = self.env['nena.chain.credit.conditions'].create({
-                'code': self.codchain or 'CC-001',
-                'name': self.name or 'Nueva Condición' 
-            })
-            self.chain_credit_id = credit_chain
-            
-        return {
-            'name': "Condiciones Crediticias", 
-            'type': 'ir.actions.act_window',
-            'res_model': 'nena.chain.credit.conditions', 
-            'view_mode': 'form',
-            'res_id': credit_chain.id, 
-            'target': 'new', 
-            'context': {
-                'default_chain_id': self.id
-            }
-        }

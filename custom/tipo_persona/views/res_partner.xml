@@ -1,0 +1,17 @@
+<odoo>
+    <record id="view_partner_form_inherit" model="ir.ui.view">
+        <field name="name">view.partner.form.inherit</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//notebook/page/field[@name='child_ids']/form/sheet/group/group/field[@name='name']" position="before">
+                <field name="person_type_id"/>
+                <field name="nena_document_type_id"/>
+                <field name="value"/>
+            </xpath>
+            <xpath expr="//notebook/page/field[@name='child_ids']/form/sheet/group/group/field[@name='title']" position="attributes">
+                <attribute name="invisible">1</attribute>
+            </xpath>
+        </field>
+    </record>
+</odoo>

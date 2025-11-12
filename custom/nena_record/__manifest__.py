@@ -2,8 +2,8 @@
     "name": "Nena Record",
     "summary": "Módulo custom que contiene la información del Expediente",
     "author": "Dronena",
-    "category": "Record",
-    "version": "18.0.0.0.2",
+    "category": "Dronena",
+    "version": "18.0.0.0.1",
     "application": True,
     "depends": [
         "base",

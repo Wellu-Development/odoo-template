@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "configuracion_cliente",
+    'name': "tipo_persona",
 
     'summary': "Short (1 phrase/line) summary of the module's purpose",
 
@@ -18,17 +18,17 @@ Long description of module's purpose
     'version': '0.1',
 
     # any module necessary for this one to work correctly
-    'depends': ['base'],
+    'depends': ['base', 'nena_partner_config_record'],
 
     # always loaded
     'data': [
-        # 'security/ir.model.access.csv',
+        'security/res_groups.xml',
+        'security/ir.model.access.csv',
         'views/views.xml',
-        'views/templates.xml',
+        'views/res_partner.xml',
+
     ],
-    # only loaded in demonstration mode
-    'demo': [
-        'demo/demo.xml',
-    ],
+    'installable': True,
+    'application': True,
 }
 

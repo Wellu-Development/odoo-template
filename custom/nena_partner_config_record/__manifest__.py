@@ -2,13 +2,16 @@
     "name": "Nena Partner Config Record",
     "summary": "Módulo custom que contiene las configuraciones necesarias para gestionar postulaciones",
     "description": """
-    * Configuración base para gestion de permisos y documentos que se solicitan a los postulantes
-    """,
+    * Configuración base para gestion de permisos y documentos que se solicitan a los postulantes""",
     "author": "Droguería Nena, C.A.",
-    "category": "Uncategorized",
+    "category": "Dronena",
     "version": "18.0.0.0.3",
     "application": True,
-    "depends": ["base","contacts","tipo_productos","hr"],
+    "depends": [
+        "base",
+        "contacts",
+        "tipo_producto",
+        "hr"],
     "data": [
         "security/ir.model.access.csv",
         "data/postulation.type.csv",
@@ -22,7 +25,6 @@
         "data/nena.payment.type.csv",
         "data/nena.document.type.csv",
         "views/postulation_type.xml",
-        "views/customer_type.xml",
         "views/supplier_type.xml",
         "views/product_type.xml",
         "views/document_type.xml",
