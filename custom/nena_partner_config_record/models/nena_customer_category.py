@@ -11,4 +11,4 @@ class NenaCustomerCategory(models.Model):
     websiteavaible = fields.Boolean(string='Web Site')
     active = fields.Boolean(string='Activo')
 
-    product_type_id = fields.Many2one('tipo.producto', string='Tipo Producto')
+    product_category_id = fields.Many2one('product.category', string='Categorías de Producto')

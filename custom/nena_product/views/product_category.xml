@@ -7,14 +7,14 @@
             <field name="inherit_id" ref="stock.product_category_form_view_inherit"/>
             <field name="arch" type="xml">
                 <xpath expr="//group[@name='logistics']" position="after">
-                    <label for="reference"/>
-                    <field name="reference"/>
-                    <label for="color"/>
-                    <field name="color"/>
-                    <label for="controlled"/>
-                    <field name="controlled"/>
+                    <group name="attributes" string="Atributos">
+                        <field name="ref"/>
+                        <field name="color"/>
+                        <field name="controlled" widget="boolean_toggle"/>
+                    </group>
                 </xpath>
             </field>
         </record>
     </data>
 </odoo>
+ 

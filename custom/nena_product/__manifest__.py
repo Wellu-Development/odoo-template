@@ -7,6 +7,8 @@
     "application": False,
     "depends": ["base","stock"],
     "data": [
-        "security/ir.model.access.csv",
+        #"security/ir.model.access.csv",
+        "data/product.category.csv",
+        "views/product_category.xml",
     ],
 }

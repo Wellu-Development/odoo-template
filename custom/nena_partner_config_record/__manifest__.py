@@ -10,7 +10,7 @@
     "depends": [
         "base",
         "contacts",
-        "tipo_producto",
+        "stock",
         "hr"],
     "data": [
         "security/ir.model.access.csv",
