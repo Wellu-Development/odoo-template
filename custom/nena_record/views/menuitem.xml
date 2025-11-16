@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <menuitem id="root_menu" name="Expedientes" sequence="10" web_icon="nena_record,static/description/icon.png">
+        <menuitem id="nena_postulation_monitor_menu" name="Monitor" action="nena_postulation_monitor_action" sequence="5" />
+        
         <menuitem id="nena_record_cli_menu" name="Clientes" sequence="10">
             <menuitem id="nena_record_menu_cli" name="Expedientes" action="nena_record_action_cli" sequence="5" />
             
@@ -15,13 +17,15 @@
             </menuitem>
         </menuitem> 
 
-        <menuitem id="nena_record_menu_prv" name="Proveedor" action="nena_record_action_prv" sequence="12"/>
+        <menuitem id="nena_record_prv_menu" name="Proveedor" sequence="10">
+            <menuitem id="nena_record_menu_prv" name="Expedientes" action="nena_record_action_prv" sequence="5" />
+        </menuitem> 
 
         <menuitem id="nena_record_config_menu" name="Configuración" sequence="20">
             <menuitem id="commercial_structure_root_menu" name="Estructura Comercial" sequence="30">       
-                <menuitem id="commercial_structure_region_menu" name="Regiones" action="region_action" sequence="10"/>
-                <menuitem id="commercial_structure_district_menu" name="Distritos" action="district_action" sequence="20"/>
-                <menuitem id="commercial_structure_zone_menu" name="Zonas" action="zone_action" sequence="30"/>
+                <menuitem id="commercial_structure_region_menu" name="Regiones" action="nena_commercial_structure.region_action" sequence="10"/>
+                <menuitem id="commercial_structure_district_menu" name="Distritos" action="nena_commercial_structure.district_action" sequence="20"/>
+                <menuitem id="commercial_structure_zone_menu" name="Zonas" action="nena_commercial_structure.zone_action" sequence="30"/>
             </menuitem>
 
             <menuitem id="nena_localization_root_menu" name="Localización" sequence="20"> 
@@ -31,6 +35,7 @@
             </menuitem>
 
             <menuitem id="nena_fiscal_root_menu" name="Fiscal" sequence="10"> 
+                <menuitem id="document_type_menu" name="Tipos de RIF/Cédula" action="nena_partner_config_record.nena_document_type" sequence="10"/>
                 <menuitem id="localization_tax_unit_menu" name="Unidades Tributarias" action="l10n_ve_ut.action_tax_unit" sequence="30"/>
             </menuitem>
         </menuitem>

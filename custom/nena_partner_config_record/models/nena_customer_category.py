@@ -6,9 +6,9 @@ class NenaCustomerCategory(models.Model):
     _rec_name = "name"
 
     code = fields.Char(string='Codigo', required=True)
-    name = fields.Text(string='Nombre')
-    nomedicine = fields.Boolean(string='NoMedicina')
+    name = fields.Char(string='Descripcion')
+    nomedicine = fields.Boolean(string='No Medicina')
     websiteavaible = fields.Boolean(string='Web Site')
     active = fields.Boolean(string='Activo')
 
-    product_category_id = fields.Many2one('product.category', string='Categorías de Producto')
+    product_category_id = fields.Many2many('product.category', string='Categorías de Producto')

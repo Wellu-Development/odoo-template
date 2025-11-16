@@ -6,36 +6,44 @@
             <form string="Cadena">
                 <sheet>
                     <group>
-                        <h1><field name="name" /></h1>
+                        <h1><field name="name" readonly="name == '(Ninguna)'" /></h1>
                     </group>
                     <group>
-                        <field name="codchain"/>
-                    </group>
-                    <group colspan="2">
-                        <group>
-                            <field name="status_id" domain="[('gen_category_id.code', '=', 'CAD')]" 
-                                    options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}" />
-                            <field name="cause_status_id" domain="[('gen_category_id.code', '=', 'CAD')]" />
-                        </group>
-                        <group>
-                            <field name="commercialduct"/>
-                            <field name="promptpaymentdiscount"/>
-                        </group>
+                        <field name="codchain" readonly="name == '(Ninguna)'" style="width: 80px;"/>
+                        <div class="o_td_label">
+                            <label for="commercialduct" />
+                        </div>
+                        <div class="d-flex">
+                            <field name="commercialduct" style="width: 90px;" />
+                            <span class="o_form_label mx-3 oe_edit_only text-right" style="width: 25ch; font-weight:bold;" >Dcto. Pronto Pago</span>
+                            <field name="promptpaymentdiscount" tyle="width: 90px;" />
+                        </div>
                     </group>
                     <notebook>
                         <page string="Datos Generales">
                             <group colspan="2">
                                 <group>
-                                    <field name="credit_limit" />  
-                                    <field name="balance" /> 
-                                    <field name="transit_amount" /> 
-                                    <field name="prepaid_amount" /> 
-                                    <field name="availability_amount" /> 
+                                    <div class="o_td_label">
+                                        <label for="status_id" />
+                                    </div>
+                                    <div class="d-flex">
+                                        <field name="status_id" style="width: 150px;" domain="[('gen_management_id.code', '=', 'CAD')]"
+                                                options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}" />
+                                        <span class="o_form_label mx-3 oe_edit_only text-center" style="width: 10ch; font-weight:bold;" >Causa</span>
+                                        <field name="cause_status_id" readonly="1" domain="[('gen_status_id', '=', status_id)]"
+                                                options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}" />
+                                    </div>
+                                    <separator string="CONDICION CREDITICIA" />
+                                    <field name="chain_credit_limit" />  
+                                    <field name="chain_credit_balance" /> 
+                                    <field name="chain_credit_transit" /> 
+                                    <field name="chain_credit_prepaid" /> 
+                                    <field name="chain_credit_availability" /> 
                                 </group>
                                 <group>
                                     <field name="condition_ids" 
                                             widget="many2many_checkboxes" 
-                                            domain="[('gen_category_id.code', '=', 'CAD')]" />
+                                            domain="[('gen_management_id.code', '=', 'CAD')]" />
                                 </group>
                             </group>
                         </page>
@@ -45,8 +53,8 @@
                                     <field name="partner_code" />
                                     <field name="name" />
                                     <field name="status_id" />
-                                    <field name="prepaid_amount" /> 
-                                    <field name="credit_limit" /> 
+                                    <field name="client_credit_limit" /> 
+                                    <field name="client_credit_prepaid" /> 
                                 </list>
                             </field>
                         </page>
@@ -64,8 +72,7 @@
                 <field name="name"/>
                 <field name="codchain"/>
                 <field name="status_id"/>
-                <field name="commercialduct"/>
-                <field name="promptpaymentdiscount"/>
+                <field name="cause_status_id"/>
             </list>
         </field>
     </record>

@@ -7,9 +7,22 @@
             <form string="Estatus">
                 <sheet>
                     <group>
+                        <field name="code"/>
                         <field name="description"/>
-                        <field name="gen_category_id" domain="[('entity', '=', True)]" />
+                        <field name="gen_management_id" 
+                                options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}"/>
+                        <field name="cause_active" widget="boolean_toggle"/>
                     </group>
+                    <notebook>
+                        <page string="Causas del Estatus" invisible="cause_active != True">
+                            <field name="cause_status_ids" mode="list"> 
+                                <list string="Causas del Estatus" editable="bottom" delete="false"> 
+                                    <field name="code"/>
+                                    <field name="description"/>
+                                </list>
+                            </field>
+                        </page>
+                    </notebook>
                 </sheet>
             </form>
         </field>
@@ -20,8 +33,10 @@
             <field name="model">nena.gen.status</field>
             <field name="arch" type="xml">
                 <list string="">
+                    <field name="code"/>
                     <field name="description"/>
-                    <field name="gen_category_id" />
+                    <field name="gen_management_id" />
+                    <field name="cause_active" widget="boolean_toggle"/>
                 </list>
             </field>
         </record>

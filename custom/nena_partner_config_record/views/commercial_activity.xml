@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_nena_commercial_activity_list" model="ir.ui.view">
+        <field name="name">nena.commercial.activity.view.tree</field>
+        <field name="model">nena.commercial.activity</field>
+        <field name="type">list</field>
+        <field name="arch" type="xml">
+            <list string="Actividad Comercial" editable="bottom">
+                <field name="code"/>
+                <field name="name"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="nena_commercial_activity_action" model="ir.actions.act_window">
+        <field name="name">Actividad Comercial</field>
+        <field name="res_model">nena.commercial.activity</field>
+        <field name="view_mode">list</field>
+    </record>
+</odoo>

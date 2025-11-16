@@ -2,22 +2,29 @@ from odoo import models, fields, api
 from odoo.exceptions import ValidationError
 import re
 
-class NenaGenStatus (models.Model):
+class NenaStatusManagement(models.Model):
     _name = "nena.gen.status"
-    _description = "General Status"
+    _description = "Status Management"
     _rec_name = "description"
     
     _sql_constraints = [
         (
+            "code_unique",
+            "UNIQUE(code)",
+            "El Codigo debe ser único.",
+        ),
+        (
             "description_postulation_type_unique",
-            "UNIQUE(description, gen_category_id)",
+            "UNIQUE(description, gen_management_id)",
             "El Estatus debe ser único por Categoría.",
         )
     ]
 
-    description = fields.Text(required=True)
-    # postulation_type_id = fields.Many2one('postulation.type')
-    gen_category_id = fields.Many2one('nena.gen.category', string="Tipo", required=True)
+    code = fields.Char(string='Código', readonly=True)
+    description = fields.Char(required=True, string="Descripcion")
+    gen_management_id = fields.Many2one('nena.gen.management', string="Tipo de Gestión", required=True)
+    cause_active = fields.Boolean(required=True, string="Administrar por Causas")
+    cause_status_ids = fields.One2many('nena.cause.status', 'gen_status_id', string="Causas")
 
     @api.constrains('description')
     def _check_description_constraints(self):

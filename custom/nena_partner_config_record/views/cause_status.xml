@@ -8,8 +8,7 @@
                 <sheet>
                     <group>
                         <field name="description"/>
-                        <field name="gen_category_id" domain="[('entity', '=', True)]" />
-                        <field name="gen_status_id" domain="[('gen_category_id', '=', gen_category_id)]" />
+                        <field name="gen_status_id" />
                     </group>
                 </sheet>
             </form>
@@ -23,7 +22,6 @@
             <field name="arch" type="xml">
                 <list string="">
                     <field name="description"/>
-                    <field name="gen_category_id" />
                     <field name="gen_status_id" />
                 </list>
             </field>

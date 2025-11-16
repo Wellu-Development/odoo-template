@@ -1,12 +1,10 @@
-from odoo import models, fields, api
+from odoo import models, fields
 
 class ResPartner(models.Model):
-    _inherit = "res.partner"
-
+    _inherit = 'res.partner'
+    
     record_id = fields.Many2one('nena.record', compute='compute_stage', string='Expedientes') 
     res_partner_ids = fields.One2many('nena.record', 'res_partner_id') 
-
-    @api.depends('res_partner_ids') 
-    def compute_stage(self): 
-        if len(self.res_partner_ids) > 0: 
-            self.record_id = self.res_partner_ids[0] 
+    person_type_id = fields.Many2one('person.type', string='Tipo de Contacto')
+    rif_type_id = fields.Many2one('nena.document.type', string='RIF')
+    rif_number = fields.Char(string="Número RIF", size=9, required=True)
