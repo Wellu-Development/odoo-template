@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <!-- Menú raíz de la aplicación -->
+    <menuitem id="menu_localization_root" name="Localization" sequence="10"/>
+
+    <!-- Submenú para Venezuela -->
+    <menuitem id="menu_localization_ve" name="Localización Venezuela" parent="menu_localization_root" sequence="10"/>
+
+    <!-- Submenú Territorial -->
+    <menuitem id="menu_localization_ve_territorial" name="Territorial" parent="menu_localization_ve" sequence="10"/>
+
+    <!-- Menú Estados -->
+    <menuitem id="menu_localization_ve_state" name="Estados" parent="menu_localization_ve_territorial"
+              action="action_nena_res_state_ve" sequence="10"/>
+
+    <!-- Menú Municipios -->
+    <menuitem id="menu_localization_ve_municipality" name="Municipios" parent="menu_localization_ve_territorial"
+              action="action_nena_res_state_municipality_ve" sequence="20"/>
+
+    <!-- Menú Ciudades -->
+    <menuitem id="menu_localization_ve_city" name="Ciudad" parent="menu_localization_ve_territorial"
+              action="action_nena_res_state_municipality_city_ve" sequence="30"/>
+</odoo>

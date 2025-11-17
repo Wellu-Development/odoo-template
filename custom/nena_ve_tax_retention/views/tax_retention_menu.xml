@@ -1,0 +1,11 @@
+<odoo>
+    <menuitem id="menu_localization_root" name="Localization" sequence="10"/>
+    <menuitem id="menu_localization_ve" name="Localización Venezuela" parent="menu_localization_root" sequence="10"/>
+    <menuitem id="menu_localization_ve_fiscal" name="Fiscal" parent="menu_localization_ve" sequence="20"/>
+
+    <menuitem id="menu_localization_ve_tax_unit" name="Unidad Tributaria" parent="menu_localization_ve_fiscal"
+              action="action_tax_unit" sequence="10"/>
+
+    <menuitem id="menu_localization_ve_ret_iva" name="Retenciones IVA" parent="menu_localization_ve_fiscal"
+              action="action_tax_retention" sequence="20"/>
+</odoo>

@@ -1,0 +1,18 @@
+<odoo>
+    <data>
+
+        <!-- Vista lista: agregar municipio y código -->
+        <record id="view_city_list_inherit_municipality" model="ir.ui.view">
+            <field name="name">res.city.list.inherit.municipality</field>
+            <field name="model">res.city</field>
+            <field name="inherit_id" ref="base_address_extended.view_city_tree"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='name']" position="after">
+                    <field name="municipality_id"/>
+                    <field name="code"/>
+                </xpath>
+            </field>
+        </record>
+
+    </data>
+</odoo>

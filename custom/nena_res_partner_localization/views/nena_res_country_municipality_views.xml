@@ -1,0 +1,61 @@
+<odoo>
+    <data>
+
+        <!-- Vista tipo lista -->
+        <record id="view_municipality_list" model="ir.ui.view">
+            <field name="name">nena.res.country.municipality.list</field>
+            <field name="model">nena.res.country.municipality</field>
+            <field name="arch" type="xml">
+                <list string="Municipalities">
+                    <field name="name"/>
+                    <field name="code"/>
+                    <field name="state_id"/>
+                    <field name="country_id"/>
+                </list>
+            </field>
+        </record>
+
+        <!-- Vista tipo formulario -->
+        <record id="view_municipality_form" model="ir.ui.view">
+            <field name="name">nena.res.country.municipality.form</field>
+            <field name="model">nena.res.country.municipality</field>
+            <field name="arch" type="xml">
+                <form string="Municipality">
+                    <sheet>
+                        <group>
+                            <field name="name"/>
+                            <field name="code"/>
+                            <field name="state_id"/>
+                            <field name="country_id"/>
+                        </group>
+                        <group>
+                            <field name="city_ids">
+                                <list editable="top">
+                                    <field name="name"/>
+                                    <field name="zipcode"/>
+                                </list>
+                            </field>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- Vista de búsqueda -->
+        <record id="view_municipality_search" model="ir.ui.view">
+            <field name="name">nena.res.country.municipality.search</field>
+            <field name="model">nena.res.country.municipality</field>
+            <field name="arch" type="xml">
+                <search string="Municipalities">
+                    <field name="name"/>
+                    <field name="state_id"/>
+                    <field name="country_id" options="{'no_create': True, 'no_open': True}"/>
+                    <group>
+                        <filter name="groupby_state" string="State" context="{'group_by': 'state_id'}"/>
+                    </group>
+                </search>
+            </field>
+        </record>
+
+    </data>
+</odoo>

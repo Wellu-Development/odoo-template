@@ -1,0 +1,1016 @@
+id,name,code,municipality_id:id,state_id:id,zipcode,country_id:id
+nena_city_ve_1,Acanaña,365,nena_municipality_ve_1,nena_state_ve_1,7104,base.ve
+nena_city_ve_2,La Esmeralda,83,nena_municipality_ve_1,nena_state_ve_1,7104,base.ve
+nena_city_ve_3,Mavaca,367,nena_municipality_ve_1,nena_state_ve_1,7104,base.ve
+nena_city_ve_4,Parimabe,368,nena_municipality_ve_1,nena_state_ve_1,7104,base.ve
+nena_city_ve_5,Toki-Shamanaña,366,nena_municipality_ve_1,nena_state_ve_1,7104,base.ve
+nena_city_ve_6,Guarinuma,371,nena_municipality_ve_2,nena_state_ve_1,7103,base.ve
+nena_city_ve_7,Lasa Lija,369,nena_municipality_ve_2,nena_state_ve_1,7103,base.ve
+nena_city_ve_8,Macuruco,370,nena_municipality_ve_2,nena_state_ve_1,7103,base.ve
+nena_city_ve_9,San Fernando de Atabapo,84,nena_municipality_ve_2,nena_state_ve_1,7103,base.ve
+nena_city_ve_10,Limón de Parhueña,372,nena_municipality_ve_3,nena_state_ve_1,7101,base.ve
+nena_city_ve_11,Platanillal,373,nena_municipality_ve_3,nena_state_ve_1,7101,base.ve
+nena_city_ve_12,Puerto Ayacucho,63,nena_municipality_ve_3,nena_state_ve_1,7101,base.ve
+nena_city_ve_13,Isla Ratón,85,nena_municipality_ve_4,nena_state_ve_1,7101,base.ve
+nena_city_ve_14,Munduapo,375,nena_municipality_ve_4,nena_state_ve_1,7101,base.ve
+nena_city_ve_15,Samariapo,374,nena_municipality_ve_4,nena_state_ve_1,7101,base.ve
+nena_city_ve_16,San Pedro del Orinoco,376,nena_municipality_ve_4,nena_state_ve_1,7101,base.ve
+nena_city_ve_17,Cacuri,379,nena_municipality_ve_5,nena_state_ve_1,7102,base.ve
+nena_city_ve_18,Camani,380,nena_municipality_ve_5,nena_state_ve_1,7102,base.ve
+nena_city_ve_19,Marueta,381,nena_municipality_ve_5,nena_state_ve_1,7102,base.ve
+nena_city_ve_20,San Juan de Manapiare,86,nena_municipality_ve_5,nena_state_ve_1,7102,base.ve
+nena_city_ve_21,Comunidad,378,nena_municipality_ve_6,nena_state_ve_1,7105,base.ve
+nena_city_ve_22,Maroa,87,nena_municipality_ve_6,nena_state_ve_1,7105,base.ve
+nena_city_ve_23,Victorino,377,nena_municipality_ve_6,nena_state_ve_1,7105,base.ve
+nena_city_ve_24,Curimacare,383,nena_municipality_ve_7,nena_state_ve_1,7106,base.ve
+nena_city_ve_25,San Carlos de Rá­o Negro,88,nena_municipality_ve_7,nena_state_ve_1,7106,base.ve
+nena_city_ve_26,Santa Lucá­a,384,nena_municipality_ve_7,nena_state_ve_1,7106,base.ve
+nena_city_ve_27,Solano,382,nena_municipality_ve_7,nena_state_ve_1,7106,base.ve
+nena_city_ve_28,Anaco,4,nena_municipality_ve_8,nena_state_ve_2,6003,base.ve
+nena_city_ve_29,San Joaquá­n,385,nena_municipality_ve_8,nena_state_ve_2,6003,base.ve
+nena_city_ve_30,Aragua de Barcelona,96,nena_municipality_ve_9,nena_state_ve_2,6045,base.ve
+nena_city_ve_31,Cachipo,386,nena_municipality_ve_9,nena_state_ve_2,6045,base.ve
+nena_city_ve_32,Barcelona,5,nena_municipality_ve_10,nena_state_ve_2,6001,base.ve
+nena_city_ve_33,Bergatá­n,412,nena_municipality_ve_10,nena_state_ve_2,6001,base.ve
+nena_city_ve_34,Caigua,413,nena_municipality_ve_10,nena_state_ve_2,6001,base.ve
+nena_city_ve_35,El Pilar,414,nena_municipality_ve_10,nena_state_ve_2,6001,base.ve
+nena_city_ve_36,Naricual,415,nena_municipality_ve_10,nena_state_ve_2,6001,base.ve
+nena_city_ve_37,Clarines,89,nena_municipality_ve_11,nena_state_ve_2,6043,base.ve
+nena_city_ve_38,Guanape,404,nena_municipality_ve_11,nena_state_ve_2,6043,base.ve
+nena_city_ve_39,Sabana de Uchire,405,nena_municipality_ve_11,nena_state_ve_2,6040,base.ve
+nena_city_ve_40,Onoto,90,nena_municipality_ve_12,nena_state_ve_2,6044,base.ve
+nena_city_ve_41,San Pablo,397,nena_municipality_ve_12,nena_state_ve_2,6044,base.ve
+nena_city_ve_42,Santa Bá¡rbara,389,nena_municipality_ve_13,nena_state_ve_2,6041,base.ve
+nena_city_ve_43,Valle de Guanape,91,nena_municipality_ve_13,nena_state_ve_2,6041,base.ve
+nena_city_ve_44,Cantaura,6,nena_municipality_ve_14,nena_state_ve_2,6015,base.ve
+nena_city_ve_45,Mundo Nuevo,406,nena_municipality_ve_14,nena_state_ve_2,6015,base.ve
+nena_city_ve_46,Santa Rosa,407,nena_municipality_ve_14,nena_state_ve_2,6015,base.ve
+nena_city_ve_47,Urica,408,nena_municipality_ve_14,nena_state_ve_2,6015,base.ve
+nena_city_ve_48,San José de Guanipa,92,nena_municipality_ve_15,nena_state_ve_2,6050,base.ve
+nena_city_ve_49,Guanta,93,nena_municipality_ve_16,nena_state_ve_2,6023,base.ve
+nena_city_ve_50,Pertigalete,394,nena_municipality_ve_16,nena_state_ve_2,6023,base.ve
+nena_city_ve_51,Carapa,395,nena_municipality_ve_17,nena_state_ve_2,6020,base.ve
+nena_city_ve_52,Soledad,94,nena_municipality_ve_17,nena_state_ve_2,6020,base.ve
+nena_city_ve_53,El Carito,402,nena_municipality_ve_18,nena_state_ve_2,6024,base.ve
+nena_city_ve_54,San Mateo,95,nena_municipality_ve_18,nena_state_ve_2,6024,base.ve
+nena_city_ve_55,Santa Inés,403,nena_municipality_ve_18,nena_state_ve_2,6024,base.ve
+nena_city_ve_56,Lecherá­as,97,nena_municipality_ve_19,nena_state_ve_2,6016,base.ve
+nena_city_ve_57,El Chaparro,99,nena_municipality_ve_20,nena_state_ve_2,6025,base.ve
+nena_city_ve_58,José Gregorio Monagas,416,nena_municipality_ve_20,nena_state_ve_2,6025,base.ve
+nena_city_ve_59,Atapire,390,nena_municipality_ve_21,nena_state_ve_2,6030,base.ve
+nena_city_ve_60,Boca del Pao,391,nena_municipality_ve_21,nena_state_ve_2,6030,base.ve
+nena_city_ve_61,El Pao de Barcelona,392,nena_municipality_ve_21,nena_state_ve_2,6030,base.ve
+nena_city_ve_62,Mucura,393,nena_municipality_ve_21,nena_state_ve_2,6030,base.ve
+nena_city_ve_63,Pariaguá¡n,335,nena_municipality_ve_21,nena_state_ve_2,6030,base.ve
+nena_city_ve_64,San Diego de Cabrutica,100,nena_municipality_ve_22,nena_state_ve_2,6031,base.ve
+nena_city_ve_65,Santa Cruz de Orinoco,398,nena_municipality_ve_22,nena_state_ve_2,6031,base.ve
+nena_city_ve_66,Uverito,399,nena_municipality_ve_22,nena_state_ve_2,6031,base.ve
+nena_city_ve_67,Zuata,401,nena_municipality_ve_22,nena_state_ve_2,6031,base.ve
+nena_city_ve_68,El Hatillo,388,nena_municipality_ve_23,nena_state_ve_2,6026,base.ve
+nena_city_ve_69,Puerto Pá­ritu,9,nena_municipality_ve_23,nena_state_ve_2,6026,base.ve
+nena_city_ve_70,San Miguel,387,nena_municipality_ve_23,nena_state_ve_2,6026,base.ve
+nena_city_ve_71,Pá­ritu,101,nena_municipality_ve_24,nena_state_ve_2,6026,base.ve
+nena_city_ve_72,San Francisco,409,nena_municipality_ve_24,nena_state_ve_2,6026,base.ve
+nena_city_ve_73,Boca de Chá¡vez,410,nena_municipality_ve_25,nena_state_ve_2,6040,base.ve
+nena_city_ve_74,Boca de Uchire,336,nena_municipality_ve_25,nena_state_ve_2,6040,base.ve
+nena_city_ve_75,Pueblo Nuevo,411,nena_municipality_ve_26,nena_state_ve_2,6042,base.ve
+nena_city_ve_76,Santa Ana,102,nena_municipality_ve_26,nena_state_ve_2,6042,base.ve
+nena_city_ve_77,El Tigre,7,nena_municipality_ve_27,nena_state_ve_2,6034,base.ve
+nena_city_ve_78,Pozuelos,396,nena_municipality_ve_28,nena_state_ve_2,6023,base.ve
+nena_city_ve_79,Puerto La Cruz,8,nena_municipality_ve_28,nena_state_ve_2,6023,base.ve
+nena_city_ve_80,Achaguas,103,nena_municipality_ve_29,nena_state_ve_3,7002,base.ve
+nena_city_ve_81,Apurito,417,nena_municipality_ve_29,nena_state_ve_3,7002,base.ve
+nena_city_ve_82,El Samá¡n de Apure,420,nena_municipality_ve_29,nena_state_ve_3,7002,base.ve
+nena_city_ve_83,El Yagual,418,nena_municipality_ve_29,nena_state_ve_3,7002,base.ve
+nena_city_ve_84,Guachara,419,nena_municipality_ve_29,nena_state_ve_3,7002,base.ve
+nena_city_ve_85,Guasimal,421,nena_municipality_ve_29,nena_state_ve_3,7002,base.ve
+nena_city_ve_86,Biruaca,104,nena_municipality_ve_30,nena_state_ve_3,7001,base.ve
+nena_city_ve_87,Bruzual,105,nena_municipality_ve_31,nena_state_ve_3,7005,base.ve
+nena_city_ve_88,La Estacada,424,nena_municipality_ve_31,nena_state_ve_3,7005,base.ve
+nena_city_ve_89,Mantecal,422,nena_municipality_ve_31,nena_state_ve_3,7005,base.ve
+nena_city_ve_90,Quintero,423,nena_municipality_ve_31,nena_state_ve_3,7005,base.ve
+nena_city_ve_91,San Vicente,425,nena_municipality_ve_31,nena_state_ve_3,7005,base.ve
+nena_city_ve_92,El Amparo,149,nena_municipality_ve_32,nena_state_ve_3,7003,base.ve
+nena_city_ve_93,El Nula,428,nena_municipality_ve_32,nena_state_ve_3,7003,base.ve
+nena_city_ve_94,Guasdualito,59,nena_municipality_ve_32,nena_state_ve_3,7003,base.ve
+nena_city_ve_95,La Victoria,151,nena_municipality_ve_32,nena_state_ve_3,7003,base.ve
+nena_city_ve_96,Palmarito,426,nena_municipality_ve_32,nena_state_ve_3,7003,base.ve
+nena_city_ve_97,Puerto Pá¡ez,152,nena_municipality_ve_33,nena_state_ve_3,7004,base.ve
+nena_city_ve_98,San Juan de Payara,107,nena_municipality_ve_33,nena_state_ve_3,7004,base.ve
+nena_city_ve_99,San Miguel de Cunaviche,430,nena_municipality_ve_33,nena_state_ve_3,7004,base.ve
+nena_city_ve_100,Elorza,108,nena_municipality_ve_34,nena_state_ve_3,7005,base.ve
+nena_city_ve_101,La Trinidad de Orichuna,431,nena_municipality_ve_34,nena_state_ve_3,7005,base.ve
+nena_city_ve_102,Arichuna,433,nena_municipality_ve_35,nena_state_ve_3,7001,base.ve
+nena_city_ve_103,El Recreo,432,nena_municipality_ve_35,nena_state_ve_3,7001,base.ve
+nena_city_ve_104,San Fernando,58,nena_municipality_ve_35,nena_state_ve_3,7001,base.ve
+nena_city_ve_105,San Rafael de Atamaica,434,nena_municipality_ve_35,nena_state_ve_3,7001,base.ve
+nena_city_ve_106,San Mateo,14,nena_municipality_ve_36,nena_state_ve_4,2127,base.ve
+nena_city_ve_107,Camatagua,114,nena_municipality_ve_37,nena_state_ve_4,2131,base.ve
+nena_city_ve_108,Carmen de Cura,435,nena_municipality_ve_37,nena_state_ve_4,2131,base.ve
+nena_city_ve_109,Francisco de Miranda,459,nena_municipality_ve_38,nena_state_ve_4,2112,base.ve
+nena_city_ve_110,Paraparal,460,nena_municipality_ve_38,nena_state_ve_4,2112,base.ve
+nena_city_ve_111,Santa Rita,115,nena_municipality_ve_38,nena_state_ve_4,2112,base.ve
+nena_city_ve_112,Choroná­,436,nena_municipality_ve_39,nena_state_ve_4,2101,base.ve
+nena_city_ve_113,Maracay,13,nena_municipality_ve_39,nena_state_ve_4,2101,base.ve
+nena_city_ve_114,Santa Cruz,15,nena_municipality_ve_40,nena_state_ve_4,2128,base.ve
+nena_city_ve_115,La Victoria,12,nena_municipality_ve_41,nena_state_ve_4,2101,base.ve
+nena_city_ve_116,Las Guacamayas,438,nena_municipality_ve_41,nena_state_ve_4,2101,base.ve
+nena_city_ve_117,Las Mercedes,437,nena_municipality_ve_41,nena_state_ve_4,2101,base.ve
+nena_city_ve_118,Pao de Zá¡rate,439,nena_municipality_ve_41,nena_state_ve_4,2101,base.ve
+nena_city_ve_119,Zuata,440,nena_municipality_ve_41,nena_state_ve_4,2101,base.ve
+nena_city_ve_120,El Consejo,116,nena_municipality_ve_42,nena_state_ve_4,2122,base.ve
+nena_city_ve_121,La Pica,441,nena_municipality_ve_43,nena_state_ve_4,2114,base.ve
+nena_city_ve_122,Palo Negro,117,nena_municipality_ve_43,nena_state_ve_4,2114,base.ve
+nena_city_ve_123,Caña de Azáºcar,442,nena_municipality_ve_44,nena_state_ve_4,2105,base.ve
+nena_city_ve_124,El Limón,118,nena_municipality_ve_44,nena_state_ve_4,2105,base.ve
+nena_city_ve_125,Ocumare de la Costa,119,nena_municipality_ve_45,nena_state_ve_4,2106,base.ve
+nena_city_ve_126,Guiripa,443,nena_municipality_ve_46,nena_state_ve_4,2133,base.ve
+nena_city_ve_127,Ollas de Caramacate,444,nena_municipality_ve_46,nena_state_ve_4,2133,base.ve
+nena_city_ve_128,San Casimiro,109,nena_municipality_ve_46,nena_state_ve_4,2133,base.ve
+nena_city_ve_129,Valle Morá­n,445,nena_municipality_ve_46,nena_state_ve_4,2133,base.ve
+nena_city_ve_130,San Sebastiá¡n,110,nena_municipality_ve_47,nena_state_ve_4,2135,base.ve
+nena_city_ve_131,19 de Abril,448,nena_municipality_ve_48,nena_state_ve_4,2121,base.ve
+nena_city_ve_132,Chuao,447,nena_municipality_ve_48,nena_state_ve_4,2121,base.ve
+nena_city_ve_133,Rosario de Paya,446,nena_municipality_ve_48,nena_state_ve_4,2121,base.ve
+nena_city_ve_134,San Joaquá­n,449,nena_municipality_ve_48,nena_state_ve_4,2121,base.ve
+nena_city_ve_135,Turmero,65,nena_municipality_ve_48,nena_state_ve_4,2121,base.ve
+nena_city_ve_136,Las Tejerá­as,111,nena_municipality_ve_49,nena_state_ve_4,2124,base.ve
+nena_city_ve_137,Tiara,450,nena_municipality_ve_49,nena_state_ve_4,2124,base.ve
+nena_city_ve_138,Bella Vista,451,nena_municipality_ve_50,nena_state_ve_4,2123,base.ve
+nena_city_ve_139,Cagua,10,nena_municipality_ve_50,nena_state_ve_4,2123,base.ve
+nena_city_ve_140,Colonia Tovar,11,nena_municipality_ve_51,nena_state_ve_4,2126,base.ve
+nena_city_ve_141,Barbacoas,112,nena_municipality_ve_52,nena_state_ve_4,2132,base.ve
+nena_city_ve_142,Las Peñitas,452,nena_municipality_ve_52,nena_state_ve_4,2132,base.ve
+nena_city_ve_143,San Francisco de Cara,453,nena_municipality_ve_52,nena_state_ve_4,2132,base.ve
+nena_city_ve_144,Taguay,454,nena_municipality_ve_52,nena_state_ve_4,2132,base.ve
+nena_city_ve_145,Los Bagres,457,nena_municipality_ve_53,nena_state_ve_4,2134,base.ve
+nena_city_ve_146,Magdaleno,455,nena_municipality_ve_53,nena_state_ve_4,2134,base.ve
+nena_city_ve_147,San Francisco de Asá­s,456,nena_municipality_ve_53,nena_state_ve_4,2134,base.ve
+nena_city_ve_148,Tocorón,458,nena_municipality_ve_53,nena_state_ve_4,2134,base.ve
+nena_city_ve_149,Villa de Cura,113,nena_municipality_ve_53,nena_state_ve_4,2134,base.ve
+nena_city_ve_150,Sabaneta,120,nena_municipality_ve_54,nena_state_ve_5,5204,base.ve
+nena_city_ve_151,Veguitas,461,nena_municipality_ve_54,nena_state_ve_5,5204,base.ve
+nena_city_ve_152,El Cantón,121,nena_municipality_ve_55,nena_state_ve_5,5215,base.ve
+nena_city_ve_153,Puerto Vivas,495,nena_municipality_ve_55,nena_state_ve_5,5215,base.ve
+nena_city_ve_154,Santa Cruz de Guacas,494,nena_municipality_ve_55,nena_state_ve_5,5215,base.ve
+nena_city_ve_155,Bum-Bum,462,nena_municipality_ve_56,nena_state_ve_5,5214,base.ve
+nena_city_ve_156,Chameta,463,nena_municipality_ve_56,nena_state_ve_5,5214,base.ve
+nena_city_ve_157,Socopó,337,nena_municipality_ve_56,nena_state_ve_5,5214,base.ve
+nena_city_ve_158,Arismendi,122,nena_municipality_ve_57,nena_state_ve_5,5206,base.ve
+nena_city_ve_159,Guadarrama,464,nena_municipality_ve_57,nena_state_ve_5,5206,base.ve
+nena_city_ve_160,La Unión,465,nena_municipality_ve_57,nena_state_ve_5,5206,base.ve
+nena_city_ve_161,San Antonio,466,nena_municipality_ve_57,nena_state_ve_5,5206,base.ve
+nena_city_ve_162,Barinas,16,nena_municipality_ve_58,nena_state_ve_5,5201,base.ve
+nena_city_ve_163,El Corozo,473,nena_municipality_ve_58,nena_state_ve_5,5201,base.ve
+nena_city_ve_164,La Caramuca,472,nena_municipality_ve_58,nena_state_ve_5,5201,base.ve
+nena_city_ve_165,La Mula,474,nena_municipality_ve_58,nena_state_ve_5,5201,base.ve
+nena_city_ve_166,Quebrada Seca,467,nena_municipality_ve_58,nena_state_ve_5,5201,base.ve
+nena_city_ve_167,San Silvestre,468,nena_municipality_ve_58,nena_state_ve_5,5201,base.ve
+nena_city_ve_168,Santa Inés,469,nena_municipality_ve_58,nena_state_ve_5,5201,base.ve
+nena_city_ve_169,Santa Lucá­a,470,nena_municipality_ve_58,nena_state_ve_5,5201,base.ve
+nena_city_ve_170,Torunos,471,nena_municipality_ve_58,nena_state_ve_5,5201,base.ve
+nena_city_ve_171,Altamira,475,nena_municipality_ve_59,nena_state_ve_5,5202,base.ve
+nena_city_ve_172,Barinitas,66,nena_municipality_ve_59,nena_state_ve_5,5202,base.ve
+nena_city_ve_173,Calderas,476,nena_municipality_ve_59,nena_state_ve_5,5202,base.ve
+nena_city_ve_174,Barrancas,123,nena_municipality_ve_60,nena_state_ve_5,5210,base.ve
+nena_city_ve_175,La Yuca,477,nena_municipality_ve_60,nena_state_ve_5,5210,base.ve
+nena_city_ve_176,Masparrito,478,nena_municipality_ve_60,nena_state_ve_5,5210,base.ve
+nena_city_ve_177,Capitanejo,480,nena_municipality_ve_61,nena_state_ve_5,5212,base.ve
+nena_city_ve_178,Pedraza La Vieja,479,nena_municipality_ve_61,nena_state_ve_5,5212,base.ve
+nena_city_ve_179,Punta de Piedra,481,nena_municipality_ve_61,nena_state_ve_5,5212,base.ve
+nena_city_ve_180,Santa Bá¡rbara,124,nena_municipality_ve_61,nena_state_ve_5,5212,base.ve
+nena_city_ve_181,El Real,482,nena_municipality_ve_62,nena_state_ve_5,5207,base.ve
+nena_city_ve_182,La Luz,483,nena_municipality_ve_62,nena_state_ve_5,5207,base.ve
+nena_city_ve_183,Los Guasimitos,484,nena_municipality_ve_62,nena_state_ve_5,5207,base.ve
+nena_city_ve_184,Obispos,125,nena_municipality_ve_62,nena_state_ve_5,5207,base.ve
+nena_city_ve_185,Ciudad Bolivia,126,nena_municipality_ve_63,nena_state_ve_5,5205,base.ve
+nena_city_ve_186,Curbatá­,486,nena_municipality_ve_63,nena_state_ve_5,5205,base.ve
+nena_city_ve_187,Maporal,485,nena_municipality_ve_63,nena_state_ve_5,5205,base.ve
+nena_city_ve_188,San Rafael de Canagua,487,nena_municipality_ve_63,nena_state_ve_5,5205,base.ve
+nena_city_ve_189,Dolores,488,nena_municipality_ve_64,nena_state_ve_5,5213,base.ve
+nena_city_ve_190,Libertad,127,nena_municipality_ve_64,nena_state_ve_5,5213,base.ve
+nena_city_ve_191,Majagual,489,nena_municipality_ve_64,nena_state_ve_5,5213,base.ve
+nena_city_ve_192,Santa Rosa,490,nena_municipality_ve_64,nena_state_ve_5,5213,base.ve
+nena_city_ve_193,Ciudad de Nutrias,128,nena_municipality_ve_65,nena_state_ve_5,5209,base.ve
+nena_city_ve_194,El Regalo,491,nena_municipality_ve_65,nena_state_ve_5,5209,base.ve
+nena_city_ve_195,Puerto de Nutrias,492,nena_municipality_ve_65,nena_state_ve_5,5209,base.ve
+nena_city_ve_196,Santa Catalina,493,nena_municipality_ve_65,nena_state_ve_5,5209,base.ve
+nena_city_ve_197,Ciudad Guayana / Puerto Ordaz,18,nena_municipality_ve_66,nena_state_ve_6,8050,base.ve
+nena_city_ve_198,El Rosario,497,nena_municipality_ve_66,nena_state_ve_6,8050,base.ve
+nena_city_ve_199,Pozo Verde,496,nena_municipality_ve_66,nena_state_ve_6,8050,base.ve
+nena_city_ve_200,San Félix,585,nena_municipality_ve_66,nena_state_ve_6,8050,base.ve
+nena_city_ve_201,Caicara del Orinoco,129,nena_municipality_ve_67,nena_state_ve_6,8054,base.ve
+nena_city_ve_202,El Milagro,500,nena_municipality_ve_67,nena_state_ve_6,8054,base.ve
+nena_city_ve_203,La Urbana,501,nena_municipality_ve_67,nena_state_ve_6,8054,base.ve
+nena_city_ve_204,Las Bonitas,498,nena_municipality_ve_67,nena_state_ve_6,8054,base.ve
+nena_city_ve_205,Morichalito,502,nena_municipality_ve_67,nena_state_ve_6,8054,base.ve
+nena_city_ve_206,Santa Rosalá­a,499,nena_municipality_ve_67,nena_state_ve_6,8054,base.ve
+nena_city_ve_207,El Callao,130,nena_municipality_ve_68,nena_state_ve_6,8052,base.ve
+nena_city_ve_208,Ikabaráº,503,nena_municipality_ve_69,nena_state_ve_6,8011,base.ve
+nena_city_ve_209,Santa Elena de Uairén,20,nena_municipality_ve_69,nena_state_ve_6,8011,base.ve
+nena_city_ve_210,Almacén,504,nena_municipality_ve_70,nena_state_ve_6,8001,base.ve
+nena_city_ve_211,Ciudad Bolá­var,17,nena_municipality_ve_70,nena_state_ve_6,8001,base.ve
+nena_city_ve_212,La Carolina,506,nena_municipality_ve_70,nena_state_ve_6,8001,base.ve
+nena_city_ve_213,San José de Bongo,505,nena_municipality_ve_70,nena_state_ve_6,8001,base.ve
+nena_city_ve_214,El Palmar,131,nena_municipality_ve_71,nena_state_ve_6,8051,base.ve
+nena_city_ve_215,El Manteco,508,nena_municipality_ve_72,nena_state_ve_6,8008,base.ve
+nena_city_ve_216,El Pao de El Hierro,507,nena_municipality_ve_72,nena_state_ve_6,8008,base.ve
+nena_city_ve_217,Upata,67,nena_municipality_ve_72,nena_state_ve_6,8008,base.ve
+nena_city_ve_218,Ciudad Piar,132,nena_municipality_ve_73,nena_state_ve_6,8006,base.ve
+nena_city_ve_219,La Paragua,509,nena_municipality_ve_73,nena_state_ve_6,8006,base.ve
+nena_city_ve_220,San Francisco,510,nena_municipality_ve_73,nena_state_ve_6,8006,base.ve
+nena_city_ve_221,Santa Bá¡rbara del Centurión,511,nena_municipality_ve_73,nena_state_ve_6,8006,base.ve
+nena_city_ve_222,El Miamo,512,nena_municipality_ve_74,nena_state_ve_6,8053,base.ve
+nena_city_ve_223,Guasipati,133,nena_municipality_ve_74,nena_state_ve_6,8053,base.ve
+nena_city_ve_224,El Dorado,513,nena_municipality_ve_75,nena_state_ve_6,8055,base.ve
+nena_city_ve_225,Las Claritas,514,nena_municipality_ve_75,nena_state_ve_6,8055,base.ve
+nena_city_ve_226,Tumeremo,134,nena_municipality_ve_75,nena_state_ve_6,8055,base.ve
+nena_city_ve_227,Aripao,515,nena_municipality_ve_76,nena_state_ve_6,8056,base.ve
+nena_city_ve_228,Guarataro,516,nena_municipality_ve_76,nena_state_ve_6,8056,base.ve
+nena_city_ve_229,Las Majadas,517,nena_municipality_ve_76,nena_state_ve_6,8056,base.ve
+nena_city_ve_230,Maripa,135,nena_municipality_ve_76,nena_state_ve_6,8056,base.ve
+nena_city_ve_231,Moitaco,518,nena_municipality_ve_76,nena_state_ve_6,8056,base.ve
+nena_city_ve_232,Bejuma,21,nena_municipality_ve_77,nena_state_ve_7,2040,base.ve
+nena_city_ve_233,Caboabo,519,nena_municipality_ve_77,nena_state_ve_7,2040,base.ve
+nena_city_ve_234,Chirgua,520,nena_municipality_ve_77,nena_state_ve_7,2040,base.ve
+nena_city_ve_235,Belén,521,nena_municipality_ve_78,nena_state_ve_7,2010,base.ve
+nena_city_ve_236,Gá¼igá¼e,136,nena_municipality_ve_78,nena_state_ve_7,2010,base.ve
+nena_city_ve_237,Tacarigua,147,nena_municipality_ve_78,nena_state_ve_7,2010,base.ve
+nena_city_ve_238,Mariara,137,nena_municipality_ve_79,nena_state_ve_7,2017,base.ve
+nena_city_ve_239,Guacara,22,nena_municipality_ve_80,nena_state_ve_7,2015,base.ve
+nena_city_ve_240,Yagua,148,nena_municipality_ve_80,nena_state_ve_7,2015,base.ve
+nena_city_ve_241,Morón,138,nena_municipality_ve_81,nena_state_ve_7,2050,base.ve
+nena_city_ve_242,Urama,523,nena_municipality_ve_81,nena_state_ve_7,2050,base.ve
+nena_city_ve_243,Tocuyito,139,nena_municipality_ve_82,nena_state_ve_7,2035,base.ve
+nena_city_ve_244,Los Guayos,140,nena_municipality_ve_83,nena_state_ve_7,2007,base.ve
+nena_city_ve_245,Miranda,141,nena_municipality_ve_84,nena_state_ve_7,2039,base.ve
+nena_city_ve_246,Montalbá¡n,142,nena_municipality_ve_85,nena_state_ve_7,2042,base.ve
+nena_city_ve_247,Naguanagua,23,nena_municipality_ve_86,nena_state_ve_7,2005,base.ve
+nena_city_ve_248,Borburata,524,nena_municipality_ve_87,nena_state_ve_7,2024,base.ve
+nena_city_ve_249,Patanemo,525,nena_municipality_ve_87,nena_state_ve_7,2024,base.ve
+nena_city_ve_250,Puerto Cabello,24,nena_municipality_ve_87,nena_state_ve_7,2024,base.ve
+nena_city_ve_251,San Diego,143,nena_municipality_ve_88,nena_state_ve_7,2006,base.ve
+nena_city_ve_252,San Joaquá­n,25,nena_municipality_ve_89,nena_state_ve_7,2018,base.ve
+nena_city_ve_253,Los Naranjos,526,nena_municipality_ve_90,nena_state_ve_7,2001,base.ve
+nena_city_ve_254,Valencia,26,nena_municipality_ve_90,nena_state_ve_7,2001,base.ve
+nena_city_ve_255,Apartaderos,527,nena_municipality_ve_91,nena_state_ve_8,2203,base.ve
+nena_city_ve_256,Cojedes,153,nena_municipality_ve_91,nena_state_ve_8,2203,base.ve
+nena_city_ve_257,El Pao,154,nena_municipality_ve_92,nena_state_ve_8,2204,base.ve
+nena_city_ve_258,Tinaquillo,57,nena_municipality_ve_93,nena_state_ve_8,2206,base.ve
+nena_city_ve_259,El Baáºl,155,nena_municipality_ve_94,nena_state_ve_8,2205,base.ve
+nena_city_ve_260,Sucre,528,nena_municipality_ve_94,nena_state_ve_8,2205,base.ve
+nena_city_ve_261,La Aguadita,529,nena_municipality_ve_95,nena_state_ve_8,2204,base.ve
+nena_city_ve_262,Macapo,156,nena_municipality_ve_95,nena_state_ve_8,2204,base.ve
+nena_city_ve_263,El Amparo,530,nena_municipality_ve_96,nena_state_ve_8,2207,base.ve
+nena_city_ve_264,Libertad,157,nena_municipality_ve_96,nena_state_ve_8,2207,base.ve
+nena_city_ve_265,Las Vegas,158,nena_municipality_ve_97,nena_state_ve_8,2208,base.ve
+nena_city_ve_266,La Sierra,531,nena_municipality_ve_98,nena_state_ve_8,2201,base.ve
+nena_city_ve_267,Manrique,532,nena_municipality_ve_98,nena_state_ve_8,2201,base.ve
+nena_city_ve_268,San Carlos,56,nena_municipality_ve_98,nena_state_ve_8,2201,base.ve
+nena_city_ve_269,Tinaco,159,nena_municipality_ve_99,nena_state_ve_8,2202,base.ve
+nena_city_ve_270,Araguabisi,535,nena_municipality_ve_100,nena_state_ve_9,6403,base.ve
+nena_city_ve_271,Araguaimujo,537,nena_municipality_ve_100,nena_state_ve_9,6403,base.ve
+nena_city_ve_272,Boca de Cuyubini,534,nena_municipality_ve_100,nena_state_ve_9,6403,base.ve
+nena_city_ve_273,Curiapo,160,nena_municipality_ve_100,nena_state_ve_9,6403,base.ve
+nena_city_ve_274,Manoa,533,nena_municipality_ve_100,nena_state_ve_9,6403,base.ve
+nena_city_ve_275,San Francisco de Guayo,536,nena_municipality_ve_100,nena_state_ve_9,6403,base.ve
+nena_city_ve_276,El Triunfo,540,nena_municipality_ve_101,nena_state_ve_9,6404,base.ve
+nena_city_ve_277,Moruca,538,nena_municipality_ve_101,nena_state_ve_9,6404,base.ve
+nena_city_ve_278,Piacoa,539,nena_municipality_ve_101,nena_state_ve_9,6404,base.ve
+nena_city_ve_279,Santa Catalina,541,nena_municipality_ve_101,nena_state_ve_9,6404,base.ve
+nena_city_ve_280,Sierra Imataca,161,nena_municipality_ve_101,nena_state_ve_9,6404,base.ve
+nena_city_ve_281,Capure,542,nena_municipality_ve_102,nena_state_ve_9,6402,base.ve
+nena_city_ve_282,Pedernales,162,nena_municipality_ve_102,nena_state_ve_9,6402,base.ve
+nena_city_ve_283,Carapal de Guara,544,nena_municipality_ve_103,nena_state_ve_9,6401,base.ve
+nena_city_ve_284,Hacienda del Medio,543,nena_municipality_ve_103,nena_state_ve_9,6401,base.ve
+nena_city_ve_285,La Horqueta,549,nena_municipality_ve_103,nena_state_ve_9,6401,base.ve
+nena_city_ve_286,Paloma,546,nena_municipality_ve_103,nena_state_ve_9,6401,base.ve
+nena_city_ve_287,San Rafael,548,nena_municipality_ve_103,nena_state_ve_9,6401,base.ve
+nena_city_ve_288,Tucupita,64,nena_municipality_ve_103,nena_state_ve_9,6401,base.ve
+nena_city_ve_289,Urbanización Delfá­n Mendoza,547,nena_municipality_ve_103,nena_state_ve_9,6401,base.ve
+nena_city_ve_290,Caracas,27,nena_municipality_ve_104,nena_state_ve_10,1010,base.ve
+nena_city_ve_291,Acurigua,562,nena_municipality_ve_105,nena_state_ve_11,2401,base.ve
+nena_city_ve_292,Capadare,550,nena_municipality_ve_105,nena_state_ve_11,2401,base.ve
+nena_city_ve_293,El Mene de San Lorenzo,552,nena_municipality_ve_105,nena_state_ve_11,2401,base.ve
+nena_city_ve_294,El Moyepo,565,nena_municipality_ve_105,nena_state_ve_11,2401,base.ve
+nena_city_ve_295,Guaibacoa,563,nena_municipality_ve_105,nena_state_ve_11,2401,base.ve
+nena_city_ve_296,La Pastora,551,nena_municipality_ve_105,nena_state_ve_11,2401,base.ve
+nena_city_ve_297,Las Calderas,564,nena_municipality_ve_105,nena_state_ve_11,2401,base.ve
+nena_city_ve_298,San Juan de los Cayos,163,nena_municipality_ve_105,nena_state_ve_11,2401,base.ve
+nena_city_ve_299,Aracua,553,nena_municipality_ve_106,nena_state_ve_11,2401,base.ve
+nena_city_ve_300,La Peña,554,nena_municipality_ve_106,nena_state_ve_11,2401,base.ve
+nena_city_ve_301,San Luis,164,nena_municipality_ve_106,nena_state_ve_11,2401,base.ve
+nena_city_ve_302,Bariró,555,nena_municipality_ve_107,nena_state_ve_11,4182,base.ve
+nena_city_ve_303,Borojó,556,nena_municipality_ve_107,nena_state_ve_11,4182,base.ve
+nena_city_ve_304,Capatarida,165,nena_municipality_ve_107,nena_state_ve_11,4182,base.ve
+nena_city_ve_305,Guajiro,557,nena_municipality_ve_107,nena_state_ve_11,4182,base.ve
+nena_city_ve_306,San José de Seque,558,nena_municipality_ve_107,nena_state_ve_11,4182,base.ve
+nena_city_ve_307,Zazarida,559,nena_municipality_ve_107,nena_state_ve_11,4182,base.ve
+nena_city_ve_308,Yaracal,166,nena_municipality_ve_108,nena_state_ve_11,2419,base.ve
+nena_city_ve_309,Punta Cardón,68,nena_municipality_ve_109,nena_state_ve_11,4102,base.ve
+nena_city_ve_310,Punto Fijo,30,nena_municipality_ve_109,nena_state_ve_11,4101,base.ve
+nena_city_ve_311,Santa Ana,561,nena_municipality_ve_109,nena_state_ve_11,4101,base.ve
+nena_city_ve_312,La Vela de Coro,167,nena_municipality_ve_110,nena_state_ve_11,4131,base.ve
+nena_city_ve_313,Dabajuro,168,nena_municipality_ve_111,nena_state_ve_11,4182,base.ve
+nena_city_ve_314,El Manantial (Agua Clara),566,nena_municipality_ve_112,nena_state_ve_11,2407,base.ve
+nena_city_ve_315,Pedregal,169,nena_municipality_ve_112,nena_state_ve_11,2407,base.ve
+nena_city_ve_316,Piedra Grande,568,nena_municipality_ve_112,nena_state_ve_11,2407,base.ve
+nena_city_ve_317,Purureche,569,nena_municipality_ve_112,nena_state_ve_11,2407,base.ve
+nena_city_ve_318,Tupure,567,nena_municipality_ve_112,nena_state_ve_11,2407,base.ve
+nena_city_ve_319,Adaure,575,nena_municipality_ve_113,nena_state_ve_11,4101,base.ve
+nena_city_ve_320,Adá­cora,570,nena_municipality_ve_113,nena_state_ve_11,4101,base.ve
+nena_city_ve_321,Baraived,571,nena_municipality_ve_113,nena_state_ve_11,4101,base.ve
+nena_city_ve_322,Buena Vista,572,nena_municipality_ve_113,nena_state_ve_11,4101,base.ve
+nena_city_ve_323,El Hato,576,nena_municipality_ve_113,nena_state_ve_11,4101,base.ve
+nena_city_ve_324,El Vá­nculo,577,nena_municipality_ve_113,nena_state_ve_11,4101,base.ve
+nena_city_ve_325,Jadacaquiva,573,nena_municipality_ve_113,nena_state_ve_11,4101,base.ve
+nena_city_ve_326,Moruy,574,nena_municipality_ve_113,nena_state_ve_11,4101,base.ve
+nena_city_ve_327,Pueblo Nuevo,170,nena_municipality_ve_113,nena_state_ve_11,4101,base.ve
+nena_city_ve_328,Agua Larga,578,nena_municipality_ve_114,nena_state_ve_11,2443,base.ve
+nena_city_ve_329,Churuguara,171,nena_municipality_ve_114,nena_state_ve_11,2443,base.ve
+nena_city_ve_330,El Paujá­,579,nena_municipality_ve_114,nena_state_ve_11,2443,base.ve
+nena_city_ve_331,El Tupá­,580,nena_municipality_ve_114,nena_state_ve_11,2443,base.ve
+nena_city_ve_332,Maparará­,581,nena_municipality_ve_114,nena_state_ve_11,2443,base.ve
+nena_city_ve_333,Agua Linda,582,nena_municipality_ve_115,nena_state_ve_11,2403,base.ve
+nena_city_ve_334,Araurima,583,nena_municipality_ve_115,nena_state_ve_11,2403,base.ve
+nena_city_ve_335,Jacura,172,nena_municipality_ve_115,nena_state_ve_11,2403,base.ve
+nena_city_ve_336,Judibana,184,nena_municipality_ve_116,nena_state_ve_11,4104,base.ve
+nena_city_ve_337,Santa Cruz de los Taques,173,nena_municipality_ve_116,nena_state_ve_11,4104,base.ve
+nena_city_ve_338,Casigua,584,nena_municipality_ve_117,nena_state_ve_11,4180,base.ve
+nena_city_ve_339,Mene de Mauroa,174,nena_municipality_ve_117,nena_state_ve_11,4180,base.ve
+nena_city_ve_340,Coro,29,nena_municipality_ve_118,nena_state_ve_11,4101,base.ve
+nena_city_ve_341,La Negrita,586,nena_municipality_ve_118,nena_state_ve_11,4101,base.ve
+nena_city_ve_342,Mitare,587,nena_municipality_ve_118,nena_state_ve_11,4101,base.ve
+nena_city_ve_343,Rá­o Seco,588,nena_municipality_ve_118,nena_state_ve_11,4101,base.ve
+nena_city_ve_344,Sabaneta,589,nena_municipality_ve_118,nena_state_ve_11,4101,base.ve
+nena_city_ve_345,Santa Ana de Coro,31,nena_municipality_ve_118,nena_state_ve_11,4101,base.ve
+nena_city_ve_346,Boca del Tocuyo,590,nena_municipality_ve_119,nena_state_ve_11,2404,base.ve
+nena_city_ve_347,Chichiriviche,28,nena_municipality_ve_119,nena_state_ve_11,2404,base.ve
+nena_city_ve_348,Tocuyo de la Costa,591,nena_municipality_ve_119,nena_state_ve_11,2404,base.ve
+nena_city_ve_349,Palmasola,175,nena_municipality_ve_120,nena_state_ve_11,2414,base.ve
+nena_city_ve_350,Cabure,176,nena_municipality_ve_121,nena_state_ve_11,2431,base.ve
+nena_city_ve_351,Curimagua,593,nena_municipality_ve_121,nena_state_ve_11,2431,base.ve
+nena_city_ve_352,Pueblo Nuevo de la Sierra,592,nena_municipality_ve_121,nena_state_ve_11,2431,base.ve
+nena_city_ve_353,Pá­ritu,177,nena_municipality_ve_122,nena_state_ve_11,2417,base.ve
+nena_city_ve_354,San José de la Costa,594,nena_municipality_ve_122,nena_state_ve_11,2417,base.ve
+nena_city_ve_355,Mirimire,178,nena_municipality_ve_123,nena_state_ve_11,2413,base.ve
+nena_city_ve_356,Boca de Aroa,595,nena_municipality_ve_124,nena_state_ve_11,2402,base.ve
+nena_city_ve_357,Tucacas,32,nena_municipality_ve_124,nena_state_ve_11,2402,base.ve
+nena_city_ve_358,La Cruz de Taratara,179,nena_municipality_ve_125,nena_state_ve_11,2444,base.ve
+nena_city_ve_359,Pecaya,596,nena_municipality_ve_125,nena_state_ve_11,2444,base.ve
+nena_city_ve_360,Tocópero,180,nena_municipality_ve_126,nena_state_ve_11,2418,base.ve
+nena_city_ve_361,El Charal,597,nena_municipality_ve_127,nena_state_ve_11,2444,base.ve
+nena_city_ve_362,Las Vegas del Tuy,598,nena_municipality_ve_127,nena_state_ve_11,2444,base.ve
+nena_city_ve_363,Santa Cruz de Bucaral,181,nena_municipality_ve_127,nena_state_ve_11,2444,base.ve
+nena_city_ve_364,San José de Bruzual,599,nena_municipality_ve_128,nena_state_ve_11,4183,base.ve
+nena_city_ve_365,Urumaco,182,nena_municipality_ve_128,nena_state_ve_11,4183,base.ve
+nena_city_ve_366,La Ciénaga,600,nena_municipality_ve_129,nena_state_ve_11,2410,base.ve
+nena_city_ve_367,La Soledad,601,nena_municipality_ve_129,nena_state_ve_11,2410,base.ve
+nena_city_ve_368,Pueblo Cumarebo,602,nena_municipality_ve_129,nena_state_ve_11,2410,base.ve
+nena_city_ve_369,Puerto Cumarebo,183,nena_municipality_ve_129,nena_state_ve_11,2410,base.ve
+nena_city_ve_370,Zazarida,603,nena_municipality_ve_129,nena_state_ve_11,2410,base.ve
+nena_city_ve_371,Camaguá¡n,347,nena_municipality_ve_130,nena_state_ve_12,2304,base.ve
+nena_city_ve_372,Puerto Miranda,604,nena_municipality_ve_130,nena_state_ve_12,2304,base.ve
+nena_city_ve_373,Uverito,605,nena_municipality_ve_130,nena_state_ve_12,2304,base.ve
+nena_city_ve_374,Chaguaramas,348,nena_municipality_ve_131,nena_state_ve_12,2305,base.ve
+nena_city_ve_375,El Socorro,349,nena_municipality_ve_132,nena_state_ve_12,2306,base.ve
+nena_city_ve_376,Espino,607,nena_municipality_ve_133,nena_state_ve_12,2307,base.ve
+nena_city_ve_377,Valle de la Pascua,62,nena_municipality_ve_133,nena_state_ve_12,2307,base.ve
+nena_city_ve_378,Cabruta,608,nena_municipality_ve_134,nena_state_ve_12,2310,base.ve
+nena_city_ve_379,Las Mercedes,350,nena_municipality_ve_134,nena_state_ve_12,2310,base.ve
+nena_city_ve_380,Santa Rita,609,nena_municipality_ve_134,nena_state_ve_12,2310,base.ve
+nena_city_ve_381,El Sombrero,185,nena_municipality_ve_135,nena_state_ve_12,2309,base.ve
+nena_city_ve_382,Sosa,610,nena_municipality_ve_135,nena_state_ve_12,2309,base.ve
+nena_city_ve_383,Calabozo,61,nena_municipality_ve_136,nena_state_ve_12,2301,base.ve
+nena_city_ve_384,El Calvario,611,nena_municipality_ve_136,nena_state_ve_12,2301,base.ve
+nena_city_ve_385,El Rastro,612,nena_municipality_ve_136,nena_state_ve_12,2301,base.ve
+nena_city_ve_386,Guardatinajas,613,nena_municipality_ve_136,nena_state_ve_12,2301,base.ve
+nena_city_ve_387,Altagracia de Orituco,33,nena_municipality_ve_137,nena_state_ve_12,2320,base.ve
+nena_city_ve_388,Lezama,614,nena_municipality_ve_137,nena_state_ve_12,2320,base.ve
+nena_city_ve_389,Libertad de Orituco,615,nena_municipality_ve_137,nena_state_ve_12,2320,base.ve
+nena_city_ve_390,Paso Real de Macaira,616,nena_municipality_ve_137,nena_state_ve_12,2320,base.ve
+nena_city_ve_391,Sabana Grande de Orituco,619,nena_municipality_ve_137,nena_state_ve_12,2320,base.ve
+nena_city_ve_392,San Francisco de Macaira,617,nena_municipality_ve_137,nena_state_ve_12,2320,base.ve
+nena_city_ve_393,San Rafael de Orituco,618,nena_municipality_ve_137,nena_state_ve_12,2320,base.ve
+nena_city_ve_394,La Unión de Canuto,622,nena_municipality_ve_138,nena_state_ve_12,2303,base.ve
+nena_city_ve_395,Ortiz,186,nena_municipality_ve_138,nena_state_ve_12,2303,base.ve
+nena_city_ve_396,San Francisco de Tiznados,620,nena_municipality_ve_138,nena_state_ve_12,2303,base.ve
+nena_city_ve_397,San José de Tiznados,621,nena_municipality_ve_138,nena_state_ve_12,2303,base.ve
+nena_city_ve_398,San Rafael de Laya,623,nena_municipality_ve_139,nena_state_ve_12,2312,base.ve
+nena_city_ve_399,Tucupido,351,nena_municipality_ve_139,nena_state_ve_12,2312,base.ve
+nena_city_ve_400,Cantagallo,624,nena_municipality_ve_140,nena_state_ve_12,2302,base.ve
+nena_city_ve_401,Parapara,625,nena_municipality_ve_140,nena_state_ve_12,2302,base.ve
+nena_city_ve_402,San Juan de los Morros,60,nena_municipality_ve_140,nena_state_ve_12,2301,base.ve
+nena_city_ve_403,San José de Guaribe,352,nena_municipality_ve_141,nena_state_ve_12,2311,base.ve
+nena_city_ve_404,Altamira,626,nena_municipality_ve_142,nena_state_ve_12,2313,base.ve
+nena_city_ve_405,Santa Mará­a de Ipire,353,nena_municipality_ve_142,nena_state_ve_12,2313,base.ve
+nena_city_ve_406,Cazorla,606,nena_municipality_ve_143,nena_state_ve_12,2308,base.ve
+nena_city_ve_407,Guayabal,354,nena_municipality_ve_143,nena_state_ve_12,2308,base.ve
+nena_city_ve_408,San José de Unare,627,nena_municipality_ve_144,nena_state_ve_12,2315,base.ve
+nena_city_ve_409,Zaraza,628,nena_municipality_ve_144,nena_state_ve_12,2315,base.ve
+nena_city_ve_410,Caraballeda,342,nena_municipality_ve_145,nena_state_ve_12,1165,base.ve
+nena_city_ve_411,Carayaca,343,nena_municipality_ve_145,nena_state_ve_12,1160,base.ve
+nena_city_ve_412,Catia La Mar,78,nena_municipality_ve_145,nena_state_ve_12,1161,base.ve
+nena_city_ve_413,El Junko,345,nena_municipality_ve_145,nena_state_ve_12,1160,base.ve
+nena_city_ve_414,La Guaira,48,nena_municipality_ve_145,nena_state_ve_12,1160,base.ve
+nena_city_ve_415,La Sabana,344,nena_municipality_ve_145,nena_state_ve_12,1160,base.ve
+nena_city_ve_416,Macuto,79,nena_municipality_ve_145,nena_state_ve_12,1164,base.ve
+nena_city_ve_417,Maiquetá­a,346,nena_municipality_ve_145,nena_state_ve_12,1163,base.ve
+nena_city_ve_418,Naiguatá¡,80,nena_municipality_ve_145,nena_state_ve_12,1166,base.ve
+nena_city_ve_419,La Bucarita,629,nena_municipality_ve_146,nena_state_ve_13,3026,base.ve
+nena_city_ve_420,La Escalera,630,nena_municipality_ve_146,nena_state_ve_13,3026,base.ve
+nena_city_ve_421,Sanare,187,nena_municipality_ve_146,nena_state_ve_13,3026,base.ve
+nena_city_ve_422,Duaca,188,nena_municipality_ve_147,nena_state_ve_13,3037,base.ve
+nena_city_ve_423,El Eneal,631,nena_municipality_ve_147,nena_state_ve_13,3037,base.ve
+nena_city_ve_424,Barquisimeto,1,nena_municipality_ve_148,nena_state_ve_13,3001,base.ve
+nena_city_ve_425,Bobare,632,nena_municipality_ve_148,nena_state_ve_13,3014,base.ve
+nena_city_ve_426,Buena Vista,633,nena_municipality_ve_148,nena_state_ve_13,3001,base.ve
+nena_city_ve_427,Rá­o Claro,634,nena_municipality_ve_148,nena_state_ve_13,3025,base.ve
+nena_city_ve_428,Agua Negra,637,nena_municipality_ve_149,nena_state_ve_13,3021,base.ve
+nena_city_ve_429,Cuara,635,nena_municipality_ve_149,nena_state_ve_13,3021,base.ve
+nena_city_ve_430,Cubiro,636,nena_municipality_ve_149,nena_state_ve_13,3028,base.ve
+nena_city_ve_431,El Hato,640,nena_municipality_ve_149,nena_state_ve_13,3021,base.ve
+nena_city_ve_432,La Ceiba,641,nena_municipality_ve_149,nena_state_ve_13,3021,base.ve
+nena_city_ve_433,Quá­bor,189,nena_municipality_ve_149,nena_state_ve_13,3021,base.ve
+nena_city_ve_434,San Miguel,638,nena_municipality_ve_149,nena_state_ve_13,3021,base.ve
+nena_city_ve_435,Tintorero,639,nena_municipality_ve_149,nena_state_ve_13,3021,base.ve
+nena_city_ve_436,Anzoá¡tegui,642,nena_municipality_ve_150,nena_state_ve_13,3004,base.ve
+nena_city_ve_437,Barbacoas,648,nena_municipality_ve_150,nena_state_ve_13,3004,base.ve
+nena_city_ve_438,El Tocuyo,190,nena_municipality_ve_150,nena_state_ve_13,3004,base.ve
+nena_city_ve_439,Guá¡ito,647,nena_municipality_ve_150,nena_state_ve_13,3004,base.ve
+nena_city_ve_440,Guá¡rico,643,nena_municipality_ve_150,nena_state_ve_13,3004,base.ve
+nena_city_ve_441,Humocaro Alto,645,nena_municipality_ve_150,nena_state_ve_13,3027,base.ve
+nena_city_ve_442,Humocaro Bajo,646,nena_municipality_ve_150,nena_state_ve_13,3027,base.ve
+nena_city_ve_443,Villa Nueva,644,nena_municipality_ve_150,nena_state_ve_13,3004,base.ve
+nena_city_ve_444,Agua Viva,650,nena_municipality_ve_151,nena_state_ve_13,3023,base.ve
+nena_city_ve_445,Cabudare,2,nena_municipality_ve_151,nena_state_ve_13,3023,base.ve
+nena_city_ve_446,Los Rastrojos,649,nena_municipality_ve_151,nena_state_ve_13,3023,base.ve
+nena_city_ve_447,La Miel,652,nena_municipality_ve_152,nena_state_ve_13,3018,base.ve
+nena_city_ve_448,Manzanita,651,nena_municipality_ve_152,nena_state_ve_13,3018,base.ve
+nena_city_ve_449,Sarare,191,nena_municipality_ve_152,nena_state_ve_13,3018,base.ve
+nena_city_ve_450,Altagracia,668,nena_municipality_ve_153,nena_state_ve_13,3040,base.ve
+nena_city_ve_451,Aregue,657,nena_municipality_ve_153,nena_state_ve_13,3040,base.ve
+nena_city_ve_452,Arenales,659,nena_municipality_ve_153,nena_state_ve_13,3040,base.ve
+nena_city_ve_453,Atarigua,655,nena_municipality_ve_153,nena_state_ve_13,3040,base.ve
+nena_city_ve_454,Burere,661,nena_municipality_ve_153,nena_state_ve_13,3040,base.ve
+nena_city_ve_455,Carora,3,nena_municipality_ve_153,nena_state_ve_13,3040,base.ve
+nena_city_ve_456,Curarigua,653,nena_municipality_ve_153,nena_state_ve_13,3040,base.ve
+nena_city_ve_457,El Empedrado,662,nena_municipality_ve_153,nena_state_ve_13,3040,base.ve
+nena_city_ve_458,El Jabón,665,nena_municipality_ve_153,nena_state_ve_13,3040,base.ve
+nena_city_ve_459,El Paradero,666,nena_municipality_ve_153,nena_state_ve_13,3040,base.ve
+nena_city_ve_460,La Pastora,656,nena_municipality_ve_153,nena_state_ve_13,3040,base.ve
+nena_city_ve_461,Palmarito,663,nena_municipality_ve_153,nena_state_ve_13,3040,base.ve
+nena_city_ve_462,Parapara,667,nena_municipality_ve_153,nena_state_ve_13,3040,base.ve
+nena_city_ve_463,Quebrada Arriba,658,nena_municipality_ve_153,nena_state_ve_13,3040,base.ve
+nena_city_ve_464,Rá­o Tocuyo,654,nena_municipality_ve_153,nena_state_ve_13,3040,base.ve
+nena_city_ve_465,San Francisco,664,nena_municipality_ve_153,nena_state_ve_13,3040,base.ve
+nena_city_ve_466,San Pedro,660,nena_municipality_ve_153,nena_state_ve_13,3040,base.ve
+nena_city_ve_467,Aguada Grande,670,nena_municipality_ve_154,nena_state_ve_13,3030,base.ve
+nena_city_ve_468,Baragua,671,nena_municipality_ve_154,nena_state_ve_13,3030,base.ve
+nena_city_ve_469,Santa Inés,669,nena_municipality_ve_154,nena_state_ve_13,3030,base.ve
+nena_city_ve_470,Siquisique,193,nena_municipality_ve_154,nena_state_ve_13,3030,base.ve
+nena_city_ve_471,El Vigá­a,34,nena_municipality_ve_155,nena_state_ve_14,5140,base.ve
+nena_city_ve_472,La Blanca,675,nena_municipality_ve_155,nena_state_ve_14,5140,base.ve
+nena_city_ve_473,La Palmita,672,nena_municipality_ve_155,nena_state_ve_14,5140,base.ve
+nena_city_ve_474,Los Naranjos,674,nena_municipality_ve_155,nena_state_ve_14,5140,base.ve
+nena_city_ve_475,Mucujepe,673,nena_municipality_ve_155,nena_state_ve_14,5140,base.ve
+nena_city_ve_476,La Azulita,194,nena_municipality_ve_156,nena_state_ve_14,5145,base.ve
+nena_city_ve_477,Mesa Bolá­var,676,nena_municipality_ve_157,nena_state_ve_14,5146,base.ve
+nena_city_ve_478,Mesa de las Palmas,677,nena_municipality_ve_157,nena_state_ve_14,5146,base.ve
+nena_city_ve_479,Santa Cruz de Mora,195,nena_municipality_ve_157,nena_state_ve_14,5146,base.ve
+nena_city_ve_480,Aricagua,196,nena_municipality_ve_158,nena_state_ve_14,5109,base.ve
+nena_city_ve_481,Campo Elá­as,678,nena_municipality_ve_158,nena_state_ve_14,5109,base.ve
+nena_city_ve_482,Canaguá¡,197,nena_municipality_ve_159,nena_state_ve_14,5109,base.ve
+nena_city_ve_483,Capurá­,679,nena_municipality_ve_159,nena_state_ve_14,5109,base.ve
+nena_city_ve_484,Chacantá¡,680,nena_municipality_ve_159,nena_state_ve_14,5109,base.ve
+nena_city_ve_485,El Molino,681,nena_municipality_ve_159,nena_state_ve_14,5109,base.ve
+nena_city_ve_486,El Viento,682,nena_municipality_ve_159,nena_state_ve_14,5109,base.ve
+nena_city_ve_487,Mucuchachá­,684,nena_municipality_ve_159,nena_state_ve_14,5109,base.ve
+nena_city_ve_488,Mucutuy,683,nena_municipality_ve_159,nena_state_ve_14,5109,base.ve
+nena_city_ve_489,Acequias,685,nena_municipality_ve_160,nena_state_ve_14,5111,base.ve
+nena_city_ve_490,Ejido,69,nena_municipality_ve_160,nena_state_ve_14,5111,base.ve
+nena_city_ve_491,Jajá­,686,nena_municipality_ve_160,nena_state_ve_14,5111,base.ve
+nena_city_ve_492,La Mesa,687,nena_municipality_ve_160,nena_state_ve_14,5111,base.ve
+nena_city_ve_493,San José,688,nena_municipality_ve_160,nena_state_ve_14,5111,base.ve
+nena_city_ve_494,El Pinar,689,nena_municipality_ve_161,nena_state_ve_14,5144,base.ve
+nena_city_ve_495,Tucaná­,198,nena_municipality_ve_161,nena_state_ve_14,5144,base.ve
+nena_city_ve_496,Las Piedras,690,nena_municipality_ve_162,nena_state_ve_14,5150,base.ve
+nena_city_ve_497,Santo Domingo,199,nena_municipality_ve_162,nena_state_ve_14,5150,base.ve
+nena_city_ve_498,Guaraque,200,nena_municipality_ve_163,nena_state_ve_14,5108,base.ve
+nena_city_ve_499,Mesa de Quintero,691,nena_municipality_ve_163,nena_state_ve_14,5108,base.ve
+nena_city_ve_500,Rá­o Negro,692,nena_municipality_ve_163,nena_state_ve_14,5108,base.ve
+nena_city_ve_501,Arapuey,201,nena_municipality_ve_164,nena_state_ve_14,5142,base.ve
+nena_city_ve_502,San José de Palmira,693,nena_municipality_ve_164,nena_state_ve_14,5142,base.ve
+nena_city_ve_503,San Cristóbal de Torondoy,694,nena_municipality_ve_165,nena_state_ve_14,5143,base.ve
+nena_city_ve_504,Torondoy,202,nena_municipality_ve_165,nena_state_ve_14,5143,base.ve
+nena_city_ve_505,El Morro,695,nena_municipality_ve_166,nena_state_ve_14,5101,base.ve
+nena_city_ve_506,Los Nevados,696,nena_municipality_ve_166,nena_state_ve_14,5101,base.ve
+nena_city_ve_507,Mérida,35,nena_municipality_ve_166,nena_state_ve_14,5101,base.ve
+nena_city_ve_508,Chachopo,697,nena_municipality_ve_167,nena_state_ve_14,5151,base.ve
+nena_city_ve_509,La Venta,698,nena_municipality_ve_167,nena_state_ve_14,5151,base.ve
+nena_city_ve_510,Piñango,699,nena_municipality_ve_167,nena_state_ve_14,5151,base.ve
+nena_city_ve_511,Timotes,203,nena_municipality_ve_167,nena_state_ve_14,5151,base.ve
+nena_city_ve_512,Guayabones,700,nena_municipality_ve_168,nena_state_ve_14,5149,base.ve
+nena_city_ve_513,San Rafael de Alcá¡zar,701,nena_municipality_ve_168,nena_state_ve_14,5149,base.ve
+nena_city_ve_514,Santa Elena de Arenales,204,nena_municipality_ve_168,nena_state_ve_14,5149,base.ve
+nena_city_ve_515,Guayanitos,1386,nena_municipality_ve_169,nena_state_ve_14,5152,base.ve
+nena_city_ve_516,Santa Mará­a de Caparo,205,nena_municipality_ve_169,nena_state_ve_14,5152,base.ve
+nena_city_ve_517,Pueblo Llano,206,nena_municipality_ve_170,nena_state_ve_14,5153,base.ve
+nena_city_ve_518,Cacute,702,nena_municipality_ve_171,nena_state_ve_14,5154,base.ve
+nena_city_ve_519,La Toma,703,nena_municipality_ve_171,nena_state_ve_14,5154,base.ve
+nena_city_ve_520,Mucuchá­es,207,nena_municipality_ve_171,nena_state_ve_14,5154,base.ve
+nena_city_ve_521,Mucurubá¡,704,nena_municipality_ve_171,nena_state_ve_14,5154,base.ve
+nena_city_ve_522,San Rafael,705,nena_municipality_ve_171,nena_state_ve_14,5154,base.ve
+nena_city_ve_523,Bailadores,208,nena_municipality_ve_172,nena_state_ve_14,5147,base.ve
+nena_city_ve_524,La Playa,706,nena_municipality_ve_172,nena_state_ve_14,5147,base.ve
+nena_city_ve_525,Tabay,209,nena_municipality_ve_173,nena_state_ve_14,5103,base.ve
+nena_city_ve_526,Chiguará¡,707,nena_municipality_ve_174,nena_state_ve_14,5104,base.ve
+nena_city_ve_527,Estanquez,708,nena_municipality_ve_174,nena_state_ve_14,5104,base.ve
+nena_city_ve_528,La Trampa,709,nena_municipality_ve_174,nena_state_ve_14,5104,base.ve
+nena_city_ve_529,Lagunillas,210,nena_municipality_ve_174,nena_state_ve_14,5104,base.ve
+nena_city_ve_530,Pueblo Nuevo del Sur,710,nena_municipality_ve_174,nena_state_ve_14,5104,base.ve
+nena_city_ve_531,San Juan,711,nena_municipality_ve_174,nena_state_ve_14,5104,base.ve
+nena_city_ve_532,Tovar,211,nena_municipality_ve_175,nena_state_ve_14,5106,base.ve
+nena_city_ve_533,Las Virtudes,713,nena_municipality_ve_176,nena_state_ve_14,5141,base.ve
+nena_city_ve_534,Nueva Bolivia,212,nena_municipality_ve_176,nena_state_ve_14,5141,base.ve
+nena_city_ve_535,Palmarito,712,nena_municipality_ve_176,nena_state_ve_14,5141,base.ve
+nena_city_ve_536,Santa Apolonia,714,nena_municipality_ve_176,nena_state_ve_14,5141,base.ve
+nena_city_ve_537,Caño Tigre,715,nena_municipality_ve_177,nena_state_ve_14,5148,base.ve
+nena_city_ve_538,Zea,213,nena_municipality_ve_177,nena_state_ve_14,5148,base.ve
+nena_city_ve_539,Caucagua,214,nena_municipality_ve_178,nena_state_ve_15,1246,base.ve
+nena_city_ve_540,Cumbo,716,nena_municipality_ve_179,nena_state_ve_15,1235,base.ve
+nena_city_ve_541,San José de Barlovento,215,nena_municipality_ve_179,nena_state_ve_15,1235,base.ve
+nena_city_ve_542,El Cafetal,717,nena_municipality_ve_180,nena_state_ve_15,1080,base.ve
+nena_city_ve_543,Las Minas de Baruta,718,nena_municipality_ve_180,nena_state_ve_15,1080,base.ve
+nena_city_ve_544,Nuestra Señora del Rosario,216,nena_municipality_ve_180,nena_state_ve_15,1080,base.ve
+nena_city_ve_545,Curiepe,719,nena_municipality_ve_181,nena_state_ve_15,1231,base.ve
+nena_city_ve_546,Higuerote,217,nena_municipality_ve_181,nena_state_ve_15,1231,base.ve
+nena_city_ve_547,Tacarigua de Mamporal,720,nena_municipality_ve_181,nena_state_ve_15,1228,base.ve
+nena_city_ve_548,Mamporal,218,nena_municipality_ve_182,nena_state_ve_15,1228,base.ve
+nena_city_ve_549,Carrizal,219,nena_municipality_ve_183,nena_state_ve_15,1203,base.ve
+nena_city_ve_550,Chacao,220,nena_municipality_ve_184,nena_state_ve_15,1060,base.ve
+nena_city_ve_551,Charallave,221,nena_municipality_ve_185,nena_state_ve_15,1210,base.ve
+nena_city_ve_552,Las Brisas,721,nena_municipality_ve_185,nena_state_ve_15,1210,base.ve
+nena_city_ve_553,El Hatillo,222,nena_municipality_ve_186,nena_state_ve_15,1083,base.ve
+nena_city_ve_554,Altagracia de la Montaña,722,nena_municipality_ve_187,nena_state_ve_15,1201,base.ve
+nena_city_ve_555,El Jarillo,724,nena_municipality_ve_187,nena_state_ve_15,1201,base.ve
+nena_city_ve_556,Los Teques,54,nena_municipality_ve_187,nena_state_ve_15,1201,base.ve
+nena_city_ve_557,Paracotos,725,nena_municipality_ve_187,nena_state_ve_15,1201,base.ve
+nena_city_ve_558,San Diego,723,nena_municipality_ve_187,nena_state_ve_15,1201,base.ve
+nena_city_ve_559,San Pedro,726,nena_municipality_ve_187,nena_state_ve_15,1201,base.ve
+nena_city_ve_560,Tacata,727,nena_municipality_ve_187,nena_state_ve_15,1201,base.ve
+nena_city_ve_561,El Cartanal,728,nena_municipality_ve_188,nena_state_ve_15,1215,base.ve
+nena_city_ve_562,Santa Teresa del Tuy,55,nena_municipality_ve_188,nena_state_ve_15,1215,base.ve
+nena_city_ve_563,La Democracia,729,nena_municipality_ve_189,nena_state_ve_15,1209,base.ve
+nena_city_ve_564,Ocumare del Tuy,223,nena_municipality_ve_189,nena_state_ve_15,1209,base.ve
+nena_city_ve_565,Santa Bá¡rbara,730,nena_municipality_ve_189,nena_state_ve_15,1209,base.ve
+nena_city_ve_566,San Antonio de los Altos,224,nena_municipality_ve_190,nena_state_ve_15,1204,base.ve
+nena_city_ve_567,El Guapo,731,nena_municipality_ve_191,nena_state_ve_15,1238,base.ve
+nena_city_ve_568,Paparo,733,nena_municipality_ve_191,nena_state_ve_15,1236,base.ve
+nena_city_ve_569,Rá­o Chico,225,nena_municipality_ve_191,nena_state_ve_15,1236,base.ve
+nena_city_ve_570,San Fernando,734,nena_municipality_ve_191,nena_state_ve_15,1236,base.ve
+nena_city_ve_571,Santa Lucá­a,735,nena_municipality_ve_191,nena_state_ve_15,1236,base.ve
+nena_city_ve_572,Tacarigua de la Laguna,732,nena_municipality_ve_191,nena_state_ve_15,1236,base.ve
+nena_city_ve_573,Santa Lucá­a,226,nena_municipality_ve_192,nena_state_ve_15,1214,base.ve
+nena_city_ve_574,Cupira,227,nena_municipality_ve_193,nena_state_ve_15,1238,base.ve
+nena_city_ve_575,Machurucuto,736,nena_municipality_ve_193,nena_state_ve_15,1245,base.ve
+nena_city_ve_576,Guarenas,228,nena_municipality_ve_194,nena_state_ve_15,1220,base.ve
+nena_city_ve_577,San Antonio de Yare,737,nena_municipality_ve_195,nena_state_ve_15,1212,base.ve
+nena_city_ve_578,San Francisco de Yare,229,nena_municipality_ve_195,nena_state_ve_15,1212,base.ve
+nena_city_ve_579,Caucaguita,738,nena_municipality_ve_196,nena_state_ve_15,1070,base.ve
+nena_city_ve_580,Fila de Mariches,739,nena_municipality_ve_196,nena_state_ve_15,1070,base.ve
+nena_city_ve_581,La Dolorita,740,nena_municipality_ve_196,nena_state_ve_15,1070,base.ve
+nena_city_ve_582,Los Dos Caminos,741,nena_municipality_ve_196,nena_state_ve_15,1070,base.ve
+nena_city_ve_583,Petare,230,nena_municipality_ve_196,nena_state_ve_15,1070,base.ve
+nena_city_ve_584,Cáºa,231,nena_municipality_ve_197,nena_state_ve_15,1211,base.ve
+nena_city_ve_585,Nueva Cáºa,742,nena_municipality_ve_197,nena_state_ve_15,1211,base.ve
+nena_city_ve_586,Araira,743,nena_municipality_ve_198,nena_state_ve_15,1221,base.ve
+nena_city_ve_587,Guatire,232,nena_municipality_ve_198,nena_state_ve_15,1221,base.ve
+nena_city_ve_588,San Antonio,355,nena_municipality_ve_199,nena_state_ve_16,6201,base.ve
+nena_city_ve_589,San Francisco,744,nena_municipality_ve_199,nena_state_ve_16,6201,base.ve
+nena_city_ve_590,Aguasay,356,nena_municipality_ve_200,nena_state_ve_16,6202,base.ve
+nena_city_ve_591,Caripito,70,nena_municipality_ve_201,nena_state_ve_16,6204,base.ve
+nena_city_ve_592,Caripe,357,nena_municipality_ve_202,nena_state_ve_16,6205,base.ve
+nena_city_ve_593,El Guá¡charo,745,nena_municipality_ve_202,nena_state_ve_16,6205,base.ve
+nena_city_ve_594,La Guanota,746,nena_municipality_ve_202,nena_state_ve_16,6205,base.ve
+nena_city_ve_595,Sabana de Piedra,747,nena_municipality_ve_202,nena_state_ve_16,6205,base.ve
+nena_city_ve_596,San Agustá­n,748,nena_municipality_ve_202,nena_state_ve_16,6205,base.ve
+nena_city_ve_597,Teresén,749,nena_municipality_ve_202,nena_state_ve_16,6205,base.ve
+nena_city_ve_598,Areo,750,nena_municipality_ve_203,nena_state_ve_16,6207,base.ve
+nena_city_ve_599,Caicara,358,nena_municipality_ve_203,nena_state_ve_16,6207,base.ve
+nena_city_ve_600,San Félix,751,nena_municipality_ve_203,nena_state_ve_16,6207,base.ve
+nena_city_ve_601,Viento Fresco,752,nena_municipality_ve_203,nena_state_ve_16,6207,base.ve
+nena_city_ve_602,Punta de Mata,71,nena_municipality_ve_204,nena_state_ve_16,6210,base.ve
+nena_city_ve_603,Tejero,753,nena_municipality_ve_204,nena_state_ve_16,6210,base.ve
+nena_city_ve_604,Chaguaramas,754,nena_municipality_ve_205,nena_state_ve_16,6211,base.ve
+nena_city_ve_605,Las Alhuacas,755,nena_municipality_ve_205,nena_state_ve_16,6211,base.ve
+nena_city_ve_606,Tabasca,756,nena_municipality_ve_205,nena_state_ve_16,6211,base.ve
+nena_city_ve_607,Temblador,359,nena_municipality_ve_205,nena_state_ve_16,6211,base.ve
+nena_city_ve_608,El Corozo,757,nena_municipality_ve_206,nena_state_ve_16,6201,base.ve
+nena_city_ve_609,El Furrial,758,nena_municipality_ve_206,nena_state_ve_16,6201,base.ve
+nena_city_ve_610,Jusepá­n,759,nena_municipality_ve_206,nena_state_ve_16,6201,base.ve
+nena_city_ve_611,La Pica,760,nena_municipality_ve_206,nena_state_ve_16,6201,base.ve
+nena_city_ve_612,Maturá­n,36,nena_municipality_ve_206,nena_state_ve_16,6201,base.ve
+nena_city_ve_613,San Vicente,761,nena_municipality_ve_206,nena_state_ve_16,6201,base.ve
+nena_city_ve_614,Aparicio,762,nena_municipality_ve_207,nena_state_ve_16,6203,base.ve
+nena_city_ve_615,Aragua,360,nena_municipality_ve_207,nena_state_ve_16,6203,base.ve
+nena_city_ve_616,Chaguaramal,763,nena_municipality_ve_207,nena_state_ve_16,6203,base.ve
+nena_city_ve_617,El Pinto,764,nena_municipality_ve_207,nena_state_ve_16,6203,base.ve
+nena_city_ve_618,Guanaguana,765,nena_municipality_ve_207,nena_state_ve_16,6203,base.ve
+nena_city_ve_619,La Toscana,766,nena_municipality_ve_207,nena_state_ve_16,6203,base.ve
+nena_city_ve_620,Taguaya,767,nena_municipality_ve_207,nena_state_ve_16,6203,base.ve
+nena_city_ve_621,Cachipo,768,nena_municipality_ve_208,nena_state_ve_16,6208,base.ve
+nena_city_ve_622,Quiriquire,361,nena_municipality_ve_208,nena_state_ve_16,6208,base.ve
+nena_city_ve_623,Santa Bá¡rbara,362,nena_municipality_ve_209,nena_state_ve_16,6209,base.ve
+nena_city_ve_624,Barrancas,363,nena_municipality_ve_210,nena_state_ve_16,6213,base.ve
+nena_city_ve_625,Los Barrancos de Fajardo,769,nena_municipality_ve_210,nena_state_ve_16,6213,base.ve
+nena_city_ve_626,Uracoa,364,nena_municipality_ve_211,nena_state_ve_16,6212,base.ve
+nena_city_ve_627,La Plaza de Paraguachá­,250,nena_municipality_ve_212,nena_state_ve_17,6301,base.ve
+nena_city_ve_628,Las Rurales,927,nena_municipality_ve_212,nena_state_ve_17,6301,base.ve
+nena_city_ve_629,Loma de Guerra,1382,nena_municipality_ve_212,nena_state_ve_17,6301,base.ve
+nena_city_ve_630,Los Cedros,928,nena_municipality_ve_212,nena_state_ve_17,6301,base.ve
+nena_city_ve_631,La Asunción,251,nena_municipality_ve_213,nena_state_ve_17,6301,base.ve
+nena_city_ve_632,El Espinal,1383,nena_municipality_ve_214,nena_state_ve_17,6301,base.ve
+nena_city_ve_633,La Guardia,770,nena_municipality_ve_214,nena_state_ve_17,6301,base.ve
+nena_city_ve_634,San Juan Bautista,252,nena_municipality_ve_214,nena_state_ve_17,6301,base.ve
+nena_city_ve_635,El Valle del Espá­ritu Santo,253,nena_municipality_ve_215,nena_state_ve_17,6301,base.ve
+nena_city_ve_636,Villa Rosa,771,nena_municipality_ve_215,nena_state_ve_17,6301,base.ve
+nena_city_ve_637,Altagracia,775,nena_municipality_ve_216,nena_state_ve_17,6301,base.ve
+nena_city_ve_638,El Maco,772,nena_municipality_ve_216,nena_state_ve_17,6301,base.ve
+nena_city_ve_639,Pedro Gonzá¡lez,774,nena_municipality_ve_216,nena_state_ve_17,6301,base.ve
+nena_city_ve_640,Santa Ana del Norte,254,nena_municipality_ve_216,nena_state_ve_17,6301,base.ve
+nena_city_ve_641,Tacarigua,773,nena_municipality_ve_216,nena_state_ve_17,6301,base.ve
+nena_city_ve_642,El Pilar (Los Robles),776,nena_municipality_ve_217,nena_state_ve_17,6301,base.ve
+nena_city_ve_643,Pampatar,255,nena_municipality_ve_217,nena_state_ve_17,6301,base.ve
+nena_city_ve_644,Juan Griego,256,nena_municipality_ve_218,nena_state_ve_17,6301,base.ve
+nena_city_ve_645,Los Millanes,777,nena_municipality_ve_218,nena_state_ve_17,6301,base.ve
+nena_city_ve_646,Porlamar,257,nena_municipality_ve_219,nena_state_ve_17,6301,base.ve
+nena_city_ve_647,Boca del Pozo,778,nena_municipality_ve_220,nena_state_ve_17,6301,base.ve
+nena_city_ve_648,Boca del Rá­o,258,nena_municipality_ve_220,nena_state_ve_17,6301,base.ve
+nena_city_ve_649,El Guamache,779,nena_municipality_ve_221,nena_state_ve_17,6301,base.ve
+nena_city_ve_650,Punta de Piedras,259,nena_municipality_ve_221,nena_state_ve_17,6301,base.ve
+nena_city_ve_651,Guinima,780,nena_municipality_ve_222,nena_state_ve_17,6301,base.ve
+nena_city_ve_652,San Pedro de Coche,260,nena_municipality_ve_222,nena_state_ve_17,6301,base.ve
+nena_city_ve_653,Agua Blanca,261,nena_municipality_ve_223,nena_state_ve_18,3302,base.ve
+nena_city_ve_654,Araure,39,nena_municipality_ve_224,nena_state_ve_18,3303,base.ve
+nena_city_ve_655,Rá­o Acarigua,781,nena_municipality_ve_224,nena_state_ve_18,3303,base.ve
+nena_city_ve_656,Pá­ritu,262,nena_municipality_ve_225,nena_state_ve_18,3340,base.ve
+nena_city_ve_657,Uveral,804,nena_municipality_ve_225,nena_state_ve_18,3340,base.ve
+nena_city_ve_658,Córdoba,782,nena_municipality_ve_226,nena_state_ve_18,3350,base.ve
+nena_city_ve_659,Guanare,40,nena_municipality_ve_226,nena_state_ve_18,3350,base.ve
+nena_city_ve_660,Mesa de Cavacas,784,nena_municipality_ve_226,nena_state_ve_18,3350,base.ve
+nena_city_ve_661,Quebrada de la Virgen,785,nena_municipality_ve_226,nena_state_ve_18,3350,base.ve
+nena_city_ve_662,San José de la Montaña,783,nena_municipality_ve_226,nena_state_ve_18,3350,base.ve
+nena_city_ve_663,Guanarito,263,nena_municipality_ve_227,nena_state_ve_18,3310,base.ve
+nena_city_ve_664,Morrones,787,nena_municipality_ve_227,nena_state_ve_18,3310,base.ve
+nena_city_ve_665,Trinidad de la Capilla,786,nena_municipality_ve_227,nena_state_ve_18,3310,base.ve
+nena_city_ve_666,Paraá­so de Chabasquén,264,nena_municipality_ve_228,nena_state_ve_18,3313,base.ve
+nena_city_ve_667,Peña Blanca,788,nena_municipality_ve_228,nena_state_ve_18,3313,base.ve
+nena_city_ve_668,La Aparición,789,nena_municipality_ve_229,nena_state_ve_18,3330,base.ve
+nena_city_ve_669,La Estación,790,nena_municipality_ve_229,nena_state_ve_18,3330,base.ve
+nena_city_ve_670,Ospino,265,nena_municipality_ve_229,nena_state_ve_18,3330,base.ve
+nena_city_ve_671,Acarigua,266,nena_municipality_ve_230,nena_state_ve_18,3303,base.ve
+nena_city_ve_672,Mijaguito,807,nena_municipality_ve_230,nena_state_ve_18,3303,base.ve
+nena_city_ve_673,Payara,805,nena_municipality_ve_230,nena_state_ve_18,3303,base.ve
+nena_city_ve_674,Pimpinela,806,nena_municipality_ve_230,nena_state_ve_18,3303,base.ve
+nena_city_ve_675,Caño Delgadito,791,nena_municipality_ve_231,nena_state_ve_18,3301,base.ve
+nena_city_ve_676,Papelón,267,nena_municipality_ve_231,nena_state_ve_18,3301,base.ve
+nena_city_ve_677,Boconoá­to,268,nena_municipality_ve_232,nena_state_ve_18,3304,base.ve
+nena_city_ve_678,San Nicolá¡s,792,nena_municipality_ve_232,nena_state_ve_18,3304,base.ve
+nena_city_ve_679,El Algarrobito,794,nena_municipality_ve_233,nena_state_ve_18,3305,base.ve
+nena_city_ve_680,San Rafael de Onoto,269,nena_municipality_ve_233,nena_state_ve_18,3305,base.ve
+nena_city_ve_681,Santa Fe,793,nena_municipality_ve_233,nena_state_ve_18,3305,base.ve
+nena_city_ve_682,El Playón,270,nena_municipality_ve_234,nena_state_ve_18,3306,base.ve
+nena_city_ve_683,Nueva Florida,795,nena_municipality_ve_234,nena_state_ve_18,3306,base.ve
+nena_city_ve_684,Biscucuy,271,nena_municipality_ve_235,nena_state_ve_18,3313,base.ve
+nena_city_ve_685,La Concepción,796,nena_municipality_ve_235,nena_state_ve_18,3313,base.ve
+nena_city_ve_686,Las Cruces,798,nena_municipality_ve_235,nena_state_ve_18,3313,base.ve
+nena_city_ve_687,San José de Saguaz,799,nena_municipality_ve_235,nena_state_ve_18,3313,base.ve
+nena_city_ve_688,San Rafael de Palo Alzado,797,nena_municipality_ve_235,nena_state_ve_18,3313,base.ve
+nena_city_ve_689,Villa Rosa,800,nena_municipality_ve_235,nena_state_ve_18,3313,base.ve
+nena_city_ve_690,Colonia Turén,803,nena_municipality_ve_236,nena_state_ve_18,3307,base.ve
+nena_city_ve_691,La Misión,801,nena_municipality_ve_236,nena_state_ve_18,3307,base.ve
+nena_city_ve_692,Santa Cruz,802,nena_municipality_ve_236,nena_state_ve_18,3307,base.ve
+nena_city_ve_693,Villa Bruzual,272,nena_municipality_ve_236,nena_state_ve_18,3307,base.ve
+nena_city_ve_694,Casanay,273,nena_municipality_ve_237,nena_state_ve_19,6107,base.ve
+nena_city_ve_695,San Vicente,808,nena_municipality_ve_237,nena_state_ve_19,6107,base.ve
+nena_city_ve_696,Rá­o Casanay,809,nena_municipality_ve_238,nena_state_ve_19,6108,base.ve
+nena_city_ve_697,San José de Aerocuar,274,nena_municipality_ve_238,nena_state_ve_19,6108,base.ve
+nena_city_ve_698,El Morro de Puerto Santo,811,nena_municipality_ve_239,nena_state_ve_19,6117,base.ve
+nena_city_ve_699,Puerto Santo,812,nena_municipality_ve_239,nena_state_ve_19,6117,base.ve
+nena_city_ve_700,Rá­o Caribe,275,nena_municipality_ve_239,nena_state_ve_19,6117,base.ve
+nena_city_ve_701,San Juan de las Galdonas,813,nena_municipality_ve_239,nena_state_ve_19,6117,base.ve
+nena_city_ve_702,San Juan de Unare,810,nena_municipality_ve_239,nena_state_ve_19,6117,base.ve
+nena_city_ve_703,El Pilar,276,nena_municipality_ve_240,nena_state_ve_19,6106,base.ve
+nena_city_ve_704,El Rincón,814,nena_municipality_ve_240,nena_state_ve_19,6106,base.ve
+nena_city_ve_705,Guaraunos,816,nena_municipality_ve_240,nena_state_ve_19,6106,base.ve
+nena_city_ve_706,Guariquén,818,nena_municipality_ve_240,nena_state_ve_19,6106,base.ve
+nena_city_ve_707,Los Arroyos,815,nena_municipality_ve_240,nena_state_ve_19,6106,base.ve
+nena_city_ve_708,Tunapuicito,817,nena_municipality_ve_240,nena_state_ve_19,6106,base.ve
+nena_city_ve_709,Caráºpano,41,nena_municipality_ve_241,nena_state_ve_19,6101,base.ve
+nena_city_ve_710,Playa Grande,819,nena_municipality_ve_241,nena_state_ve_19,6101,base.ve
+nena_city_ve_711,Marigá¼itar,277,nena_municipality_ve_242,nena_state_ve_19,6110,base.ve
+nena_city_ve_712,El Paujil,820,nena_municipality_ve_243,nena_state_ve_19,6111,base.ve
+nena_city_ve_713,Rá­o Seco,821,nena_municipality_ve_243,nena_state_ve_19,6111,base.ve
+nena_city_ve_714,Yaguaraparo,278,nena_municipality_ve_243,nena_state_ve_19,6111,base.ve
+nena_city_ve_715,Araya,279,nena_municipality_ve_244,nena_state_ve_19,6103,base.ve
+nena_city_ve_716,Chacopata,822,nena_municipality_ve_244,nena_state_ve_19,6103,base.ve
+nena_city_ve_717,Manicuare,823,nena_municipality_ve_244,nena_state_ve_19,6103,base.ve
+nena_city_ve_718,Guayana,824,nena_municipality_ve_245,nena_state_ve_19,6112,base.ve
+nena_city_ve_719,Tunapuy,280,nena_municipality_ve_245,nena_state_ve_19,6112,base.ve
+nena_city_ve_720,Campo Claro,825,nena_municipality_ve_246,nena_state_ve_19,6123,base.ve
+nena_city_ve_721,Irapa,338,nena_municipality_ve_246,nena_state_ve_19,6123,base.ve
+nena_city_ve_722,Marabal,826,nena_municipality_ve_246,nena_state_ve_19,6123,base.ve
+nena_city_ve_723,San Antonio de Irapa,827,nena_municipality_ve_246,nena_state_ve_19,6123,base.ve
+nena_city_ve_724,Soro,828,nena_municipality_ve_246,nena_state_ve_19,6123,base.ve
+nena_city_ve_725,San Antonio del Golfo,339,nena_municipality_ve_247,nena_state_ve_19,6109,base.ve
+nena_city_ve_726,Arenas,829,nena_municipality_ve_248,nena_state_ve_19,6113,base.ve
+nena_city_ve_727,Aricagua,830,nena_municipality_ve_248,nena_state_ve_19,6113,base.ve
+nena_city_ve_728,Cumanacoa,340,nena_municipality_ve_248,nena_state_ve_19,6113,base.ve
+nena_city_ve_729,Las Piedras,831,nena_municipality_ve_248,nena_state_ve_19,6113,base.ve
+nena_city_ve_730,San Lorenzo,833,nena_municipality_ve_248,nena_state_ve_19,6113,base.ve
+nena_city_ve_731,Villarroel (Quebrada Seca),832,nena_municipality_ve_248,nena_state_ve_19,6113,base.ve
+nena_city_ve_732,Cariaco,341,nena_municipality_ve_249,nena_state_ve_19,6102,base.ve
+nena_city_ve_733,Catuaro,834,nena_municipality_ve_249,nena_state_ve_19,6102,base.ve
+nena_city_ve_734,Muelle de Cariaco,835,nena_municipality_ve_249,nena_state_ve_19,6102,base.ve
+nena_city_ve_735,Santa Cruz,836,nena_municipality_ve_249,nena_state_ve_19,6102,base.ve
+nena_city_ve_736,Santa Mará­a,837,nena_municipality_ve_249,nena_state_ve_19,6102,base.ve
+nena_city_ve_737,Caiguire,838,nena_municipality_ve_250,nena_state_ve_19,6101,base.ve
+nena_city_ve_738,Cumaná¡,42,nena_municipality_ve_250,nena_state_ve_19,6101,base.ve
+nena_city_ve_739,Los Altos,841,nena_municipality_ve_250,nena_state_ve_19,6101,base.ve
+nena_city_ve_740,Los Puertos de Santa Fe,840,nena_municipality_ve_250,nena_state_ve_19,6101,base.ve
+nena_city_ve_741,San Juan,839,nena_municipality_ve_250,nena_state_ve_19,6101,base.ve
+nena_city_ve_742,Gá¼iria,74,nena_municipality_ve_251,nena_state_ve_19,6121,base.ve
+nena_city_ve_743,Macuro,843,nena_municipality_ve_251,nena_state_ve_19,6121,base.ve
+nena_city_ve_744,Rá­o Salado,842,nena_municipality_ve_251,nena_state_ve_19,6121,base.ve
+nena_city_ve_745,Yoco,844,nena_municipality_ve_251,nena_state_ve_19,6121,base.ve
+nena_city_ve_746,Cordero,43,nena_municipality_ve_252,nena_state_ve_20,5003,base.ve
+nena_city_ve_747,Las Mesas,281,nena_municipality_ve_253,nena_state_ve_20,5010,base.ve
+nena_city_ve_748,San Félix,845,nena_municipality_ve_254,nena_state_ve_20,5011,base.ve
+nena_city_ve_749,San Juan de Colón,282,nena_municipality_ve_254,nena_state_ve_20,5011,base.ve
+nena_city_ve_750,San Pedro del Rá­o,846,nena_municipality_ve_254,nena_state_ve_20,5011,base.ve
+nena_city_ve_751,El Recreo,848,nena_municipality_ve_255,nena_state_ve_20,5012,base.ve
+nena_city_ve_752,Las Dantas,849,nena_municipality_ve_255,nena_state_ve_20,5012,base.ve
+nena_city_ve_753,Palotal,847,nena_municipality_ve_255,nena_state_ve_20,5012,base.ve
+nena_city_ve_754,San Antonio,76,nena_municipality_ve_255,nena_state_ve_20,5012,base.ve
+nena_city_ve_755,La Florida,851,nena_municipality_ve_256,nena_state_ve_20,5017,base.ve
+nena_city_ve_756,Palo Gordo,850,nena_municipality_ve_256,nena_state_ve_20,5017,base.ve
+nena_city_ve_757,Tá¡riba,283,nena_municipality_ve_256,nena_state_ve_20,5017,base.ve
+nena_city_ve_758,Santa Ana del Tá¡chira,284,nena_municipality_ve_257,nena_state_ve_20,5013,base.ve
+nena_city_ve_759,Puerto Teteo,852,nena_municipality_ve_258,nena_state_ve_20,5015,base.ve
+nena_city_ve_760,San Lorenzo,853,nena_municipality_ve_258,nena_state_ve_20,5015,base.ve
+nena_city_ve_761,San Rafael del Piñal,285,nena_municipality_ve_258,nena_state_ve_20,5015,base.ve
+nena_city_ve_762,San José de Bolá­var,286,nena_municipality_ve_259,nena_state_ve_20,5014,base.ve
+nena_city_ve_763,Boca de Grita,854,nena_municipality_ve_260,nena_state_ve_20,5016,base.ve
+nena_city_ve_764,La Frá­a,287,nena_municipality_ve_260,nena_state_ve_20,5016,base.ve
+nena_city_ve_765,Orope,855,nena_municipality_ve_260,nena_state_ve_20,5016,base.ve
+nena_city_ve_766,Palmira,288,nena_municipality_ve_261,nena_state_ve_20,5017,base.ve
+nena_city_ve_767,Capacho Nuevo,289,nena_municipality_ve_262,nena_state_ve_20,5019,base.ve
+nena_city_ve_768,El Valle,856,nena_municipality_ve_262,nena_state_ve_20,5019,base.ve
+nena_city_ve_769,Peribeca,857,nena_municipality_ve_262,nena_state_ve_20,5019,base.ve
+nena_city_ve_770,La Grita,44,nena_municipality_ve_263,nena_state_ve_20,5019,base.ve
+nena_city_ve_771,Pueblo Hondo,858,nena_municipality_ve_263,nena_state_ve_20,5019,base.ve
+nena_city_ve_772,Sabana Grande,859,nena_municipality_ve_263,nena_state_ve_20,5019,base.ve
+nena_city_ve_773,El Cobre,291,nena_municipality_ve_264,nena_state_ve_20,5020,base.ve
+nena_city_ve_774,Bramón,862,nena_municipality_ve_265,nena_state_ve_20,5021,base.ve
+nena_city_ve_775,Rá­o Chiquito,860,nena_municipality_ve_265,nena_state_ve_20,5021,base.ve
+nena_city_ve_776,Rubio,75,nena_municipality_ve_265,nena_state_ve_20,5021,base.ve
+nena_city_ve_777,San Vicente de la Revancha,861,nena_municipality_ve_265,nena_state_ve_20,5021,base.ve
+nena_city_ve_778,Capacho Viejo,292,nena_municipality_ve_266,nena_state_ve_20,5018,base.ve
+nena_city_ve_779,El Pueblito,864,nena_municipality_ve_266,nena_state_ve_20,5018,base.ve
+nena_city_ve_780,Hato de la Virgen,863,nena_municipality_ve_266,nena_state_ve_20,5018,base.ve
+nena_city_ve_781,Abejales,293,nena_municipality_ve_267,nena_state_ve_20,5023,base.ve
+nena_city_ve_782,El Milagro,866,nena_municipality_ve_267,nena_state_ve_20,5023,base.ve
+nena_city_ve_783,Puerto Nuevo,865,nena_municipality_ve_267,nena_state_ve_20,5023,base.ve
+nena_city_ve_784,San Joaquá­n de Navay,867,nena_municipality_ve_267,nena_state_ve_20,5023,base.ve
+nena_city_ve_785,Borotá¡,868,nena_municipality_ve_268,nena_state_ve_20,5022,base.ve
+nena_city_ve_786,Lobatera,294,nena_municipality_ve_268,nena_state_ve_20,5022,base.ve
+nena_city_ve_787,Michelena,295,nena_municipality_ve_269,nena_state_ve_20,5023,base.ve
+nena_city_ve_788,Coloncito,296,nena_municipality_ve_270,nena_state_ve_20,5025,base.ve
+nena_city_ve_789,La Palmita,869,nena_municipality_ve_270,nena_state_ve_20,5025,base.ve
+nena_city_ve_790,Aguas Calientes,870,nena_municipality_ve_271,nena_state_ve_20,5026,base.ve
+nena_city_ve_791,Ureña,297,nena_municipality_ve_271,nena_state_ve_20,5026,base.ve
+nena_city_ve_792,Delicias,298,nena_municipality_ve_272,nena_state_ve_20,5024,base.ve
+nena_city_ve_793,Bocono,871,nena_municipality_ve_273,nena_state_ve_20,5029,base.ve
+nena_city_ve_794,Herná¡ndez,872,nena_municipality_ve_273,nena_state_ve_20,5029,base.ve
+nena_city_ve_795,La Tendida,299,nena_municipality_ve_273,nena_state_ve_20,5029,base.ve
+nena_city_ve_796,Macanillo,873,nena_municipality_ve_274,nena_state_ve_20,5001,base.ve
+nena_city_ve_797,San Cristóbal,45,nena_municipality_ve_274,nena_state_ve_20,5001,base.ve
+nena_city_ve_798,Umuquena,300,nena_municipality_ve_275,nena_state_ve_20,5028,base.ve
+nena_city_ve_799,Seboruco,301,nena_municipality_ve_276,nena_state_ve_20,5027,base.ve
+nena_city_ve_800,San Simón,302,nena_municipality_ve_277,nena_state_ve_20,5004,base.ve
+nena_city_ve_801,Mesa del Tigre,874,nena_municipality_ve_278,nena_state_ve_20,5030,base.ve
+nena_city_ve_802,Queniquea,303,nena_municipality_ve_278,nena_state_ve_20,5030,base.ve
+nena_city_ve_803,San Pablo,875,nena_municipality_ve_278,nena_state_ve_20,5030,base.ve
+nena_city_ve_804,San Josecito,304,nena_municipality_ve_279,nena_state_ve_20,5002,base.ve
+nena_city_ve_805,La Fundación,876,nena_municipality_ve_280,nena_state_ve_20,5031,base.ve
+nena_city_ve_806,Laguna de Garcá­a,877,nena_municipality_ve_280,nena_state_ve_20,5031,base.ve
+nena_city_ve_807,Patio Redondo,878,nena_municipality_ve_280,nena_state_ve_20,5031,base.ve
+nena_city_ve_808,Pregonero,305,nena_municipality_ve_280,nena_state_ve_20,5031,base.ve
+nena_city_ve_809,Araguaney,879,nena_municipality_ve_281,nena_state_ve_21,3112,base.ve
+nena_city_ve_810,El Gallo,881,nena_municipality_ve_281,nena_state_ve_21,3112,base.ve
+nena_city_ve_811,El Jagá¼ito,880,nena_municipality_ve_281,nena_state_ve_21,3112,base.ve
+nena_city_ve_812,Santa Isabel,233,nena_municipality_ve_281,nena_state_ve_21,3112,base.ve
+nena_city_ve_813,Boconó,46,nena_municipality_ve_282,nena_state_ve_21,3101,base.ve
+nena_city_ve_814,Burbusay,885,nena_municipality_ve_282,nena_state_ve_21,3101,base.ve
+nena_city_ve_815,El Carmen,882,nena_municipality_ve_282,nena_state_ve_21,3101,base.ve
+nena_city_ve_816,Guaramacal,887,nena_municipality_ve_282,nena_state_ve_21,3101,base.ve
+nena_city_ve_817,Las Mesitas,886,nena_municipality_ve_282,nena_state_ve_21,3101,base.ve
+nena_city_ve_818,Mosquey,883,nena_municipality_ve_282,nena_state_ve_21,3101,base.ve
+nena_city_ve_819,Niquitao,889,nena_municipality_ve_282,nena_state_ve_21,3101,base.ve
+nena_city_ve_820,San Miguel,891,nena_municipality_ve_282,nena_state_ve_21,3101,base.ve
+nena_city_ve_821,San Rafael,890,nena_municipality_ve_282,nena_state_ve_21,3101,base.ve
+nena_city_ve_822,Tatatal,884,nena_municipality_ve_282,nena_state_ve_21,3101,base.ve
+nena_city_ve_823,Tostós,892,nena_municipality_ve_282,nena_state_ve_21,3101,base.ve
+nena_city_ve_824,Vega de Guaramacal,888,nena_municipality_ve_282,nena_state_ve_21,3101,base.ve
+nena_city_ve_825,Altamira de Caus,893,nena_municipality_ve_283,nena_state_ve_21,3112,base.ve
+nena_city_ve_826,Granados,894,nena_municipality_ve_283,nena_state_ve_21,3112,base.ve
+nena_city_ve_827,Sabana Grande,234,nena_municipality_ve_283,nena_state_ve_21,3112,base.ve
+nena_city_ve_828,Bolivia,896,nena_municipality_ve_284,nena_state_ve_21,3102,base.ve
+nena_city_ve_829,Chejendé,235,nena_municipality_ve_284,nena_state_ve_21,3102,base.ve
+nena_city_ve_830,Las Llanadas,900,nena_municipality_ve_284,nena_state_ve_21,3102,base.ve
+nena_city_ve_831,Minas,895,nena_municipality_ve_284,nena_state_ve_21,3102,base.ve
+nena_city_ve_832,Mitón,898,nena_municipality_ve_284,nena_state_ve_21,3102,base.ve
+nena_city_ve_833,Sabana Grande,899,nena_municipality_ve_284,nena_state_ve_21,3102,base.ve
+nena_city_ve_834,Torococo,897,nena_municipality_ve_284,nena_state_ve_21,3102,base.ve
+nena_city_ve_835,Carache,236,nena_municipality_ve_285,nena_state_ve_21,3103,base.ve
+nena_city_ve_836,Cuicas,901,nena_municipality_ve_285,nena_state_ve_21,3103,base.ve
+nena_city_ve_837,El Zapatero,903,nena_municipality_ve_285,nena_state_ve_21,3103,base.ve
+nena_city_ve_838,La Concepción,902,nena_municipality_ve_285,nena_state_ve_21,3103,base.ve
+nena_city_ve_839,La Cuchilla,904,nena_municipality_ve_285,nena_state_ve_21,3103,base.ve
+nena_city_ve_840,El Alto,905,nena_municipality_ve_286,nena_state_ve_21,3104,base.ve
+nena_city_ve_841,Escuque,237,nena_municipality_ve_286,nena_state_ve_21,3104,base.ve
+nena_city_ve_842,La Mata,907,nena_municipality_ve_286,nena_state_ve_21,3104,base.ve
+nena_city_ve_843,Sabana Libre,906,nena_municipality_ve_286,nena_state_ve_21,3104,base.ve
+nena_city_ve_844,El Paradero,238,nena_municipality_ve_287,nena_state_ve_21,3104,base.ve
+nena_city_ve_845,La Placita,908,nena_municipality_ve_287,nena_state_ve_21,3104,base.ve
+nena_city_ve_846,Los Caprichos,909,nena_municipality_ve_287,nena_state_ve_21,3104,base.ve
+nena_city_ve_847,Campo Elá­as,239,nena_municipality_ve_288,nena_state_ve_21,3104,base.ve
+nena_city_ve_848,Las Quebradas,910,nena_municipality_ve_288,nena_state_ve_21,3104,base.ve
+nena_city_ve_849,La Ceiba,912,nena_municipality_ve_289,nena_state_ve_21,3108,base.ve
+nena_city_ve_850,Santa Apolonia,240,nena_municipality_ve_289,nena_state_ve_21,3108,base.ve
+nena_city_ve_851,Tres de Febrero,913,nena_municipality_ve_289,nena_state_ve_21,3108,base.ve
+nena_city_ve_852,Zona Rica,911,nena_municipality_ve_289,nena_state_ve_21,3108,base.ve
+nena_city_ve_853,Agua Caliente,915,nena_municipality_ve_290,nena_state_ve_21,3110,base.ve
+nena_city_ve_854,Agua Santa,914,nena_municipality_ve_290,nena_state_ve_21,3110,base.ve
+nena_city_ve_855,El Cenizo,916,nena_municipality_ve_290,nena_state_ve_21,3110,base.ve
+nena_city_ve_856,El Dividive,241,nena_municipality_ve_290,nena_state_ve_21,3110,base.ve
+nena_city_ve_857,Valerita,917,nena_municipality_ve_290,nena_state_ve_21,3110,base.ve
+nena_city_ve_858,Buena Vista,918,nena_municipality_ve_291,nena_state_ve_21,3109,base.ve
+nena_city_ve_859,Casa de Tabla,919,nena_municipality_ve_291,nena_state_ve_21,3109,base.ve
+nena_city_ve_860,Monte Carmelo,242,nena_municipality_ve_291,nena_state_ve_21,3109,base.ve
+nena_city_ve_861,El Baño,920,nena_municipality_ve_292,nena_state_ve_21,3111,base.ve
+nena_city_ve_862,Jalisco,921,nena_municipality_ve_292,nena_state_ve_21,3111,base.ve
+nena_city_ve_863,Motatá¡n,243,nena_municipality_ve_292,nena_state_ve_21,3111,base.ve
+nena_city_ve_864,Flor de Patria,922,nena_municipality_ve_293,nena_state_ve_21,3105,base.ve
+nena_city_ve_865,Monay,923,nena_municipality_ve_293,nena_state_ve_21,3105,base.ve
+nena_city_ve_866,Pampá¡n,244,nena_municipality_ve_293,nena_state_ve_21,3105,base.ve
+nena_city_ve_867,Santa Ana,924,nena_municipality_ve_293,nena_state_ve_21,3105,base.ve
+nena_city_ve_868,La Concepción,925,nena_municipality_ve_294,nena_state_ve_21,3106,base.ve
+nena_city_ve_869,Pampanito,245,nena_municipality_ve_294,nena_state_ve_21,3106,base.ve
+nena_city_ve_870,Pampanito II,926,nena_municipality_ve_294,nena_state_ve_21,3106,base.ve
+nena_city_ve_871,Betijoque,246,nena_municipality_ve_295,nena_state_ve_21,3150,base.ve
+nena_city_ve_872,Isnotáº,929,nena_municipality_ve_295,nena_state_ve_21,3150,base.ve
+nena_city_ve_873,Campo Alegre,931,nena_municipality_ve_296,nena_state_ve_21,3107,base.ve
+nena_city_ve_874,Carvajal,247,nena_municipality_ve_296,nena_state_ve_21,3107,base.ve
+nena_city_ve_875,La Cejita,930,nena_municipality_ve_296,nena_state_ve_21,3107,base.ve
+nena_city_ve_876,Las Mesetas,932,nena_municipality_ve_296,nena_state_ve_21,3107,base.ve
+nena_city_ve_877,El Paraá­so,933,nena_municipality_ve_297,nena_state_ve_21,3152,base.ve
+nena_city_ve_878,Juná­n,934,nena_municipality_ve_297,nena_state_ve_21,3152,base.ve
+nena_city_ve_879,Sabana de Mendoza,248,nena_municipality_ve_297,nena_state_ve_21,3152,base.ve
+nena_city_ve_880,Valmore Rodrá­guez,935,nena_municipality_ve_297,nena_state_ve_21,3152,base.ve
+nena_city_ve_881,La Plazuela,939,nena_municipality_ve_298,nena_state_ve_21,3101,base.ve
+nena_city_ve_882,Matriz,940,nena_municipality_ve_298,nena_state_ve_21,3101,base.ve
+nena_city_ve_883,Quiquinquira,937,nena_municipality_ve_298,nena_state_ve_21,3101,base.ve
+nena_city_ve_884,San Jacinto,941,nena_municipality_ve_298,nena_state_ve_21,3101,base.ve
+nena_city_ve_885,San Lá¡zaro,936,nena_municipality_ve_298,nena_state_ve_21,3101,base.ve
+nena_city_ve_886,Santa Rosa,938,nena_municipality_ve_298,nena_state_ve_21,3101,base.ve
+nena_city_ve_887,Tres Esquinas,942,nena_municipality_ve_298,nena_state_ve_21,3101,base.ve
+nena_city_ve_888,Trujillo,77,nena_municipality_ve_298,nena_state_ve_21,3101,base.ve
+nena_city_ve_889,Cabimbáº,943,nena_municipality_ve_299,nena_state_ve_21,3114,base.ve
+nena_city_ve_890,Jajó,944,nena_municipality_ve_299,nena_state_ve_21,3114,base.ve
+nena_city_ve_891,La Mesa de Esnujaque,945,nena_municipality_ve_299,nena_state_ve_21,3114,base.ve
+nena_city_ve_892,La Quebrada,249,nena_municipality_ve_299,nena_state_ve_21,3114,base.ve
+nena_city_ve_893,Santiago,946,nena_municipality_ve_299,nena_state_ve_21,3114,base.ve
+nena_city_ve_894,Tuñame,947,nena_municipality_ve_299,nena_state_ve_21,3114,base.ve
+nena_city_ve_895,Juan Ignacio Montilla,948,nena_municipality_ve_300,nena_state_ve_21,3101,base.ve
+nena_city_ve_896,La Beatriz,949,nena_municipality_ve_300,nena_state_ve_21,3101,base.ve
+nena_city_ve_897,La Puerta,952,nena_municipality_ve_300,nena_state_ve_21,3101,base.ve
+nena_city_ve_898,Mendoza,953,nena_municipality_ve_300,nena_state_ve_21,3101,base.ve
+nena_city_ve_899,Mercedes Dá­az,950,nena_municipality_ve_300,nena_state_ve_21,3101,base.ve
+nena_city_ve_900,San Luis,951,nena_municipality_ve_300,nena_state_ve_21,3101,base.ve
+nena_city_ve_901,Valera,47,nena_municipality_ve_300,nena_state_ve_21,3101,base.ve
+nena_city_ve_902,Caraballeda,342,nena_municipality_ve_301,nena_state_ve_22,1165,base.ve
+nena_city_ve_903,Carayaca,343,nena_municipality_ve_301,nena_state_ve_22,1160,base.ve
+nena_city_ve_904,Catia La Mar,78,nena_municipality_ve_301,nena_state_ve_22,1161,base.ve
+nena_city_ve_905,El Junko,345,nena_municipality_ve_301,nena_state_ve_22,1160,base.ve
+nena_city_ve_906,La Guaira,48,nena_municipality_ve_301,nena_state_ve_22,1160,base.ve
+nena_city_ve_907,La Sabana,344,nena_municipality_ve_301,nena_state_ve_22,1160,base.ve
+nena_city_ve_908,Macuto,79,nena_municipality_ve_301,nena_state_ve_22,1164,base.ve
+nena_city_ve_909,Maiquetá­a,346,nena_municipality_ve_301,nena_state_ve_22,1163,base.ve
+nena_city_ve_910,Naiguatá¡,80,nena_municipality_ve_301,nena_state_ve_22,1166,base.ve
+nena_city_ve_911,San Pablo,306,nena_municipality_ve_302,nena_state_ve_23,3202,base.ve
+nena_city_ve_912,Aroa,307,nena_municipality_ve_303,nena_state_ve_23,3203,base.ve
+nena_city_ve_913,Campo Elá­as,954,nena_municipality_ve_304,nena_state_ve_23,3201,base.ve
+nena_city_ve_914,Chivacoa,82,nena_municipality_ve_304,nena_state_ve_23,3201,base.ve
+nena_city_ve_915,Cocorote,308,nena_municipality_ve_305,nena_state_ve_23,3205,base.ve
+nena_city_ve_916,Independencia,309,nena_municipality_ve_306,nena_state_ve_23,3201,base.ve
+nena_city_ve_917,Sabana de Parra,310,nena_municipality_ve_307,nena_state_ve_23,3206,base.ve
+nena_city_ve_918,Boraure,311,nena_municipality_ve_308,nena_state_ve_23,3206,base.ve
+nena_city_ve_919,Yumare,312,nena_municipality_ve_309,nena_state_ve_23,3207,base.ve
+nena_city_ve_920,Nirgua,313,nena_municipality_ve_310,nena_state_ve_23,3204,base.ve
+nena_city_ve_921,Salom,955,nena_municipality_ve_310,nena_state_ve_23,3204,base.ve
+nena_city_ve_922,Temerla,956,nena_municipality_ve_310,nena_state_ve_23,3204,base.ve
+nena_city_ve_923,Cambural,957,nena_municipality_ve_311,nena_state_ve_23,3209,base.ve
+nena_city_ve_924,Yaritagua,81,nena_municipality_ve_311,nena_state_ve_23,3209,base.ve
+nena_city_ve_925,Albarico,958,nena_municipality_ve_312,nena_state_ve_23,3208,base.ve
+nena_city_ve_926,Mará­n,317,nena_municipality_ve_312,nena_state_ve_23,3208,base.ve
+nena_city_ve_927,San Felipe,49,nena_municipality_ve_312,nena_state_ve_23,3201,base.ve
+nena_city_ve_928,Guama,314,nena_municipality_ve_313,nena_state_ve_23,3208,base.ve
+nena_city_ve_929,Urachiche,315,nena_municipality_ve_314,nena_state_ve_23,3210,base.ve
+nena_city_ve_930,Casimiro Vá¡squez,960,nena_municipality_ve_315,nena_state_ve_23,3203,base.ve
+nena_city_ve_931,Farriar,316,nena_municipality_ve_315,nena_state_ve_23,3203,base.ve
+nena_city_ve_932,El Toro,318,nena_municipality_ve_316,nena_state_ve_24,4006,base.ve
+nena_city_ve_933,San Carlos,961,nena_municipality_ve_316,nena_state_ve_24,4006,base.ve
+nena_city_ve_934,Ceuta,962,nena_municipality_ve_317,nena_state_ve_24,4018,base.ve
+nena_city_ve_935,El Tigre,965,nena_municipality_ve_317,nena_state_ve_24,4018,base.ve
+nena_city_ve_936,El Venado,964,nena_municipality_ve_317,nena_state_ve_24,4018,base.ve
+nena_city_ve_937,Mene Grande,963,nena_municipality_ve_317,nena_state_ve_24,4018,base.ve
+nena_city_ve_938,Pueblo Nuevo,966,nena_municipality_ve_317,nena_state_ve_24,4018,base.ve
+nena_city_ve_939,San Timoteo,319,nena_municipality_ve_317,nena_state_ve_24,4018,base.ve
+nena_city_ve_940,Cabimas,50,nena_municipality_ve_318,nena_state_ve_24,4013,base.ve
+nena_city_ve_941,Palito Blanco,967,nena_municipality_ve_318,nena_state_ve_24,4013,base.ve
+nena_city_ve_942,Punta Gorda,968,nena_municipality_ve_318,nena_state_ve_24,4013,base.ve
+nena_city_ve_943,El Guayabo,969,nena_municipality_ve_319,nena_state_ve_24,4014,base.ve
+nena_city_ve_944,Encontrados,320,nena_municipality_ve_319,nena_state_ve_24,4014,base.ve
+nena_city_ve_945,Concha,973,nena_municipality_ve_320,nena_state_ve_24,4034,base.ve
+nena_city_ve_946,El Moralito,970,nena_municipality_ve_320,nena_state_ve_24,4034,base.ve
+nena_city_ve_947,San Carlos del Zulia,321,nena_municipality_ve_320,nena_state_ve_24,4034,base.ve
+nena_city_ve_948,Santa Bá¡rbara,971,nena_municipality_ve_320,nena_state_ve_24,4034,base.ve
+nena_city_ve_949,Santa Cruz del Zulia,972,nena_municipality_ve_320,nena_state_ve_24,4034,base.ve
+nena_city_ve_950,Cuatro Esquinas,974,nena_municipality_ve_321,nena_state_ve_24,4016,base.ve
+nena_city_ve_951,Los Naranjos,975,nena_municipality_ve_321,nena_state_ve_24,4016,base.ve
+nena_city_ve_952,Pueblo Nuevo (El Chivo),322,nena_municipality_ve_321,nena_state_ve_24,4016,base.ve
+nena_city_ve_953,Jobo Alto (Kilómetro 25),977,nena_municipality_ve_322,nena_state_ve_24,4005,base.ve
+nena_city_ve_954,La Concepción,323,nena_municipality_ve_322,nena_state_ve_24,4005,base.ve
+nena_city_ve_955,La Paz,976,nena_municipality_ve_322,nena_state_ve_24,4005,base.ve
+nena_city_ve_956,San José,978,nena_municipality_ve_322,nena_state_ve_24,4005,base.ve
+nena_city_ve_957,Casigua El Cubo,324,nena_municipality_ve_323,nena_state_ve_24,4017,base.ve
+nena_city_ve_958,Cruce,979,nena_municipality_ve_323,nena_state_ve_24,4017,base.ve
+nena_city_ve_959,Concepción,325,nena_municipality_ve_324,nena_state_ve_24,4005,base.ve
+nena_city_ve_960,El Carmelo,982,nena_municipality_ve_324,nena_state_ve_24,4005,base.ve
+nena_city_ve_961,Kilómetro 48 (Santo Domingo),980,nena_municipality_ve_324,nena_state_ve_24,4005,base.ve
+nena_city_ve_962,La Cañada de Urdaneta,1384,nena_municipality_ve_324,nena_state_ve_24,4005,base.ve
+nena_city_ve_963,La Ensenada,981,nena_municipality_ve_324,nena_state_ve_24,4005,base.ve
+nena_city_ve_964,Potreritos,983,nena_municipality_ve_324,nena_state_ve_24,4005,base.ve
+nena_city_ve_965,Campo Lara,984,nena_municipality_ve_325,nena_state_ve_24,4019,base.ve
+nena_city_ve_966,Ciudad Ojeda,51,nena_municipality_ve_325,nena_state_ve_24,4019,base.ve
+nena_city_ve_967,Lagunillas,986,nena_municipality_ve_325,nena_state_ve_24,4019,base.ve
+nena_city_ve_968,Picapica,985,nena_municipality_ve_325,nena_state_ve_24,4019,base.ve
+nena_city_ve_969,Las Piedras,987,nena_municipality_ve_326,nena_state_ve_24,4025,base.ve
+nena_city_ve_970,Machiques,326,nena_municipality_ve_326,nena_state_ve_24,4025,base.ve
+nena_city_ve_971,Rá­o Negro,988,nena_municipality_ve_326,nena_state_ve_24,4025,base.ve
+nena_city_ve_972,San José,989,nena_municipality_ve_326,nena_state_ve_24,4025,base.ve
+nena_city_ve_973,Cachirá­,993,nena_municipality_ve_327,nena_state_ve_24,4027,base.ve
+nena_city_ve_974,Carrasquero,992,nena_municipality_ve_327,nena_state_ve_24,4027,base.ve
+nena_city_ve_975,El Mojá¡n,1385,nena_municipality_ve_327,nena_state_ve_24,4027,base.ve
+nena_city_ve_976,La Sierrita,990,nena_municipality_ve_327,nena_state_ve_24,4027,base.ve
+nena_city_ve_977,Las Parcelas,991,nena_municipality_ve_327,nena_state_ve_24,4027,base.ve
+nena_city_ve_978,San Rafael del Mojá¡n,327,nena_municipality_ve_327,nena_state_ve_24,4027,base.ve
+nena_city_ve_979,Santa Cruz de Mara,994,nena_municipality_ve_327,nena_state_ve_24,4027,base.ve
+nena_city_ve_980,Tamare,995,nena_municipality_ve_327,nena_state_ve_24,4027,base.ve
+nena_city_ve_981,Maracaibo,53,nena_municipality_ve_328,nena_state_ve_24,4001,base.ve
+nena_city_ve_982,San Isidro,996,nena_municipality_ve_328,nena_state_ve_24,4001,base.ve
+nena_city_ve_983,El Consejo de Ciruma,999,nena_municipality_ve_329,nena_state_ve_24,4011,base.ve
+nena_city_ve_984,El Mecocal,997,nena_municipality_ve_329,nena_state_ve_24,4011,base.ve
+nena_city_ve_985,Los Puertos de Altagracia,52,nena_municipality_ve_329,nena_state_ve_24,4011,base.ve
+nena_city_ve_986,Quisiro,998,nena_municipality_ve_329,nena_state_ve_24,4011,base.ve
+nena_city_ve_987,Sabaneta de las Palmas,1000,nena_municipality_ve_329,nena_state_ve_24,4011,base.ve
+nena_city_ve_988,Corojo,1001,nena_municipality_ve_330,nena_state_ve_24,4006,base.ve
+nena_city_ve_989,El Molinete,1002,nena_municipality_ve_330,nena_state_ve_24,4006,base.ve
+nena_city_ve_990,Paraguaipoa,1003,nena_municipality_ve_330,nena_state_ve_24,4006,base.ve
+nena_city_ve_991,Sinamaica,328,nena_municipality_ve_330,nena_state_ve_24,4006,base.ve
+nena_city_ve_992,Barranquitas,1004,nena_municipality_ve_331,nena_state_ve_24,4033,base.ve
+nena_city_ve_993,La Villa del Rosario,329,nena_municipality_ve_331,nena_state_ve_24,4033,base.ve
+nena_city_ve_994,San Ignacio,1005,nena_municipality_ve_331,nena_state_ve_24,4033,base.ve
+nena_city_ve_995,El Bajo,1006,nena_municipality_ve_332,nena_state_ve_24,4005,base.ve
+nena_city_ve_996,El Silencio,1007,nena_municipality_ve_332,nena_state_ve_24,4005,base.ve
+nena_city_ve_997,Los Cortijos,1009,nena_municipality_ve_332,nena_state_ve_24,4005,base.ve
+nena_city_ve_998,San Francisco,330,nena_municipality_ve_332,nena_state_ve_24,4005,base.ve
+nena_city_ve_999,Sierra Maestra,1008,nena_municipality_ve_332,nena_state_ve_24,4005,base.ve
+nena_city_ve_1000,Sur América,1010,nena_municipality_ve_332,nena_state_ve_24,4005,base.ve
+nena_city_ve_1001,El Guaná¡bano,1013,nena_municipality_ve_333,nena_state_ve_24,4012,base.ve
+nena_city_ve_1002,El Mene,1011,nena_municipality_ve_333,nena_state_ve_24,4012,base.ve
+nena_city_ve_1003,Palmarejo,1012,nena_municipality_ve_333,nena_state_ve_24,4012,base.ve
+nena_city_ve_1004,Santa Rita,331,nena_municipality_ve_333,nena_state_ve_24,4012,base.ve
+nena_city_ve_1005,Sabana de la Plata,1015,nena_municipality_ve_334,nena_state_ve_24,4014,base.ve
+nena_city_ve_1006,San Isidro,1014,nena_municipality_ve_334,nena_state_ve_24,4014,base.ve
+nena_city_ve_1007,Tá­a Juana,332,nena_municipality_ve_334,nena_state_ve_24,4014,base.ve
+nena_city_ve_1008,Bobures,333,nena_municipality_ve_335,nena_state_ve_24,4014,base.ve
+nena_city_ve_1009,Caja Seca,1020,nena_municipality_ve_335,nena_state_ve_24,4014,base.ve
+nena_city_ve_1010,El Batey,1016,nena_municipality_ve_335,nena_state_ve_24,4014,base.ve
+nena_city_ve_1011,Gibraltar,1017,nena_municipality_ve_335,nena_state_ve_24,4014,base.ve
+nena_city_ve_1012,San Antonio,1018,nena_municipality_ve_335,nena_state_ve_24,4014,base.ve
+nena_city_ve_1013,Santa Mará­a,1019,nena_municipality_ve_335,nena_state_ve_24,4014,base.ve
+nena_city_ve_1014,Bachaquero,334,nena_municipality_ve_336,nena_state_ve_24,4024,base.ve
+nena_city_ve_1015,El Corozo,1021,nena_municipality_ve_336,nena_state_ve_24,4024,base.ve

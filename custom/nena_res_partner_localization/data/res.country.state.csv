@@ -1,0 +1,26 @@
+id,name,code,country_id:id
+nena_state_ve_1,Amazonas,18,base.ve
+nena_state_ve_2,Anzoátegui,19,base.ve
+nena_state_ve_3,Apure,7,base.ve
+nena_state_ve_4,Aragua,12,base.ve
+nena_state_ve_5,Barinas,14,base.ve
+nena_state_ve_6,Bolívar,24,base.ve
+nena_state_ve_7,Carabobo,13,base.ve
+nena_state_ve_8,Cojedes,5,base.ve
+nena_state_ve_9,Delta Amacuro,20,base.ve
+nena_state_ve_10,Distrito Capital,3,base.ve
+nena_state_ve_11,Falcón,10,base.ve
+nena_state_ve_12,Guárico,8,base.ve
+nena_state_ve_13,Lara,11,base.ve
+nena_state_ve_14,Mérida,16,base.ve
+nena_state_ve_15,Miranda,4,base.ve
+nena_state_ve_16,Monagas,21,base.ve
+nena_state_ve_17,Nueva Esparta,23,base.ve
+nena_state_ve_18,Portuguesa,1,base.ve
+nena_state_ve_19,Sucre,22,base.ve
+nena_state_ve_20,Táchira,9,base.ve
+nena_state_ve_21,Trujillo,15,base.ve
+nena_state_ve_22,La Guaira,17,base.ve
+nena_state_ve_23,Yaracuy,6,base.ve
+nena_state_ve_24,Zulia,2,base.ve
+nena_state_ve_25,Dependencias Federales,25,base.ve

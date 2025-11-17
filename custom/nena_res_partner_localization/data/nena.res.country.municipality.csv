@@ -1,0 +1,337 @@
+id,name,code,state_id:id,country_id:id
+nena_municipality_ve_1,Alto Orinoco,1,nena_state_ve_1,base.ve
+nena_municipality_ve_2,Atabapo,2,nena_state_ve_1,base.ve
+nena_municipality_ve_3,Atures,3,nena_state_ve_1,base.ve
+nena_municipality_ve_4,Autana,4,nena_state_ve_1,base.ve
+nena_municipality_ve_5,Manapiare,5,nena_state_ve_1,base.ve
+nena_municipality_ve_6,Maroa,6,nena_state_ve_1,base.ve
+nena_municipality_ve_7,Río Negro,7,nena_state_ve_1,base.ve
+nena_municipality_ve_8,Anaco,8,nena_state_ve_2,base.ve
+nena_municipality_ve_9,Aragua,9,nena_state_ve_2,base.ve
+nena_municipality_ve_10,Simón Bolívar,10,nena_state_ve_2,base.ve
+nena_municipality_ve_11,Manuel Ezequiel Bruzual,11,nena_state_ve_2,base.ve
+nena_municipality_ve_12,Juan Manuel Cajigal,12,nena_state_ve_2,base.ve
+nena_municipality_ve_13,Francisco del Carmen Carvajal,13,nena_state_ve_2,base.ve
+nena_municipality_ve_14,Pedro María Freites,14,nena_state_ve_2,base.ve
+nena_municipality_ve_15,San José de Guanipa,15,nena_state_ve_2,base.ve
+nena_municipality_ve_16,Guanta,16,nena_state_ve_2,base.ve
+nena_municipality_ve_17,Independencia,17,nena_state_ve_2,base.ve
+nena_municipality_ve_18,Libertad,18,nena_state_ve_2,base.ve
+nena_municipality_ve_19,Diego Bautista Urbaneja,19,nena_state_ve_2,base.ve
+nena_municipality_ve_20,Sir Arthur McGregor,20,nena_state_ve_2,base.ve
+nena_municipality_ve_21,Miranda,21,nena_state_ve_2,base.ve
+nena_municipality_ve_22,José Gregorio Monagas,22,nena_state_ve_2,base.ve
+nena_municipality_ve_23,Fernando de Peñalver,23,nena_state_ve_2,base.ve
+nena_municipality_ve_24,Píritu,24,nena_state_ve_2,base.ve
+nena_municipality_ve_25,San Juan de Capistrano,25,nena_state_ve_2,base.ve
+nena_municipality_ve_26,Santa Ana,26,nena_state_ve_2,base.ve
+nena_municipality_ve_27,Simón Rodríguez,27,nena_state_ve_2,base.ve
+nena_municipality_ve_28,Juan Antonio Sotillo,28,nena_state_ve_2,base.ve
+nena_municipality_ve_29,Achaguas,29,nena_state_ve_3,base.ve
+nena_municipality_ve_30,Biruaca,30,nena_state_ve_3,base.ve
+nena_municipality_ve_31,Muñoz,31,nena_state_ve_3,base.ve
+nena_municipality_ve_32,Páez,32,nena_state_ve_3,base.ve
+nena_municipality_ve_33,Pedro Camejo,33,nena_state_ve_3,base.ve
+nena_municipality_ve_34,Rómulo Gallegos,34,nena_state_ve_3,base.ve
+nena_municipality_ve_35,San Fernando,35,nena_state_ve_3,base.ve
+nena_municipality_ve_36,Bolívar,36,nena_state_ve_4,base.ve
+nena_municipality_ve_37,Camatagua,37,nena_state_ve_4,base.ve
+nena_municipality_ve_38,Francisco Linares Alcántara,38,nena_state_ve_4,base.ve
+nena_municipality_ve_39,Girardot,39,nena_state_ve_4,base.ve
+nena_municipality_ve_40,José Ángel Lamas,40,nena_state_ve_4,base.ve
+nena_municipality_ve_41,José Félix Ribas,41,nena_state_ve_4,base.ve
+nena_municipality_ve_42,José Rafael Revenga,42,nena_state_ve_4,base.ve
+nena_municipality_ve_43,Libertador,43,nena_state_ve_4,base.ve
+nena_municipality_ve_44,Mario Briceño Iragorry,44,nena_state_ve_4,base.ve
+nena_municipality_ve_45,Ocumare de la Costa de Oro,45,nena_state_ve_4,base.ve
+nena_municipality_ve_46,San Casimiro,46,nena_state_ve_4,base.ve
+nena_municipality_ve_47,San Sebastián,47,nena_state_ve_4,base.ve
+nena_municipality_ve_48,Santiago Mariño,48,nena_state_ve_4,base.ve
+nena_municipality_ve_49,Santos Michelena,49,nena_state_ve_4,base.ve
+nena_municipality_ve_50,Sucre,50,nena_state_ve_4,base.ve
+nena_municipality_ve_51,Tovar,51,nena_state_ve_4,base.ve
+nena_municipality_ve_52,Urdaneta,52,nena_state_ve_4,base.ve
+nena_municipality_ve_53,Zamora,53,nena_state_ve_4,base.ve
+nena_municipality_ve_54,Alberto Arvelo Torrealba,54,nena_state_ve_5,base.ve
+nena_municipality_ve_55,Andrés Eloy Blanco,55,nena_state_ve_5,base.ve
+nena_municipality_ve_56,Antonio José de Sucre,56,nena_state_ve_5,base.ve
+nena_municipality_ve_57,Arismendi,57,nena_state_ve_5,base.ve
+nena_municipality_ve_58,Barinas,58,nena_state_ve_5,base.ve
+nena_municipality_ve_59,Bolívar,59,nena_state_ve_5,base.ve
+nena_municipality_ve_60,Cruz Paredes,60,nena_state_ve_5,base.ve
+nena_municipality_ve_61,Ezequiel Zamora,61,nena_state_ve_5,base.ve
+nena_municipality_ve_62,Obispos,62,nena_state_ve_5,base.ve
+nena_municipality_ve_63,Pedraza,63,nena_state_ve_5,base.ve
+nena_municipality_ve_64,Rojas,64,nena_state_ve_5,base.ve
+nena_municipality_ve_65,Sosa,65,nena_state_ve_5,base.ve
+nena_municipality_ve_66,Caroní,66,nena_state_ve_6,base.ve
+nena_municipality_ve_67,Cedeño,67,nena_state_ve_6,base.ve
+nena_municipality_ve_68,El Callao,68,nena_state_ve_6,base.ve
+nena_municipality_ve_69,Gran Sabana,69,nena_state_ve_6,base.ve
+nena_municipality_ve_70,Angostura del Orinoco,70,nena_state_ve_6,base.ve
+nena_municipality_ve_71,Padre Pedro Chien,71,nena_state_ve_6,base.ve
+nena_municipality_ve_72,Piar,72,nena_state_ve_6,base.ve
+nena_municipality_ve_73,Angostura,73,nena_state_ve_6,base.ve
+nena_municipality_ve_74,Roscio,74,nena_state_ve_6,base.ve
+nena_municipality_ve_75,Sifontes,75,nena_state_ve_6,base.ve
+nena_municipality_ve_76,Sucre,76,nena_state_ve_6,base.ve
+nena_municipality_ve_77,Bejuma,77,nena_state_ve_7,base.ve
+nena_municipality_ve_78,Carlos Arvelo,78,nena_state_ve_7,base.ve
+nena_municipality_ve_79,Diego Ibarra,79,nena_state_ve_7,base.ve
+nena_municipality_ve_80,Guacara,80,nena_state_ve_7,base.ve
+nena_municipality_ve_81,Juan José Mora,81,nena_state_ve_7,base.ve
+nena_municipality_ve_82,Libertador,82,nena_state_ve_7,base.ve
+nena_municipality_ve_83,Los Guayos,83,nena_state_ve_7,base.ve
+nena_municipality_ve_84,Miranda,84,nena_state_ve_7,base.ve
+nena_municipality_ve_85,Montalbán,85,nena_state_ve_7,base.ve
+nena_municipality_ve_86,Naguanagua,86,nena_state_ve_7,base.ve
+nena_municipality_ve_87,Puerto Cabello,87,nena_state_ve_7,base.ve
+nena_municipality_ve_88,San Diego,88,nena_state_ve_7,base.ve
+nena_municipality_ve_89,San Joaquín,89,nena_state_ve_7,base.ve
+nena_municipality_ve_90,Valencia,90,nena_state_ve_7,base.ve
+nena_municipality_ve_91,Anzoátegui,91,nena_state_ve_8,base.ve
+nena_municipality_ve_92,Pao de San Juan Bautista,92,nena_state_ve_8,base.ve
+nena_municipality_ve_93,Falcón,93,nena_state_ve_8,base.ve
+nena_municipality_ve_94,Girardot,94,nena_state_ve_8,base.ve
+nena_municipality_ve_95,Lima Blanco,95,nena_state_ve_8,base.ve
+nena_municipality_ve_96,Ricaurte,96,nena_state_ve_8,base.ve
+nena_municipality_ve_97,Rómulo Gallegos,97,nena_state_ve_8,base.ve
+nena_municipality_ve_98,San Carlos,98,nena_state_ve_8,base.ve
+nena_municipality_ve_99,Tinaco,99,nena_state_ve_8,base.ve
+nena_municipality_ve_100,Antonio Díaz,100,nena_state_ve_9,base.ve
+nena_municipality_ve_101,Casacoima,101,nena_state_ve_9,base.ve
+nena_municipality_ve_102,Pedernales,102,nena_state_ve_9,base.ve
+nena_municipality_ve_103,Tucupita,103,nena_state_ve_9,base.ve
+nena_municipality_ve_104,Acosta,104,nena_state_ve_11,base.ve
+nena_municipality_ve_105,Bolívar,105,nena_state_ve_11,base.ve
+nena_municipality_ve_106,Buchivacoa,106,nena_state_ve_11,base.ve
+nena_municipality_ve_107,Cacique Manaure,107,nena_state_ve_11,base.ve
+nena_municipality_ve_108,Carirubana,108,nena_state_ve_11,base.ve
+nena_municipality_ve_109,Colina,109,nena_state_ve_11,base.ve
+nena_municipality_ve_110,Dabajuro,110,nena_state_ve_11,base.ve
+nena_municipality_ve_111,Democracia,111,nena_state_ve_11,base.ve
+nena_municipality_ve_112,Falcón,112,nena_state_ve_11,base.ve
+nena_municipality_ve_113,Federación,113,nena_state_ve_11,base.ve
+nena_municipality_ve_114,Jacura,114,nena_state_ve_11,base.ve
+nena_municipality_ve_115,Los Taques,115,nena_state_ve_11,base.ve
+nena_municipality_ve_116,Mauroa,116,nena_state_ve_11,base.ve
+nena_municipality_ve_117,Miranda,117,nena_state_ve_11,base.ve
+nena_municipality_ve_118,Monseñor Iturriza,118,nena_state_ve_11,base.ve
+nena_municipality_ve_119,Palmasola,119,nena_state_ve_11,base.ve
+nena_municipality_ve_120,Petit,120,nena_state_ve_11,base.ve
+nena_municipality_ve_121,Píritu,121,nena_state_ve_11,base.ve
+nena_municipality_ve_122,San Francisco,122,nena_state_ve_11,base.ve
+nena_municipality_ve_123,Silva,123,nena_state_ve_11,base.ve
+nena_municipality_ve_124,Sucre,124,nena_state_ve_11,base.ve
+nena_municipality_ve_125,Tocópero,125,nena_state_ve_11,base.ve
+nena_municipality_ve_126,Unión,126,nena_state_ve_11,base.ve
+nena_municipality_ve_127,Urumaco,127,nena_state_ve_11,base.ve
+nena_municipality_ve_128,Zamora,128,nena_state_ve_11,base.ve
+nena_municipality_ve_129,Camaguán,129,nena_state_ve_12,base.ve
+nena_municipality_ve_130,Chaguaramas,130,nena_state_ve_12,base.ve
+nena_municipality_ve_131,El Socorro,131,nena_state_ve_12,base.ve
+nena_municipality_ve_132,Leonardo Infante,132,nena_state_ve_12,base.ve
+nena_municipality_ve_133,Las Mercedes,133,nena_state_ve_12,base.ve
+nena_municipality_ve_134,Julián Mellado,134,nena_state_ve_12,base.ve
+nena_municipality_ve_135,Francisco de Miranda,135,nena_state_ve_12,base.ve
+nena_municipality_ve_136,José Tadeo Monagas,136,nena_state_ve_12,base.ve
+nena_municipality_ve_137,Ortiz,137,nena_state_ve_12,base.ve
+nena_municipality_ve_138,José Félix Ribas,138,nena_state_ve_12,base.ve
+nena_municipality_ve_139,Juan Germán Roscio,139,nena_state_ve_12,base.ve
+nena_municipality_ve_140,San José de Guaribe,140,nena_state_ve_12,base.ve
+nena_municipality_ve_141,Santa María de Ipire,141,nena_state_ve_12,base.ve
+nena_municipality_ve_142,San Gerónimo de Guayabal,142,nena_state_ve_12,base.ve
+nena_municipality_ve_143,Pedro Zaraza,336,nena_state_ve_12,base.ve
+nena_municipality_ve_144,Andrés Eloy Blanco,143,nena_state_ve_13,base.ve
+nena_municipality_ve_145,Crespo,144,nena_state_ve_13,base.ve
+nena_municipality_ve_146,Iribarren,145,nena_state_ve_13,base.ve
+nena_municipality_ve_147,Jiménez,146,nena_state_ve_13,base.ve
+nena_municipality_ve_148,Morán,147,nena_state_ve_13,base.ve
+nena_municipality_ve_149,Palavecino,148,nena_state_ve_13,base.ve
+nena_municipality_ve_150,Simón Planas,149,nena_state_ve_13,base.ve
+nena_municipality_ve_151,Torres,150,nena_state_ve_13,base.ve
+nena_municipality_ve_152,Urdaneta,151,nena_state_ve_13,base.ve
+nena_municipality_ve_153,Alberto Adriani,152,nena_state_ve_14,base.ve
+nena_municipality_ve_154,Andrés Bello,153,nena_state_ve_14,base.ve
+nena_municipality_ve_155,Antonio Pinto Salinas,154,nena_state_ve_14,base.ve
+nena_municipality_ve_156,Aricagua,155,nena_state_ve_14,base.ve
+nena_municipality_ve_157,Arzobispo Chacón,156,nena_state_ve_14,base.ve
+nena_municipality_ve_158,Campo Elías,157,nena_state_ve_14,base.ve
+nena_municipality_ve_159,Caracciolo Parra Olmedo,158,nena_state_ve_14,base.ve
+nena_municipality_ve_160,Cardenal Quintero,159,nena_state_ve_14,base.ve
+nena_municipality_ve_161,Guaraque,160,nena_state_ve_14,base.ve
+nena_municipality_ve_162,Julio César Salas,161,nena_state_ve_14,base.ve
+nena_municipality_ve_163,Justo Briceño,162,nena_state_ve_14,base.ve
+nena_municipality_ve_164,Libertador,163,nena_state_ve_14,base.ve
+nena_municipality_ve_165,Miranda,164,nena_state_ve_14,base.ve
+nena_municipality_ve_166,Obispo Ramos de Lora,165,nena_state_ve_14,base.ve
+nena_municipality_ve_167,Padre Noguera,166,nena_state_ve_14,base.ve
+nena_municipality_ve_168,Pueblo Llano,167,nena_state_ve_14,base.ve
+nena_municipality_ve_169,Rangel,168,nena_state_ve_14,base.ve
+nena_municipality_ve_170,Rivas Dávila,169,nena_state_ve_14,base.ve
+nena_municipality_ve_171,Santos Marquina,170,nena_state_ve_14,base.ve
+nena_municipality_ve_172,Sucre,171,nena_state_ve_14,base.ve
+nena_municipality_ve_173,Tovar,172,nena_state_ve_14,base.ve
+nena_municipality_ve_174,Tulio Febres Cordero,173,nena_state_ve_14,base.ve
+nena_municipality_ve_175,Zea,174,nena_state_ve_14,base.ve
+nena_municipality_ve_176,Acevedo,175,nena_state_ve_15,base.ve
+nena_municipality_ve_177,Andrés Bello,176,nena_state_ve_15,base.ve
+nena_municipality_ve_178,Baruta,177,nena_state_ve_15,base.ve
+nena_municipality_ve_179,Brión,178,nena_state_ve_15,base.ve
+nena_municipality_ve_180,Buroz,179,nena_state_ve_15,base.ve
+nena_municipality_ve_181,Carrizal,180,nena_state_ve_15,base.ve
+nena_municipality_ve_182,Chacao,181,nena_state_ve_15,base.ve
+nena_municipality_ve_183,Cristóbal Rojas,182,nena_state_ve_15,base.ve
+nena_municipality_ve_184,El Hatillo,183,nena_state_ve_15,base.ve
+nena_municipality_ve_185,Guaicaipuro,184,nena_state_ve_15,base.ve
+nena_municipality_ve_186,Independencia,185,nena_state_ve_15,base.ve
+nena_municipality_ve_187,Tomás Lander,186,nena_state_ve_15,base.ve
+nena_municipality_ve_188,Los Salias,187,nena_state_ve_15,base.ve
+nena_municipality_ve_189,Páez,188,nena_state_ve_15,base.ve
+nena_municipality_ve_190,Paz Castillo,189,nena_state_ve_15,base.ve
+nena_municipality_ve_191,Pedro Gual,190,nena_state_ve_15,base.ve
+nena_municipality_ve_192,Plaza,191,nena_state_ve_15,base.ve
+nena_municipality_ve_193,Simón Bolívar,192,nena_state_ve_15,base.ve
+nena_municipality_ve_194,Sucre,193,nena_state_ve_15,base.ve
+nena_municipality_ve_195,Urdaneta,194,nena_state_ve_15,base.ve
+nena_municipality_ve_196,Zamora,195,nena_state_ve_15,base.ve
+nena_municipality_ve_197,Acosta,196,nena_state_ve_16,base.ve
+nena_municipality_ve_198,Aguasay,197,nena_state_ve_16,base.ve
+nena_municipality_ve_199,Bolívar,198,nena_state_ve_16,base.ve
+nena_municipality_ve_200,Caripe,199,nena_state_ve_16,base.ve
+nena_municipality_ve_201,Cedeño,200,nena_state_ve_16,base.ve
+nena_municipality_ve_202,Ezequiel Zamora,201,nena_state_ve_16,base.ve
+nena_municipality_ve_203,Libertador,202,nena_state_ve_16,base.ve
+nena_municipality_ve_204,Maturín,203,nena_state_ve_16,base.ve
+nena_municipality_ve_205,Piar,204,nena_state_ve_16,base.ve
+nena_municipality_ve_206,Punceres,205,nena_state_ve_16,base.ve
+nena_municipality_ve_207,Santa Bárbara,206,nena_state_ve_16,base.ve
+nena_municipality_ve_208,Sotillo,207,nena_state_ve_16,base.ve
+nena_municipality_ve_209,Uracoa,208,nena_state_ve_16,base.ve
+nena_municipality_ve_210,Antolín del Campo,209,nena_state_ve_17,base.ve
+nena_municipality_ve_211,Arismendi,210,nena_state_ve_17,base.ve
+nena_municipality_ve_212,Díaz,211,nena_state_ve_17,base.ve
+nena_municipality_ve_213,García,212,nena_state_ve_17,base.ve
+nena_municipality_ve_214,Gómez,213,nena_state_ve_17,base.ve
+nena_municipality_ve_215,Maneiro,214,nena_state_ve_17,base.ve
+nena_municipality_ve_216,Marcano,215,nena_state_ve_17,base.ve
+nena_municipality_ve_217,Mariño,216,nena_state_ve_17,base.ve
+nena_municipality_ve_218,Península de Macanao,217,nena_state_ve_17,base.ve
+nena_municipality_ve_219,Tubores,218,nena_state_ve_17,base.ve
+nena_municipality_ve_220,Villalba,219,nena_state_ve_17,base.ve
+nena_municipality_ve_221,Agua Blanca,220,nena_state_ve_18,base.ve
+nena_municipality_ve_222,Araure,221,nena_state_ve_18,base.ve
+nena_municipality_ve_223,Esteller,222,nena_state_ve_18,base.ve
+nena_municipality_ve_224,Guanare,223,nena_state_ve_18,base.ve
+nena_municipality_ve_225,Guanarito,224,nena_state_ve_18,base.ve
+nena_municipality_ve_226,Monseñor José Vicente de Unda,225,nena_state_ve_18,base.ve
+nena_municipality_ve_227,Ospino,226,nena_state_ve_18,base.ve
+nena_municipality_ve_228,Páez,227,nena_state_ve_18,base.ve
+nena_municipality_ve_229,Papelón,228,nena_state_ve_18,base.ve
+nena_municipality_ve_230,San Genaro de Boconoíto,229,nena_state_ve_18,base.ve
+nena_municipality_ve_231,San Rafael de Onoto,230,nena_state_ve_18,base.ve
+nena_municipality_ve_232,Santa Rosalía,231,nena_state_ve_18,base.ve
+nena_municipality_ve_233,Sucre,232,nena_state_ve_18,base.ve
+nena_municipality_ve_234,Turén,233,nena_state_ve_18,base.ve
+nena_municipality_ve_235,Andrés Eloy Blanco,234,nena_state_ve_19,base.ve
+nena_municipality_ve_236,Andrés Mata,235,nena_state_ve_19,base.ve
+nena_municipality_ve_237,Arismendi,236,nena_state_ve_19,base.ve
+nena_municipality_ve_238,Benítez,237,nena_state_ve_19,base.ve
+nena_municipality_ve_239,Bermúdez,238,nena_state_ve_19,base.ve
+nena_municipality_ve_240,Bolívar,239,nena_state_ve_19,base.ve
+nena_municipality_ve_241,Cajigal,240,nena_state_ve_19,base.ve
+nena_municipality_ve_242,Cruz Salmerón Acosta,241,nena_state_ve_19,base.ve
+nena_municipality_ve_243,Libertador,242,nena_state_ve_19,base.ve
+nena_municipality_ve_244,Mariño,243,nena_state_ve_19,base.ve
+nena_municipality_ve_245,Mejía,244,nena_state_ve_19,base.ve
+nena_municipality_ve_246,Montes,245,nena_state_ve_19,base.ve
+nena_municipality_ve_247,Ribero,246,nena_state_ve_19,base.ve
+nena_municipality_ve_248,Sucre,247,nena_state_ve_19,base.ve
+nena_municipality_ve_249,Valdez,248,nena_state_ve_19,base.ve
+nena_municipality_ve_250,Andrés Bello,249,nena_state_ve_20,base.ve
+nena_municipality_ve_251,Antonio Rómulo Costa,250,nena_state_ve_20,base.ve
+nena_municipality_ve_252,Ayacucho,251,nena_state_ve_20,base.ve
+nena_municipality_ve_253,Bolívar,252,nena_state_ve_20,base.ve
+nena_municipality_ve_254,Cárdenas,253,nena_state_ve_20,base.ve
+nena_municipality_ve_255,Córdoba,254,nena_state_ve_20,base.ve
+nena_municipality_ve_256,Fernández Feo,255,nena_state_ve_20,base.ve
+nena_municipality_ve_257,Francisco de Miranda,256,nena_state_ve_20,base.ve
+nena_municipality_ve_258,García de Hevia,257,nena_state_ve_20,base.ve
+nena_municipality_ve_259,Guásimos,258,nena_state_ve_20,base.ve
+nena_municipality_ve_260,Independencia,259,nena_state_ve_20,base.ve
+nena_municipality_ve_261,Jáuregui,260,nena_state_ve_20,base.ve
+nena_municipality_ve_262,José María Vargas,261,nena_state_ve_20,base.ve
+nena_municipality_ve_263,Junín,262,nena_state_ve_20,base.ve
+nena_municipality_ve_264,Libertad,263,nena_state_ve_20,base.ve
+nena_municipality_ve_265,Libertador,264,nena_state_ve_20,base.ve
+nena_municipality_ve_266,Lobatera,265,nena_state_ve_20,base.ve
+nena_municipality_ve_267,Michelena,266,nena_state_ve_20,base.ve
+nena_municipality_ve_268,Panamericano,267,nena_state_ve_20,base.ve
+nena_municipality_ve_269,Pedro María Ureña,268,nena_state_ve_20,base.ve
+nena_municipality_ve_270,Rafael Urdaneta,269,nena_state_ve_20,base.ve
+nena_municipality_ve_271,Samuel Darío Maldonado,270,nena_state_ve_20,base.ve
+nena_municipality_ve_272,San Cristóbal,271,nena_state_ve_20,base.ve
+nena_municipality_ve_273,San Judas Tadeo,272,nena_state_ve_20,base.ve
+nena_municipality_ve_274,Seboruco,273,nena_state_ve_20,base.ve
+nena_municipality_ve_275,Simón Rodríguez,274,nena_state_ve_20,base.ve
+nena_municipality_ve_276,Sucre,275,nena_state_ve_20,base.ve
+nena_municipality_ve_277,Torbes,276,nena_state_ve_20,base.ve
+nena_municipality_ve_278,Uribante,277,nena_state_ve_20,base.ve
+nena_municipality_ve_279,Andrés Bello,278,nena_state_ve_21,base.ve
+nena_municipality_ve_280,Boconó,279,nena_state_ve_21,base.ve
+nena_municipality_ve_281,Bolívar,280,nena_state_ve_21,base.ve
+nena_municipality_ve_282,Candelaria,281,nena_state_ve_21,base.ve
+nena_municipality_ve_283,Carache,282,nena_state_ve_21,base.ve
+nena_municipality_ve_284,Escuque,283,nena_state_ve_21,base.ve
+nena_municipality_ve_285,José Felipe Márquez Cañizales,284,nena_state_ve_21,base.ve
+nena_municipality_ve_286,Juan Vicente Campo Elías,285,nena_state_ve_21,base.ve
+nena_municipality_ve_287,La Ceiba,286,nena_state_ve_21,base.ve
+nena_municipality_ve_288,Miranda,287,nena_state_ve_21,base.ve
+nena_municipality_ve_289,Monte Carmelo,288,nena_state_ve_21,base.ve
+nena_municipality_ve_290,Motatán,289,nena_state_ve_21,base.ve
+nena_municipality_ve_291,Pampán,290,nena_state_ve_21,base.ve
+nena_municipality_ve_292,Pampanito,291,nena_state_ve_21,base.ve
+nena_municipality_ve_293,Rafael Rangel,292,nena_state_ve_21,base.ve
+nena_municipality_ve_294,San Rafael de Carvajal,293,nena_state_ve_21,base.ve
+nena_municipality_ve_295,Sucre,294,nena_state_ve_21,base.ve
+nena_municipality_ve_296,Trujillo,295,nena_state_ve_21,base.ve
+nena_municipality_ve_297,Urdaneta,296,nena_state_ve_21,base.ve
+nena_municipality_ve_298,Valera,297,nena_state_ve_21,base.ve
+nena_municipality_ve_299,Vargas,298,nena_state_ve_22,base.ve
+nena_municipality_ve_300,Arístides Bastidas,299,nena_state_ve_23,base.ve
+nena_municipality_ve_301,Bolívar,301,nena_state_ve_23,base.ve
+nena_municipality_ve_302,Bruzual,302,nena_state_ve_23,base.ve
+nena_municipality_ve_303,Cocorote,303,nena_state_ve_23,base.ve
+nena_municipality_ve_304,Independencia,304,nena_state_ve_23,base.ve
+nena_municipality_ve_305,José Antonio Páez,305,nena_state_ve_23,base.ve
+nena_municipality_ve_306,La Trinidad,306,nena_state_ve_23,base.ve
+nena_municipality_ve_307,Manuel Monge,307,nena_state_ve_23,base.ve
+nena_municipality_ve_308,Nirgua,308,nena_state_ve_23,base.ve
+nena_municipality_ve_309,Peña,309,nena_state_ve_23,base.ve
+nena_municipality_ve_310,San Felipe,310,nena_state_ve_23,base.ve
+nena_municipality_ve_311,Sucre,311,nena_state_ve_23,base.ve
+nena_municipality_ve_312,Urachiche,312,nena_state_ve_23,base.ve
+nena_municipality_ve_313,Veroes,313,nena_state_ve_23,base.ve
+nena_municipality_ve_314,Almirante Padilla,314,nena_state_ve_24,base.ve
+nena_municipality_ve_315,Baralt,315,nena_state_ve_24,base.ve
+nena_municipality_ve_316,Cabimas,316,nena_state_ve_24,base.ve
+nena_municipality_ve_317,Catatumbo,317,nena_state_ve_24,base.ve
+nena_municipality_ve_318,Colón,318,nena_state_ve_24,base.ve
+nena_municipality_ve_319,Francisco Javier Pulgar,319,nena_state_ve_24,base.ve
+nena_municipality_ve_320,Jesús Enrique Lossada,320,nena_state_ve_24,base.ve
+nena_municipality_ve_321,Jesús María Semprúm,321,nena_state_ve_24,base.ve
+nena_municipality_ve_322,La Cañada de Urdaneta,322,nena_state_ve_24,base.ve
+nena_municipality_ve_323,Lagunillas,323,nena_state_ve_24,base.ve
+nena_municipality_ve_324,Machiques de Perijá,324,nena_state_ve_24,base.ve
+nena_municipality_ve_325,Mara,325,nena_state_ve_24,base.ve
+nena_municipality_ve_326,Maracaibo,326,nena_state_ve_24,base.ve
+nena_municipality_ve_327,Miranda,327,nena_state_ve_24,base.ve
+nena_municipality_ve_328,Páez,328,nena_state_ve_24,base.ve
+nena_municipality_ve_329,Rosario de Perijá,329,nena_state_ve_24,base.ve
+nena_municipality_ve_330,San Francisco,330,nena_state_ve_24,base.ve
+nena_municipality_ve_331,Santa Rita,331,nena_state_ve_24,base.ve
+nena_municipality_ve_332,Simón Bolívar,332,nena_state_ve_24,base.ve
+nena_municipality_ve_333,Sucre,333,nena_state_ve_24,base.ve
+nena_municipality_ve_334,Valmore Rodríguez,334,nena_state_ve_24,base.ve
+nena_municipality_ve_335,Libertador,335,nena_state_ve_10,base.ve
+nena_municipality_ve_336,Dependencias Federales,336,nena_state_ve_25,base.ve
