@@ -1,0 +1,27 @@
+<odoo>
+    <record id="view_hr_employee_form_inherit" model="ir.ui.view">
+        <field name="name">hr.employee.form.inherit.nena</field>
+        <field name="model">hr.employee</field>
+        <field name="inherit_id" ref="hr.view_employee_form"/>
+        <field name="arch" type="xml">
+
+            <field name="job_id" position="attributes">
+                <attribute name="domain">[('nena_hr_job_id', '=', department_id)]</attribute>
+            </field>
+            <xpath expr="//page[@name='hr_settings']" position="after">            
+                <page name="config_collection_management" string="Config. Gestíón Cobranza" invisible="display_collection_management">
+                    <group>
+                        <field name="nena_config_collection_management_id"/>
+                        <separator string="Zonas de Asignadas"/>
+                        <field name="nena_zone_ids">
+                            <list>
+                                <field name="code"/>
+                                <field name="description"/>
+                            </list>
+                        </field>
+                    </group>  
+                </page>  
+            </xpath>
+        </field>
+    </record>
+</odoo>

@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_nena_client_assignment_hr_department,access_nena_client_assignment_hr_department,model_hr_department,,1,1,1,1
+access_nena_config_collection_management,access_nena_config_collection_management,model_nena_config_collection_management,,1,1,1,1
+
