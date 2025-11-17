@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="product_subtype_view_tree" model="ir.ui.view">
+        <field name="name">product.subtype.view.tree</field>
+        <field name="model">nena.product.subtype</field>
+        <field name="arch" type="xml">
+            <list>
+                <field name="code_subtype" />
+                <field name="name_subtype" />
+                <field name="product_category_id" />
+                <field name="ref" />
+                <field name="status" />
+            </list>
+        </field>
+    </record>
+
+    <record id="product_subtype_view_form" model="ir.ui.view">
+        <field name="name">product.subtype.view.form</field>
+        <field name="model">nena.product.subtype</field>
+        <field name="arch" type="xml">
+            <form string="">
+                <sheet>
+                    <group>
+                        <field name="code_subtype" />
+                        <field name="name_subtype" />
+                        <field name="product_category_id" options="{'no_quick_create':True,'no_create':True,'no_create_edit':True 'no_open': True}" />
+                        <field name="ref" />
+                        <field name="status" />
+                    </group>
+                </sheet>
+                <chatter />
+            </form>
+        </field>
+    </record>    
+
+    <record id="product_subtype_action" model="ir.actions.act_window">
+        <field name="name">SubType Product</field>
+        <field name="res_model">nena.product.subtype</field>
+        <field name="view_mode">list,form,pivot</field>
+    </record>
+
+</odoo>

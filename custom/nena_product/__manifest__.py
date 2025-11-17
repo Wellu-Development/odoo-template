@@ -7,8 +7,11 @@
     "application": False,
     "depends": ["base","stock"],
     "data": [
-        #"security/ir.model.access.csv",
+        "security/ir.model.access.csv",
         "data/product.category.csv",
+        "data/nena.product.subtype.csv",
         "views/product_category.xml",
+        "views/product_subtype.xml",
+        "views/menuitem.xml",
     ],
 }
