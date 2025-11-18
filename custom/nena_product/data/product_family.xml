@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <data>
+    
+        <record id="family_1" model="nena.product.family">
+            <field name="code">1</field>
+            <field name="description">CUIDADO DEL SISTEMA INMUNOLOGICO</field>
+            <field name="active" eval="True" />
+            <field name="product_subtype_id" ref="product_subtype_1" />
+        </record>
+
+        <record id="family_2" model="nena.product.family">
+            <field name="code">100</field>
+            <field name="description">TE E INFUSIONES</field>
+            <field name="active" eval="True" />
+            <field name="product_subtype_id" ref="product_subtype_4" />
+        </record>
+
+        <record id="family_3" model="nena.product.family">
+            <field name="code">160</field>
+            <field name="description">DEPORTES Y FITNES</field>
+            <field name="active" eval="True" />
+            <field name="product_subtype_id" ref="product_subtype_17" />
+        </record>
+    
+    </data>
+    
+
+</odoo>

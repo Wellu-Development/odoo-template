@@ -6,8 +6,8 @@
         <field name="model">nena.product.subtype</field>
         <field name="arch" type="xml">
             <list>
-                <field name="code_subtype" />
-                <field name="name_subtype" />
+                <field name="code" />
+                <field name="name" />
                 <field name="product_category_id" />
                 <field name="ref" />
                 <field name="status" />
@@ -22,8 +22,8 @@
             <form string="">
                 <sheet>
                     <group>
-                        <field name="code_subtype" />
-                        <field name="name_subtype" />
+                        <field name="code" />
+                        <field name="name" />
                         <field name="product_category_id" options="{'no_quick_create':True,'no_create':True,'no_create_edit':True 'no_open': True}" />
                         <field name="ref" />
                         <field name="status" />

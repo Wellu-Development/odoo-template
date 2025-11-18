@@ -1,4 +1,4 @@
-id,code_subtype,name_subtype,status,product_category_id:id,ref
+id,code,name,status,product_category_id:id,ref
 product_subtype_1,1,ALIVIO Y PREVENCION,True,type_1,1
 product_subtype_2,2,MERCADEO,True,type_2,10
 product_subtype_3,3,COMPLEMENTOS ALIMENTICIOS EN POLVO,True,type_1,12
