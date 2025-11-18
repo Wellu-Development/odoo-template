@@ -1,19 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <odoo>
-    <!-- Asegura que el menú raíz existe -->
     <menuitem id="menu_localization_root" name="Localization" sequence="10"/>
-
-    <!-- Submenú para Venezuela -->
     <menuitem id="menu_localization_ve" name="Localización Venezuela" parent="menu_localization_root" sequence="10"/>
-
-    <!-- Submenú Fiscal -->
     <menuitem id="menu_localization_ve_fiscal" name="Fiscal" parent="menu_localization_ve" sequence="20"/>
 
-    <!-- Menú Unidad Tributaria -->
     <menuitem id="menu_localization_ve_tax_unit" name="Unidad Tributaria" parent="menu_localization_ve_fiscal"
               action="action_tax_unit" sequence="10"/>
 
-    <!-- Menú Retenciones IVA (pendiente de acción) -->
     <menuitem id="menu_localization_ve_ret_iva" name="Retenciones IVA" parent="menu_localization_ve_fiscal"
-              action="action_retencion_iva" sequence="20"/>
+              action="action_tax_retention" sequence="20"/>
 </odoo>

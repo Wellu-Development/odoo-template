@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <!-- Vista tipo formulario -->
+    <record id="nena_view_form_tax_unit" model="ir.ui.view">
+        <field name="name">nena.l10n.ve.tax.unit.form</field>
+        <field name="model">nena.l10n.ve.tax.unit</field>
+        <field name="arch" type="xml">
+            <form string="Tax Unit">
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                        <field name="value"/>
+                        <field name="effective_date"/>
+                        <field name="is_current" readonly="1"/>
+                        <field name="company_id"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- Vista tipo lista -->
+    <record id="nena_view_list_tax_unit" model="ir.ui.view">
+        <field name="name">nena.l10n.ve.tax.unit.list</field>
+        <field name="model">nena.l10n.ve.tax.unit</field>
+        <field name="arch" type="xml">
+            <list string="Tax Units">
+                <field name="effective_date"/>
+                <field name="value"/>
+                <field name="is_current"/>
+                <field name="company_id"/>
+            </list>
+        </field>
+    </record>
+
+
+    <record id="nena_view_search_tax_unit" model="ir.ui.view">
+        <field name="name">nena.l10n.ve.tax.unit.search</field>
+        <field name="model">nena.l10n.ve.tax.unit</field>
+        <field name="arch" type="xml">
+            <search string="Search Tax Units">
+                <field name="effective_date"/>
+                <field name="value"/>
+                <field name="company_id" groups="base.group_multi_company"/>
+                <filter name="filter_current" string="Vigente" domain="[('is_current','=',True)]"/>
+                <group expand="0" string="Group By">
+                    <filter name="group_by_company" string="Compañía" context="{'group_by': 'company_id'}" groups="base.group_multi_company"/>
+                    <filter name="group_by_date" string="Fecha" context="{'group_by': 'effective_date'}"/>
+                </group>
+            </search>
+        </field>
+    </record>
+
+    <!-- Acción de ventana -->
+    <record id="nena_action_tax_unit" model="ir.actions.act_window">
+        <field name="name">Unidad Tributaria</field>
+        <field name="res_model">nena.l10n.ve.tax.unit</field>
+        <field name="view_mode">list,form</field>
+        <field name="search_view_id" ref="nena_view_search_tax_unit"/>
+        <field name="help" type="html">
+            <p>Registra y consulta los valores históricos de la Unidad Tributaria (UT) según el SENIAT.</p>
+        </field>
+    </record>
+</odoo>

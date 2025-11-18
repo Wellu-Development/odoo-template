@@ -1,5 +1,5 @@
-<odoo>
-    <record id="group_seniat_viewer" model="res.groups">
+<odoo noupdate="1">
+    <record id="nena_group_seniat_viewer" model="res.groups">
         <field name="name">SENIAT Viewer</field>
         <field name="category_id" ref="base.module_category_accounting"/>
     </record>

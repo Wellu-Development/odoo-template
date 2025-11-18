@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "nena_localization_tributary_unit_ve",
+    'name': "nena_l10n_ve_tax_unit",
     'summary': "Tributary Unit for Venezuela",
     'description': """
 Unidad Tributaria para Venezuela
@@ -9,11 +9,11 @@ Unidad Tributaria para Venezuela
     'website': "",
     'category': 'Localization',
     'version': '18.0.0.0.1',
-    'depends': ['base'],
+    'depends': ['base', 'account'],
     'data': [
-        'security/groups.xml',
         'security/ir.model.access.csv',
-        'views/l10n_ve_tax_unit_views.xml',  
+        'views/nena_l10n_ve_tax_unit_views.xml',  
+        'views/fiscal_menu.xml',
     ],
     'installable': True,
     'application': False,

@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_nena_l10n_ve_tax_retention_user,nena.l10n.ve.tax.retention user,model_nena_l10n_ve_tax_retention,base.group_user,1,1,1,1
+access_nena_l10n_ve_tax_retention_manager,nena.l10n.ve.tax.retention manager,model_nena_l10n_ve_tax_retention,base.group_system,1,1,1,1

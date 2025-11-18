@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <!-- Submenú: Retención de IVA bajo Localización Fiscal -->
+    <menuitem id="menu_localization_ve_tax_retention"
+              name="Retención de IVA"
+              parent="nena_l10n_ve_tax_unit.menu_localization_ve_fiscal"
+              action="action_nena_l10n_ve_tax_retention"
+              sequence="20"
+              groups="account.group_account_manager"/>
+</odoo>

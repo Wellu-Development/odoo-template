@@ -1,0 +1,5 @@
+id,name,retention_type,rate,start_date,end_date
+l10n_ve_retention_hist_01,"IVA Retención Estándar (2020)",standard,70.00,2020-01-01,2022-12-31
+l10n_ve_retention_hist_02,"IVA Retención Punitiva (2020)",penalty,90.00,2020-01-01,2022-12-31
+l10n_ve_retention_std_2025,"IVA Retención Estándar (75%) - Vigente",standard,75.00,2025-01-01,
+l10n_ve_retention_pen_2025,"IVA Retención Punitiva (100%) - Vigente",penalty,100.00,2025-01-01,

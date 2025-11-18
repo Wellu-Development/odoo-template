@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_tax_unit_user,l10n_ve.tax.unit user,model_nena_l10n_ve_tax_unit,base.group_user,1,1,1,1
+access_tax_unit_manager,l10n_ve.tax.unit manager,model_nena_l10n_ve_tax_unit,base.group_system,1,1,1,1

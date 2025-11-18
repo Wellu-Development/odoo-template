@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <!-- Menú Fiscal directamente bajo Configuración de Contabilidad -->
+    <menuitem id="menu_localization_ve_fiscal"
+              name="Localización Fiscal"
+              parent="account.menu_finance_configuration"
+              sequence="40"
+              groups="account.group_account_manager"/>
+
+    <!-- Submenú: Unidad Tributaria -->
+    <menuitem id="menu_localization_ve_tax_unit"
+              name="Unidad Tributaria"
+              parent="menu_localization_ve_fiscal"
+              action="nena_action_tax_unit"
+              sequence="10"
+              groups="account.group_account_manager"/>
+</odoo>
