@@ -24,7 +24,7 @@
               <field name="description" />
             </h1>
             <field name="code" />
-            <!--<field name="product_subtype_id" />-->
+            <field name="product_subtype_id" options="{'no_quick_create':True,'no_create':True,'no_create_edit':True 'no_open': True}"/>
             <field name="active" />
           </group>
         </sheet>

@@ -16,7 +16,7 @@ class NenaProductClass(models.Model):
     
     code = fields.Char(string='Código', size=15,required=True, tracking=True)
     description = fields.Char(string='Descripción', size=80, required=True, tracking=True)
-    product_family_id = fields.Many2one('nena.product.family', string="Familia", required=True, tracking=True)
+    product_family_id = fields.Many2one('nena.product.family', string="Familia", required=True,tracking=True)
     active = fields.Boolean(string='Activo',default=True, tracking=True)
 
      # Funciones

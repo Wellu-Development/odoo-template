@@ -6,17 +6,17 @@ class NenaProductFamily(models.Model):
     _rec_name = "description"
     _inherit = ['mail.thread','mail.activity.mixin']
 
-    # _sql_constraints = [
-    #     (
-    #         "code_description_unique",
-    #         "UNIQUE(code,description,product_subtype_id)",
-    #         "El código de la clase del producto debe de ser único",
-    #     )
-    # ]
+    _sql_constraints = [
+         (
+             "code_description_unique",
+             "UNIQUE(code,description,product_subtype_id)",
+             "El código de la familia del producto debe de ser único",
+         )
+    ]
 
     code = fields.Char(string='Código', size=15,required=True, tracking=True)
     description = fields.Char(string='Descripción', size=80, required=True, tracking=True)
-    #product_subtype_id = fields.Many2one('nena.product.subtype', string="Subtipo", required=True)
+    product_subtype_id = fields.Many2one('nena.product.subtype', string="Subtipo",tracking=True)
     active = fields.Boolean(string='Activo',default=True, tracking=True)
 
      # Funciones
