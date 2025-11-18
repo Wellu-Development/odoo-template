@@ -9,5 +9,5 @@ class DrugCompositionLine(models.Model):
     quantity = fields.Float(string='Cantidad', required=True)
     unit_id = fields.Many2one('uom.uom', string='Unidad de Medida', required=True)
 
-    quantity_jar = fields.Float(string='Cantidad', required=True)
-    unit_jar_id = fields.Many2one('uom.uom', string='Unidad de Medida', required=True)
+    # quantity_jar = fields.Float(string='Cantidad', required=True)
+    # unit_jar_id = fields.Many2one('uom.uom', string='Unidad de Medida', required=True)

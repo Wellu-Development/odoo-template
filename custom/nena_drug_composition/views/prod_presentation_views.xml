@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="view_prod_presentation_form" model="ir.ui.view">
+        <field name="name">drug.product.presentation.form</field>
+        <field name="model">nena.prod.presentation</field>
+        <field name="arch" type="xml">
+            <form string="Presentacion de Productos">
+                <sheet>
+                    <group>
+                        <field name="reference"/>
+                        <field name="abbrev_presentation"/>
+                        <field name="description_presentation"/>
+                        <field name="has_dosage"/>
+                        <field name="uom_presentation_id"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_prod_presentation_list" model="ir.ui.view">
+        <field name="name">drug.product.presentation.list</field>
+        <field name="model">nena.prod.presentation</field>
+        <field name="arch" type="xml">
+            <list string="Presentacion de Productos">
+                <field name="reference"/>
+                <field name="abbrev_presentation"/>
+                <field name="description_presentation"/>
+                <field name="has_dosage"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="action_product_presentation" model="ir.actions.act_window">
+        <field name="name">Presentacion de Productos</field>
+        <field name="res_model">nena.prod.presentation</field>
+        <field name="view_mode">list,form</field>
+    </record>
+
+    <!-- <menuitem id="menu_drug_root" name="Drug Management"/> -->
+    <menuitem id="menu_product_presentation" name="Presentacion de Productos" parent="menu_drug_root" action="action_product_presentation"/>
+</odoo>

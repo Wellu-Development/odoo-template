@@ -15,6 +15,7 @@
         'views/product_views.xml',
         'views/active_principle_views.xml',
         'views/composition_views.xml',
+        'views/prod_presentation_views.xml',
     ],
     'installable': True,
     'application': False,

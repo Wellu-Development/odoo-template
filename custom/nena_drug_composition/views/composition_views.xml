@@ -7,8 +7,15 @@
             <form string="Drug Composition">
                 <sheet>
                     <group>
-                        <field name="product_id"/>
-                        <field name="reference"/>
+                        <group>
+                            <field name="product_id"/>
+                            <field name="reference"/>
+                            <field name="presentation_id"/>
+                        </group>
+                        <group invisible="(presentation_id and not has_dosage) or (not presentation_id)">
+                            <field name="dosage_amount"/>
+                            <field name="dosage_unit"/>
+                        </group>
                     </group>
                     <group>
                         <field name="line_ids">
@@ -16,8 +23,6 @@
                                 <field name="active_principle_id"/>
                                 <field name="quantity"/>
                                 <field name="unit_id"/>
-                                <field name="quantity_jar"/>
-                                <field name="unit_jar_id" invisible=''/>
                             </list>
                         </field>
                     </group>
