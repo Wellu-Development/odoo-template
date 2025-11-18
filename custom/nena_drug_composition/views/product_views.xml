@@ -1,0 +1,25 @@
+<odoo>
+    <record id="view_product_form_inherit_composition" model="ir.ui.view">
+        <field name="name">product.product.form.inherit.composition</field>
+        <field name="model">product.product</field>
+        <field name="inherit_id" ref="product.product_normal_form_view"/>
+        <field name="arch" type="xml">
+            <notebook position="inside">
+                <page string="Compositions">
+                    <field name="composition_ids">
+                        <list>
+                            <field name="reference"/>
+                            <field name="line_ids">
+                                <list>
+                                    <field name="active_principle_id"/>
+                                    <field name="quantity"/>
+                                    <field name="unit_id"/>
+                                </list>
+                            </field>
+                        </list>
+                    </field>
+                </page>
+            </notebook>
+        </field>
+    </record>
+</odoo>
