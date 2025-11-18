@@ -1,6 +1,6 @@
 {
     'name': 'Drug Composition',
-    'version': '1.0',
+    'version': '18.0.0.0.1',
     'summary': 'Manage pharmaceutical compositions linked to products',
     'description': """
                     Este módulo permite definir los principios activos y las composiciones 
