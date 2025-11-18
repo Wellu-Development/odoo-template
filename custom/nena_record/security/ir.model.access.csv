@@ -8,5 +8,4 @@ access_nena_client_credit_conditions,nena_client_credit_conditions,model_nena_cl
 access_nena_attachment_line,access_nena_attachment_line,model_nena_attachment_line,,1,1,1,1
 access_document_approver_line,access_document_approver_line,model_document_approver_line,,1,1,1,1
 access_nena_regent,access_nena_regent,model_nena_regent,,1,1,1,1
-access_nena_person_type,nena.person.type,model_nena_person_type,base.group_user,1,1,1,0
 access_nena_postulation_monitor,access_nena_postulation_monitor,model_nena_postulation_monitor,base.group_user,1,1,1,0

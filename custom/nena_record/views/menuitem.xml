@@ -22,21 +22,28 @@
         </menuitem> 
 
         <menuitem id="nena_record_config_menu" name="Configuración" sequence="20">
-            <menuitem id="commercial_structure_root_menu" name="Estructura Comercial" sequence="30">       
-                <menuitem id="commercial_structure_region_menu" name="Regiones" action="nena_commercial_structure.region_action" sequence="10"/>
-                <menuitem id="commercial_structure_district_menu" name="Distritos" action="nena_commercial_structure.district_action" sequence="20"/>
-                <menuitem id="commercial_structure_zone_menu" name="Zonas" action="nena_commercial_structure.zone_action" sequence="30"/>
+            <menuitem id="nena_customer_root_menu" name="Cliente y Cadenas" sequence="10"> 
+                <menuitem id="nena_customer_category_menu" name="Categorías" action="nena_partner_config_record.action_categoria_cliente" sequence="10"/>
+                <menuitem id="nena_customer_clasification_menu" name="Clasificación" action="nena_partner_config_record.customer_clasification_action" sequence="10"/>
+                <menuitem id="nena_condition_menu" name="Condiciones" action="nena_general.nena_condition_action" sequence="20"/>
+                <menuitem id="payment_menu" name="Tipos de Pago" action="nena_partner_config_record.payment_type_action" sequence="50"/>
             </menuitem>
 
-            <menuitem id="nena_localization_root_menu" name="Localización" sequence="20"> 
+            <menuitem id="commercial_structure_root_menu" name="Estructura Comercial" sequence="30">       
+                <menuitem id="commercial_structure_region_menu" name="Regiones" action="nena_general.region_action" sequence="10"/>
+                <menuitem id="commercial_structure_district_menu" name="Distritos" action="nena_general.district_action" sequence="20"/>
+                <menuitem id="commercial_structure_zone_menu" name="Zonas" action="nena_general.zone_action" sequence="30"/>
+            </menuitem>
+
+            <!-- <menuitem id="nena_localization_root_menu" name="Localización" sequence="20"> 
                 <menuitem id="localization_state_menu" name="Estados" action="nena_localization_partners.action_nena_res_state_ve" sequence="10"/>
                 <menuitem id="localization_municipality_menu" name="Municipios" action="nena_localization_partners.action_nena_res_state_municipality_ve" sequence="20"/>
                 <menuitem id="localization_city_menu" name="Ciudades" action="nena_localization_partners.action_nena_res_state_municipality_city_ve" sequence="30"/>
-            </menuitem>
+            </menuitem>-->
 
             <menuitem id="nena_fiscal_root_menu" name="Fiscal" sequence="10"> 
-                <menuitem id="document_type_menu" name="Tipos de RIF/Cédula" action="nena_partner_config_record.nena_document_type" sequence="10"/>
-                <menuitem id="localization_tax_unit_menu" name="Unidades Tributarias" action="l10n_ve_ut.action_tax_unit" sequence="30"/>
+                <menuitem id="document_type_menu" name="Tipos de RIF/Cédula" action="nena_general.nena_document_type" sequence="10"/>
+                <!-- <menuitem id="localization_tax_unit_menu" name="Unidades Tributarias" action="l10n_ve_ut.action_tax_unit" sequence="30"/> -->
             </menuitem>
         </menuitem>
     </menuitem>

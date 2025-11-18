@@ -38,7 +38,7 @@ class NenaRecord(models.Model):
     rif_type_id = fields.Many2one('nena.document.type', string="RIF", required=True)
     rif_number = fields.Char(size=9, required=True)
     rif = fields.Char(string="RIF", compute='_compute_rif', store=True, readonly=False, inverse='_inverse_rif')
-    commercial_activity_id = fields.Many2one('nena.commercial.activity', string="Actividad Comercial")
+    industry_id = fields.Many2one('res.partner.industry', string="Industria")
     status_id = fields.Many2one('nena.gen.status', string="Estatus")
     cause_status_id = fields.Many2one('nena.cause.status')
     zone_id = fields.Many2one('nena.zone', string="Zona")
@@ -200,7 +200,8 @@ class NenaRecord(models.Model):
                         'email': record.email_main, 
                         'phone': record.main_phone, 
                         'mobile': record.main_mobile_phone, 
-                        'is_company': True, 
+                        'is_company': True,
+                        'property_payment_term_id': account_payment_term_id,
                 }
                 
                 try:

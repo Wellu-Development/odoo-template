@@ -66,13 +66,6 @@
                             </group>
                             <group colspan="2">
                                 <group>
-                                    <separator string="DATOS DE CONTACTO" colspan="2"/>
-                                    <field name="email_main" widget="email" placeholder="correo@dominio.com"/>
-                                    <field name="email_secondary" widget="email" placeholder="correo@dominio.com"/>
-                                    <field name="main_phone" widget="phone" placeholder="Ingrese número de teléfono (XXXXXXXXXXX)"/>
-                                    <field name="main_mobile_phone" widget="phone" placeholder="Ingrese número de teléfono móvil(XXXXXXXXXXX)"/>
-                                </group>
-                                <group>
                                     <separator string="DATOS FISCALES" colspan="2"/>
                                     <field name="address_fiscal"/>
                                     <field name="state_fiscal_id" options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}" />
@@ -88,6 +81,13 @@
                                             options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}" />
                                     <field name="city_id" domain="[('municipality_id', '=', municipality_id)]" 
                                             options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}" />
+                                </group>
+                                <group>
+                                    <separator string="DATOS DE CONTACTO" colspan="2"/>
+                                    <field name="email_main" widget="email" placeholder="correo@dominio.com"/>
+                                    <field name="email_secondary" widget="email" placeholder="correo@dominio.com"/>
+                                    <field name="main_phone" widget="phone" placeholder="Ingrese número de teléfono (XXXXXXXXXXX)"/>
+                                    <field name="main_mobile_phone" widget="phone" placeholder="Ingrese número de teléfono móvil(XXXXXXXXXXX)"/>
                                 </group>
                             </group>
                         </page>
@@ -112,6 +112,8 @@
                                     <field name="payment_type_id" options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}" />
                                     <field name="days_inactive" />  
                                     <field name="chain_id" options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}" />                                               
+                                    <field name="account_payment_term_id" string="Condicion de Pago" domain="[('postulation_type_id.code', '=', 'CLI')]"
+                                        options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}"/>                                            
                                     <field name="client_credit_limit" invisible="client_credit_id == False"/>  
                                     <field name="client_credit_balance" invisible="client_credit_id == False"/>  
                                     <button name="action_open_credit_conditions" type="object" string="Crear condición crediticia" 
@@ -263,52 +265,48 @@
                 <sheet>
                     <group>
                         <h1><field name="name"/></h1>
-                        <group colspan="2">
-                            <group>
-                                <field name="partner_code" readonly="1" invisible="1"/>
-                                <field name="nena_ref" style="width: 80px;"/>
-                                <div class="o_td_label">
-                                    <label for="rif_type_id"/>
-                                </div>
-                                <div class="d-flex">
-                                    <field name="rif_type_id" placeholder="Prefijo" style="width: 80px;"
-                                            options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}" />
-                                    <span class="o_form_label mx-3 oe_edit_only text-center" style="width: 0ch; font-weight:bold;" >-</span>
-                                    <field name="rif_number" placeholder="Numero" style="width: 120px;"/>
-                                </div>
-                            </group>
-                            <group>
-                                <field name="commercial_activity_id" options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}"/>
-                            </group>
-                        </group>
+                        <field name="partner_code" readonly="1" invisible="1"/>
+                        <field name="nena_ref" style="width: 80px;"/>
+                        <div class="o_td_label">
+                            <label for="rif_type_id"/>
+                        </div>
+                        <div class="d-flex">
+                            <field name="rif_type_id" placeholder="Prefijo" style="width: 80px;"
+                                    options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}" />
+                            <span class="o_form_label mx-3 oe_edit_only text-center" style="width: 0ch; font-weight:bold;" >-</span>
+                            <field name="rif_number" placeholder="Numero" style="width: 120px;"/>
+                        </div>
                     </group>
                     <notebook>
                         <page string="Datos Generales">
+                            <group>
+                                <field name="industry_id" options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}"/>
+                                <field name="account_payment_term_id" string="Condicion de Pago" domain="[('postulation_type_id.code', '=', 'PRV')]"
+                                        options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}"/>
+                                <field name="product_category_id" widget="many2many_tags" domain="[('ref', '!=', '')]"
+                                        options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}"/>
+                            </group>
                             <group colspan="2">
                                 <group>
+                                    <separator string="DIRECCIÓN" colspan="2"/>
                                     <field name="state_fiscal_id" options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}"/>
                                     <field name="municipality_fiscal_id" domain="[('state_id', '=', state_fiscal_id)]" 
                                             options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}"/>
                                     <field name="city_fiscal_id" domain="[('municipality_id', '=', municipality_fiscal_id)]" 
                                             options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}"/>
+                                    <field name="zip_code"/>
+                                    <field name="address_fiscal"/>
+                                    <field name="address" string="Direccion Almacen"/>
                                 </group>
                                 <group>
+                                    <separator string="DATOS DE CONTACTO" colspan="2"/>
                                     <field name="main_phone" widget="phone" placeholder="Ingrese número de teléfono (XXXXXXXXXXX)"/>
                                     <field name="main_mobile_phone" widget="phone" placeholder="Ingrese número de teléfono móvil(XXXXXXXXXXX)"/>
                                     <field name="email_main" string="Correo Electrónico" widget="email" placeholder="correo@dominio.com"/>
-                                    <field name="zip_code"/>
                                 </group>
                             </group>
-                            <group>
-                                <field name="address_fiscal"/>
-                                <field name="address" string="Direccion Almacen"/>
-                                <field name="product_category_id" widget="many2many_tags"
-                                        options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}"/>
-                                <field name="account_payment_term_id" string="Condicion de Pago"
-                                        options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}"/>
-                            </group>
                         </page>
-                        <page string="Regencia">
+                        <!--<page string="Regencia">
                             <group>
                                 <field name="regent_id" context="{'default_is_opened_from_record_prv': True}"/>
                                 <field name="regent_id_number"/>
@@ -319,7 +317,7 @@
                         <page string="Pagos">
                         </page>
                         <page string="Documentos">
-                        </page>
+                        </page>-->
                     </notebook>
                 </sheet>
             </form>

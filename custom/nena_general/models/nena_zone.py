@@ -15,9 +15,9 @@ class NenaZone(models.Model):
 
     code = fields.Char(required=True)
     description = fields.Char(required=True)
-    ctacontablesap = fields.Char()
-    codsap = fields.Char()
-    ref = fields.Char(required=False)
-    active = fields.Boolean(default=True)
+    ctacontablesap = fields.Char(string="Cta. Contable")
+    codsap = fields.Char(string="Codigo SAP")
+    ref = fields.Char(string="Referencia", required=False)
+    active = fields.Boolean(string="Activo", default=True)
 
     district_id = fields.Many2one("nena.district")

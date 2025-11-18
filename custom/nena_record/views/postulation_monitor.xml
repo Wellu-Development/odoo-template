@@ -8,7 +8,7 @@
             <list string="Monitor de Postulaciones">
                 <field name="name"/>
                 <field name="postulation_type"/>
-                <field name="purchases"/>
+                <!-- <field name="purchases"/> -->
                 <field name="sales"/>
                 <field name="regency"/>
                 <field name="legal"/>

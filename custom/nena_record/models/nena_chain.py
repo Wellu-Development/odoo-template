@@ -44,14 +44,38 @@ class NenaChain(models.Model):
         res = super(NenaChain, self).default_get(fields_list)
         
         # Valor por Defecto para Estatus
-        default_status_chain_description = 'Activo'
-        new_status_chain = self.env['nena.gen.status'].search([('description', '=', default_status_chain_description)], limit=1)
+        default_status_code = 'CAD-01'
+        new_status_chain = self.env['nena.gen.status'].search([('code', '=', default_status_code)], limit=1)
         if new_status_chain:
             res['status_id'] = new_status_chain.id 
 
-        default_cause_status_description = 'Cliente al Di­a (Grupo)'
-        new_cause_status = self.env['nena.cause.status'].search([('description', '=', default_cause_status_description)], limit=1)
+        default_cause_status_code = '034'
+        new_cause_status = self.env['nena.cause.status'].search([('code', '=', default_cause_status_code)], limit=1)
         if new_cause_status:
             res['cause_status_id'] = new_cause_status.id
 
         return res
+
+    # Botones de Accion
+    def action_open_credit_conditions(self):
+        self.ensure_one()
+
+        credit_record = self.chain_credit_id
+        if not credit_record:
+            credit_record = self.env['nena.chain.credit.conditions'].create({
+                'code': self.codchain or 'CA-001',
+                'name': self.name or 'Nueva Condición' 
+            })
+            self.chain_credit_id = credit_record
+            
+        return {
+            'name': "Condiciones Crediticias", 
+            'type': 'ir.actions.act_window',
+            'res_model': 'nena.chain.credit.conditions', 
+            'view_mode': 'form',
+            'res_id': credit_record.id, 
+            'target': 'new', 
+            'context': {
+                'default_record_id': self.id
+            }
+        }

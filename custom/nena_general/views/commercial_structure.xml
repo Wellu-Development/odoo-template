@@ -61,11 +61,10 @@
             <form>
                 <sheet>
                     <group>
+                        <h1><field name="name" /></h1>
                         <field name="region_id" 
                                string="Región" 
                                options="{'no_create': True, 'no_open': True}" />
-                               
-                        <h1><field name="name" /></h1>
                         <field name="code" string="Código" />
                         <field name="ref" />
                         <field name="active" string="Activo" widget="boolean_toggle" />
@@ -106,11 +105,11 @@
             <form>
                 <sheet>
                     <group>
+                        <h1><field name="description" /></h1>
                         <field name="district_id" 
                                string="Distrito" 
                                options="{'no_create': True, 'no_open': True}" />
                                
-                        <h1><field name="description" /></h1>
                         <field name="code" string="Código" />
                         <field name="ref" />
                         <field name="ctacontablesap" />

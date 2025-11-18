@@ -9,6 +9,7 @@
                 <field name="code"/>
                 <field name="name"/>
                 <field name="parent_id" domain="[('parent_id', '=', False)]"/>
+                <field name="department" widget="boolean_toggle"/>
             </list>
         </field>
     </record>
