@@ -1,0 +1,139 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* nena_commercial_structure
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0-20250930\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-14 20:35+0000\n"
+"PO-Revision-Date: 2025-10-14 20:35+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: nena_commercial_structure
+#: model:ir.model.fields,field_description:nena_commercial_structure.field_district__active
+#: model:ir.model.fields,field_description:nena_commercial_structure.field_region__active
+msgid "Active"
+msgstr ""
+
+#. module: nena_commercial_structure
+#: model:ir.model.fields,field_description:nena_commercial_structure.field_district__code
+#: model:ir.model.fields,field_description:nena_commercial_structure.field_region__code
+msgid "Code"
+msgstr ""
+
+#. module: nena_commercial_structure
+#: model:ir.model.fields,field_description:nena_commercial_structure.field_region__codgerente
+msgid "Codgerente"
+msgstr ""
+
+#. module: nena_commercial_structure
+#: model:ir.ui.menu,name:nena_commercial_structure.record_config_menu
+msgid "Configuración"
+msgstr ""
+
+#. module: nena_commercial_structure
+#: model:ir.model.fields,field_description:nena_commercial_structure.field_district__create_uid
+#: model:ir.model.fields,field_description:nena_commercial_structure.field_region__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: nena_commercial_structure
+#: model:ir.model.fields,field_description:nena_commercial_structure.field_district__create_date
+#: model:ir.model.fields,field_description:nena_commercial_structure.field_region__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: nena_commercial_structure
+#: model:ir.model.fields,field_description:nena_commercial_structure.field_district__display_name
+#: model:ir.model.fields,field_description:nena_commercial_structure.field_region__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: nena_commercial_structure
+#: model:ir.model.fields,field_description:nena_commercial_structure.field_region__district_ids
+msgid "District"
+msgstr ""
+
+#. module: nena_commercial_structure
+#: model:ir.model.constraint,message:nena_commercial_structure.constraint_district_nena_commercial_structure_codregion_unique
+#: model:ir.model.constraint,message:nena_commercial_structure.constraint_region_nena_commercial_structure_codregion_unique
+msgid "El codigo de la region debe ser unico"
+msgstr ""
+
+#. module: nena_commercial_structure
+#: model:ir.model.constraint,message:nena_commercial_structure.constraint_district_nena_commercial_structure_region_unique
+#: model:ir.model.constraint,message:nena_commercial_structure.constraint_region_nena_commercial_structure_region_unique
+msgid "El nombre de la region debe ser unico"
+msgstr ""
+
+#. module: nena_commercial_structure
+#: model:ir.ui.menu,name:nena_commercial_structure.root_menu
+msgid "Estructura Comercial"
+msgstr ""
+
+#. module: nena_commercial_structure
+#: model:ir.model.fields,field_description:nena_commercial_structure.field_district__id
+#: model:ir.model.fields,field_description:nena_commercial_structure.field_region__id
+msgid "ID"
+msgstr ""
+
+#. module: nena_commercial_structure
+#: model:ir.model.fields,field_description:nena_commercial_structure.field_region__is_website_available
+msgid "Is Website Available"
+msgstr ""
+
+#. module: nena_commercial_structure
+#: model:ir.model.fields,field_description:nena_commercial_structure.field_district__write_uid
+#: model:ir.model.fields,field_description:nena_commercial_structure.field_region__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: nena_commercial_structure
+#: model:ir.model.fields,field_description:nena_commercial_structure.field_district__write_date
+#: model:ir.model.fields,field_description:nena_commercial_structure.field_region__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: nena_commercial_structure
+#: model:ir.model.fields,field_description:nena_commercial_structure.field_district__name
+#: model:ir.model.fields,field_description:nena_commercial_structure.field_region__name
+msgid "Name"
+msgstr ""
+
+#. module: nena_commercial_structure
+#: model:ir.model.fields,field_description:nena_commercial_structure.field_district__ref
+#: model:ir.model.fields,field_description:nena_commercial_structure.field_region__ref
+msgid "Ref"
+msgstr ""
+
+#. module: nena_commercial_structure
+#: model:ir.model.fields,field_description:nena_commercial_structure.field_district__region_id
+msgid "Region"
+msgstr ""
+
+#. module: nena_commercial_structure
+#: model:ir.actions.act_window,name:nena_commercial_structure.region_action
+#: model:ir.ui.menu,name:nena_commercial_structure.region_menu
+msgid "Región"
+msgstr ""
+
+#. module: nena_commercial_structure
+#: model:ir.model,name:nena_commercial_structure.model_district
+msgid "district"
+msgstr ""
+
+#. module: nena_commercial_structure
+#: model_terms:ir.ui.view,arch_db:nena_commercial_structure.region_view_form
+msgid "districts"
+msgstr ""
+
+#. module: nena_commercial_structure
+#: model:ir.model,name:nena_commercial_structure.model_region
+msgid "region"
+msgstr ""

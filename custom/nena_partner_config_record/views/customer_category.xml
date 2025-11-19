@@ -8,10 +8,11 @@
                     <group>
                         <field name="code"/>
                         <field name="name"/>
-                        <field name="product_category_id" />
                         <field name="nomedicine" widget="boolean_toggle"/>
                         <field name="websiteavaible" widget="boolean_toggle"/>
                         <field name="active" widget="boolean_toggle"/>
+                        <field name="product_category_id" widget="many2many_tags"
+                                options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}"/>
                     </group>
                 </sheet>
             </form>
@@ -25,6 +26,7 @@
             <list string="Categorías de Cliente">
                 <field name="code"/>
                 <field name="name"/>
+                <field name="product_category_id" widget="many2many_tags"/>
                 <field name="nomedicine" widget="boolean_toggle"/>
                 <field name="websiteavaible" widget="boolean_toggle"/>
                 <field name="active" widget="boolean_toggle"/>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<record id="view_nena_cause_status_form" model="ir.ui.view">
+        <field name="name">nena.cause.status.form</field>
+        <field name="model">nena.cause.status</field>
+        <field name="arch" type="xml">
+            <form string="Causa Estatus">
+                <sheet>
+                    <group>
+                        <field name="description"/>
+                        <field name="gen_status_id" />
+                    </group>
+                </sheet>
+            </form>
+        </field>
+        </record>
+
+        
+          <record id="nena_cause_status_view_tree" model="ir.ui.view">
+            <field name="name">nena.cause.status.view.tree</field>
+            <field name="model">nena.cause.status</field>
+            <field name="arch" type="xml">
+                <list string="">
+                    <field name="description"/>
+                    <field name="gen_status_id" />
+                </list>
+            </field>
+        </record>
+
+        <record id="nena_cause_status" model="ir.actions.act_window">
+        <field name="name">Causa Estatus</field>
+        <field name="res_model">nena.cause.status</field>
+        <field name="view_mode">list,form</field>
+    </record>
+
+</odoo>

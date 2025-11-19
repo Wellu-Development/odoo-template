@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="region_view_tree" model="ir.ui.view">
+        <field name="name">nena.region.view.tree</field>
+        <field name="model">nena.region</field>
+        <field name="arch" type="xml">
+            <list>
+                <field name="code" string="Código" />
+                <field name="name" string="Nombre" />
+                <field name="codgerente" string="Cód. Gerente" />
+                <field name="active" string="Activo" widget="boolean_toggle" />
+            </list>
+        </field>
+    </record>
+
+    <record id="region_view_form" model="ir.ui.view">
+        <field name="name">nena.region.view.form</field>
+        <field name="model">nena.region</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <h1><field name="name" /></h1>
+                        <field name="code" string="Código" />
+                        <field name="codgerente" string="Cód. Gerente" />
+                        <field name="ref" />
+                        <field name="active" string="Activo" widget="boolean_toggle" />
+                    </group>
+                    <notebook>
+                        <page name="districts" string="Distritos">
+                            <field name="district_ids">
+                                <list editable="bottom">
+                                    <field name="name" string="Nombre" />
+                                    <field name="code" string="Código" /> 
+                                </list>
+                            </field>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    
+    <record id="district_view_tree" model="ir.ui.view">
+        <field name="name">nena.district.view.tree</field>
+        <field name="model">nena.district</field>
+        <field name="arch" type="xml">
+            <list>
+                <field name="code" string="Código" />
+                <field name="name" string="Nombre" />
+                <field name="region_id" string="Región" />
+                <field name="active" widget="boolean_toggle" />
+            </list>
+        </field>
+    </record>
+
+    <record id="district_view_form" model="ir.ui.view">
+        <field name="name">nena.district.view.form</field>
+        <field name="model">nena.district</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <h1><field name="name" /></h1>
+                        <field name="region_id" 
+                               string="Región" 
+                               options="{'no_create': True, 'no_open': True}" />
+                        <field name="code" string="Código" />
+                        <field name="ref" />
+                        <field name="active" string="Activo" widget="boolean_toggle" />
+                    </group>
+                    <notebook>
+                        <page name="zones" string="Zonas">
+                            <field name="zones_ids">
+                                <list editable="bottom">
+                                    <field name="description" string="Descripcion" />
+                                    <field name="code" string="Código" />
+                                    <field name="ref" />
+                                </list>
+                            </field>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="zone_view_tree" model="ir.ui.view">
+        <field name="name">nena.zone.view.tree</field>
+        <field name="model">nena.zone</field>
+        <field name="arch" type="xml">
+            <list>
+                <field name="code" string="Código" />
+                <field name="description" string="Nombre" />
+                <field name="district_id" string="Distrito" />
+                <field name="active" widget="boolean_toggle" />
+            </list>
+        </field>
+    </record>
+
+    <record id="zone_view_form" model="ir.ui.view">
+        <field name="name">nena.zone.view.form</field>
+        <field name="model">nena.zone</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <h1><field name="description" /></h1>
+                        <field name="district_id" 
+                               string="Distrito" 
+                               options="{'no_create': True, 'no_open': True}" />
+                               
+                        <field name="code" string="Código" />
+                        <field name="ref" />
+                        <field name="ctacontablesap" />
+                        <field name="codsap" />
+                        <field name="active" widget="boolean_toggle" />
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="region_action" model="ir.actions.act_window">
+        <field name="name">Regiones</field>
+        <field name="res_model">nena.region</field>
+        <field name="view_mode">list,form</field> 
+    </record>
+
+    <record id="district_action" model="ir.actions.act_window">
+        <field name="name">Distritos</field>
+        <field name="res_model">nena.district</field>
+        <field name="view_mode">list,form</field> 
+    </record>
+
+    <record id="zone_action" model="ir.actions.act_window">
+        <field name="name">Zonas</field>
+        <field name="res_model">nena.zone</field>
+        <field name="view_mode">list,form</field> 
+    </record>
+</odoo>

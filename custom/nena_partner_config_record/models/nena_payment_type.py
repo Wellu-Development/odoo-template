@@ -16,4 +16,3 @@ class PaymentType(models.Model):
 
     description = fields.Char(string=f'Descripción',required=True)
     active = fields.Boolean(string='Activo', default=True) 
-    ref = fields.Char(string=f'Referencia',required=True)

@@ -1,0 +1,55 @@
+id,code,description,ref,gen_management_id:id
+condition_1,001,Aplicar Condiciones a Cadena Centralizada,1,gen_management_4
+condition_13,002,Inactivación por Grupo,13,gen_management_4
+condition_2,003,Inactivar por Limite de Credito,2,gen_management_4
+condition_3,004,Inactivar por Recibos Vencidos,3,gen_management_4
+condition_4,005,Inactivar por Giros Vencidos,4,gen_management_4
+condition_5,006,Inactivar por Cheques Devueltos,5,gen_management_4
+condition_6,007,Agrupar para Promoción,6,gen_management_4
+condition_7,008,Aplicar porcentaje al limite de credito,7,gen_management_4
+condition_8,009,Cierre de documento ideal,8,gen_management_4
+condition_9,010,Cobro Automatico por Pago por Adelantado,9,gen_management_4
+condition_10,011,Penalizar Perdida de Pronto Pago,10,gen_management_4
+condition_11,012,Inactivar por Condicion 1x1,11,gen_management_4
+condition_12,013,Ajuste Automatico Notas de Credito,12,gen_management_4
+condition_14,014,Penalizar Pronto Pago,6,gen_management_7
+condition_15,015,Promocion Cheques,12,gen_management_7
+condition_16,016,Cobro Automatico (Adelanto Pronto Pago),20,gen_management_7
+condition_17,017,Documento Ideal,21,gen_management_7
+condition_18,018,Inactivar por Recibos Vencidos,28,gen_management_7
+condition_19,019,Inactivar por Giros Vencidos,29,gen_management_7
+condition_20,020,Inactivar por Cheques Devueltos,30,gen_management_7
+condition_21,021,Agrupar para Promoción,31,gen_management_7
+condition_22,022,Aplicar porcentaje al limite de credito,32,gen_management_7
+condition_23,023,Cierre de documento ideal,33,gen_management_7
+condition_24,024,Cobro Automatico por Pago por Adelantado,34,gen_management_7
+condition_25,025,Penalizar Perdida de Pronto Pago,35,gen_management_7
+condition_26,026,Inactivar por Condicion 1x1,36,gen_management_7
+condition_27,027,Ajuste Automatico Notas de Credito,37,gen_management_7
+condition_28,028,Inactivación por Grupo,38,gen_management_7
+condition_30,029,Chequeo de Facturas,11,gen_management_8
+condition_31,030,Consolidar Pedidos,15,gen_management_8
+condition_32,031,Una Factura por Bulto,16,gen_management_8
+condition_29,032,Control de Volumen,18,gen_management_8
+condition_33,033,Acta Funcionamiento Esc.,22,gen_management_6
+condition_34,034,Activo SADA,23,gen_management_6
+condition_36,035,Cliente Farmapatria,26,gen_management_6
+condition_37,036,Cliente Insai,27,gen_management_6
+condition_52,037,Psicotropicos,39,gen_management_6
+condition_53,038,Permite Facturar Medicina,40,gen_management_6
+condition_35,039,Psicotropicos Automaticos,19,gen_management_6
+condition_47,040,Oferta Especial,1,gen_management_5
+condition_48,041,Etiquetas (Productos sin PVP),2,gen_management_5
+condition_49,042,Promocion Pre-Empaque,3,gen_management_5
+condition_50,043,Descuento Volumen,4,gen_management_5
+condition_51,044,Descuento UFI,5,gen_management_5
+condition_43,045,Productos en Factura segun orden Alfabetico,7,gen_management_5
+condition_44,046,Sorteo (Promocion de Cupones),8,gen_management_5
+condition_45,047,Premios Instantaneos,9,gen_management_5
+condition_46,048,Descuento Paquete,10,gen_management_5
+condition_41,049,Facturar Productos Regulados,13,gen_management_5
+condition_42,050,Cliente por Nota de Entrega,14,gen_management_5
+condition_40,051,Lomito Automatico,17,gen_management_5
+condition_38,052,Prod. Adm. Esp.,24,gen_management_5
+condition_39,053,"Forma pago Cliente 0-Electronico, 1-Manual",25,gen_management_5
+condition_54,054,Facturar Ruta Chica,41,gen_management_5

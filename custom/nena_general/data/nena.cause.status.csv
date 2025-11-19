@@ -1,0 +1,46 @@
+id,code,description,gen_status_id:id
+cause_1,001,Creada,status_1
+cause_2,002,Revisada Compras,status_1
+cause_3,003,Anulada,status_1
+cause_4,004,Comite,status_1
+cause_5,005,Guardado Prov,status_1
+cause_6,006,Completado Prov,status_1
+cause_7,007,Cliente Nuevo,status_8
+cause_8,008,Cliente al Dia,status_9
+cause_9,009,Excedio Lim. Credito,status_10
+cause_10,010,Doc. Vencidos,status_10
+cause_11,011,Saldo IVA,status_10
+cause_12,012,Cliente al Dia,status_11
+cause_13,013,Excedio Lim. Credito,status_11
+cause_14,014,Doc. Vencidos,status_11
+cause_15,015,Saldo IVA,status_11
+cause_16,016,Cliente al Dia,status_12
+cause_17,017,Excedio Lim. Credito,status_12
+cause_18,018,Doc. Vencidos,status_12
+cause_19,019,Saldo IVA,status_12
+cause_20,020,Ficha Desactivada,status_13
+cause_21,021,Dpto. Legal,status_14
+cause_22,022,Cliente al Dia (Grupo),status_9
+cause_23,023,Excedio Lim. Credito (Grupo),status_10
+cause_24,024,Doc. Vencidos (Grupo),status_10
+cause_25,025,Saldo IVA (Grupo),status_10
+cause_26,026,Cliente al Dia (Grupo),status_11
+cause_27,027,Excedio Lim. Credito (Grupo),status_11
+cause_28,028,Doc. Vencidos (Grupo),status_11
+cause_29,029,Saldo IVA (Grupo),status_11
+cause_30,030,Cliente al Dia (Grupo),status_12
+cause_31,031,Excedio Lim. Credito (Grupo),status_12
+cause_32,032,Doc. Vencidos (Grupo),status_12
+cause_33,033,Saldo IVA (Grupo),status_12
+cause_34,034,Cliente al Dia (Grupo),status_15
+cause_35,035,Excedio Lim. Credito (Grupo),status_16
+cause_36,036,Doc. Vencidos (Grupo),status_16
+cause_37,037,Saldo IVA (Grupo),status_16
+cause_38,038,Cliente al Dia (Grupo),status_17
+cause_40,039,Excedio Lim. Credito (Grupo),status_17
+cause_41,040,Doc. Vencidos (Grupo),status_17
+cause_42,041,Saldo IVA (Grupo),status_17
+cause_43,042,Cliente al Dia (Grupo),status_18
+cause_44,043,Excedio Lim. Credito (Grupo),status_18
+cause_45,044,Doc. Vencidos (Grupo),status_18
+cause_46,045,Saldo IVA (Grupo),status_18

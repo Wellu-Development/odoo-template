@@ -1,0 +1,26 @@
+id,code,description,gen_management_id:id,cause_active
+status_1,EXP-01,Solicitud,gen_management_1,True
+status_2,EXP-02,En Aprobación,gen_management_1,False
+status_3,EXP-03,Rechazado,gen_management_1,False
+status_4,EXP-04,Publicado,gen_management_1,False
+status_5,PRV-01,Nuevo,gen_management_2,False
+status_6,PRV-02,Activo,gen_management_2,False
+status_7,PRV-03,Inactivo,gen_management_2,False
+status_8,CLI-01,Nuevo,gen_management_3,True
+status_9,CLI-02,Activo,gen_management_3,True
+status_10,CLI-03,Inactivo,gen_management_3,True
+status_11,CLI-04,Permiso,gen_management_3,True
+status_12,CLI-05,Suspendido,gen_management_3,True
+status_13,CLI-06,Bloqueado,gen_management_3,True
+status_14,CLI-07,Dpto. Legal,gen_management_3,True
+status_15,CAD-01,Activo,gen_management_4,True
+status_16,CAD-02,Inactivo,gen_management_4,True
+status_17,CAD-03,Permiso,gen_management_4,True
+status_18,CAD-04,Suspendido,gen_management_4,True
+status_20,SICM-01,Inscrito,gen_management_10,False
+status_21,SICM-02,Por Inscripción,gen_management_10,False
+status_22,SICM-03,Eliminado,gen_management_10,False
+status_23,SICM-04,No Registrado,gen_management_10,False
+status_24,SADA-01,Activo,gen_management_9,False
+status_25,SADA-02,Inactivo,gen_management_9,False
+status_26,SADA-03,No Registrado,gen_management_9,False

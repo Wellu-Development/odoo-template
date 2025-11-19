@@ -17,29 +17,35 @@
         <field name="arch" type="xml">
             <form string="Clientes">
                 <header>
-                    <field name="status_record_id" widget="statusbar" domain="[('gen_category_id.code', '=', 'EXP')]" />
+                    <button name="action_approved" string="Aprobar" class="oe_highlight" type="object" invisible="show_approve_buttons != True" />  
+                    <button name="action_refused" string="Rechazar" type="object" invisible="show_approve_buttons != True" />  
+                    <field name="status_record_id" widget="statusbar" domain="[('gen_management_id.code', '=', 'EXP')]" />
                 </header>
                 <sheet>
                     <group>
-                        <h1><field name="name" readonly="partner_code != False" /></h1>
+                        <h1><field name="name"/></h1>
                     </group>
                     <group colspan="2">
-                        <group>
-                            <field name="partner_code" readonly="1" />
-                            <field name="nena_ref" />
-                            <label for="rif_type_id" string="RIF" />
-                            <div class="o_address_format">
-                                <field name="rif_type_id" class="o_address_zip" placeholder="Prefijo" readonly="partner_code != False"
-                                       options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}" />
-                                <field name="rif_number" class="o_address_city" placeholder="Numero" readonly="partner_code != False" />
+                        <group>       
+                            <field name="partner_code" readonly="1" invisible="1"/>
+                            <field name="nena_ref" style="width: 80px;"/>
+                            <div class="o_td_label">
+                                <label for="rif_type_id"/>
                             </div>
-                            
-                            <label for="status_id" />
-                            <div class="o_address_format">
-                                <field name="status_id" class="o_address_zip" readonly="partner_code == False"
+                            <div class="d-flex">
+                                <field name="rif_type_id" placeholder="Prefijo" style="width: 80px;"
                                         options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}" />
-                                <field name="cause_status_id" class="o_address_city" readonly="partner_code == False"
-                                        domain="[('gen_status_id', '=', status_id)]"
+                                <span class="o_form_label mx-3 oe_edit_only text-center" style="width: 0ch; font-weight:bold;" >-</span>
+                                <field name="rif_number" placeholder="Numero" style="width: 120px;"/>
+                            </div>
+                            <div class="o_td_label">
+                                <label for="status_id"/>
+                            </div>
+                            <div class="d-flex">
+                                <field name="status_id" readonly="1" style="width: 150px;" domain="[('gen_management_id.code', '=', 'CLI')]"
+                                        options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}" />
+                                <span class="o_form_label mx-3 oe_edit_only text-right" style="width: 10ch; font-weight:bold;" >Causa</span>
+                                <field name="cause_status_id" readonly="1" domain="[('gen_status_id', '=', status_id)]"
                                         options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}" />
                             </div>
                         </group>
@@ -48,43 +54,40 @@
                                     options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}" />
                             <field name="region_id" readonly="1" force_save="1" />
                             <field name="district_id" readonly="1" force_save="1" />
-                            <field name="postulation_type_id" invisible="1" />
-                            <field name="status_record_id" domain="[('gen_category_id.code', '=', 'EXP')]" />
                         </group>
                     </group>
                     <notebook>
                         <page string="Datos Generales">
                             <group>
-                                <field name="company_name" readonly="partner_code != False" />
-                                <field name="clasification_id" domain="[('gen_category_id', '=', 'CLI')]"
-                                        options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}" />
+                                <field name="company_name"/>
                                 <field name="headquarters" />
+                                <field name="clasification_id" domain="[('gen_management_id.code', '=', 'CLI')]" 
+                                        options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}"/>
                             </group>
                             <group colspan="2">
                                 <group>
-                                    <separator string="DATOS DE CONTACTO" colspan="2"/>
-                                    <field name="email_main" widget="email" placeholder="correo@dominio.com" readonly="partner_code != False" />
-                                    <field name="email_secondary" widget="email" placeholder="correo@dominio.com"/>
-                                    <field name="main_phone" widget="phone" placeholder="Ingrese número de teléfono (XXXXXXXXXXX)" readonly="partner_code != False" />
-                                    <field name="main_mobile_phone" widget="phone" placeholder="Ingrese número de teléfono móvil(XXXXXXXXXXX)" readonly="partner_code != False" />
+                                    <separator string="DATOS FISCALES" colspan="2"/>
+                                    <field name="address_fiscal"/>
+                                    <field name="state_fiscal_id" options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}" />
+                                    <field name="municipality_fiscal_id" domain="[('state_id', '=', state_fiscal_id)]"
+                                            options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}" />
+                                    <field name="city_fiscal_id" domain="[('municipality_id', '=', municipality_fiscal_id)]"
+                                            options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}" />
+
+                                    <separator string="DATOS DE ENTREGA" colspan="2"/>
+                                    <field name="address"/>
+                                    <field name="state_id" options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}" />
+                                    <field name="municipality_id" domain="[('state_id', '=', state_id)]" 
+                                            options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}" />
+                                    <field name="city_id" domain="[('municipality_id', '=', municipality_id)]" 
+                                            options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}" />
                                 </group>
                                 <group>
-                                    <separator string="DATOS FISCALES" colspan="2"/>
-                                    <field name="address_fiscal" readonly="partner_code != False" />
-                                    <field name="state_fiscal_id" readonly="partner_code != False" 
-                                            options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}" />
-                                    <field name="municipality_fiscal_id" domain="[('state_id', '=', state_fiscal_id)]" readonly="partner_code != False" 
-                                            options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}" />
-                                    <field name="city_fiscal_id" domain="[('municipality_id', '=', municipality_fiscal_id)]" readonly="partner_code != False" 
-                                            options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}" />
-                                    <separator string="DATOS DE ENTREGA" colspan="2"/>
-                                    <field name="address" readonly="partner_code != False" />
-                                    <field name="state_id" readonly="partner_code != False" 
-                                            options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}" />
-                                    <field name="municipality_id" domain="[('state_id', '=', state_id)]" readonly="partner_code != False" 
-                                            options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}" />
-                                    <field name="city_id" domain="[('municipality_id', '=', municipality_id)]" readonly="partner_code != False" 
-                                            options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}" />
+                                    <separator string="DATOS DE CONTACTO" colspan="2"/>
+                                    <field name="email_main" widget="email" placeholder="correo@dominio.com"/>
+                                    <field name="email_secondary" widget="email" placeholder="correo@dominio.com"/>
+                                    <field name="main_phone" widget="phone" placeholder="Ingrese número de teléfono (XXXXXXXXXXX)"/>
+                                    <field name="main_mobile_phone" widget="phone" placeholder="Ingrese número de teléfono móvil(XXXXXXXXXXX)"/>
                                 </group>
                             </group>
                         </page>
@@ -99,57 +102,85 @@
                                 </group>
                                 <group>
                                     <field name="condition_ids" widget="many2many_checkboxes" 
-                                            domain="[('gen_category_id.code', '=', 'VTA')]" />
+                                            domain="[('gen_management_id.code', '=', 'VTA')]" />
                                 </group>
                             </group>
                         </page>
                         <page string="Cobranza">
                             <group colspan="2">
                                 <group>
-                                    <field name="payment_type_id"
-                                            options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}" />
+                                    <field name="payment_type_id" options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}" />
                                     <field name="days_inactive" />  
-                                    <field name="chain_id" 
-                                            options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}" />                                               
-                                    <field name="credit_limit" />  
-                                    <field name="balance" />  
+                                    <field name="chain_id" options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}" />                                               
+                                    <field name="account_payment_term_id" string="Condicion de Pago" domain="[('postulation_type_id.code', '=', 'CLI')]"
+                                        options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}"/>                                            
+                                    <field name="client_credit_limit" invisible="client_credit_id == False"/>  
+                                    <field name="client_credit_balance" invisible="client_credit_id == False"/>  
+                                    <button name="action_open_credit_conditions" type="object" string="Crear condición crediticia" 
+                                            class="oe_highlight" invisible="client_credit_id != False" />
                                 </group>
                                 <group>
                                     <field name="condition_ids" widget="many2many_checkboxes" 
-                                            domain="[('gen_category_id.code', '=', 'COB')]" />
+                                            domain="[('gen_management_id.code', '=', 'COB')]" />
                                 </group>
                             </group>
                         </page>
                         <page string="Regencia">
                             <group name="container_row_2">
                                 <group string="Regente" name="regent" priority="1">
-                                    <field name="regent_id"/>
+                                    <field name="regent_id" context="{'default_is_opened_from_record_prv': False}"/>
                                     <field name="regent_id_number"/>
                                     <field name="regent_phone"/>
                                     <field name="regent_address"/>
-                                    <field name="regent_matric_msds"/>
-                                    <field name="regent_colfar"/>
-                                    <field name="regent_oper_min_start_date"/>
-                                    <field name="regent_oper_min_end_date"/>
-                                    <field name="regent_inprefa_code"/>
-                                    <field name="regent_sicm_code"/>
-                                    <field name="regent_sicm_status"/>
-                                    <field name="regent_sada_code"/>
-                                    <field name="regent_sada_status"/>
+                                    <div class="o_td_label">
+                                        <label for="regent_matric_msds"/>
+                                    </div>
+                                    <div class="d-flex">
+                                        <field name="regent_matric_msds" style="width: 120px;" />
+                                        <span class="o_form_label mx-3 oe_edit_only text-right" style="width: 20ch; font-weight:bold;" >Desde Acta Func.</span>
+                                        <field name="regent_oper_min_start_date" style="width: 120px;"/>
+                                    </div>
+                                    <div class="o_td_label">
+                                        <label for="regent_colfar"/>
+                                    </div>
+                                    <div class="d-flex">
+                                        <field name="regent_colfar" style="width: 120px;"/>
+                                        <span class="o_form_label mx-3 oe_edit_only text-right" style="width: 20ch; font-weight:bold;" >Hasta Acta Func.</span>
+                                        <field name="regent_oper_min_end_date" style="width: 120px;"/>
+                                    </div>
+                                    <field name="regent_inprefa_code" style="width: 120px;"/>
+                                    <div class="o_td_label">
+                                        <label for="regent_sicm_code"/>
+                                    </div>
+                                    <div class="d-flex">
+                                        <field name="regent_sicm_code" style="width: 120px;" />
+                                        <span class="o_form_label mx-3 oe_edit_only text-right" style="width: 20ch; font-weight:bold;" >Estatus S.I.C.M</span>
+                                        <field name="regent_sicm_status" style="width: 120px;" domain="[('gen_management_id.code', '=', 'SICM')]"
+                                            options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}"/>
+                                    </div>
+                                    <div class="o_td_label">
+                                        <label for="regent_sada_code"/>
+                                    </div>
+                                    <div class="d-flex">
+                                        <field name="regent_sada_code" style="width: 120px;" />
+                                        <span class="o_form_label mx-3 oe_edit_only text-right" style="width: 20ch; font-weight:bold;" >Estatus SADA</span>
+                                        <field name="regent_sada_status" style="width: 120px;" domain="[('gen_management_id.code', '=', 'SADA')]"
+                                            options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}"/>
+                                    </div>
                                 </group>
                                 <group string="Condiciones" name="condition" priority="2">
                                     <field name="condition_ids" widget="many2many_checkboxes" 
-                                            domain="[('gen_category_id.code', '=', 'REG')]" />
+                                            domain="[('gen_management_id.code', '=', 'REG')]" />
                                 </group>
                             </group>
                         </page>
                         <page string="Despacho">
                             <group>
                                 <field name="condition_ids" widget="many2many_checkboxes" 
-                                        domain="[('gen_category_id.code', '=', 'WMS')]" />
+                                        domain="[('gen_management_id.code', '=', 'WMS')]" />
                             </group>
                         </page>
-                        <page string="Expediente Digital" name="digital_docs">
+                        <page string="Documentos" name="digital_docs">
                             <field name="documents_client_line_ids">
                                 <list delete="1" create="1" decoration-danger="state == 'expired'">
                                     <field name="document_id"/>
@@ -226,24 +257,67 @@
         <field name="model">nena.record</field>
         <field name="arch" type="xml">
             <form string="Proveedor">
+                <header>
+                    <button name="action_approved" string="Aprobar" class="oe_highlight" type="object" invisible="show_approve_buttons != True" />  
+                    <button name="action_refused" string="Rechazar" type="object" invisible="show_approve_buttons != True" />  
+                    <field name="status_record_id" widget="statusbar" domain="[('gen_management_id.code', '=', 'EXP')]" />
+                </header>
                 <sheet>
                     <group>
-                        <h1><field name="name" nolabel="1" /></h1>
-                        <field name="partner_code" />
-                        <field name="nena_ref" />
-                        
+                        <h1><field name="name"/></h1>
+                        <field name="partner_code" readonly="1" invisible="1"/>
+                        <field name="nena_ref" style="width: 80px;"/>
+                        <div class="o_td_label">
+                            <label for="rif_type_id"/>
+                        </div>
+                        <div class="d-flex">
+                            <field name="rif_type_id" placeholder="Prefijo" style="width: 80px;"
+                                    options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}" />
+                            <span class="o_form_label mx-3 oe_edit_only text-center" style="width: 0ch; font-weight:bold;" >-</span>
+                            <field name="rif_number" placeholder="Numero" style="width: 120px;"/>
+                        </div>
                     </group>
                     <notebook>
                         <page string="Datos Generales">
                             <group>
-                                <field name="state_id" />
-                                <field name="municipality_id" domain="[('state_id', '=', state_id)]" />
-                                <field name="city_id" domain="[('municipality_id', '=', municipality_id)]" />
+                                <field name="industry_id" options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}"/>
+                                <field name="account_payment_term_id" string="Condicion de Pago" domain="[('postulation_type_id.code', '=', 'PRV')]"
+                                        options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}"/>
+                                <field name="product_category_id" widget="many2many_tags" domain="[('ref', '!=', '')]"
+                                        options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}"/>
                             </group>
-                            <group name="product_category">
-                                <field name="product_category_id" />
+                            <group colspan="2">
+                                <group>
+                                    <separator string="DIRECCIÓN" colspan="2"/>
+                                    <field name="state_fiscal_id" options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}"/>
+                                    <field name="municipality_fiscal_id" domain="[('state_id', '=', state_fiscal_id)]" 
+                                            options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}"/>
+                                    <field name="city_fiscal_id" domain="[('municipality_id', '=', municipality_fiscal_id)]" 
+                                            options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}"/>
+                                    <field name="zip_code"/>
+                                    <field name="address_fiscal"/>
+                                    <field name="address" string="Direccion Almacen"/>
+                                </group>
+                                <group>
+                                    <separator string="DATOS DE CONTACTO" colspan="2"/>
+                                    <field name="main_phone" widget="phone" placeholder="Ingrese número de teléfono (XXXXXXXXXXX)"/>
+                                    <field name="main_mobile_phone" widget="phone" placeholder="Ingrese número de teléfono móvil(XXXXXXXXXXX)"/>
+                                    <field name="email_main" string="Correo Electrónico" widget="email" placeholder="correo@dominio.com"/>
+                                </group>
                             </group>
                         </page>
+                        <!--<page string="Regencia">
+                            <group>
+                                <field name="regent_id" context="{'default_is_opened_from_record_prv': True}"/>
+                                <field name="regent_id_number"/>
+                                <field name="regent_phone"/>
+                                <field name="regent_sicm_code" string="Nro. SICM"/>
+                            </group>
+                        </page>
+                        <page string="Pagos">
+                        </page>
+                        <page string="Documentos">
+                        </page>-->
                     </notebook>
                 </sheet>
             </form>
@@ -255,7 +329,7 @@
         <field name="res_model">nena.record</field>
         <field name="domain">[('postulation_type_id.code', '=', 'CLI')]</field>
         <field name="view_mode">list,form</field>
-        <field name="context">{'default_postulation_code': 'CLI' , 'default_status_description': 'NUEVO' , 'default_cause_status_description': 'Cliente Nuevo'}</field>
+        <field name="context">{'default_postulation_code': 'CLI'}</field>
         <field name="view_ids" eval="[(5, 0, 0),
         (0, 0, {'view_mode': 'list', 'view_id': ref('view_nena_record_list')}),
         (0, 0, {'view_mode': 'form', 'view_id': ref('view_nena_record_form_cli')})

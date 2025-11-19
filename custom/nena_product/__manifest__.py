@@ -4,7 +4,7 @@
     "author": "Droguería Nena, C.A.",
     "category": "Dronena",
     "version": "18.0.0.0.1",
-    "application": True,
+    "application": False,
     "depends": [
         "base",
         "stock"
@@ -19,6 +19,6 @@
         "views/product_subtype.xml",
         "views/nena_product_family.xml",
         "views/nena_product_class.xml",
-        "views/menuitem.xml",
+        "views/menu_stock.xml",
     ],
 }

@@ -1,26 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <menuitem id="root_menu" name="Modelo de Configuración" sequence="10" web_icon="nena_partner_config_record,static/description/icon.png">
+    <menuitem id="root_menu" name="Configuración" sequence="10" web_icon="nena_partner_config_record,static/description/icon.png">
         <menuitem id="record_config_menu" name="Configuración" sequence="10">
             <menuitem id="partner_config_record_menu" name="Modelo de Configuración" action="partner_config_record_action" sequence="10"/>
             <menuitem id="postulation_type_menu" name="Postulaciones" action="postulation_type_action" sequence="10"/>
-            <menuitem id="supplier_type_menu" name="Tipo de proveedor" action="supplier_type_action" sequence="10"/>
-            <menuitem id="product_type_menu" name="Tipo de producto" action="product_type_action" sequence="10"/>
+            <!--<menuitem id="supplier_type_menu" name="Tipo de proveedor" action="supplier_type_action" sequence="10"/> -->
+            <!-- <menuitem id="product_type_menu" name="Tipo de producto" action="product_type_action" sequence="10"/> -->
             <menuitem id="document_type_menu" name="Tipo de documentos y permisos" action="document_type_action" sequence="10"/>
-            <menuitem id="nena_document_type_menu" name="Tipos Documentos" action="nena_document_type" sequence="10"/>
-        </menuitem>
-
-        <menuitem id="record_client_menu" name="Clientes" sequence="20">
-            <menuitem id="nena_category_cli_menu" name="Categorías" action="action_categoria_cliente" sequence="10"/>
-            <menuitem id="nena_clasification_cliente_menu" name="Clasificación" action="client_clasification_action" sequence="10"/>
-            <menuitem id="nena_condition_menu" name="Condiciones" action="nena_condition_action" sequence="20"/>
-            <menuitem id="payment_menu" name="Tipo de Pago" action="payment_type_action" sequence="50"/>
         </menuitem>
 
         <menuitem id="record_parameters_menu" name="General" sequence="30">
-            <menuitem id="nena_gen_status_menu" name="Estatus" action="nena_gen_status" sequence="10"/>
-            <menuitem id="nena_cause_status_menu" name="Causa Estatus" action="nena_cause_status" sequence="10"/>
-            <menuitem id="nena_gen_category_menu" name="Parámetros de Gestión" action="nena_gen_category_action" sequence="10"/>
+            <menuitem id="nena_gen_management_menu" name="Tipos de Gestión" action="nena_general.nena_gen_management_action" sequence="10"/>
+            <menuitem id="nena_gen_status_menu" name="Estatus" action="nena_general.nena_gen_status" sequence="20"/>
         </menuitem>
     </menuitem>
 </odoo>

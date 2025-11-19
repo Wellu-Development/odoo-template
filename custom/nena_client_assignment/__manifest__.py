@@ -1,8 +1,8 @@
 {
     "name": "Nena Asignación de Clientes",
     "summary": "Módulo de Asignación de Clientes",
-    "author": "Jose Alvarez",
-    "category": "Uncategorized",
+    "author": "Droguería Nena, C.A.",
+    "category": "Dronena",
     "version": "18.0.0.0.2",
     "application": True,
     "depends": ["base","hr","nena_partner_config_record","nena_record"],

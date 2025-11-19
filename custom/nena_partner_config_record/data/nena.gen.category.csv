@@ -1,9 +1,0 @@
-id,code,category,active,operational,entity
-gen_category_1,EXP,Expediente,True,False,True
-gen_category_2,PRV,Proveedor,True,False,True
-gen_category_3,CLI,Cliente,True,False,True
-gen_category_4,CAD,Cadena,True,True,True
-gen_category_5,VTA,Ventas,True,True,False
-gen_category_6,REG,Regencia,True,True,False
-gen_category_7,COB,Cobranza,True,True,False
-gen_category_8,WMS,Despacho,True,True,False

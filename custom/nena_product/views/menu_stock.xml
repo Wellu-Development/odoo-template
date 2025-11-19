@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <menuitem
+        id="nena_product_subtype_menu"
+        name="Subtipo"
+        action="product_subtype_action"
+        parent="stock.menu_product_in_config_stock"
+        sequence="10"/>
+
+    <menuitem id="nena_product_family_menu" 
+            name="Familia" 
+            action="nena_product_family_action" 
+            parent="stock.menu_product_in_config_stock" 
+            sequence="30"/>
+
+      <menuitem id="nena_product_class_menu" 
+              name="Clase" 
+              action="nena_product_class_action" 
+              parent="stock.menu_product_in_config_stock" 
+              sequence="40"/>
+
+    <menuitem id="menu_drug_root" name="Gestión de Medicamentos" parent="stock.menu_stock_config_settings" sequence="10" />
+
+    <menuitem id="menu_active_principle" name="Principio Activo" 
+            action="nena_drug_composition.action_active_principle" 
+            parent="menu_drug_root" 
+            sequence="10" />
+
+    <menuitem id="menu_product_presentation" name="Presentacion" 
+            action="nena_drug_composition.action_product_presentation" 
+            parent="menu_drug_root" 
+            sequence="10" />
+
+    <menuitem id="menu_composition" name="Composición" 
+            action="nena_drug_composition.action_composition" 
+            parent="menu_drug_root" 
+            sequence="20" />
+</odoo>

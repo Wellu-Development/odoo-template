@@ -8,8 +8,7 @@
         <field name="arch" type="xml">
             <list>
                 <field name="description"/>
-                 <field name="active" widget="boolean_toggle"/>
-                 <field name="ref"/>
+                <field name="active" widget="boolean_toggle"/>
             </list>
         </field>
     </record>
@@ -19,12 +18,11 @@
         <field name="name">view.payment.type.form</field>
         <field name="model">nena.payment.type</field>
         <field name="arch" type="xml">
-            <form string="Payment Type">
+            <form string="Tipos de Pago">
                 <sheet>
                     <group>
                         <field name="description" placeholder="Descripcion.."/>
                         <field name="active" widget="boolean_toggle"/>
-                        <field name="ref" placeholder="Referencia.."/>
                     </group>
                 </sheet>
             </form>
@@ -33,7 +31,7 @@
 
     <!-- Action payment.type -->
     <record id="payment_type_action" model="ir.actions.act_window">
-        <field name="name">Payment Type</field>
+        <field name="name">Tipos de Pago</field>
         <field name="res_model">nena.payment.type</field>
         <field name="view_mode">list,form,pivot</field>
     </record>
