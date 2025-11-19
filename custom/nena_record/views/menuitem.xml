@@ -35,11 +35,11 @@
                 <menuitem id="commercial_structure_zone_menu" name="Zonas" action="nena_general.zone_action" sequence="30"/>
             </menuitem>
 
-            <!-- <menuitem id="nena_localization_root_menu" name="Localización" sequence="20"> 
+            <menuitem id="nena_localization_root_menu" name="Localización" sequence="20"> 
                 <menuitem id="localization_state_menu" name="Estados" action="nena_localization_partners.action_nena_res_state_ve" sequence="10"/>
                 <menuitem id="localization_municipality_menu" name="Municipios" action="nena_localization_partners.action_nena_res_state_municipality_ve" sequence="20"/>
                 <menuitem id="localization_city_menu" name="Ciudades" action="nena_localization_partners.action_nena_res_state_municipality_city_ve" sequence="30"/>
-            </menuitem>-->
+            </menuitem>
 
             <menuitem id="nena_fiscal_root_menu" name="Fiscal" sequence="10"> 
                 <menuitem id="document_type_menu" name="Tipos de RIF/Cédula" action="nena_general.nena_document_type" sequence="10"/>
