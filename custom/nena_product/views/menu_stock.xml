@@ -26,13 +26,13 @@
             parent="menu_drug_root" 
             sequence="10" />
 
-    <menuitem id="menu_composition" name="Composición" 
-            action="nena_drug_composition.action_composition" 
-            parent="menu_drug_root" 
-            sequence="10" />
-
     <menuitem id="menu_product_presentation" name="Presentacion" 
             action="nena_drug_composition.action_product_presentation" 
             parent="menu_drug_root" 
             sequence="10" />
+
+    <menuitem id="menu_composition" name="Composición" 
+            action="nena_drug_composition.action_composition" 
+            parent="menu_drug_root" 
+            sequence="20" />
 </odoo>
