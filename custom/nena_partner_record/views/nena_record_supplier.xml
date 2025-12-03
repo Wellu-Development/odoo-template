@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="nena_record_customer_view_list" model="ir.ui.view">
+        <field name="name">nena.record.view.list</field>
+        <field name="model">nena.record</field>
+        <field name="arch" type="xml">
+            <list string="Supplier">
+                <field name="name" />
+                <field name="status_record_id" />
+            </list>
+        </field>
+    </record>
+
+    <record id="nena_record_supplier_view_form" model="ir.ui.view">
+        <field name="name">nena.record.supplier.view.form</field>
+        <field name="model">nena.record</field>
+        <field name="arch" type="xml">
+            <form string="Supplier">
+                <header>
+                    <button name="action_approved" string="Aprobar" class="oe_highlight" type="object" invisible="show_approve_buttons != True" />  
+                    <button name="action_refused" string="Rechazar" type="object" invisible="show_approve_buttons != True" />  
+                    <field name="status_record_id" widget="statusbar" />
+                </header>
+                <sheet>
+                    <group>
+                        <h1><field name="name"/></h1>
+                        <field name="partner_code" readonly="1" invisible="1"/>
+                        <field name="nena_ref" style="width: 80px;"/>
+                        <div class="o_td_label">
+                            <label for="rif_type_id"/>
+                        </div>
+                        <div class="d-flex">
+                            <field name="rif_type_id" placeholder="Prefijo" style="width: 80px;"
+                                    options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}" />
+                            <span class="o_form_label mx-3 oe_edit_only text-center" style="width: 0ch; font-weight:bold;" >-</span>
+                            <field name="rif_number" placeholder="Numero" style="width: 120px;"/>
+                        </div>
+                    </group>
+                    <notebook>
+                        <page string="Datos Generales">
+                            <group>
+                                <field name="industry_id" options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}"/>
+                                <field name="account_payment_term_id" string="Condicion de Pago" domain="[('postulation_type_id.code', '=', 'PRV')]"
+                                        options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}"/>
+                                <field name="product_category_id" widget="many2many_tags" domain="[('ref_nena', '!=', '')]"
+                                        options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}"/>
+                            </group>
+                            <group colspan="2">
+                                <group>
+                                    <separator string="DIRECCIÓN" colspan="2"/>
+                                    <field name="state_fiscal_id" options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}"/>
+                                    <field name="municipality_fiscal_id" domain="[('state_id', '=', state_fiscal_id)]" 
+                                            options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}"/>
+                                    <field name="city_fiscal_id" domain="[('municipality_id', '=', municipality_fiscal_id)]" 
+                                            options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}"/>
+                                    <field name="zip_code"/>
+                                    <field name="address_fiscal"/>
+                                    <field name="address" string="Direccion Almacen"/>
+                                </group>
+                                <group>
+                                    <separator string="DATOS DE CONTACTO" colspan="2"/>
+                                    <field name="main_phone" widget="phone" placeholder="Ingrese número de teléfono (XXXXXXXXXXX)"/>
+                                    <field name="main_mobile_phone" widget="phone" placeholder="Ingrese número de teléfono móvil(XXXXXXXXXXX)"/>
+                                    <field name="email_main" string="Correo Electrónico" widget="email" placeholder="correo@dominio.com"/>
+                                </group>
+                            </group>
+                        </page>
+                        <!--<page string="Regencia">
+                            <group>
+                                <field name="regent_id" context="{'default_is_opened_from_record_prv': True}"/>
+                                <field name="regent_id_number"/>
+                                <field name="regent_phone"/>
+                                <field name="regent_sicm_code" string="Nro. SICM"/>
+                            </group>
+                        </page>
+                        <page string="Pagos">
+                        </page>
+                        <page string="Documentos">
+                        </page>-->
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="nena_record_supplier_action" model="ir.actions.act_window">
+        <field name="name">Supplier</field>
+        <field name="res_model">nena.record</field>
+        <field name="domain">[('postulation_type_id.code', '=', 'PRV')]</field>
+        <field name="view_mode">list,form</field>
+        <field name="context">{'default_postulation_code': 'PRV'}</field>
+        <field name="view_ids" eval="[(5, 0, 0),
+        (0, 0, {'view_mode': 'list', 'view_id': ref('nena_record_customer_view_list')}),
+        (0, 0, {'view_mode': 'form', 'view_id': ref('nena_record_supplier_view_form')})
+        ]"/>
+    </record>
+
+    <menuitem
+        id="nena_record_supplier_menu"
+        name="Record"
+        action="nena_record_supplier_action"
+        parent="nena_partner_record_supplier_menu"
+        sequence="5"/>
+</odoo>

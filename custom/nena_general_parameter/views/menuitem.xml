@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <menuitem
+        id="nena_configuration_menu"
+        name="Configuration"
+        sequence="400"
+        web_icon="nena_general_parameter,static/description/icon.png"/>
+
+    <menuitem
+        id="nena_general_parameter_menu"
+        name="General Parameters"
+        parent="nena_configuration_menu"
+        sequence="10"/>
+
+    <menuitem
+        id="nena_documents_menu"
+        name="Documents"
+        parent="nena_configuration_menu"
+        sequence="10"/>
+</odoo>

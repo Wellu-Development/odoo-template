@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <record id="nena_document_type_view_tree" model="ir.ui.view">
+    <field name="name">nena.document.type.view.tree</field>
+    <field name="model">nena.document.type</field>
+    <field name="arch" type="xml">
+      <list string="Types of Documents and Permits">
+        <field name="name" />
+        <field name="active" widget="boolean_toggle" />
+      </list>
+    </field>
+  </record>
+
+  <record id="nena_document_type_view_form" model="ir.ui.view">
+    <field name="name">nena.document.type.view.form</field>
+    <field name="model">nena.document.type</field>
+    <field name="arch" type="xml">
+      <form string="Types of Documents and Permits">
+        <sheet>
+          <group>
+            <h1><field name="name" /></h1>
+            <!-- <field name="customer_type_id" />
+            <field name="supplier_type_id" />
+            <field name="product_type_id" /> -->
+            <field name="postulation_type_id" />
+            <field name="regulatory_entity_id" />
+            <field name="active" widget="boolean_toggle" />
+          </group>
+          <notebook>
+              <page name="approvers" string="Approvers">
+                  <field name="approver_ids">
+                      <list editable="bottom">
+                          <field name="department_id" options="{'no_open': True, 'no_create': True}"/>
+                          <field name="employee_ids" domain="[('department_id', '=', department_id),('job_id.is_approver_record', '=', True),('user_id', '!=', False)]" 
+                                  widget="many2many_tags" options="{'no_open': True, 'no_create': True}"/>
+                          <field name="activity_type_id" string="Type activity" force_save="1" options="{'no_open': True, 'no_create': True}"/>
+                          <field name="required"/>
+                          <field name="sequence"/>
+                      </list>
+                  </field>
+              </page>
+          </notebook>
+        </sheet>
+      </form>
+    </field>
+  </record>
+
+  <record id="nena_document_type_action" model="ir.actions.act_window">
+    <field name="name">Types of Documents and Permits</field>
+    <field name="res_model">nena.document.type</field>
+    <field name="view_mode">list,form</field>
+  </record>
+
+  <menuitem
+        id="nena_document_type_menu"
+        name="Type of Documents and Permits"
+        action="nena_document_type_action"
+        parent="nena_partner_record_config_fiscal_menu"
+        sequence="10"/>     
+</odoo>

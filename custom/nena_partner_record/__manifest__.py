@@ -1,0 +1,47 @@
+{
+    "name": "Nena Record",
+    "summary": "Módulo custom para el manejo de Expedientes",
+    "author": "Droguería Nena, C.A.",
+    "category": "Dronena",
+    "version": "18.0.0.0.1",
+    "depends": [
+        "base","hr","contacts","mail",
+        "web","website","base_address_extended",
+        "nena_general_parameter",
+        "nena_localization_partners",
+        "nena_sales",
+        "nena_accounting",
+        "nena_regency",
+        "nena_purchasing",
+        "l10n_ve_ut"
+    ],
+    "data": [
+        "security/ir.model.access.csv",
+        "security/res_groups.xml",
+        "data/nena.gen.status.csv",
+        "data/nena.cause.status.csv",
+        #"data/nena.document.type.csv",
+        #"data/nena_record_config.xml",
+        "data/nena.chain.csv",
+        "views/menuitem.xml",
+        "views/nena_postulation_monitor.xml",
+        "views/nena_record_customer.xml",
+        "views/nena_record_supplier.xml",
+        "views/nena_group.xml",
+        "views/nena_chain.xml",
+        "views/nena_credit_conditions_chain.xml",
+        "views/nena_credit_conditions_customer.xml",
+        "views/nena_document_type.xml",
+        "views/nena_record_config.xml",
+        "views/res_partner.xml",
+        "templates/client_postulation_template.xml",
+    ],
+    "assets": {
+        "web.assets_frontend": [
+            "nena_partner_record/static/src/components/**/*.js",
+            "nena_partner_record/static/src/components/**/*.xml",
+        ]
+    },
+    "application": True,
+    "license": "LGPL-3",
+}

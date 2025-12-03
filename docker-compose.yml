@@ -5,7 +5,7 @@ services:
       args:
         - ODOO_VERSION=${ODOO_VERSION:-latest}
     container_name: ${PROJECT_NAME}
-    command: odoo -u nena_product --dev=all
+    command: odoo -u nena_partner_record --dev=all
     ports:
       - ${ODOO_PORT}:8069
     volumes:

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="nena_config_collection_management_view_form" model="ir.ui.view">
+        <field name="name">nena_config_collection_management.view.form</field>
+        <field name="model">nena.config.collection.management</field>
+        <field name="arch" type="xml">
+            <form string="Collection Management">
+                <sheet>
+                    <group>
+                        <h1><field name="name" /></h1>
+                    </group>
+                    <group>
+                        <field name="max_credit_limit"/>
+                        <field name="max_permit_overdraft"/>
+                        <field name="allow_permit_overdraft"/>
+                        <field name="notes"/>
+                    </group>
+                    <notebook>
+                        <page string="Employee List">
+                            <field name="employee_ids">
+                                <list delete="0" create="0">
+                                    <field name="name" />
+                                    <field name="department_id" />
+                                </list>
+                            </field>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="nena_config_collection_management_view_list" model="ir.ui.view">
+        <field name="name">nena_config_collection_management.view.list</field>
+        <field name="model">nena.config.collection.management</field>
+        <field name="arch" type="xml">
+            <list string="Collection Management">
+                <field name="name"/>
+                <field name="max_credit_limit" />
+                <field name="max_permit_overdraft" />
+                <field name="allow_permit_overdraft" widget="boolean_toggle"/>
+                <field name="employee_ids"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="nena_config_collection_management_action" model="ir.actions.act_window">
+        <field name="name">Collection Management</field>
+        <field name="res_model">nena.config.collection.management</field>
+        <field name="view_mode">list,form</field>
+    </record>
+
+    <menuitem
+        id="nena_user_management_menu"
+        name="User Management"
+        parent="hr.menu_human_resources_configuration"
+        sequence="50"/>
+
+    <menuitem
+        id="nena_config_collection_management_menu"
+        name="Availability Allowed"
+        action="nena_config_collection_management_action"
+        groups="hr.group_hr_manager"
+        parent="nena_user_management_menu"
+        sequence="5"/>
+</odoo>

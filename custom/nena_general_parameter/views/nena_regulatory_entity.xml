@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="nena_regulatory_entity_view_list" model="ir.ui.view">
+        <field name="name">nena.regulatory.entity.view.list</field>
+        <field name="model">nena.regulatory.entity</field>
+        <field name="arch" type="xml">
+            <list string="Regulatory Entity" editable="bottom">
+                <field name="name"/>
+                <field name="description"/>
+                <field name="active" widget="boolean_toggle"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="nena_regulatory_entity_action" model="ir.actions.act_window">
+        <field name="name">Regulatory Entity</field>
+        <field name="res_model">nena.regulatory.entity</field>
+        <field name="view_mode">list</field>
+    </record>
+
+    <menuitem
+        id="nena_regulatory_entity_menu"
+        name="Regulatory Entity"
+        action="nena_regulatory_entity_action"
+        parent="nena_documents_menu"
+        sequence="10"/>  
+</odoo>

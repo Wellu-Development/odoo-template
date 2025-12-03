@@ -1,0 +1,43 @@
+id,code,description,category
+cadena_centralizada,001,Aplicar Condiciones a Cadena Centralizada,Cadena
+cadena_inactivar_credito,002,Inactivar por Limite de Credito,Cadena
+cadena_inactivar_vencimiento,003,Inactivar por Recibos Vencidos,Cadena
+cadena_agrupar_promocion,006,Agrupar para Promoción,Cadena
+cadena_aplicar_porcentaje,007,Aplicar porcentaje al limite de credito,Cadena
+cadena_prepago_automatico,009,Cobro Automatico por Pago Adelantado,Cadena
+cadena_penalizar_perdida,010,Penalizar Perdida de Pronto Pago,Cadena
+cadena_ajuste_automatico,012,Ajuste Automatico Notas de Credito,Cadena
+cadena_inactivacion_grupo,013,Inactivación por Grupo,Cadena
+oferta_especial,001,Oferta Especial,Ventas
+etiquetas_sin_pvp,002,Etiquetas (Productos sin PVP),Ventas
+promocion_empaque,003,Promocion Pre-Empaque,Ventas
+descuento_volumen,004,Descuento Volumen,Ventas
+descuento_ufi,005,Descuento UFI,Ventas
+penalizar_pago,006,Penalizar Pronto Pago,Cobranzas
+orden_alfabetico,007,Productos en Factura segun orden Alfabetico,Ventas
+sorteo_cupones,008,Sorteo (Promocion de Cupones),Ventas
+premios_instantaneos,009,Premios Instantaneos,Ventas
+descuento_paquete,010,Descuento Paquete,Ventas
+chequeo_facturas,011,Chequeo de Facturas,Almacen
+facturar_regulados,013,Facturar Productos Regulados,Ventas
+consolidar_pedidos,015,Consolidar Pedidos,Almacen
+una_factura,016,Una Factura por Bulto,Almacen
+lomito_automatico,017,Lomito Automatico,Ventas
+control_volumen,018,Control de Volumen,Almacen
+psicotropicos_automaticos,019,Psicotropicos Automaticos,Regencia
+cobro_automatico,020,Cobro Automatico (Adelanto Pronto Pago),Cobranzas
+documento_ideal,021,Documento Ideal,Cobranzas
+acta_funcionamiento,022,Acta Funcionamiento Esc.,Regencia
+activo_sada,023,Activo SADA,Regencia
+forma_pago,025,Forma pago Cliente 0-Electronico; 1-Manual,Ventas
+cliente_farmapatria,026,Cliente Farmapatria,Regencia
+cliente_insai,027,Cliente Insai,Regencia
+inactivar_vencimiento,028,Inactivar por Recibos Vencidos,Cobranzas
+aplicar_porcentaje,032,Aplicar porcentaje al limite de credito,Cobranzas
+prepago_automatico,034,Cobro Automatico por Pago Adelantado,Cobranzas
+penalizar_pronto_pago,035,Penalizar Perdida de Pronto Pago,Cobranzas
+ajuste_automatico,037,Ajuste Automatico Notas de Credito,Cobranzas
+inactivacion_grupo,038,Inactivación por Grupo,Cobranzas
+psicotropicos,039,Psicotropicos,Regencia
+permite_facturar,040,Permite Facturar Medicina,Regencia
+facturar_ruta_chica,041,Facturar Ruta Chica,Ventas

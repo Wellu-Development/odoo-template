@@ -1,0 +1,16 @@
+<odoo>
+    <record id="hr_job_view_form_inherit_nena_job" model="ir.ui.view">
+        <field name="name">hr.job.view.form.inherit.nena.job</field>
+        <field name="model">hr.job</field>
+        <field name="inherit_id" ref="hr.view_hr_job_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//notebook" position="before">
+                <group>
+                    <field name="department_id"/>
+                    <field name="is_approver_record" widget="boolean_toggle"/>
+                    <field name="is_collections_analyst" widget="boolean_toggle"/>
+                </group>
+            </xpath>
+        </field>
+    </record>
+</odoo>

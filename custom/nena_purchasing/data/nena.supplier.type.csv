@@ -1,0 +1,9 @@
+id,code,name,is_website_available,active,product_category_id/id
+supplier_esp,ZCPD,Proveedor Esporádico,False,True,"nena_stock.alimentos,nena_stock.cosmeticos,nena_stock.especialidad_farmaceutica,nena_stock.naturales,nena_stock.psicotropicos"
+supplier_esp_don,ZDOE,Donaciones Esporádicas,False,True,"nena_stock.especialidad_farmaceutica,nena_stock.naturales,nena_stock.psicotropicos"
+supplier_don,ZDON,Donaciones,False,True,"nena_stock.especialidad_farmaceutica,nena_stock.naturales,nena_stock.psicotropicos"
+supplier_emp,ZEMP,Proveedor Empleados,False,True,
+supplier_ext_gast,ZEXG,Proveedor Extranjeros Gastos,False,True,
+supplier_ext,ZEXT,Proveedor Extranjeros,False,True,"nena_stock.cosmeticos"
+supplier_gast,ZGTO,Proveedor Gastos,False,True,
+supplier_merc,ZMER,Proveedor Mercaderías,True,True,"nena_stock.alimentos,nena_stock.cosmeticos,nena_stock.especialidad_farmaceutica,nena_stock.naturales,nena_stock.psicotropicos"

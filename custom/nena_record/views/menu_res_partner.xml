@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<odoo>
-    <menuitem id="menu_nena_person_type_root" name="Tipos de Persona" parent="contacts.res_partner_menu_config" sequence="10" />
-    <menuitem id="menu_nena_person_type" name="Gestión" action="nena_partner_config_record.action_nena_person_type" parent="menu_nena_person_type_root" sequence="10" />
-</odoo>

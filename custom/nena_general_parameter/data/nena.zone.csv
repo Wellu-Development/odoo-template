@@ -1,0 +1,137 @@
+id,code,description,active,district_id:id
+zone_num,#,DROGUERIA NENA,True,dist_corporativo
+zone_num1,#1,MARCA MUESTRAS,True,dist_corporativo
+zone_$,$,MARACAY,True,dist_centro_llano
+zone_+,+,MARACAY,True,dist_centro_llano
+zone_-, -,MARACAY,True,dist_centro_llano
+zone_1,1,CTAS CLAVES (LOCATEL),True,dist_caracas
+zone_2,2,CTAS CLAVES (LOCATEL),True,dist_caracas
+zone_3,3,TACHIRA,True,dist_andes
+zone_4,4,TACHIRA,True,dist_andes
+zone_5,5,MERIDA,True,dist_andes
+zone_6,6,MERIDA,True,dist_andes
+zone_7,7,CTAS CLAVES (LOCATEL),True,dist_caracas
+zone_8,8,CTAS CLAVES (LOCATEL),True,dist_caracas
+zone_9,9,DONACIONES,True,dist_corporativo
+zone_a,A,BARQUISIMETO,True,dist_centro_occidente
+zone_a0,A0,PUERTO LA CRUZ,True,dist_oriente_sur
+zone_a1,A1,MEDITOTAL,True,dist_oriente_norte
+zone_a2,A2,PUERTO LA CRUZ,True,dist_oriente_sur
+zone_a3,A3,PUERTO LA CRUZ,True,dist_oriente_norte
+zone_a4,A4,PUERTO LA CRUZ,True,dist_oriente_sur
+zone_a5,A5,PUERTO LA CRUZ,True,dist_oriente_norte
+zone_a6,A6,PUERTO LA CRUZ,True,dist_oriente_sur
+zone_a7,A7,PUERTO LA CRUZ,True,dist_oriente_norte
+zone_a8,A8,PUERTO LA CRUZ,True,dist_oriente_norte
+zone_a9,A9,PUERTO LA CRUZ,True,dist_oriente_norte
+zone_aa,AA,PUERTO LA CRUZ,True,dist_oriente_norte
+zone_ab,AB,PUERTO LA CRUZ,True,dist_oriente_sur
+zone_ac,AC,CTAS CLAVES (SIGO),True,dist_oriente_norte
+zone_ad,AD,CTAS CLAVES ORIENTE,True,dist_oriente_norte
+zone_ae,AE,CTAS CLAVES ORIENTE,True,
+zone_af,AF,GUARICO,True,dist_centro_llano
+zone_ag,AG,APURE,True,dist_centro_llano
+zone_ah,AH,CC ORIENTE SUR,True,
+zone_ai,AI,CC ORIENTE SUR,True,
+zone_aj,AJ,CC ORIENTE SUR,True,dist_oriente_sur
+zone_ak,AK,CC ORIENTE SUR,True,
+zone_al,AL,CC ORIENTE SUR,True,dist_oriente_sur
+zone_av,AV,MARACAY,True,dist_centro_llano
+zone_b,B,ZULIA,True,dist_zulia_falcon
+zone_b1,B1,Oficina Principal,True,dist_zulia_falcon
+zone_b2,B2,FARMAPUNTO,True,dist_zulia_falcon
+zone_b3,B3,NERIO RUBIO,True,dist_zulia_falcon
+zone_b4,B4,BEHERMAN RAMIREZ (ZULIA),True,dist_zulia_falcon
+zone_b5,B5,ISILIO PIRELA,True,dist_zulia_falcon
+zone_b6,B6,GRUPO GALERIAS COMPRE CON MENO,True,dist_zulia_falcon
+zone_b7,B7,BEHERMAN RAMIREZ (dist_andes),True,dist_andes
+zone_b8,B8,FARMACIA MARACAIBO,True,dist_andes
+zone_ba,BA,NASSER,True,dist_zulia_falcon
+zone_bc,BC,CTAS CLAVES (MARACAIBO),True,dist_zulia_falcon
+zone_bd,BD,ZULIA,True,dist_zulia_falcon
+zone_be,BE,ZULIA,True,dist_zulia_falcon
+zone_bz,BZ,FALCÓN,True,dist_zulia_falcon
+zone_c,C,PORTUGUESA,True,dist_centro_occidente
+zone_c1,C1,CARACAS ESTE,True,dist_caracas
+zone_c2,C2,CARACAS ESTE,True,dist_caracas
+zone_c3,C3,CARACAS OESTE,True,dist_caracas
+zone_c4,C4,CARACAS OESTE,True,dist_caracas
+zone_c5,C5,CARACAS OESTE,True,dist_caracas
+zone_c6,C6,VALLES DEL TUY,True,dist_caracas
+zone_c7,C7,CARACAS ESTE,True,dist_caracas
+zone_c8,C8,CARACAS ESTE,True,dist_caracas
+zone_c9,C9,CARACAS OESTE,True,dist_caracas
+zone_ca,CA,dist_caracas,True,dist_caracas
+zone_cb,CB,CARACAS ESTE,True,dist_caracas
+zone_cc,CC,CARACAS LOCATEL,True,
+zone_cd,CD,GRUPO FARMARED,True,dist_caracas
+zone_ce,CE,CARACAS ESTE,True,dist_caracas
+zone_cf,CF,CARACAS OESTE,True,dist_caracas
+zone_cg,CG,CTAS CLAVES (AUTOM PLAZAS),True,dist_caracas
+zone_ch,CH,CTAS CLAVES (EXCELSIOR),True,dist_caracas
+zone_ci,CI,CTAS CLAVES,True,dist_caracas
+zone_cm,CM,CTAS CLAVES,True,dist_caracas
+zone_cn,CN,CARACAS ESTE,True,dist_caracas
+zone_d,D,ZULIA,True,dist_zulia_falcon
+zone_e,E,BARINAS,True,dist_centro_occidente
+zone_f,F,CADENA LEGAL,True,dist_caracas
+zone_fp,FP,FARMAPATRIA,True,dist_caracas
+zone_g,G,TRUJILLO,True,dist_andes
+zone_g1,G1,VALERA,True,dist_andes
+zone_g2,G2,VALERA,True,dist_andes
+zone_h,H,CARABOBO,True,dist_centro_llano
+zone_h1,H1,CARABOBO,True,dist_centro_llano
+zone_ha,HA,NELLY ORTEGA,True,dist_andes
+zone_hb,HB,YAMILETH GOITIA,True,dist_centro_occidente
+zone_hc,HC,YOHANA CAMPOS,True,dist_caracas
+zone_hd,HD,CAROLINA GOMEZ,True,dist_caracas
+zone_ho,HO,XIKIU ALEMAN,True,dist_oriente_norte
+zone_hv,HV,MARCOS CRUCES,True,dist_centro_llano
+zone_hz,HZ,NEURO LINARES,True,dist_zulia_falcon
+zone_i,I,CARABOBO,True,dist_centro_llano
+zone_if,IF,FARMATODO ,True,dist_caracas
+zone_ig,IG,MARACAY,True,dist_centro_llano
+zone_j,J,YARACUY,True,dist_centro_llano
+zone_k,K,C.O.D.,True,dist_caracas
+zone_kb,KB,TOMAS MENDOZA,True,dist_caracas
+zone_kc,KC,SCHERWIN OQUENDO,True,dist_caracas
+zone_kd,KD,PATRICIA CONCHA,True,dist_caracas
+zone_ko,KO,GERARDO CARIAS,True,dist_caracas
+zone_kv,KV,MANUEL BRIZUELA,True,dist_caracas
+zone_kz,KZ,NINIBETH URDANETA,True,dist_caracas
+zone_l,L,GUANARE,True,dist_centro_occidente
+zone_le,LE,BARINAS,True,dist_centro_occidente
+zone_m,M,VALENCIA,True,dist_centro_llano
+zone_n,N,BARQUISIMETO,True,dist_centro_occidente
+zone_ñ,Ñ,MARACAY,True,dist_centro_occidente
+zone_o,O,VALENCIA,True,dist_centro_llano
+zone_o1,O1,CARABOBO,True,dist_centro_llano
+zone_oc,OC,CARACAS,True,dist_centro_llano
+zone_p,P,BARQUISIMETO,True,dist_centro_occidente
+zone_pc,PC,Región de Presidencia,True,dist_centro_occidente
+zone_pd,PD,Región Gcia Nac Vtas,True,dist_centro_occidente
+zone_py,PY,BARQUISIMETO,True,dist_centro_occidente
+zone_q,Q,ZULIA,True,dist_zulia_falcon
+zone_r,R,CARABOBO,True,dist_centro_llano
+zone_rf,RF,FARMATODO,True,
+zone_s,S,ZULIA,True,dist_zulia_falcon
+zone_s1,S1,COSTA ORIENTAL,True,dist_zulia_falcon
+zone_t,T,BARQUISIMETO,True,dist_corporativo
+zone_u,U,CTAS CALVES (LOCATEL),True,dist_caracas
+zone_v,V,BARQUISIMETO,True,dist_caracas
+zone_vf,VF,FARMATODO,True,dist_caracas
+zone_w,W,CARACAS ESTE,True,dist_caracas
+zone_x,X,CAJA CHICA,True,dist_corporativo
+zone_x1,X1,Caja Chica Mcy,True,dist_corporativo
+zone_x2,X2,RUTA CHICA dist_caracas,True,dist_corporativo
+zone_x3,X3,RUTA CHICA ORIENTE,True,dist_corporativo
+zone_x4,X4,RUTA CHICA MARACAIBO,True,dist_corporativo
+zone_x5,X5,CAJA CHICA,True,dist_corporativo
+zone_y,Y,BARQUISIMETO,True,dist_centro_occidente
+zone_y1,Y1,BARQUISIMETO,True,dist_centro_occidente
+zone_y2,Y2,CTAS CLAVES (BARQUISIMETO),True,dist_centro_occidente
+zone_y3,Y3,CTAS CLAVES (BARQUISIMETO),True,dist_centro_occidente
+zone_y4,Y4,CTAS CLAVES (BARQUISMETO),True,dist_centro_occidente
+zone_y5,Y5,CTAS CLAVES (BARQUISIMETO),True,dist_centro_occidente
+zone_y6,Y6,CTAS CLAVES (BARQUISIMETO),True,dist_centro_occidente
+zone_z,Z,FALCON,True,dist_zulia_falcon

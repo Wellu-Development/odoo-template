@@ -1,4 +1,0 @@
-id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_nena_product_subtype,access_nena_product_subtype,model_nena_product_subtype,base.group_user,1,1,1,1
-access_nena_product_family,access_nena_product_family,model_nena_product_family,base.group_user,1,1,1,1
-access_nena_product_class,access_nena_product_class,model_nena_product_class,base.group_user,1,1,1,1

@@ -1,0 +1,34 @@
+id,code,name,gen_status_id:id
+creada,001,Creada,exp_solicitud
+revisada_compras,002,Revisada Compras,exp_solicitud
+anulada,003,Anulada,exp_solicitud
+comite,004,Comite,exp_solicitud
+guardado_prov,005,Guardado Prov,exp_solicitud
+completado_prov,006,Completado Prov,exp_solicitud
+cliente_nuevo,007,Cliente Nuevo,cli_nuevo
+activo_cliente_al_dia,008,Cliente al Dia,cli_activo
+activo_grupo_al_dia,034,Cliente al Dia (Grupo),cad_activo
+inactivo_excedio_limite,009,Excedio Lim. Credito,cli_inactivo
+inactivo_doc_vencidos,010,Doc. Vencidos,cli_inactivo
+inactivo_saldo_iva,011,Saldo IVA,cli_inactivo
+inactivo_grupo_excedio_limite,023,Excedio Lim. Credito (Grupo),cad_inactivo
+inactivo_grupo_doc_vencidos,024,Doc. Vencidos (Grupo),cad_inactivo
+inactivo_grupo_saldo_iva,025,Saldo IVA (Grupo),cad_inactivo
+permiso_cliente_dia,012,Cliente al Dia,cli_permiso
+permiso_excedio_limite,013,Excedio Lim. Credito,cli_permiso
+permiso_doc_vencidos,014,Doc. Vencidos,cli_permiso
+permiso_saldo_iva,015,Saldo IVA,cli_permiso
+permiso_grupo_cliente_dia,026,Cliente al Dia (Grupo),cad_permiso
+permiso_grupo_excedio_limite,027,Excedio Lim. Credito (Grupo),cad_permiso
+permiso_grupo_doc_vencidos,028,Doc. Vencidos (Grupo),cad_permiso
+permiso_grupo_saldo_iva,029,Saldo IVA (Grupo),cad_permiso
+suspendido_cliente_dia,016,Cliente al Dia,cli_suspendido
+suspendido_excedio_limite,017,Excedio Lim. Credito,cli_suspendido
+suspendido_doc_vencidos,018,Doc. Vencidos,cli_suspendido
+suspendido_saldo_iva,019,Saldo IVA,cli_suspendido
+suspendido_grupo_cliente_dia,030,Cliente al Dia (Grupo),cad_suspendido
+suspendido_grupo_excedio_limite,031,Excedio Lim. Credito (Grupo),cad_suspendido
+suspendido_grupo_doc_vencidos,032,Doc. Vencidos (Grupo),cad_suspendido
+suspendido_grupo_saldo_iva,033,Saldo IVA (Grupo),cad_suspendido
+ficha_desactivada,020,Ficha Desactivada,cli_bloqueado
+dpto_legal,021,Dpto. Legal,cli_dpto_legal

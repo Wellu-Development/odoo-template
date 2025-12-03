@@ -1,0 +1,24 @@
+<odoo>
+    <record id="res_partner_view_form_inherit_nena_record" model="ir.ui.view">
+        <field name="name">res.partner.view.form.inherit.nena.record</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//notebook/page/field[@name='child_ids']/form/sheet/group/group/field[@name='name']" position="before">
+                <field name="person_type_id" invisible="type != 'other'"
+                        options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}"/>
+            </xpath>
+            <xpath expr="//notebook/page/field[@name='child_ids']/form/sheet/group/group/field[@name='name']" position="after">
+                <label for="rif_type_id" string="RIF" invisible="type != 'other'"/>
+                    <div class="o_address_format">
+                        <field name="rif_type_id" class="o_address_zip" placeholder="Prefijo" invisible="type != 'other'"
+                            options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}" />
+                        <field name="rif_number" class="o_address_city" placeholder="Numero" invisible="type != 'other'"/>
+                    </div>
+            </xpath>
+            <xpath expr="//notebook/page/field[@name='child_ids']/form/sheet/group/group/field[@name='title']" position="attributes">
+                <attribute name="invisible">1</attribute>
+            </xpath>
+        </field>
+    </record>
+</odoo>

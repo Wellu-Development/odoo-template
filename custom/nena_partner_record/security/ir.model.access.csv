@@ -1,0 +1,14 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_nena_record,access_nena_record,model_nena_record,base.group_user,1,1,1,0
+access_nena_group_user,Access Nena Group User,model_nena_group,base.group_user,1,0,0,0
+access_nena_group_manager,Access Nena Group Manager,model_nena_group,base.group_system,1,1,1,1
+access_nena_chain,access_nena_chain,model_nena_chain,base.group_user,1,1,1,0
+access_nena_postulation_monitor,access_nena_postulation_monitor,model_nena_postulation_monitor,base.group_user,1,1,1,0
+access_nena_credit_conditions_chain,nena_credit_conditions_chain,model_nena_credit_conditions_chain,,1,1,1,1
+access_nena_credit_conditions_customer,nena_credit_conditions_customer,model_nena_credit_conditions_customer,,1,1,1,1
+access_nena_document_type,access_nena_document_type,model_nena_document_type,base.group_user,1,1,1,0
+access_nena_document_approver_user,access_nena_document_approver_user,model_nena_document_approver,base.group_user,1,1,1,0
+access_nena_document_approver_admin,access_nena_document_approver_admin,model_nena_document_approver,base.group_system,1,1,1,1
+access_nena_document_approver_line,access_nena_document_approver_line,model_nena_document_approver_line,,1,1,1,1
+access_nena_attachment_line,access_nena_attachment_line,model_nena_attachment_line,,1,1,1,1
+access_nena_record_config,access_nena_record_config,model_nena_record_config,base.group_user,1,1,1,1

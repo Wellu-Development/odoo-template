@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <record id="nena_supplier_type_view_tree" model="ir.ui.view">
+    <field name="name">nena.supplier.type.view.tree</field>
+    <field name="model">nena.supplier.type</field>
+    <field name="arch" type="xml">
+      <list string="Supplier Type">
+        <field name="code" />
+        <field name="name" />
+        <field name="product_category_id" widget="many2many_tags"/>
+        <field name="is_website_available" widget="boolean_toggle"/>
+        <field name="active" widget="boolean_toggle" />
+      </list>
+    </field>
+  </record>
+
+  <record id="nena_supplier_type_view_form" model="ir.ui.view">
+    <field name="name">nena.supplier.type.view.form</field>
+    <field name="model">nena.supplier.type</field>
+    <field name="arch" type="xml">
+      <form string="Supplier Type">
+        <sheet>
+          <group>
+            <h1><field name="name" /></h1>
+            <field name="code" readonly="1"/>
+            <field name="is_website_available" widget="boolean_toggle"/>
+            <field name="active" widget="boolean_toggle" />
+            <field name="product_category_id" widget="many2many_tags"
+                    options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}"/>
+          </group>
+        </sheet>
+      </form>
+    </field>
+  </record>
+
+  <record id="nena_supplier_type_action" model="ir.actions.act_window">
+    <field name="name">Supplier Type</field>
+    <field name="res_model">nena.supplier.type</field>
+    <field name="view_mode">list,form</field>
+  </record>
+</odoo>

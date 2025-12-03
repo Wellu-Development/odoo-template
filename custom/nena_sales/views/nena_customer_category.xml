@@ -1,0 +1,42 @@
+<odoo>
+    <record id="nena_customer_category_view_list" model="ir.ui.view">
+        <field name="name">nena.customer.category.view.list</field>
+        <field name="model">nena.customer.category</field>
+        <field name="arch" type="xml">
+            <list string="Customer Category">
+                <field name="code" />
+                <field name="name"/>
+                <field name="product_category_id" widget="many2many_tags"/>
+                <field name="nomedicine" widget="boolean_toggle"/>
+                <field name="is_website_available" widget="boolean_toggle"/>
+                <field name="active" widget="boolean_toggle"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="nena_customer_category_view_form" model="ir.ui.view">
+        <field name="name">nena.customer.category.view.form</field>
+        <field name="model">nena.customer.category</field>
+        <field name="arch" type="xml">
+            <form string="Customer Category">
+                <sheet>
+                    <group>
+                        <h1><field name="name" /></h1>
+                        <field name="code" readonly="1"/>
+                        <field name="nomedicine" widget="boolean_toggle"/>
+                        <field name="is_website_available" widget="boolean_toggle"/>
+                        <field name="active" widget="boolean_toggle"/>
+                        <field name="product_category_id" widget="many2many_tags"
+                                options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    
+    <record id="nena_customer_category_action" model="ir.actions.act_window">
+        <field name="name">Customer Category</field>
+        <field name="res_model">nena.customer.category</field>
+        <field name="view_mode">list,form</field>
+    </record>
+</odoo>

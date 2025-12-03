@@ -1,0 +1,16 @@
+id,code,name,nomedicine,is_website_available,active,product_category_id/id
+farmacia,001,Farmacia,False,False,True,"nena_stock.alimentos,nena_stock.cosmeticos,nena_stock.especialidad_farmaceutica,nena_stock.naturales,nena_stock.psicotropicos"
+expendio,002,Expendio,False,False,True,"nena_stock.alimentos,nena_stock.cosmeticos,nena_stock.especialidad_farmaceutica,nena_stock.naturales,nena_stock.psicotropicos"
+distribuidor,003,Distribuidor,False,False,True,"nena_stock.alimentos,nena_stock.cosmeticos,nena_stock.especialidad_farmaceutica,nena_stock.naturales,nena_stock.psicotropicos"
+clinica_hospitales,004,Clinica u Hospitales,False,False,True,"nena_stock.especialidad_farmaceutica,nena_stock.psicotropicos"
+ente_gubernamental,005,Ente Gubernamental,False,False,True,"nena_stock.especialidad_farmaceutica,nena_stock.psicotropicos"
+comercializadora,006,Comercializadora,True,False,True,"nena_stock.alimentos,nena_stock.cosmeticos,nena_stock.especialidad_farmaceutica,nena_stock.naturales,nena_stock.psicotropicos"
+caja_chica,007,Caja Chica,False,False,True,
+droguerias,008,Droguerias,False,False,True,"nena_stock.alimentos,nena_stock.cosmeticos,nena_stock.especialidad_farmaceutica,nena_stock.naturales,nena_stock.psicotropicos"
+boticas,009,Boticas,False,False,True,
+automercados_supermercados,010,Automercados y Supermercados,True,False,True,"nena_stock.alimentos,nena_stock.cosmeticos,nena_stock.especialidad_farmaceutica,nena_stock.naturales,nena_stock.psicotropicos"
+bodegas_abastos,011,Bodegas y Abastos,True,False,True,"nena_stock.alimentos,nena_stock.cosmeticos,nena_stock.especialidad_farmaceutica,nena_stock.naturales,nena_stock.psicotropicos"
+panaderias,012,Panaderias,True,False,True,"nena_stock.alimentos,nena_stock.especialidad_farmaceutica,nena_stock.naturales,nena_stock.psicotropicos"
+inversiones,013,Inversiones,True,False,True,
+centros_esteticas,014,Centros de Esteticas,True,False,True,"nena_stock.cosmeticos"
+tiendas_naturista,015,Tiendas Naturista,True,False,True,"nena_stock.naturales"

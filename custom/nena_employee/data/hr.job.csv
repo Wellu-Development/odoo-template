@@ -1,0 +1,5 @@
+id,name,department_id:id,is_approver_record,is_collections_analyst
+asesor,Asesor Comercial,ventas,False,True
+cob_analista,Analista de Cobranzas,cobranzas,False,True
+cob_especialista,Especialista de Cobranzas,cobranzas,False,True
+cob_coordinador,Coordinador de Cobranzas,cobranzas,True,True

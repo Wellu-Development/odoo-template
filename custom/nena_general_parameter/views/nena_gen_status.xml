@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="nena_gen_status_view_tree" model="ir.ui.view">
+        <field name="name">nena.gen.status.view.tree</field>
+        <field name="model">nena.gen.status</field>
+        <field name="arch" type="xml">
+            <list string="Status">
+                <field name="code"/>
+                <field name="name"/>
+                <field name="category"/>
+                <field name="model_id"/>
+                <field name="field_id"/>
+                <field name="cause_active" widget="boolean_toggle"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="nena_gen_status_view_form" model="ir.ui.view">
+        <field name="name">nena.gen.status.view.form</field>
+        <field name="model">nena.gen.status</field>
+        <field name="arch" type="xml">
+            <form string="Status">
+                <sheet>
+                    <group>
+                        <h1><field name="name" /></h1>
+                        <field name="code"/>
+                        <field name="category"/>
+                        <field name="model_id"/>
+                        <field name="field_id"/>
+                        <field name="cause_active" widget="boolean_toggle"/>
+                    </group>
+                    <notebook>
+                        <page string="Causes of Status" invisible="cause_active != True">
+                            <field name="cause_status_ids" mode="list"> 
+                                <list string="Causes of Status" editable="bottom" delete="false"> 
+                                    <field name="code"/>
+                                    <field name="name"/>
+                                </list>
+                            </field>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="nena_gen_status_action" model="ir.actions.act_window">
+        <field name="name">Status</field>
+        <field name="res_model">nena.gen.status</field>
+        <field name="view_mode">list,form</field>
+    </record>
+
+    <menuitem
+        id="nena_gen_status_menu"
+        name="Status"
+        action="nena_gen_status_action"
+        parent="nena_general_parameter_menu"
+        sequence="5"/>
+</odoo>
