@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_nena_customer_condition,access_nena_customer_condition,model_nena_customer_condition,nena_general_parameter.group_nena_system,1,1,1,0
+access_nena_customer_category,access_nena_customer_category,model_nena_customer_category,base.group_user,1,1,0,0
+access_nena_customer_clasification,access_nena_customer_clasification,model_nena_customer_clasification,base.group_user,1,0,0,0

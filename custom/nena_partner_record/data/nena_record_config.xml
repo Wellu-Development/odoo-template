@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="customer_combination_1" model="nena.record.config">
+            <field name="name">Postulante Cliente - 1</field>
+            <field name="postulation_type_id" ref="nena_partner_config_record.customer_postulation"/>
+            <field name="customer_type_ids" eval="[(6, 0, [ref('nena_partner_config_record.customer_pharmacy'),
+            ref('nena_partner_config_record.customer_exp'),ref('nena_partner_config_record.customer_dro'),
+            ref('nena_partner_config_record.customer_dist'),ref('nena_partner_config_record.customer_cli'),
+            ref('nena_partner_config_record.customer_gov'),ref('nena_partner_config_record.customer_com'),
+            ref('nena_partner_config_record.customer_bot'),ref('nena_partner_config_record.customer_mer'),
+            ref('nena_partner_config_record.customer_bod'),ref('nena_partner_config_record.customer_pan'),
+            ref('nena_partner_config_record.customer_inv'),ref('nena_partner_config_record.customer_ce'),
+            ])]"/>
+            <field name="product_type_ids" eval="[(6, 0, [ref('nena_partner_config_record.product_ali'),
+            ref('nena_partner_config_record.product_nat'), ref('nena_partner_config_record.product_psi'),
+            ref('nena_partner_config_record.product_cos'), ref('nena_partner_config_record.product_med'),
+            ])]"/>
+            <field name="document_type_ids" eval="[(6, 0, [ref('nena_partner_config_record.rif'),
+            ref('nena_partner_config_record.cedula'), ref('nena_partner_config_record.registro_mer'),
+            ref('nena_partner_config_record.registro_fot'), ref('nena_partner_config_record.gps'),
+            ref('nena_partner_config_record.condicion_cre'), ref('nena_partner_config_record.formato_aper'),
+            ref('nena_partner_config_record.sada'), ref('nena_partner_config_record.permiso_sani'),
+            ])]"/>
+        </record>
+
+        <record id="customer_combination_2" model="nena.record.config">
+            <field name="name">Postulante Cliente - 2</field>
+            <field name="postulation_type_id" ref="nena_partner_config_record.customer_postulation"/>
+            <field name="customer_type_ids" eval="[(6, 0, [ref('nena_partner_config_record.customer_pharmacy'),
+            ref('nena_partner_config_record.customer_exp'),ref('nena_partner_config_record.customer_dro'),
+            ref('nena_partner_config_record.customer_cli'),ref('nena_partner_config_record.customer_gov'),
+            ref('nena_partner_config_record.customer_bot'),ref('nena_partner_config_record.customer_mer'),
+            ])]"/>
+            <field name="product_type_ids" eval="[(6, 0, [ref('nena_partner_config_record.product_nat'), 
+            ref('nena_partner_config_record.product_psi'), ref('nena_partner_config_record.product_cos'), 
+            ref('nena_partner_config_record.product_med'),
+            ])]"/>
+            <field name="document_type_ids" eval="[(6, 0, [ref('nena_partner_config_record.permiso_fun')
+            ])]"/>
+        </record>
+
+        <record id="customer_combination_3" model="nena.record.config">
+            <field name="name">Postulante Cliente - 3</field>
+            <field name="postulation_type_id" ref="nena_partner_config_record.customer_postulation"/>
+            <field name="customer_type_ids" eval="[(6, 0, [ref('nena_partner_config_record.customer_pharmacy'),
+            ref('nena_partner_config_record.customer_dro'), ref('nena_partner_config_record.customer_cli'),
+            ref('nena_partner_config_record.customer_bot')
+            ])]"/>
+            <field name="product_type_ids" eval="[(6, 0, [ref('nena_partner_config_record.product_ali'),
+            ref('nena_partner_config_record.product_nat'), ref('nena_partner_config_record.product_psi'),
+            ref('nena_partner_config_record.product_cos'), ref('nena_partner_config_record.product_med'),
+            ])]"/>
+            <field name="document_type_ids" eval="[(6, 0, [ref('nena_partner_config_record.titulo_rege'),
+            ref('nena_partner_config_record.cedula_rege')
+            ])]"/>
+        </record>
+    </data>
+</odoo>

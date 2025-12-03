@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="nena_product_subtype_view_tree" model="ir.ui.view">
+        <field name="name">nena.product.subtype.view.tree</field>
+        <field name="model">nena.product.subtype</field>
+        <field name="arch" type="xml">
+            <list string="SubType Product">
+                <field name="code" />
+                <field name="name" />
+                <field name="product_category_id" />
+                <field name="status" />
+            </list>
+        </field>
+    </record>
+
+    <record id="nena_product_subtype_view_form" model="ir.ui.view">
+        <field name="name">nena.product.subtype.view.form</field>
+        <field name="model">nena.product.subtype</field>
+        <field name="arch" type="xml">
+            <form string="SubType Product">
+                <sheet>
+                    <group>
+                        <field name="code" />
+                        <field name="name" />
+                        <field name="product_category_id" 
+                                options="{'no_quick_create':True,'no_create':True,'no_create_edit':True 'no_open': True}" />
+                        <field name="status" />
+                    </group>
+                </sheet>
+                <chatter />
+            </form>
+        </field>
+    </record>    
+
+    <record id="nena_product_subtype_action" model="ir.actions.act_window">
+        <field name="name">SubType Product</field>
+        <field name="res_model">nena.product.subtype</field>
+        <field name="view_mode">list,form,pivot</field>
+    </record>
+
+    <menuitem
+        id="nena_product_subtype_menu"
+        name="SubType Product"
+        action="nena_product_subtype_action"
+        parent="stock.menu_product_in_config_stock"
+        sequence="10"/>
+</odoo>

@@ -1,0 +1,12 @@
+id,code,description,amount_from,amount_until,category,active
+amarillo_Clientes,0,AMARILLO,1,1500,Cliente,True
+verde_Clientes,1,VERDE,1501,3000,Cliente,True
+azul_Clientes,2,AZUL,3001,5000,Cliente,True
+vinotinto_Clientes,3,VINOTINTO,5001,10000,Cliente,True
+platinum_Clientes,4,PLATINUM,10001,10000000000,Cliente,True
+aliados,5,Aliados,99999999999,99999999999,Cliente,True
+amarillo_cadenas,6,AMARILLO,1,99999,Cadena,True
+verde_cadenas,7,VERDE,100000,199999,Cadena,True
+azul_cadenas,8,AZUL,200000,399999,Cadena,True
+vinotinto_cadenas,9,VINOTINTO,400000,599999,Cadena,True
+platinum_cadenas,10,PLATINUM,600000,99999999999,Cadena,True

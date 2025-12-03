@@ -1,0 +1,3 @@
+id,name,code,active
+proveedor,Proveedor,PRV,True
+cliente,Cliente,CLI,True

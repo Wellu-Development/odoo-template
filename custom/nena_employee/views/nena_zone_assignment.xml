@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="nena_zone_assigment_view_list" model="ir.ui.view">
+        <field name="name">nena_zone_assigment.view.list</field>
+        <field name="model">nena.zone.assigment</field>
+        <field name="arch" type="xml">
+            <list string="Assigned Zones">
+                <field name="hr_employee_id"/>
+                <field name="zone_ids"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="nena_zone_assigment_view_form" model="ir.ui.view">
+        <field name="name">nena_zone_assigment.view.form</field>
+        <field name="model">nena.zone.assigment</field>
+        <field name="arch" type="xml">
+            <form string="Property Tag">
+                <sheet>
+                    <group>
+                        <field name="hr_employee_id"/>
+                        <field name="zone_ids" widget="many2many_tags" />
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="nena_zone_assigment_action" model="ir.actions.act_window">
+        <field name="name">Assigned Zones</field>
+        <field name="res_model">nena.zone.assigment</field>
+        <field name="view_mode">list,form</field>
+    </record>
+</odoo>

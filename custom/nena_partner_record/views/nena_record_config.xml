@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+  <record id="nena_record_config_view_tree" model="ir.ui.view">
+    <field name="name">nena.record.config.view.tree</field>
+    <field name="model">nena.record.config</field>
+    <field name="arch" type="xml">
+      <list>
+        <field name="name" />
+        <field name="postulation_type_id" />
+        <field name="customer_type_ids" />
+        <field name="supplier_type_ids" />
+        <field name="product_type_ids" />
+        <field name="document_type_ids" />
+        <field name="active" widget="boolean_toggle" />
+      </list>
+    </field>
+  </record>
+
+  <record id="nena_record_config_view_form" model="ir.ui.view">
+    <field name="name">partner.config.view.form</field>
+    <field name="model">nena.record.config</field>
+    <field name="arch" type="xml">
+      <form>
+        <sheet>
+          <group>
+            <h1><field name="name" /></h1>
+            <group name="top">
+              <field name="active" widget="boolean_toggle" />
+              <field name="postulation_type_id" /> 
+            </group>
+            <group name="main">
+              <group name="main-customer">
+                <field name="customer_type_ids" widget="many2many_tags"/>
+              </group>
+              <group name="main-product">
+                <field name="product_type_ids" widget="many2many_tags"/>
+              </group>
+            </group>
+            <group name="supplier">
+              <field name="supplier_type_ids" widget="many2many_tags"/>
+            </group>
+            <notebook>
+              <page name="document" string="Documentos y permisos">
+                <field name="document_type_ids" />
+              </page>
+            </notebook>
+          </group>
+        </sheet>
+      </form>
+    </field>
+  </record>
+
+  <record id="nena_record_config_action" model="ir.actions.act_window">
+    <field name="name">Modelo de configuración</field>
+    <field name="res_model">nena.record.config</field>
+    <field name="view_mode">list,form</field>
+  </record>
+
+  <menuitem
+      id="nena_record_config_menu"
+      name="Configuration Model"
+      action="nena_record_config_action"
+      parent="nena_partner_record_config_menu"
+      sequence="10"/>
+</odoo>

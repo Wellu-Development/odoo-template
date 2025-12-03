@@ -1,0 +1,334 @@
+id,name,discount_days,early_discount,discount_percentage,display_on_invoice,early_pay_discount_computation,postulation_type_id/id,ref_nena,line_ids/id,line_ids/nb_days,line_ids/value_amount
+inmediato,Pago Inmediato,1,False,0.00,False,excluded,nena_general_parameter.cliente,61,term_1,0,100
+3_dias,3 días de Crédito con 17.00% de Descuento PP,3,True,17.00,False,excluded,nena_general_parameter.cliente,88,term_2,3,100
+7_dias,7 días de Crédito sin Descuento,1,False,0.00,False,excluded,nena_general_parameter.cliente,96,term_3,7,100
+10_dias,10 días de Crédito sin Descuento,1,False,0.00,False,excluded,nena_general_parameter.cliente,3,term_4,10,100
+14_dias,14 días de Crédito sin Descuento,1,False,0.00,False,excluded,nena_general_parameter.cliente,IF,term_5,14,100
+21_dias,21 días de Crédito sin Descuento,1,False,0.00,False,excluded,nena_general_parameter.cliente,QQ,term_6,21,100
+30_dias,30 días de Crédito sin Descuento,1,False,0.00,False,excluded,nena_general_parameter.cliente,99,term_7,30,100
+0003,0003 - 14 días 3%; 20 días 2%; 30 días 0%,1,False,0.00,False,excluded,nena_general_parameter.proveedor,0003,term_8,30,100
+Z001,Z001 - Pronto Pago del 4.5000% a 10 dias,10,True,4.50,False,excluded,nena_general_parameter.proveedor,Z001,term_9,10,100
+Z002,Z002 - Pronto Pago del 4.0000% a 10 dias,10,True,4.00,False,excluded,nena_general_parameter.proveedor,Z002,term_10,10,100
+Z003,Z003 - Pronto Pago del 5.0000% a 10 dias,10,True,5.00,False,excluded,nena_general_parameter.proveedor,Z003,term_11,10,100
+Z004,Z004 - Pronto Pago a 30 dias,1,False,0.00,False,excluded,nena_general_parameter.proveedor,Z004,term_12,30,100
+Z005,Z005 - Pronto Pago del 4.0000% a 14 dias,14,True,4.00,False,excluded,nena_general_parameter.proveedor,Z005,term_13,14,100
+Z006,Z006 - Pronto Pago del 2.0000% a 15 dias,15,True,2.00,False,excluded,nena_general_parameter.proveedor,Z006,term_14,15,100
+Z007,Z007 - Pronto Pago del 2.5000% a 15 dias,15,True,2.50,False,excluded,nena_general_parameter.proveedor,Z007,term_15,15,100
+Z008,Z008 - Pronto Pago del 4.0000% a 15 dias,15,True,4.00,False,excluded,nena_general_parameter.proveedor,Z008,term_16,15,100
+Z009,Z009 - Pronto Pago del 5.0000% a 15 dias,15,True,5.00,False,excluded,nena_general_parameter.proveedor,Z009,term_17,15,100
+Z010,Z010 - Pronto Pago del 0.0000% a 8 dias,1,False,0.00,False,excluded,nena_general_parameter.proveedor,Z010,term_18,8,100
+Z011,Z011 - Pronto Pago del 0.0000% a 15 dias,1,False,0.00,False,excluded,nena_general_parameter.proveedor,Z011,term_19,15,100
+Z012,Z012 - Pronto Pago del 3.0000% a 30 dias,30,True,3.00,False,excluded,nena_general_parameter.proveedor,Z012,term_20,30,100
+Z013,Z013 - Pronto Pago del 2.0000% a 30 dias,30,True,2.00,False,excluded,nena_general_parameter.proveedor,Z013,term_21,30,100
+Z014,Z014 - Pronto Pago del 10.0000% a 20 dias,20,True,10.00,False,excluded,nena_general_parameter.proveedor,Z014,term_22,20,100
+Z015,Z015 - Pronto pago del 8.0000% a 45 días,45,True,8.00,False,excluded,nena_general_parameter.proveedor,Z015,term_23,45,100
+Z016,Z016 - Pronto pago del 4.0000% a 25 días,25,True,4.00,False,excluded,nena_general_parameter.proveedor,Z016,term_24,25,100
+Z017,Z017 - Pronto Pago del 7.0000% a 20 dias,20,True,7.00,False,excluded,nena_general_parameter.proveedor,Z017,term_25,20,100
+Z018,Z018 - Pronto Pago del 5.0000% a 7 dias,7,True,5.00,False,excluded,nena_general_parameter.proveedor,Z018,term_26,7,100
+Z019,Z019 - Pronto pago del 5% a 5 días,5,True,5.00,False,excluded,nena_general_parameter.proveedor,Z019,term_27,5,100
+Z020,Z020 - Pronto Pago del 3.0000% a 21 dias,21,True,3.00,False,excluded,nena_general_parameter.proveedor,Z020,term_28,21,100
+Z021,Z021 - Pronto Pago del 7.0000% a 15 dias,15,True,7.00,False,excluded,nena_general_parameter.proveedor,Z021,term_29,15,100
+Z022,Z022 - Pronto Pago del 8.0000% a 15 dias,15,True,8.00,False,excluded,nena_general_parameter.proveedor,Z022,term_30,15,100
+Z023,Z023 - Pronto Pago del 3.0000% a 20 dias,20,True,3.00,False,excluded,nena_general_parameter.proveedor,Z023,term_31,20,100
+Z024,Z024 - Pronto Pago del 4.0000% a 20 dias,20,True,4.00,False,excluded,nena_general_parameter.proveedor,Z024,term_32,20,100
+Z025,Z025 - Pronto Pago del 5.0000% a 20 dias,20,True,5.00,False,excluded,nena_general_parameter.proveedor,Z025,term_33,20,100
+Z026,Z026 - Pronto pago del 4.5000% a 24 días,24,True,4.50,False,excluded,nena_general_parameter.proveedor,Z026,term_34,24,100
+Z027,Z027 - Pronto Pago del 8.0000% a 20 dias,20,True,8.00,False,excluded,nena_general_parameter.proveedor,Z027,term_35,20,100
+Z028,Z028 - Pronto pago del 5.0000% a 75 días,75,True,5.00,False,excluded,nena_general_parameter.proveedor,Z028,term_36,75,100
+Z029,Z029 - Pronto Pago del 5.0000% a 21 dias,21,True,5.00,False,excluded,nena_general_parameter.proveedor,Z029,term_37,21,100
+Z030,Z030 - Pronto Pago del 2.0000% a 25 dias,25,True,2.00,False,excluded,nena_general_parameter.proveedor,Z030,term_38,25,100
+Z031,Z031 - Pronto Pago 30 dias 0%; 20 dias 5%,20,True,5.00,False,excluded,nena_general_parameter.proveedor,Z031,term_39,20,100
+Z032,Z032 - Pronto Pago del 3.5000% a 30 dias,30,True,3.50,False,excluded,nena_general_parameter.proveedor,Z032,term_40,30,100
+Z033,Z033 - Pronto Pago del 4.0000% a 30 dias,30,True,4.00,False,excluded,nena_general_parameter.proveedor,Z033,term_41,30,100
+Z034,Z034 - Pronto Pago del 4.5000% a 30 dias,30,True,4.50,False,excluded,nena_general_parameter.proveedor,Z034,term_42,30,100
+Z035,Z035 - Pronto Pago del 4.9000% a 30 dias,30,True,4.90,False,excluded,nena_general_parameter.proveedor,Z035,term_43,30,100
+Z036,Z036 - Pronto Pago del 5.0000% a 30 dias,30,True,5.00,False,excluded,nena_general_parameter.proveedor,Z036,term_44,30,100
+Z037,Z037 - Pronto Pago del 6.0000% a 30 dias,30,True,6.00,False,excluded,nena_general_parameter.proveedor,Z037,term_45,30,100
+Z038,Z038 - Pronto Pago del 7.0000% a 30 dias,30,True,7.00,False,excluded,nena_general_parameter.proveedor,Z038,term_46,30,100
+Z039,Z039 - Pronto Pago del 8.0000% a 30 dias,30,True,8.00,False,excluded,nena_general_parameter.proveedor,Z039,term_47,30,100
+Z040,Z040 - Pronto Pago del 10.0000% a 30 dias,30,True,10.00,False,excluded,nena_general_parameter.proveedor,Z040,term_48,30,100
+Z041,Z041 - Pronto Pago del 13.0000% a 30 dias,30,True,13.00,False,excluded,nena_general_parameter.proveedor,Z041,term_49,30,100
+Z042,Z042 - Pronto Pago del 14.0000% a 30 dias,30,True,14.00,False,excluded,nena_general_parameter.proveedor,Z042,term_50,30,100
+Z043,Z043 - Pronto Pago del 4.0000% a 35 dias,35,True,4.00,False,excluded,nena_general_parameter.proveedor,Z043,term_51,35,100
+Z044,Z044 - Pronto Pago del 5.0000% a 35 dias,35,True,5.00,False,excluded,nena_general_parameter.proveedor,Z044,term_52,35,100
+Z045,Z045 - Pronto Pago del 8.0000% a 35 dias,35,True,8.00,False,excluded,nena_general_parameter.proveedor,Z045,term_53,35,100
+Z046,Z046 - Pronto Pago del 4.0000% a 40 dias,40,True,4.00,False,excluded,nena_general_parameter.proveedor,Z046,term_54,40,100
+Z047,Z047 - Pronto Pago del 4.5000% a 40 dias,40,True,4.50,False,excluded,nena_general_parameter.proveedor,Z047,term_55,40,100
+Z048,Z048 - Pronto Pago del 4.9000% a 40 dias,40,True,4.90,False,excluded,nena_general_parameter.proveedor,Z048,term_56,40,100
+Z049,Z049 - Pronto Pago del 5.0000% a 40 dias,40,True,5.00,False,excluded,nena_general_parameter.proveedor,Z049,term_57,40,100
+Z050,Z050 - Pronto Pago del 8.0000% a 40 dias,40,True,8.00,False,excluded,nena_general_parameter.proveedor,Z050,term_58,40,100
+Z051,Z051 - Pronto Pago del 10.0000% a 40 dias,40,True,10.00,False,excluded,nena_general_parameter.proveedor,Z051,term_59,40,100
+Z052,Z052 - Pronto Pago del 0.0000% a 45 dias,1,False,0.00,False,excluded,nena_general_parameter.proveedor,Z052,term_60,45,100
+Z053,Z053 - Pronto Pago del 4.0000% a 45 dias,45,True,4.00,False,excluded,nena_general_parameter.proveedor,Z053,term_61,45,100
+Z054,Z054 - Pronto Pago del 5.0000% a 45 dias,45,True,5.00,False,excluded,nena_general_parameter.proveedor,Z054,term_62,45,100
+Z055,Z055 - Pronto Pago del 6.0000% a 45 dias,45,True,6.00,False,excluded,nena_general_parameter.proveedor,Z055,term_63,45,100
+Z056,Z056 - Pronto Pago del 7.0000% a 45 dias,45,True,7.00,False,excluded,nena_general_parameter.proveedor,Z056,term_64,45,100
+Z057,Z057 - Pronto Pago del 10.0000% a 45 dias,45,True,10.00,False,excluded,nena_general_parameter.proveedor,Z057,term_65,45,100
+Z058,Z058 - Pronto Pago del 4.0000% a 50 dias,50,True,4.00,False,excluded,nena_general_parameter.proveedor,Z058,term_66,50,100
+Z059,Z059 - Pronto Pago del 5.0000% a 50 dias,50,True,5.00,False,excluded,nena_general_parameter.proveedor,Z059,term_67,50,100
+Z060,Z060 - Pronto Pago del 8.0000% a 50 dias,50,True,8.00,False,excluded,nena_general_parameter.proveedor,Z060,term_68,50,100
+Z061,Z061 - Pronto Pago del 0.0000% a 60 dias,1,False,0.00,False,excluded,nena_general_parameter.proveedor,Z061,term_69,60,100
+Z062,Z062 - Pronto Pago del 2.0000% a 60 dias,60,True,2.00,False,excluded,nena_general_parameter.proveedor,Z062,term_70,60,100
+Z063,Z063 - Pronto Pago del 3.0000% a 60 dias,60,True,3.00,False,excluded,nena_general_parameter.proveedor,Z063,term_71,60,100
+Z064,Z064 - Pronto Pago del 4.0000% a 60 dias,60,True,4.00,False,excluded,nena_general_parameter.proveedor,Z064,term_72,60,100
+Z065,Z065 - Pronto Pago del 4.5000% a 60 dias,60,True,4.50,False,excluded,nena_general_parameter.proveedor,Z065,term_73,60,100
+Z066,Z066 - Pronto Pago del 5.0000% a 60 dias,60,True,5.00,False,excluded,nena_general_parameter.proveedor,Z066,term_74,60,100
+Z067,Z067 - Pronto Pago del 7.0000% a 60 dias,60,True,7.00,False,excluded,nena_general_parameter.proveedor,Z067,term_75,60,100
+Z068,Z068 - Pronto Pago del 8.0000% a 60 dias,60,True,8.00,False,excluded,nena_general_parameter.proveedor,Z068,term_76,60,100
+Z069,Z069 - Pronto Pago del 5.0000% a 70 dias,70,True,5.00,False,excluded,nena_general_parameter.proveedor,Z069,term_77,70,100
+Z070,Z070 - Pronto Pago del 8.0000% a 70 dias,70,True,8.00,False,excluded,nena_general_parameter.proveedor,Z070,term_78,70,100
+Z071,Z071 - Pronto Pago del 4.0000% a 90 dias,90,True,4.00,False,excluded,nena_general_parameter.proveedor,Z071,term_79,90,100
+Z072,Z072 - Pronto Pago del 5.0000% a 90 dias,90,True,5.00,False,excluded,nena_general_parameter.proveedor,Z072,term_80,90,100
+Z073,Z073 - Pronto Pago del 8.0000% a 90 dias,90,True,8.00,False,excluded,nena_general_parameter.proveedor,Z073,term_81,90,100
+Z074,Z074 - Pronto pago del 10.000% a 10 días,10,True,10.00,False,excluded,nena_general_parameter.proveedor,Z074,term_82,10,100
+Z075,Z075 - Pronto pago del 2.5000% a 30 días,30,True,2.50,False,excluded,nena_general_parameter.proveedor,Z075,term_83,30,100
+Z076,Z076 - Pronto pago del 9.0000% a 10 días,10,True,9.00,False,excluded,nena_general_parameter.proveedor,Z076,term_84,10,100
+Z077,Z077 - Pronto pago del 3.0000% a 15 días,15,True,3.00,False,excluded,nena_general_parameter.proveedor,Z077,term_85,15,100
+Z078,Z078 - Pronto pago del 10.610% a 30 días,30,True,10.61,False,excluded,nena_general_parameter.proveedor,Z078,term_86,30,100
+Z079,Z079 - Pronto pago del 3.0000% a 40 días,40,True,3.00,False,excluded,nena_general_parameter.proveedor,Z079,term_87,40,100
+Z081,Z081 - Pronto pago del 2.0000% a 20 días,20,True,2.00,False,excluded,nena_general_parameter.proveedor,Z081,term_88,20,100
+Z082,Z082 - Pronto pago del 5.0000% a 25 días ,25,True,5.00,False,excluded,nena_general_parameter.proveedor,Z082,term_89,25,100
+Z083,Z083 - Pronto pago del 4.9000% a 60 días,60,True,4.90,False,excluded,nena_general_parameter.proveedor,Z083,term_90,60,100
+Z084,Z084 - Pronto pago del 7.0000% a 90 días,90,True,7.00,False,excluded,nena_general_parameter.proveedor,Z084,term_91,90,100
+Z085,Z085 - Pronto Pago del 0.0000% a 7 días,1,False,0.00,False,excluded,nena_general_parameter.proveedor,Z085,term_92,7,100
+Z086,Z086 - Pronto Pago del 10.6100% a 60 días,60,True,10.61,False,excluded,nena_general_parameter.proveedor,Z086,term_93,60,100
+Z087,Z087 - Pronto Pago del 4.0000% a 21 dias,21,True,4.00,False,excluded,nena_general_parameter.proveedor,Z087,term_94,21,100
+Z088,Z088 - Pronto Pago del 0.0000% a 21 días,1,False,0.00,False,excluded,nena_general_parameter.proveedor,Z088,term_95,21,100
+Z089,Z089 - Pronto Pago del 13.0000% a 45 días,45,True,13.00,False,excluded,nena_general_parameter.proveedor,Z089,term_96,45,100
+Z090,Z090 - Pronto Pago del 5.0000% a 120 días,120,True,5.00,False,excluded,nena_general_parameter.proveedor,Z090,term_97,120,100
+Z091,Z091 - Pronto Pago del 0.0000% a 90 días,1,False,0.00,False,excluded,nena_general_parameter.proveedor,Z091,term_98,90,100
+Z092,Z092 - Pronto Pago del 10.0000% a 60 días,60,True,10.00,False,excluded,nena_general_parameter.proveedor,Z092,term_99,60,100
+Z093,Z093 - Pronto Pago del 10.0000% a 15 días,15,True,10.00,False,excluded,nena_general_parameter.proveedor,Z093,term_100,15,100
+Z094,Z094 - Pronto Pago del 0% a 5 días,1,False,0.00,False,excluded,nena_general_parameter.proveedor,Z094,term_101,5,100
+Z095,Z095 - Pronto Pago del 0% a 10 días,1,False,0.00,False,excluded,nena_general_parameter.proveedor,Z095,term_102,10,100
+Z096,Z096 - Pronto Pago del 0% a 20 días,1,False,0.00,False,excluded,nena_general_parameter.proveedor,Z096,term_103,20,100
+Z097,Z097 - Pronto Pago del 4.5% a 45 días,45,True,4.50,False,excluded,nena_general_parameter.proveedor,Z097,term_104,45,100
+Z098,Z098 - Pronto Pago del 0.0000% a 3 días,1,False,0.00,False,excluded,nena_general_parameter.proveedor,Z098,term_105,3,100
+Z099,Z099 - Pronto Pago del 2.0000% a 90 días,90,True,2.00,False,excluded,nena_general_parameter.proveedor,Z099,term_106,90,100
+Z100,Z100 - Pronto Pago del 4.2500% a 14 días,14,True,4.25,False,excluded,nena_general_parameter.proveedor,Z100,term_107,14,100
+Z101,Z101 - Pronto Pago del 4.2500% a 45 días,45,True,4.25,False,excluded,nena_general_parameter.proveedor,Z101,term_108,45,100
+Z102,Z102 - Pronto Pago del 10.6100% a 45 días,45,True,10.61,False,excluded,nena_general_parameter.proveedor,Z102,term_109,45,100
+Z103,Z103 - Pronto Pago del 4.2500% a 40 días,40,True,4.25,False,excluded,nena_general_parameter.proveedor,Z103,term_110,40,100
+Z104,Z104 - Pronto Pago del 4.2500% a 60 días,60,True,4.25,False,excluded,nena_general_parameter.proveedor,Z104,term_111,60,100
+Z105,Z105 - Pronto Pago del 3.0000% a 90 días,90,True,3.00,False,excluded,nena_general_parameter.proveedor,Z105,term_112,90,100
+Z106,Z106 - Pronto Pago del 6.0000% a 50 días,50,True,6.00,False,excluded,nena_general_parameter.proveedor,Z106,term_113,50,100
+Z107,Z107 - Pronto Pago del 6.0000% a 60 días,60,True,6.00,False,excluded,nena_general_parameter.proveedor,Z107,term_114,60,100
+Z108,Z108 - Pronto Pago del 13.0000% a 60 días,60,True,13.00,False,excluded,nena_general_parameter.proveedor,Z108,term_115,60,100
+Z109,Z109 - Pronto Pago del 5.0000% a 65 días,65,True,5.00,False,excluded,nena_general_parameter.proveedor,Z109,term_116,65,100
+Z110,Z110 - Pronto Pago del 4.2500% a 30 días,30,True,4.25,False,excluded,nena_general_parameter.proveedor,Z110,term_117,30,100
+Z111,Z111 - Pronto Pago del 11.5600% a 30 días,30,True,11.56,False,excluded,nena_general_parameter.proveedor,Z111,term_118,30,100
+Z112,Z112 - Pronto Pago del 6.0000% a 35 días,35,True,6.00,False,excluded,nena_general_parameter.proveedor,Z112,term_119,35,100
+Z113,Z113 - Pronto Pago del 6.0000% a 40 días,40,True,6.00,False,excluded,nena_general_parameter.proveedor,Z113,term_120,40,100
+Z114,Z114 - Pronto Pago del 11.5600% a 45 días,45,True,11.56,False,excluded,nena_general_parameter.proveedor,Z114,term_121,45,100
+Z115,Z115 - Pronto Pago del 3.0000% a 50 días,50,True,3.00,False,excluded,nena_general_parameter.proveedor,Z115,term_122,50,100
+Z116,Z116 - Pronto Pago del 0.0000% a 14 días,1,False,0.00,False,excluded,nena_general_parameter.proveedor,Z116,term_123,14,100
+Z117,Z117 - Pronto Pago del 2.0000% a 50 días,50,True,2.00,False,excluded,nena_general_parameter.proveedor,Z117,term_124,50,100
+Z118,Z118 - Pronto Pago del 6.9000% a 60 días,60,True,6.90,False,excluded,nena_general_parameter.proveedor,Z118,term_125,60,100
+Z119,Z119 - Pronto Pago del 6.9000% a 10 días,10,True,6.90,False,excluded,nena_general_parameter.proveedor,Z119,term_126,10,100
+Z120,Z120 - Pronto Pago del 5.0000% a 14 días,14,True,5.00,False,excluded,nena_general_parameter.proveedor,Z120,term_127,14,100
+Z121,Z121 - Pronto Pago del 10.0000% a 14 días,14,True,10.00,False,excluded,nena_general_parameter.proveedor,Z121,term_128,14,100
+Z122,Z122 - Pronto Pago del 2.0000% a 40 días,40,True,2.00,False,excluded,nena_general_parameter.proveedor,Z122,term_129,40,100
+Z123,Z123 - Pronto Pago del 2.0000% a 45 días,45,True,2.00,False,excluded,nena_general_parameter.proveedor,Z123,term_130,45,100
+Z124,Z124 - Pronto Pago del 9.6550% a 45 días,45,True,9.66,False,excluded,nena_general_parameter.proveedor,Z124,term_131,45,100
+Z125,Z125 - Pronto Pago del 7.7530% a 60 días,60,True,7.75,False,excluded,nena_general_parameter.proveedor,Z125,term_132,60,100
+Z126,Z126 - Pronto Pago del 6.000% a 25 días,25,True,6.00,False,excluded,nena_general_parameter.proveedor,Z126,term_133,25,100
+Z127,Z127 - Pronto Pago del 10.0000% a 25 días,25,True,10.00,False,excluded,nena_general_parameter.proveedor,Z127,term_134,25,100
+Z128,Z128 - Pronto Pago del 7.7500% a 70 días,70,True,7.75,False,excluded,nena_general_parameter.proveedor,Z128,term_135,70,100
+Z129,Z129 - Pronto Pago del 5.000% a 55 días,55,True,5.00,False,excluded,nena_general_parameter.proveedor,Z129,term_136,55,100
+Z130,Z130 - Pronto Pago del 3.000% a 7 días,7,True,3.00,False,excluded,nena_general_parameter.proveedor,Z130,term_137,7,100
+Z131,Z131 - Pronto Pago del 4.5000% a 55 días,55,True,4.50,False,excluded,nena_general_parameter.proveedor,Z131,term_138,55,100
+Z132,Z132 - Pronto Pago del 4.25% a 90 días,90,True,4.25,False,excluded,nena_general_parameter.proveedor,Z132,term_139,90,100
+Z133,Z133 - Pronto Pago del 4.25% a 120 días,120,True,4.25,False,excluded,nena_general_parameter.proveedor,Z133,term_140,120,100
+Z134,Z134 - Pronto Pago del 10.61% a 120 días,120,True,10.61,False,excluded,nena_general_parameter.proveedor,Z134,term_141,120,100
+Z135,Z135 - Pronto Pago del 4.2500% a 35 dias,35,True,4.25,False,excluded,nena_general_parameter.proveedor,Z135,term_142,35,100
+Z136,Z136 - Pronto Pago del 7.0000% a 50 dias,50,True,7.00,False,excluded,nena_general_parameter.proveedor,Z136,term_143,50,100
+Z137,Z137 - Pronto Pago del 4.5000% a 50 dias,50,True,4.50,False,excluded,nena_general_parameter.proveedor,Z137,term_144,50,100
+Z138,Z138 - Pronto Pago del 4.0000% a 70 dias,70,True,4.00,False,excluded,nena_general_parameter.proveedor,Z138,term_145,70,100
+Z139,Z139 - Pronto Pago del 7.0000% a 25 dias,25,True,7.00,False,excluded,nena_general_parameter.proveedor,Z139,term_146,25,100
+Z140,Z140 - Pronto Pago del 7.0000% a 134 dias,134,True,7.00,False,excluded,nena_general_parameter.proveedor,Z140,term_147,134,100
+Z141,Z141 - Pronto Pago del 4.5000% a 35 dias,35,True,4.50,False,excluded,nena_general_parameter.proveedor,Z141,term_148,35,100
+Z142,Z142 - Pronto Pago del 8.0000% a 55 dias,55,True,8.00,False,excluded,nena_general_parameter.proveedor,Z142,term_149,55,100
+Z144,Z144 - Pronto Pago del 7.0000% a 55 dias,55,True,7.00,False,excluded,nena_general_parameter.proveedor,Z144,term_150,55,100
+Z145,Z145 - Pronto Pago del 7.0000% a 120 dias,120,True,7.00,False,excluded,nena_general_parameter.proveedor,Z145,term_151,120,100
+Z146,Z146 - Pronto Pago del 7.0000% a 125 dias,125,True,7.00,False,excluded,nena_general_parameter.proveedor,Z146,term_152,125,100
+Z147,Z147 - Pronto Pago del 4.2500% a 25 dias,25,True,4.25,False,excluded,nena_general_parameter.proveedor,Z147,term_153,25,100
+Z148,Z148 - Pronto Pago del 4.00% a 55 dias,55,True,4.00,False,excluded,nena_general_parameter.proveedor,Z148,term_154,55,100
+Z149,Z149 - Pronto Pago del 7.00% a 40 dias,40,True,7.00,False,excluded,nena_general_parameter.proveedor,Z149,term_155,40,100
+Z150,Z150 - Pronto Pago del 5.0000% a 80 dias,80,True,5.00,False,excluded,nena_general_parameter.proveedor,Z150,term_156,80,100
+Z151,Z151 - Pronto Pago del 7.0000% a 70 dias,70,True,7.00,False,excluded,nena_general_parameter.proveedor,Z151,term_157,70,100
+Z152,Z152 - Pronto Pago del 10.000% a 50 dias,50,True,10.00,False,excluded,nena_general_parameter.proveedor,Z152,term_158,50,100
+Z153,Z153 - Pronto Pago del 10.000% a 55 dias,55,True,10.00,False,excluded,nena_general_parameter.proveedor,Z153,term_159,55,100
+Z154,Z154 - Pronto Pago del 6.000% a 20 dias,20,True,6.00,False,excluded,nena_general_parameter.proveedor,Z154,term_160,20,100
+Z155,Z155 - Pronto Pago del 7.000% a 128 dias,128,True,7.00,False,excluded,nena_general_parameter.proveedor,Z155,term_161,128,100
+Z156,Z156 - Pronto Pago del 4.2500% a 20 dias,20,True,4.25,False,excluded,nena_general_parameter.proveedor,Z156,term_162,20,100
+Z157,Z157 - Pronto Pago del 4.2500% a 13 dias,13,True,4.25,False,excluded,nena_general_parameter.proveedor,Z157,term_163,13,100
+Z158,Z158 - Pronto Pago del 12.0000% a 8 dias,8,True,12.00,False,excluded,nena_general_parameter.proveedor,Z158,term_164,8,100
+Z159,Z159 - Pronto Pago del 7.0000% a 75 días,75,True,7.00,False,excluded,nena_general_parameter.proveedor,Z159,term_165,75,100
+Z160,Z160 - Pronto Pago del 4.0000% a 65 días,65,True,4.00,False,excluded,nena_general_parameter.proveedor,Z160,term_166,65,100
+Z161,Z161 - Pronto Pago del 4.2500% a 26 días,26,True,4.25,False,excluded,nena_general_parameter.proveedor,Z161,term_167,26,100
+Z162,Z162 - Pronto Pago del 7.0000% a 12 días,12,True,7.00,False,excluded,nena_general_parameter.proveedor,Z162,term_168,12,100
+Z163,Z163 - Pronto Pago del 3.0000% a 45 días,45,True,3.00,False,excluded,nena_general_parameter.proveedor,Z163,term_169,45,100
+Z164,Z164 - Pronto Pago del 3.0000% a 84 días,84,True,3.00,False,excluded,nena_general_parameter.proveedor,Z164,term_170,84,100
+Z165,Z165 - Pronto Pago del 13.0000% a 90 días,90,True,13.00,False,excluded,nena_general_parameter.proveedor,Z165,term_171,90,100
+Z166,Z166 - Pronto Pago del 5.0000% a 110 días,110,True,5.00,False,excluded,nena_general_parameter.proveedor,Z166,term_172,110,100
+Z167,Z167 - Pronto Pago del 1.0000% a 30 días,30,True,1.00,False,excluded,nena_general_parameter.proveedor,Z167,term_173,30,100
+Z168,Z168 - Pronto Pago del 8.0000% a 75 días,75,True,8.00,False,excluded,nena_general_parameter.proveedor,Z168,term_174,75,100
+Z169,Z169 - Pronto Pago del 5.0000% a 85 días,85,True,5.00,False,excluded,nena_general_parameter.proveedor,Z169,term_175,85,100
+Z170,Z170 - Pronto Pago del 5.0000% a 95 días,95,True,5.00,False,excluded,nena_general_parameter.proveedor,Z170,term_176,95,100
+Z171,Z171 - Pronto Pago del 8.0000% a 65 días,65,True,8.00,False,excluded,nena_general_parameter.proveedor,Z171,term_177,65,100
+Z172,Z172 - Pronto Pago del 5.0000% a 140 días,140,True,5.00,False,excluded,nena_general_parameter.proveedor,Z172,term_178,140,100
+Z173,Z173 - Pronto Pago del 5.0000% a 105 días,105,True,5.00,False,excluded,nena_general_parameter.proveedor,Z173,term_179,105,100
+Z174,Z174 - Pronto Pago del 5.0000% a 18 días,18,True,5.00,False,excluded,nena_general_parameter.proveedor,Z174,term_180,18,100
+Z175,Z175 - Pronto Pago del 15.0000% a 30 días,30,True,15.00,False,excluded,nena_general_parameter.proveedor,Z175,term_181,30,100
+Z176,Z176 - Pronto Pago del 11.0000% a 10 días,10,True,11.00,False,excluded,nena_general_parameter.proveedor,Z176,term_182,10,100
+Z177,Z177 - Pronto Pago del 6.0000% a 75 días,75,True,6.00,False,excluded,nena_general_parameter.proveedor,Z177,term_183,75,100
+Z178,Z178 - Pronto Pago del 3.0000% a 35 días,35,True,3.00,False,excluded,nena_general_parameter.proveedor,Z178,term_184,35,100
+Z179,Z179 - Pronto Pago del 4.0000% a 75 días,75,True,4.00,False,excluded,nena_general_parameter.proveedor,Z179,term_185,75,100
+Z180,Z180 - Pronto Pago del 11.0000% a 30 días,30,True,11.00,False,excluded,nena_general_parameter.proveedor,Z180,term_186,30,100
+Z181,Z181 - Pronto Pago del 4.2500% a 58 días,58,True,4.25,False,excluded,nena_general_parameter.proveedor,Z181,term_187,58,100
+Z182,Z182 - Pronto Pago del 4.2500% a 65 días,65,True,4.25,False,excluded,nena_general_parameter.proveedor,Z182,term_188,65,100
+Z183,Z183 - Pronto Pago del 9.0000% a 60 días,60,True,9.00,False,excluded,nena_general_parameter.proveedor,Z183,term_189,60,100
+Z184,Z184 - Pronto Pago del 9.0000% a 30 días,30,True,9.00,False,excluded,nena_general_parameter.proveedor,Z184,term_190,30,100
+Z185,Z185 - Pronto Pago del 11.0000% a 60 días,60,True,11.00,False,excluded,nena_general_parameter.proveedor,Z185,term_191,60,100
+Z186,Z186 - Pronto Pago del 11.0000% a 45 días,45,True,11.00,False,excluded,nena_general_parameter.proveedor,Z186,term_192,45,100
+Z187,Z187 - Pronto Pago del 11.0000% a 40 días,40,True,11.00,False,excluded,nena_general_parameter.proveedor,Z187,term_193,40,100
+Z188,Z188 - Pronto Pago del 11.0000% a 35 días,35,True,11.00,False,excluded,nena_general_parameter.proveedor,Z188,term_194,35,100
+Z189,Z189 - Pronto Pago del 11.0000% a 50 días,50,True,11.00,False,excluded,nena_general_parameter.proveedor,Z189,term_195,50,100
+Z190,Z190 - Pronto Pago del 11.0000% a 20 días,20,True,11.00,False,excluded,nena_general_parameter.proveedor,Z190,term_196,20,100
+Z191,Z191 - Pronto Pago del 4.25000% a 39 días,39,True,4.25,False,excluded,nena_general_parameter.proveedor,Z191,term_197,39,100
+Z192,Z192 - Pronto Pago del 10.0000% a 90 días,90,True,10.00,False,excluded,nena_general_parameter.proveedor,Z192,term_198,90,100
+Z193,Z193 - Pronto Pago del 7.0000% a 100 días,100,True,7.00,False,excluded,nena_general_parameter.proveedor,Z193,term_199,100,100
+Z194,Z194 - Pronto Pago del 7.0000% a 170 días,170,True,7.00,False,excluded,nena_general_parameter.proveedor,Z194,term_200,170,100
+Z195,Z195 - Pronto Pago del 7.0000% a 110 días,110,True,7.00,False,excluded,nena_general_parameter.proveedor,Z195,term_201,110,100
+Z196,Z196 - Pronto Pago del 3.0000% a 70 días,70,True,3.00,False,excluded,nena_general_parameter.proveedor,Z196,term_202,70,100
+Z197,Z197 - Pronto Pago del 3.0000% a 75 días,75,True,3.00,False,excluded,nena_general_parameter.proveedor,Z197,term_203,75,100
+Z198,Z198 - Pronto Pago del 3.0000% a 80 días,80,True,3.00,False,excluded,nena_general_parameter.proveedor,Z198,term_204,80,100
+Z199,Z199 - Pronto Pago del 3.0000% a 110 días,110,True,3.00,False,excluded,nena_general_parameter.proveedor,Z199,term_205,110,100
+Z200,Z200 - Pronto Pago del 3.0000% a 25 días,25,True,3.00,False,excluded,nena_general_parameter.proveedor,Z200,term_206,25,100
+Z201,Z201 - Pronto Pago del 3.0000% a 55 días,55,True,3.00,False,excluded,nena_general_parameter.proveedor,Z201,term_207,55,100
+Z202,Z202 - Pronto Pago del 13.0000% a 120 días,120,True,13.00,False,excluded,nena_general_parameter.proveedor,Z202,term_208,120,100
+Z203,Z203 - Pronto Pago del 20.0000% a 15 días,15,True,2.00,False,excluded,nena_general_parameter.proveedor,Z203,term_209,15,100
+Z204,Z204 - Pronto Pago del 5.2500% a 35 días,35,True,5.25,False,excluded,nena_general_parameter.proveedor,Z204,term_210,35,100
+Z205,Z205 - Pronto Pago del 15.0000% a 10 días,10,True,15.00,False,excluded,nena_general_parameter.proveedor,Z205,term_211,10,100
+Z206,Z206 - Pronto Pago del 5.2500% a 20 días,20,True,5.25,False,excluded,nena_general_parameter.proveedor,Z206,term_212,20,100
+Z207,Z207 - Pronto Pago del 5.2500% a 30 días,30,True,5.25,False,excluded,nena_general_parameter.proveedor,Z207,term_213,30,100
+Z208,Z208 - Pronto Pago del 5.2500% a 40 días,40,True,5.25,False,excluded,nena_general_parameter.proveedor,Z208,term_214,40,100
+Z209,Z209 - Pronto Pago del 5.2500% a 45 días,45,True,5.25,False,excluded,nena_general_parameter.proveedor,Z209,term_215,45,100
+Z210,Z210 - Pronto Pago del 6.0000% a 55 días,55,True,6.00,False,excluded,nena_general_parameter.proveedor,Z210,term_216,55,100
+Z211,Z211 - Pronto Pago del 20.0000% a 8 días,8,True,2.00,False,excluded,nena_general_parameter.proveedor,Z211,term_217,8,100
+Z212,Z212 - Pronto Pago del 3.0000% a 27 días,27,True,3.00,False,excluded,nena_general_parameter.proveedor,Z212,term_218,27,100
+Z213,Z213 - Pronto Pago del 3.0000% a 34 días,34,True,3.00,False,excluded,nena_general_parameter.proveedor,Z213,term_219,34,100
+Z214,Z214 - Pronto Pago del 3.0000% a 37 días,37,True,3.00,False,excluded,nena_general_parameter.proveedor,Z214,term_220,37,100
+Z215,Z215 - Pronto Pago del 7.0000% a 27 días,27,True,7.00,False,excluded,nena_general_parameter.proveedor,Z215,term_221,27,100
+Z216,Z216 - Pronto Pago del 7.0000% a 34 días,34,True,7.00,False,excluded,nena_general_parameter.proveedor,Z216,term_222,34,100
+Z217,Z217 - Pronto Pago del 2.0000% a 21 días,21,True,2.00,False,excluded,nena_general_parameter.proveedor,Z217,term_223,21,100
+Z218,Z218 - Pronto Pago del 8.0000% a 80 días,80,True,8.00,False,excluded,nena_general_parameter.proveedor,Z218,term_224,80,100
+Z219,Z219 - Pronto Pago del 5.0000% a 150 días,150,True,5.00,False,excluded,nena_general_parameter.proveedor,Z219,term_225,150,100
+Z220,Z220 - Pronto Pago del 5.0000% a 90 días,90,True,5.00,False,excluded,nena_general_parameter.proveedor,Z220,term_226,90,100
+Z221,Z221 - Pronto Pago del 5.0000% a 180 días,180,True,5.00,False,excluded,nena_general_parameter.proveedor,Z221,term_227,180,100
+Z222,Z222 - Pronto Pago del 5.0000% a 270 días,270,True,5.00,False,excluded,nena_general_parameter.proveedor,Z222,term_228,270,100
+Z223,Z223 - Pronto Pago del 8.0000% a 5 días,5,True,8.00,False,excluded,nena_general_parameter.proveedor,Z223,term_229,5,100
+Z224,Z224 - Pronto Pago del 5.0000% a 130 días,130,True,5.00,False,excluded,nena_general_parameter.proveedor,Z224,term_230,130,100
+Z225,Z225 - Pronto Pago del 8.0000% a 25 días,25,True,8.00,False,excluded,nena_general_parameter.proveedor,Z225,term_231,25,100
+Z226,Z226 - Pronto Pago del 8.0000% a 10 días,10,True,8.00,False,excluded,nena_general_parameter.proveedor,Z226,term_232,10,100
+Z227,Z227 - Pronto Pago del 2.0000% a 75 días,75,True,2.00,False,excluded,nena_general_parameter.proveedor,Z227,term_233,75,100
+Z228,Z228 - Pronto Pago del 2.0000% a 65 días,65,True,2.00,False,excluded,nena_general_parameter.proveedor,Z228,term_234,65,100
+Z229,Z229 - Pronto Pago del 13.0000% a 8 días,8,True,13.00,False,excluded,nena_general_parameter.proveedor,Z229,term_235,8,100
+Z230,Z230 - Pronto Pago del 7.0000% a 22 días,22,True,7.00,False,excluded,nena_general_parameter.proveedor,Z230,term_236,22,100
+Z231,Z231 - Pronto Pago del 0.0000% a 28 días,1,False,0.00,False,excluded,nena_general_parameter.proveedor,Z231,term_237,28,100
+Z232,Z232 - Pronto Pago del 10.0000% a 75 días,75,True,10.00,False,excluded,nena_general_parameter.proveedor,Z232,term_238,75,100
+Z233,Z233 - Pronto Pago del 6.0000% a 90 días,90,True,6.00,False,excluded,nena_general_parameter.proveedor,Z233,term_239,90,100
+Z234,Z234 - Pronto Pago del 6.0000% a 105 días,105,True,6.00,False,excluded,nena_general_parameter.proveedor,Z234,term_240,105,100
+Z235,Z235 - Pronto Pago del 10.0000% a 105 días,105,True,10.00,False,excluded,nena_general_parameter.proveedor,Z235,term_241,105,100
+Z236,Z236 - Pronto Pago del 2.0000% a 80 días,80,True,2.00,False,excluded,nena_general_parameter.proveedor,Z236,term_242,80,100
+Z237,Z237 - Pronto Pago del 2.0000% a 130 días,130,True,2.00,False,excluded,nena_general_parameter.proveedor,Z237,term_243,130,100
+Z238,Z238 - Pronto Pago del 1.5000% a 21 días,21,True,1.50,False,excluded,nena_general_parameter.proveedor,Z238,term_244,21,100
+Z302,Z302 - Pronto Pago del 0% a 30 dias,1,False,0.00,False,excluded,nena_general_parameter.proveedor,Z302,term_245,30,100
+Z305,Z305 - Credito 15 dias 6% Pronto Pago,15,True,6.00,False,excluded,nena_general_parameter.proveedor,Z305,term_246,15,100
+Z306,Z306 - Pronto Pago del 1.0000% a 15 dias ,15,True,1.00,False,excluded,nena_general_parameter.proveedor,Z306,term_247,15,100
+Z307,Z307 - Pronto Pago del 4.0000% a 0 días,1,True,4.00,False,excluded,nena_general_parameter.proveedor,Z307,term_248,0,100
+Z308,Z308 - Pronto Pago del 7.8500% a 5 días,5,True,7.85,False,excluded,nena_general_parameter.proveedor,Z308,term_249,5,100
+Z309,Z309 - Pronto Pago del 1.0000% a 20 días,20,True,1.00,False,excluded,nena_general_parameter.proveedor,Z309,term_250,20,100
+Z310,Z310 - Pronto Pago del 2.0000% a 0 días,1,True,2.00,False,excluded,nena_general_parameter.proveedor,Z310,term_251,0,100
+Z311,Z311 - Pronto Pago del 0.0000% a 7 días,1,False,0.00,False,excluded,nena_general_parameter.proveedor,Z311,term_252,7,100
+Z312,Z312 - Pronto Pago del 2.0000% a 7 días,7,True,2.00,False,excluded,nena_general_parameter.proveedor,Z312,term_253,7,100
+Z313,Z313 - Pronto Pago del 0.5000% a 21 días,21,True,5.00,False,excluded,nena_general_parameter.proveedor,Z313,term_254,21,100
+Z314,Z314 - Pronto Pago del 1.5000% a 37 días,37,True,1.50,False,excluded,nena_general_parameter.proveedor,Z314,term_255,37,100
+Z315,Z315 - Pronto Pago del 2.0000% a 37 días,37,True,2.00,False,excluded,nena_general_parameter.proveedor,Z315,term_256,37,100
+Z316,Z316 - Pronto Pago del 8.33% a 5 días,5,True,8.33,False,excluded,nena_general_parameter.proveedor,Z316,term_257,5,100
+Z317,Z317 - Pronto Pago del 3.0000% a 10 días,10,True,3.00,False,excluded,nena_general_parameter.proveedor,Z317,term_258,10,100
+Z318,Z318 - Pronto Pago del 2.0000% a 34 días,34,True,2.00,False,excluded,nena_general_parameter.proveedor,Z318,term_259,34,100
+Z319,Z319 - Pronto Pago del 4.0000% a 5 días,5,True,4.00,False,excluded,nena_general_parameter.proveedor,Z319,term_260,5,100
+Z320,Z320 - Pronto Pago del 7.0000% a 7 días,7,True,7.00,False,excluded,nena_general_parameter.proveedor,Z320,term_261,7,100
+Z321,Z321 - Pronto Pago del 1.0000% a 45 días,45,True,1.00,False,excluded,nena_general_parameter.proveedor,Z321,term_262,45,100
+Z322,Z322 - Pronto Pago del 2.000% a 5 días,5,True,2.00,False,excluded,nena_general_parameter.proveedor,Z322,term_263,5,100
+Z323,Z323 - Pronto Pago del 9.0000% a 7 días,7,True,9.00,False,excluded,nena_general_parameter.proveedor,Z323,term_264,7,100
+Z324,Z324 - Pronto Pago del 1.0000% a 10 días,10,True,1.00,False,excluded,nena_general_parameter.proveedor,Z324,term_265,10,100
+Z325,Z325 - Pronto Pago del 2.5000% a 60 días,60,True,2.50,False,excluded,nena_general_parameter.proveedor,Z325,term_266,60,100
+Z326,Z326 - Pronto Pago del 2.5000% a 55 días,55,True,2.50,False,excluded,nena_general_parameter.proveedor,Z326,term_267,55,100
+Z327,Z327 - Pronto Pago del 0.5000% a 10 días,10,True,5.00,False,excluded,nena_general_parameter.proveedor,Z327,term_268,10,100
+Z328,Z328 - Pronto Pago del 0.5000% a 5 días,5,True,5.00,False,excluded,nena_general_parameter.proveedor,Z328,term_269,5,100
+Z329,Z329 - Pronto Pago del 7.0000% a 5 días,5,True,7.00,False,excluded,nena_general_parameter.proveedor,Z329,term_270,5,100
+Z330,Z330 - Pronto Pago del 1.5000% a 30 días,30,True,1.50,False,excluded,nena_general_parameter.proveedor,Z330,term_271,30,100
+Z331,Z331 - Pronto Pago del 2.0000% a 10 días,10,True,2.00,False,excluded,nena_general_parameter.proveedor,Z331,term_272,10,100
+Z332,Z332 - Pronto Pago del 10.0000% a 7 días,7,True,10.00,False,excluded,nena_general_parameter.proveedor,Z332,term_273,7,100
+Z333,Z333 - Pronto Pago del 3.0000% a 5 días,5,True,3.00,False,excluded,nena_general_parameter.proveedor,Z333,term_274,5,100
+Z334,Z334 - Pronto Pago del 15.0000% a 45 días,45,True,15.00,False,excluded,nena_general_parameter.proveedor,Z334,term_275,45,100
+Z335,Z335 - Pronto Pago del 30.0000% a 21 días,21,True,3.00,False,excluded,nena_general_parameter.proveedor,Z335,term_276,21,100
+Z336,Z336 - Pronto Pago del 5.0000% a 0 días,1,True,5.00,False,excluded,nena_general_parameter.proveedor,Z336,term_277,0,100
+Z337,Z337 - Pronto Pago del 5.0000% a 4 días,4,True,5.00,False,excluded,nena_general_parameter.proveedor,Z337,term_278,4,100
+Z338,Z338 - Pronto Pago del 0.5000% a 7 días,7,True,5.00,False,excluded,nena_general_parameter.proveedor,Z338,term_279,7,100
+Z339,Z339 - Pronto Pago del 0.0000% a 0 días,1,False,0.00,False,excluded,nena_general_parameter.proveedor,Z339,term_280,0,100
+Z340,Z340 - Pronto Pago del 1.0000% a 5 días,5,True,1.00,False,excluded,nena_general_parameter.proveedor,Z340,term_281,5,100
+Z341,Z341 - Pronto Pago del 0.0000% a 12 días,1,False,0.00,False,excluded,nena_general_parameter.proveedor,Z341,term_282,12,100
+Z342,Z342 - Pronto Pago del 0.0000% a 25 días,1,False,0.00,False,excluded,nena_general_parameter.proveedor,Z342,term_283,25,100
+Z343,Z343 - Pronto Pago del 3.0000% a 2 días,2,True,3.00,False,excluded,nena_general_parameter.proveedor,Z343,term_284,2,100
+Z344,Z344 - Pronto Pago del 6.0000% a 2 días,2,True,6.00,False,excluded,nena_general_parameter.proveedor,Z344,term_285,2,100
+Z345,Z345 - Pronto Pago del 1.0000% a 7 días,7,True,1.00,False,excluded,nena_general_parameter.proveedor,Z345,term_286,7,100
+Z346,Z346 - Pronto Pago del 3.0000% a 8 días,8,True,3.00,False,excluded,nena_general_parameter.proveedor,Z346,term_287,8,100
+Z347,Z347 - Pronto Pago del 1.5000% a 3 días,3,True,1.50,False,excluded,nena_general_parameter.proveedor,Z347,term_288,3,100
+Z348,Z348 - Pronto Pago del 1.5000% a 10 días,10,True,1.50,False,excluded,nena_general_parameter.proveedor,Z348,term_289,10,100
+Z349,Z349 - Pronto Pago del 1.0000% a 2 días,2,True,1.00,False,excluded,nena_general_parameter.proveedor,Z349,term_290,2,100
+Z350,Z350 - Pronto Pago del 0.0000% a 2 días,1,False,0.00,False,excluded,nena_general_parameter.proveedor,Z350,term_291,2,100
+Z351,Z351 - Pronto Pago del 20.0000% a 7 días,7,True,2.00,False,excluded,nena_general_parameter.proveedor,Z351,term_292,7,100
+Z352,Z352 - Pronto Pago del 0.0000% a 9 días,1,False,0.00,False,excluded,nena_general_parameter.proveedor,Z352,term_293,9,100
+Z355,Z355 - Pronto Pago del 0.0000% a 18 días,1,False,0.00,False,excluded,nena_general_parameter.proveedor,Z355,term_294,18,100
+Z356,Z356 - Pronto Pago del 0.0000% a 35 días,1,False,0.00,False,excluded,nena_general_parameter.proveedor,Z356,term_295,35,100
+Z357,Z357 - Pronto Pago del 0.0000% a 50 dias,1,False,0.00,False,excluded,nena_general_parameter.proveedor,Z357,term_296,50,100
+Z358,Z358 - Pronto Pago del 0.0000% a 40 días,1,False,0.00,False,excluded,nena_general_parameter.proveedor,Z358,term_297,40,100
+Z359,Z359 - 7 días 15%; 14 días 7%; 21 días 3%,7,True,15.00,False,excluded,nena_general_parameter.proveedor,Z359,term_298,7,100
+Z360,Z360 - 10 días 7%; 15 días 5%; 25 dias 0%,10,True,7.00,False,excluded,nena_general_parameter.proveedor,Z360,term_299,10,100
+Z361,Z361 - 10 días 3%; 30 días 0%,10,True,3.00,False,excluded,nena_general_parameter.proveedor,Z361,term_300,10,100
+Z362,Z362 - 65 días 0%,1,False,0.00,False,excluded,nena_general_parameter.proveedor,Z362,term_301,65,100
+Z363,Z363 - 55 días 0%,1,False,0.00,False,excluded,nena_general_parameter.proveedor,Z363,term_302,55,100
+Z364,Z364 - 21 días 1%,21,True,1.00,False,excluded,nena_general_parameter.proveedor,Z364,term_303,21,100
+Z365,Z365 - 7 días 15%; 15 días 10%; 21 días 5%,7,True,15.00,False,excluded,nena_general_parameter.proveedor,Z365,term_304,7,100
+Z366,Z366 - 10 días 5%; 45 días 0%,10,True,5.00,False,excluded,nena_general_parameter.proveedor,Z366,term_305,10,100
+Z367,Z367 - 12 días 5%; 20 días 3%; 30 días 0%,12,True,5.00,False,excluded,nena_general_parameter.proveedor,Z367,term_306,12,100
+Z368,Z368 - 10 días 5%; 45 días 0%,10,True,5.00,False,excluded,nena_general_parameter.proveedor,Z368,term_307,10,100
+Z369,Z369 - Pronto Pago 25 dias 5%; 35 dias 0%,25,True,5.00,False,excluded,nena_general_parameter.proveedor,Z369,term_308,25,100
+Z370,Z370 - 15 días 7%; 30 días 0%,15,True,7.00,False,excluded,nena_general_parameter.proveedor,Z370,term_309,15,100
+Z371,Z371 - 10 días 6%; 15 días 0%,10,True,6.00,False,excluded,nena_general_parameter.proveedor,Z371,term_310,10,100
+Z372,Z372 - 7 días 15%; 10 días 5%,7,True,15.00,False,excluded,nena_general_parameter.proveedor,Z372,term_311,7,100
+Z373,Z373 - 7 días 3%; 10 días 0%,10,True,3.00,False,excluded,nena_general_parameter.proveedor,Z373,term_312,10,100
+Z374,Z374 - 7 días 3%; 15 días 0%,7,True,3.00,False,excluded,nena_general_parameter.proveedor,Z374,term_313,7,100
+Z375,Z375 - 7 días 3%; 14 días 1%; 21 días 0%,7,True,3.00,False,excluded,nena_general_parameter.proveedor,Z375,term_314,7,100
+Z376,Z376 - 7 días 3%; 14 días 1%; 30 días 0% ,7,True,3.00,False,excluded,nena_general_parameter.proveedor,Z376,term_315,7,100
+Z379,Z379 - Credito 10D 5% 21D 0% Pp,10,True,5.00,False,excluded,nena_general_parameter.proveedor,Z379,term_316,10,100
+Z380,Z380 - Pronto Pago del 6.0000% a 12 días,12,True,6.00,False,excluded,nena_general_parameter.proveedor,Z380,term_317,12,100
+Z381,Z381 - Pronto Pago del 10.0000% a 35 días,35,True,10.00,False,excluded,nena_general_parameter.proveedor,Z381,term_318,35,100
+Z382,Z382 - Cedito 10D 5% 30D 0% Pp,10,True,5.00,False,excluded,nena_general_parameter.proveedor,Z382,term_319,10,100
+Z383,Z383 - Cedito 7D 7% 30D 0% Pp,7,True,7.00,False,excluded,nena_general_parameter.proveedor,Z383,term_320,7,100
+Z384,Z384 - PP 3% a 15 días; 0% a 25 Dias,15,True,3.00,False,excluded,nena_general_parameter.proveedor,Z384,term_321,15,100
+Z385,Z385 - Pronto Pago 30D 60% - 45D 40%,30,True,6.00,False,excluded,nena_general_parameter.proveedor,Z385,term_322,30,100
+Z386,Z386 - Pronto Pago 14D 10% - 30D 0%,14,True,10.00,False,excluded,nena_general_parameter.proveedor,Z386,term_323,14,100
+Z387,Z387 - Pronto Pago 7D 10% 14D 5%,7,True,10.00,False,excluded,nena_general_parameter.proveedor,Z387,term_324,7,100
+Z388,Z388 - Pronto Pago 7D 8%,7,True,8.00,False,excluded,nena_general_parameter.proveedor,Z388,term_325,7,100
+Z389,Z389 - Pronto Pago 15D 10%; 35D 5%,15,True,10.00,False,excluded,nena_general_parameter.proveedor,Z389,term_326,15,100
+Z390,Z390 - Pronto Pago 7D 20%; 15D 10%,7,True,2.00,False,excluded,nena_general_parameter.proveedor,Z390,term_327,7,100
+Z391,Z391 - Pronto Pago del 10.0000% a 21 días,21,True,10.00,False,excluded,nena_general_parameter.proveedor,Z391,term_328,21,100
+Z392,Z392 - PP 5% a 10 dias; 0% a 25 dias,10,True,5.00,False,excluded,nena_general_parameter.proveedor,Z392,term_329,10,100
+Z393,Z393 - 7 dias credito 30% Desc x Pp,7,True,3.00,False,excluded,nena_general_parameter.proveedor,Z393,term_330,7,100
+Z394,Z394 - 7 dias credito 35% Desc x Pp,7,True,35.00,False,excluded,nena_general_parameter.proveedor,Z394,term_331,7,100
+Z395,Z395 - Pronto Pago 7D 5%; 15D 0%,7,True,5.00,False,excluded,nena_general_parameter.proveedor,Z395,term_332,7,100
+Z396,Z396 - Pronto Pago 20% a 60D,60,True,2.00,False,excluded,nena_general_parameter.proveedor,Z396,term_333,60,100

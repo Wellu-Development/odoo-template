@@ -1,6 +1,0 @@
-id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_drug_composition_user,access.drug.composition.user,model_nena_drug_composition,base.group_user,1,1,1,1
-access_drug_active_principle_user,access.drug.active.principle.user,model_nena_drug_active_principle,base.group_user,1,1,1,1
-access_product_product_user,access.product.product.user,model_product_product,base.group_user,1,0,0,0
-access_drug_composition_line_user,access.drug.composition.line.user,model_nena_drug_composition_line,base.group_user,1,1,1,1
-access_prod_presentation_user,access.prod.presentation.user,model_nena_prod_presentation,base.group_user,1,1,1,1

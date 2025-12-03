@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="client_postulation" name="Client Postulation">
+        <t t-call="website.layout">
+            <owl-component name="nena_partner_record.PostulationForm"/>
+        </t>
+    </template>
+
+    <record id="action_postulation_client_website" model="ir.actions.act_url">
+        <field name="name">Postulation client</field>
+        <field name="target">self</field>
+        <field name="url">/postulation/client</field>
+    </record>
+
+    <record id="menu_postulation_client" model="website.menu">
+        <field name="name">Postulation client</field>
+        <field name="url">/postulation/client</field>
+        <field name="parent_id" ref="website.main_menu"/>
+        <field name="sequence" type="int">100</field>
+    </record>
+
+
+</odoo>

@@ -1,0 +1,91 @@
+<odoo>
+    <record id="nena_chain_view_form" model="ir.ui.view">
+        <field name="name">nena.chain.view.form</field>
+        <field name="model">nena.chain</field>
+        <field name="arch" type="xml">
+            <form string="Subgroups">
+                <sheet>
+                    <group>
+                        <h1><field name="name" readonly="name == '(Ninguna)'" /></h1>
+                    </group>
+                    <group>
+                        <field name="code" readonly="name == '(Ninguna)'" style="width: 80px;"/>
+                        <div class="o_td_label">
+                            <label for="commercialduct" />
+                        </div>
+                        <div class="d-flex">
+                            <field name="commercialduct" style="width: 90px;" />
+                            <span class="o_form_label mx-3 oe_edit_only text-right" style="width: 25ch; font-weight:bold;" >Dcto. Pronto Pago</span>
+                            <field name="promptpaymentdiscount" tyle="width: 90px;" />
+                        </div>
+                        <div class="o_td_label">
+                            <label for="status_id" />
+                        </div>
+                        <div class="d-flex">
+                            <field name="status_id" style="width: 150px;" domain="[('category', '=', 'CADENA')]"
+                                    options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}" />
+                            <span class="o_form_label mx-3 oe_edit_only text-center" style="width: 10ch; font-weight:bold;" >Causa</span>
+                            <field name="cause_status_id" readonly="1" domain="[('gen_status_id', '=', status_id)]"
+                                    options="{'no_quick_create':True,'no_create':True,'no_create_edit':True,'no_open': True}" />
+                        </div>
+                    </group>
+                    <notebook>
+                        <page string="General Information">
+                            <group colspan="2">
+                                <group>
+                                    <field name="chain_credit_limit" invisible="chain_credit_id == False"/>  
+                                    <field name="chain_credit_balance" invisible="chain_credit_id == False"/> 
+                                    <field name="chain_credit_transit" invisible="chain_credit_id == False"/> 
+                                    <field name="chain_credit_prepaid" invisible="chain_credit_id == False"/> 
+                                    <field name="chain_credit_availability" invisible="chain_credit_id == False"/> 
+                                    <button name="action_open_credit_conditions" type="object" string="Create creditworthiness" 
+                                            class="oe_highlight" invisible="chain_credit_id != False" />
+                                </group>
+                                <group>
+                                    <field name="condition_ids" widget="many2many_checkboxes" domain="[('category', '=', 'CAD')]" />
+                                </group>
+                            </group>
+                        </page>
+                        <page string="Customer List">
+                            <field name="customer_ids">
+                                <list delete="0" create="0">
+                                    <field name="partner_code" />
+                                    <field name="name" />
+                                    <field name="status_id" />
+                                    <field name="customer_credit_limit" /> 
+                                    <field name="customer_credit_prepaid" /> 
+                                </list>
+                            </field>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="nena_chain_view_list" model="ir.ui.view">
+        <field name="name">nena.chain.view.list</field>
+        <field name="model">nena.chain</field>
+        <field name="arch" type="xml">
+            <list string="Subgroups">
+                <field name="name"/>
+                <field name="code"/>
+                <field name="status_id"/>
+                <field name="cause_status_id"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="nena_chain_action" model="ir.actions.act_window">
+        <field name="name">Subgroups</field>
+        <field name="res_model">nena.chain</field>
+        <field name="view_mode">list,form</field>
+    </record>
+
+    <menuitem
+        id="nena_chain_menu"
+        name="Subgroups Sheet"
+        action="nena_chain_action"
+        parent="nena_partner_record_customer_menu"
+        sequence="10"/>
+</odoo>

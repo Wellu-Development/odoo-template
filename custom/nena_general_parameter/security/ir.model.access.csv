@@ -1,0 +1,10 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_nena_postulation_type,access_nena_postulation_type,model_nena_postulation_type,nena_general_parameter.group_nena_system,1,1,1,0
+access_nena_type_identification,access_nena_type_identification,model_nena_type_identification,base.group_user,1,1,1,1
+access_nena_regulatory_entity,access_nena_regulatory_entity,model_nena_regulatory_entity,base.group_user,1,1,1,0
+access_nena_gen_status,access_nena_gen_status,model_nena_gen_status,nena_general_parameter.group_nena_system,1,1,1,0
+access_nena_cause_status,access_nena_cause_status,model_nena_cause_status,nena_general_parameter.group_nena_system,1,1,1,0
+access_nena_region,access_nena_region,model_nena_region,base.group_user,1,0,0,0
+access_nena_district,access_nena_district,model_nena_district,base.group_user,1,0,0,0
+access_nena_zone,access_nena_zone,model_nena_zone,base.group_user,1,0,0,0
+access_nena_person_type,nena.person.type,model_nena_person_type,base.group_user,1,1,1,0

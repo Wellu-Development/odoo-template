@@ -1,0 +1,27 @@
+<odoo>
+    <record id="hr_employee_view_form_inherit_management" model="ir.ui.view">
+        <field name="name">hr.employee.view.form.inherit.management</field>
+        <field name="model">hr.employee</field>
+        <field name="inherit_id" ref="hr.view_employee_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='job_id']" position="attributes">
+                <attribute name="domain">[('department_id', '=', department_id)]</attribute>
+                <attribute name="options">{'no_quick_create': True, 'no_create': True, 'no_create_edit': True, 'no_open': True}</attribute>
+            </xpath>
+            <xpath expr="//page[@name='hr_settings']" position="after">            
+                <page name="config_collection_management" string="Collection Management" invisible="job_id_is_analyst == False">
+                    <group>
+                        <field name="config_collection_management_id"/>
+                        <separator string="Assigned Zones"/>
+                        <field name="zone_ids" nolabel="1">
+                            <list>
+                                <field name="code"/>
+                                <field name="description"/>
+                            </list>
+                        </field>
+                    </group>   
+                </page>  
+            </xpath>
+        </field>
+    </record>
+</odoo>

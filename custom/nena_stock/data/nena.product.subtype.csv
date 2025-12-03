@@ -1,0 +1,35 @@
+id,code,name,status,product_category_id:id
+prevencion_alimentos,0001,ALIVIO Y PREVENCION,True,alimentos
+mercadeo_cosmeticos,0010,MERCADEO,True,cosmeticos
+complementos_alimentos,0012,COMPLEMENTOS ALIMENTICIOS EN POLVO,True,alimentos
+jugos_nectares,0013,JUGOS NECTARES Y COCTELES,True,alimentos
+mercadeo_farmaceutica,0014,MERCADEO,True,especialidad_farmaceutica
+prevencion_naturales,0015,ALIVIO Y PREVENCION,True,naturales
+belleza_natural,0016,BELLEZA NATURAL,True,naturales
+dieta_naturales,0017,DIETA Y ENERGIA,True,naturales
+nutricional_metabolica,0018,NUTRICIONAL Y METABOLICA,True,naturales
+preparados_oficinales,0019,PREPARADOS OFICINALES,True,naturales
+bebidas,0002,BEBIDAS,True,alimentos
+productos_homeopaticos,0020,PRODUCTOS HOMEOPATICOS,True,naturales
+vitaminas_naturales,0021,VITAMINAS Y MINERALES,True,naturales
+bebidas_instantaneas,0027,BEBIDAS INSTANTANEAS,True,alimentos
+bebidas_duracion,0028,BEBIDAS LARGA DURACION,True,alimentos
+entretenimiento,0031,ENTRETENIMIENTO,True,cosmeticos
+hogar,0032,HOGAR,True,cosmeticos
+modificadores_leche,0034,MODIFICADORES DE LECHE,True,alimentos
+pasapalos_confites,0035,PASAPALOS Y CONFITES,True,alimentos
+víveres,0036,VÍVERES,True,alimentos
+dieta_alimentos,0037,DIETA Y ENERGIA,True,alimentos
+linea_nutricional,0004,LINEA NUTRICIONAL Y METABOLICA,True,alimentos
+accesorios,0040,ACCESORIOS PARA EL HOGAR,True,cosmeticos
+genericos_naturales,0041,GENERICOS,True,naturales
+marca_alimentos,0042,MARCA,True,alimentos
+marca_naturales,0043,MARCA,True,naturales
+vitaminas_alimentos,0005,VITAMINAS Y MINERALES,True,alimentos
+cuidado_bebe,0006,CUIDADO DEL BEBE,True,cosmeticos
+cuidado_personal,0007,CUIDADO PERSONAL,True,cosmeticos
+prevencion_cuidados,0008,PREVENCION Y CUIDADOS,True,cosmeticos
+marca_farmaceutica,EFM0,MARCA,True,especialidad_farmaceutica
+marca_psicotropicos,EFS0,MARCA,True,psicotropicos
+genericos_farmaceutica,GEM0,GENERICOS,True,especialidad_farmaceutica
+genericos_psicotropicos,GES0,GENERICOS,True,psicotropicos

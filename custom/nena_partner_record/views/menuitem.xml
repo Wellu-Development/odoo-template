@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <menuitem
+        id="nena_partner_record_menu"
+        name="Record"
+        sequence="10"
+        web_icon="nena_partner_record,static/description/icon.png"/>
+
+    <menuitem
+        id="nena_partner_record_customer_menu"
+        name="Customer"
+        parent="nena_partner_record_menu"
+        sequence="20"/>
+
+    <menuitem
+        id="nena_partner_record_sales_menu"
+        name="Sales"
+        parent="nena_partner_record_customer_menu"
+        sequence="15"/>
+
+    <menuitem
+        id="nena_customer_category_menu"
+        name="Categories"
+        action="nena_sales.nena_customer_category_action"
+        parent="nena_partner_record_sales_menu"
+        sequence="10"/> 
+
+    <menuitem
+        id="nena_customer_clasification_menu"
+        name="Clasification"
+        action="nena_sales.nena_customer_clasification_action"
+        parent="nena_partner_record_sales_menu"
+        sequence="10"/>    
+
+    <menuitem
+        id="nena_partner_record_credit_conditions_menu"
+        name="Credit Terms"
+        parent="nena_partner_record_customer_menu"
+        sequence="20"/>
+
+    <menuitem
+        id="nena_payment_type_menu"
+        name="Payment Type"
+        action="nena_accounting.nena_payment_type_action"
+        parent="nena_partner_record_credit_conditions_menu"
+        sequence="5"/> 
+
+    <menuitem
+        id="nena_partner_record_supplier_menu"
+        name="Supplier"
+        parent="nena_partner_record_menu"
+        sequence="30"/>
+
+    <menuitem
+        id="nena_partner_record_purchasing_menu"
+        name="Purchasing"
+        parent="nena_partner_record_supplier_menu"
+        sequence="10"/>
+
+    <menuitem
+        id="nena_supplier_type_menu"
+        name="Supplier Type"
+        action="nena_purchasing.nena_supplier_type_action"
+        parent="nena_partner_record_purchasing_menu"
+        sequence="20"/>
+    
+    <menuitem
+        id="nena_partner_record_config_menu"
+        name="Configuration"
+        parent="nena_partner_record_menu"
+        sequence="50"/>
+
+    <menuitem
+        id="nena_partner_record_config_commercial_structure_menu"
+        name="Commercial Structure"
+        parent="nena_partner_record_config_menu"
+        sequence="30"/>
+
+    <menuitem
+        id="nena_region_menu"
+        name="Regions"
+        action="nena_general_parameter.nena_region_action"
+        parent="nena_partner_record_config_commercial_structure_menu"
+        sequence="10"/>
+
+    <menuitem
+        id="nena_district_menu"
+        name="Districts"
+        action="nena_general_parameter.nena_district_action"
+        parent="nena_partner_record_config_commercial_structure_menu"
+        sequence="20"/>
+
+    <menuitem
+        id="nena_zone_menu"
+        name="Zones"
+        action="nena_general_parameter.nena_zone_action"
+        parent="nena_partner_record_config_commercial_structure_menu"
+        sequence="30"/>
+
+    <menuitem
+        id="nena_partner_record_config_fiscal_menu"
+        name="Documents"
+        parent="nena_partner_record_config_menu"
+        sequence="40"/>   
+
+<!--
+    <menuitem id="root_menu" name="Expedientes" sequence="10" web_icon="nena_record,static/description/icon.png">
+        <menuitem id="nena_postulation_monitor_menu" name="Monitor" action="nena_postulation_monitor_action" sequence="5" />
+        
+        <menuitem id="nena_record_prv_menu" name="Proveedor" sequence="10">
+            <menuitem id="nena_record_menu_prv" name="Expedientes" action="nena_record_action_prv" sequence="5" />
+        </menuitem> 
+
+        <menuitem id="nena_record_config_menu" name="Configuración" sequence="20">
+            <menuitem id="nena_localization_root_menu" name="Localización" sequence="20"> 
+                <menuitem id="localization_state_menu" name="Estados" action="nena_localization_partners.action_nena_res_state_ve" sequence="10"/>
+                <menuitem id="localization_municipality_menu" name="Municipios" action="nena_localization_partners.action_nena_res_state_municipality_ve" sequence="20"/>
+                <menuitem id="localization_city_menu" name="Ciudades" action="nena_localization_partners.action_nena_res_state_municipality_city_ve" sequence="30"/>
+            </menuitem>
+
+            <menuitem id="nena_fiscal_root_menu" name="Fiscal" sequence="10"> 
+                <menuitem id="localization_tax_unit_menu" name="Unidades Tributarias" action="l10n_ve_ut.action_tax_unit" sequence="30"/>
+            </menuitem>
+        </menuitem>
+    </menuitem>
+    -->
+</odoo>
+

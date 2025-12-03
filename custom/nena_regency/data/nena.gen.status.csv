@@ -1,0 +1,8 @@
+id,code,name,category,cause_active,model_id:id,field_id:id
+sicm_inscrito,SICM-01,Inscrito,SICM,False,nena_regency.model_nena_regent,nena_regency.field_nena_regent__sicm_status_id
+sicm_inscripcion,SICM-02,Por Inscripción,SICM,False,nena_regency.model_nena_regent,nena_regency.field_nena_regent__sicm_status_id
+sicm_eliminado,SICM-03,Eliminado,SICM,False,nena_regency.model_nena_regent,nena_regency.field_nena_regent__sicm_status_id
+sicm_no_registrado,SICM-04,No Registrado,SICM,False,nena_regency.model_nena_regent,nena_regency.field_nena_regent__sicm_status_id
+sada_activo,SADA-01,Activo,SADA,False,nena_regency.model_nena_regent,nena_regency.field_nena_regent__sada_status_id
+sada_inactivo,SADA-02,Inactivo,SADA,False,nena_regency.model_nena_regent,nena_regency.field_nena_regent__sada_status_id
+sada_no_registrado,SADA-03,No Registrado,SADA,False,nena_regency.model_nena_regent,nena_regency.field_nena_regent__sada_status_id
